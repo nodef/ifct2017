@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/descriptions",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "Food descriptions in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/ifct2017/descriptions/issues"
   },
-  "homepage": "https://github.com/ifct2017/descriptions#readme"
+  "homepage": "https://github.com/ifct2017/descriptions#readme",
+  "devDependencies": {
+    "csv": "^2.0.0"
+  },
+  "dependencies": {
+    "lunr": "^2.1.6"
+  }
 }
