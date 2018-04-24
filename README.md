@@ -1,5 +1,7 @@
 # @ifct2017/about
 
+[![NPM](https://nodeico.herokuapp.com/@ifct2017/about.svg)](https://npmjs.com/package/@ifct2017/about)
+
 About Indian Food Composition Tables 2017.
 
 Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
