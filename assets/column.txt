@@ -1,0 +1,16 @@
+The food components (nutrients) listed are:
+- Proximate Principles and Dietary Fiber
+- Water Soluble Vitamins
+- Fat Soluble Vitamins
+- Carotenoids
+- Minerals and Trace Elements
+- Starch and Individual Sugars
+- Fatty Acid Profile
+- Amino Acid Profile
+- Organic Acids
+- Polyphenols
+- Oligosaccharides, Phytosterols, Saponins and Phytates
+- Fatty Acid Profile of Edible Oils and Fats
+
+For a detailed list of all food components, please check:
+https://ifct2017.github.io/docs/columns

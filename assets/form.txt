@@ -1,0 +1,1 @@
+Except for eggs, all other food component data are for foods in the raw form.
