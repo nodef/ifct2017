@@ -1,6 +1,6 @@
 # @ifct2017/about
 
-[![NPM](https://nodeico.herokuapp.com/@ifct2017/about.svg)](https://npmjs.com/package/@ifct2017/about)
+[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](http://ninindia.org/ifct_2017.htm)
 
 About Indian Food Composition Tables 2017.
 
