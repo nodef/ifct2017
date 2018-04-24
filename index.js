@@ -9,7 +9,7 @@ var index = lunr(function() {
   this.field('tags');
   this.pipeline.remove(lunr.stopWordFilter);
   for(var r of corpus.values())
-    this.add(r);
+    this.add({code: r.code, name: r.name.replace(/\W/g, ' '), tags: r.tags});
 });
 
 function csv() {
