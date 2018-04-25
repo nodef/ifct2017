@@ -7,8 +7,8 @@ function csv() {
 };
 
 function methods(txt) {
-  var mats = columns(txt);
-  return mats.length>0? corpus.get(mats[0].code):null;
+  var cs = columns(txt);
+  return cs.length>0? corpus.get(cs[0].code):null;
 };
 methods.csv = csv;
 methods.corpus = corpus;
