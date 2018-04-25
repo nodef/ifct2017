@@ -1,0 +1,24 @@
+{
+  "name": "@ifct2017/methods",
+  "version": "0.1.2",
+  "description": "Analytical methods of nutrient and bioactive components in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/methods.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "methods"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/methods/issues"
+  },
+  "homepage": "https://github.com/ifct2017/methods#readme"
+}
