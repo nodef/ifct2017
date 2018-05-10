@@ -1,0 +1,24 @@
+{
+  "name": "@ifct2017/groups",
+  "version": "0.1.4",
+  "description": "Food groups in the Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/groups.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "groups"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/groups/issues"
+  },
+  "homepage": "https://github.com/ifct2017/groups#readme"
+}
