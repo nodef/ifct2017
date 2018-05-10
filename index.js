@@ -5,7 +5,7 @@ const path = require('path');
 var index = lunr(function() {
   this.ref('code');
   this.field('code');
-  this.field('grup');
+  this.field('group');
   this.pipeline.remove(lunr.stopWordFilter);
   for(var r of corpus.values())
     this.add(r);
