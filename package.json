@@ -1,0 +1,31 @@
+{
+  "name": "@ifct2017/samplingunits",
+  "version": "0.2.0",
+  "description": "Number of primary sampling units (districts) in each State/UT in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/samplingunits.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "sampling",
+    "units"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/samplingunits/issues"
+  },
+  "homepage": "https://github.com/ifct2017/samplingunits#readme",
+  "dependencies": {
+    "lunr": "^2.2.0"
+  },
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
