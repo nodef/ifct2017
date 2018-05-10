@@ -1,0 +1,23 @@
+const CORPUS = new Map([
+  ["A", {code:"A",grup:"Cereals and Millets",entr:24}],
+  ["B", {code:"B",grup:"Grain Legumes",entr:25}],
+  ["C", {code:"C",grup:"Green Leafy Vegetables",entr:34}],
+  ["D", {code:"D",grup:"Other Vegetables",entr:78}],
+  ["E", {code:"E",grup:"Fruits",entr:68}],
+  ["F", {code:"F",grup:"Roots and Tubers",entr:19}],
+  ["G", {code:"G",grup:"Condiments and Spices",entr:33}],
+  ["H", {code:"H",grup:"Nuts and Oil Seeds",entr:21}],
+  ["I", {code:"I",grup:"Sugars",entr:2}],
+  ["J", {code:"J",grup:"Mushrooms",entr:4}],
+  ["K", {code:"K",grup:"Miscellaneous Foods",entr:2}],
+  ["L", {code:"L",grup:"Milk and Milk Products",entr:4}],
+  ["M", {code:"M",grup:"Egg and Egg Products",entr:15}],
+  ["N", {code:"N",grup:"Poultry",entr:19}],
+  ["O", {code:"O",grup:"Animal Meat",entr:63}],
+  ["P", {code:"P",grup:"Marine Fish",entr:92}],
+  ["Q", {code:"Q",grup:"Marine Shellfish",entr:8}],
+  ["R", {code:"R",grup:"Marine Mollusks",entr:7}],
+  ["S", {code:"S",grup:"Fresh Water Fish and Shellfish",entr:10}],
+  ["T", {code:"T",grup:"Edible Oils and Fats",entr:9}],
+]);
+module.exports = CORPUS;

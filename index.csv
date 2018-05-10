@@ -1,0 +1,34 @@
+# Indian Food Composition Tables 2017
+# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
+#
+# Copyright  © 2017 by National Institute of Nutrition
+# Indian Council of Medical Research
+# Department of Health Research Ministry of Health and Family Welfare, Government of India
+# Jamai Osmania (PO), Hyderabad – 500 007
+# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
+#
+# FOOD DESCRIPTION
+# - Code
+# - Food groups
+# - No. of food entries
+code,grup,entr
+A,Cereals and Millets,24
+B,Grain Legumes,25
+C,Green Leafy Vegetables,34
+D,Other Vegetables,78
+E,Fruits,68
+F,Roots and Tubers,19
+G,Condiments and Spices,33
+H,Nuts and Oil Seeds,21
+I,Sugars,2
+J,Mushrooms,4
+K,Miscellaneous Foods,2
+L,Milk and Milk Products,4
+M,Egg and Egg Products,15
+N,Poultry,19
+O,Animal Meat,63
+P,Marine Fish,92
+Q,Marine Shellfish,8
+R,Marine Mollusks,7
+S,Fresh Water Fish and Shellfish,10
+T,Edible Oils and Fats,9
