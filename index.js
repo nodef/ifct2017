@@ -19,7 +19,7 @@ function jonesFactors(txt) {
     max = Math.max(max, Object.keys(mat.matchData.metadata).length);
   for(var mat of mats)
     if(Object.keys(mat.matchData.metadata).length===max) z.push(corpus.get(mat.ref));
-  return z;
+  return z.length>0? z:[corpus.get('Food where specific factor is not listed')];
 };
 jonesFactors.csv = csv;
 jonesFactors.corpus = corpus;
