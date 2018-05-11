@@ -1,0 +1,28 @@
+{
+  "name": "@ifct2017/frequencydistribution",
+  "version": "0.2.0",
+  "description": "Frequency distribution of States/UTs for fixing the number of districts to be sampled in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/frequencydistribution.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "frequency",
+    "distribution"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/frequencydistribution/issues"
+  },
+  "homepage": "https://github.com/ifct2017/frequencydistribution#readme",
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
