@@ -1,0 +1,19 @@
+# Indian Food Composition Tables 2017
+# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
+#
+# Copyright  © 2017 by National Institute of Nutrition
+# Indian Council of Medical Research
+# Department of Health Research Ministry of Health and Family Welfare, Government of India
+# Jamai Osmania (PO), Hyderabad – 500 007
+# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
+#
+# METABOLIZEABLE ENERGY CONVERSION FACTORS
+# - Component
+# - kJ/g
+# - kcal/g
+component,kj,kcal
+Protein,17,4
+Fat,37,9
+Available carbohydrate,17,4
+Fibre,8,2
+Alcohol,29,7

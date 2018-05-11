@@ -1,0 +1,30 @@
+{
+  "name": "@ifct2017/energies",
+  "version": "0.2.0",
+  "description": "Metabolizeable energy conversion factors in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/energies.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "energies"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/energies/issues"
+  },
+  "homepage": "https://github.com/ifct2017/energies#readme",
+  "dependencies": {
+    "lunr": "^2.2.0"
+  },
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
