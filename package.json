@@ -1,0 +1,28 @@
+{
+  "name": "@ifct2017/codes",
+  "version": "0.2.0",
+  "description": "Food codes from food name in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/codes.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "codes"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/codes/issues"
+  },
+  "homepage": "https://github.com/ifct2017/codes#readme",
+  "dependencies": {
+    "csv-parse": "^2.4.0",
+    "lunr": "^2.2.0"
+  }
+}
