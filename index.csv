@@ -1,0 +1,20 @@
+# Indian Food Composition Tables 2017
+# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
+#
+# Copyright  © 2017 by National Institute of Nutrition
+# Indian Council of Medical Research
+# Department of Health Research Ministry of Health and Family Welfare, Government of India
+# Jamai Osmania (PO), Hyderabad – 500 007
+# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
+#
+# REGIONAL COMPOSITING CENTRES AND SAMPLE SIZE OF EACH REGION
+# - Region
+# - Regional Compositing centre
+# - Sample size
+region,centre,samples
+North,Delhi,23
+East,Kolkata,20
+South,Bangalore,19
+West,Mumbai,12
+Central,Varanasi,22
+North East,Guwahati,11

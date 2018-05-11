@@ -1,0 +1,31 @@
+{
+  "name": "@ifct2017/compositingcentres",
+  "version": "0.2.0",
+  "description": "Regional compositing centres and sample size of each region in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/compositingcentres.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "compositing",
+    "centres"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/compositingcentres/issues"
+  },
+  "homepage": "https://github.com/ifct2017/compositingcentres#readme",
+  "dependencies": {
+    "lunr": "^2.2.0"
+  },
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
