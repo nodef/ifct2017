@@ -1,0 +1,23 @@
+const CORPUS = new Map([
+  ["1.", {sno:"1.",title:"Origin and progression of Indian Food Composition Tables",pagenos:"i"}],
+  ["2.", {sno:"2.",title:"Identification of key foods, National sampling plan and analytical parameters",pagenos:"xii"}],
+  ["3.", {sno:"3.",title:"General Information",pagenos:"xx"}],
+  ["4.", {sno:"4.",title:"References",pagenos:"xxiv"}],
+  ["5.", {sno:"5.",title:"Abbreviations",pagenos:"xxxi"}],
+  ["6.", {sno:"6.",title:"Food Composition Tables",pagenos:""}],
+  ["6.1.", {sno:"6.1.",title:"Table 1:  Proximate Principles and Dietary Fiber",pagenos:"1"}],
+  ["6.2.", {sno:"6.2.",title:"Table 2:  Water Soluble Vitamins",pagenos:"31"}],
+  ["6.3.", {sno:"6.3.",title:"Table 3:  Fat Soluble Vitamins",pagenos:"61"}],
+  ["6.4.", {sno:"6.4.",title:"Table 4:  Carotenoids",pagenos:"91"}],
+  ["6.5.", {sno:"6.5.",title:"Table 5:  Minerals and Trace Elements",pagenos:"111"}],
+  ["6.6.", {sno:"6.6.",title:"Table 6:  Starch and Individual Sugars",pagenos:"169"}],
+  ["6.7.", {sno:"6.7.",title:"Table 7:  Fatty Acid Profile",pagenos:"187"}],
+  ["6.8.", {sno:"6.8.",title:"Table 8:  Amino Acid Profile",pagenos:"257"}],
+  ["6.9.", {sno:"6.9.",title:"Table 9:  Organic Acids",pagenos:"313"}],
+  ["6.10.", {sno:"6.10.",title:"Table 10: Polyphenols",pagenos:"333"}],
+  ["6.11.", {sno:"6.11.",title:"Table 11:  Oligosaccharides, Phytosterols, Saponins and Phytates",pagenos:"403"}],
+  ["6.12.", {sno:"6.12.",title:"Table 12:  Fatty Acid Profile of Edible Oils and Fats",pagenos:"423"}],
+  ["7.", {sno:"7.",title:"Food Pictures and Description",pagenos:"427"}],
+  ["8.", {sno:"8.",title:"Index",pagenos:"501"}],
+]);
+module.exports = CORPUS;

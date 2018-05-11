@@ -1,0 +1,30 @@
+{
+  "name": "@ifct2017/contents",
+  "version": "0.2.0",
+  "description": "Contents of Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/contents.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "contents"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/contents/issues"
+  },
+  "homepage": "https://github.com/ifct2017/contents#readme",
+  "dependencies": {
+    "lunr": "^2.2.0"
+  },
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
