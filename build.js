@@ -5,6 +5,8 @@ const os = require('os');
 var map = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
 stream.on('data', (r) => {
+  r.kj = parseFloat(r.kj);
+  r.kcal = parseFloat(r.kcal);
   map.set(r.component, r);
 });
 stream.on('end', () => {
