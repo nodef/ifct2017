@@ -1,0 +1,31 @@
+{
+  "name": "@ifct2017/jonesfactors",
+  "version": "0.2.0",
+  "description": "Jones factors for conversion of nitrogen to protein in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/jonesfactors.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "jones",
+    "factors"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/jonesfactors/issues"
+  },
+  "homepage": "https://github.com/ifct2017/jonesfactors#readme",
+  "dependencies": {
+    "lunr": "^2.2.0"
+  },
+  "devDependencies": {
+    "csv": "^2.0.0"
+  }
+}
