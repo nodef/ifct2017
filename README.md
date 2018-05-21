@@ -3,14 +3,20 @@
 [![IFCT2017](http://ninindia.org/images/ifct_2017.png)](http://ninindia.org/ifct_2017.htm)
 
 Food descriptions in [Indian Food Composition Tables 2017].<br>
-Check available [foods].
+Check available [food descriptions].
+> Large corpus is not loaded synchronously.<br>
+> Load it asynchronously with **.load()**.
 
 ```javascript
 const descriptions = require('@ifct2017/descriptions');
 // descriptions(<query>)
 // -> [{code, name, scie, desc}] for matched foods
 // descriptions.corpus: Map {code => {code, name, scie, desc}}
+// descriptions.load(): load corpus (returns promise)
 // descriptions.csv(): path to csv file
+
+await descriptions.load();
+/* load corpus first */
 
 descriptions('pineapple');
 descriptions('ananas comosus');
@@ -29,4 +35,4 @@ descriptions('gai ka doodh details.');
 
 
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[foods]: https://github.com/ifct2017/descriptions/blob/master/index.csv
+[food descriptions]: https://github.com/ifct2017/descriptions/blob/master/index.csv
