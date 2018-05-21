@@ -5,6 +5,7 @@ const fs = require('fs');
 
 var corpus = new Map();
 var index = null;
+var ready = null;
 
 function loadCorpus() {
   return new Promise((fres) => {
@@ -36,7 +37,7 @@ function csv() {
   return path.join(__dirname, 'index.csv');
 };
 function load() {
-  return loadCorpus().then(setupIndex);
+  return ready=ready||loadCorpus().then(setupIndex);
 };
 function descriptions(txt) {
   if(index==null) return [];
