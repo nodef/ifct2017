@@ -7,9 +7,13 @@ var corpus = new Map();
 var index = null;
 var ready = null;
 
+function csv() {
+  return path.join(__dirname, 'index.csv');
+};
+
 function loadCorpus() {
   return new Promise((fres) => {
-    var stream = fs.createReadStream('index.csv').pipe(parse({columns: true, comment: '#'}));
+    var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
     stream.on('data', (r) => corpus.set(r.code, r));
     stream.on('end', fres);
   });
@@ -33,12 +37,10 @@ function setupIndex() {
   });
 };
 
-function csv() {
-  return path.join(__dirname, 'index.csv');
-};
 function load() {
   return ready=ready||loadCorpus().then(setupIndex);
 };
+
 function descriptions(txt) {
   if(index==null) return [];
   var z = [], txt = txt.replace(/\W/g, ' ');
