@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/regions",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "Categorization of the States/UTs into six different regions in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
