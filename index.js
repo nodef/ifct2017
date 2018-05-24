@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const corpus = require('./corpus');
 const path = require('path');
@@ -12,6 +13,12 @@ var index = lunr(function() {
 function csv() {
   return path.join(__dirname, 'index.csv');
 };
+
+function sql(tab='energies', opt={}) {
+  return Sql.setupTable(tab, {component: 'TEXT', kj: 'REAL', kcal: 'REAL'}, corpus.values(),
+    {index: true, tsvector: {component: 'A'}});
+};
+
 function energies(txt) {
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
