@@ -16,7 +16,7 @@ function csv() {
 
 function sql(tab='energies', opt={}) {
   return Sql.setupTable(tab, {component: 'TEXT', kj: 'REAL', kcal: 'REAL'}, corpus.values(),
-    {index: true, tsvector: {component: 'A'}});
+    {pk: 'component', index: true, tsvector: {component: 'A'}});
 };
 
 function energies(txt) {
