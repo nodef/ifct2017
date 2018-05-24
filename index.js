@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const corpus = require('./corpus');
 const path = require('path');
@@ -17,6 +18,12 @@ var index = lunr(function() {
 function csv() {
   return path.join(__dirname, 'index.csv');
 };
+
+function sql(tab='carbohydrates', opt={}) {
+  return Sql.setupTable(tab, {sno: 'TEXT', carbohydrate: 'TEXT', hydrolysis: 'REAL', monosaccharide: 'REAL'},
+    corpus.values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', carbohydrate: 'B'}}, opt));
+};
+
 function carbohydrates(txt) {
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
@@ -27,5 +34,6 @@ function carbohydrates(txt) {
   return z;
 };
 carbohydrates.csv = csv;
+carbohydrates.sql = sql;
 carbohydrates.corpus = corpus;
 module.exports = carbohydrates;
