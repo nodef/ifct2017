@@ -10,6 +10,7 @@ const methods = require('@ifct2017/methods');
 // methods(<query>)
 // -> {analyte, method, reference} if matched, null otherwise
 // methods.corpus: Map {column_code => {analyte, method, reference}}
+// methods.sql([table], [options]): sql commands
 // methods.csv(): path to csv file
 
 methods('soluble oxalic acid');
