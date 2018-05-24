@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const corpus = require('./corpus');
 const path = require('path');
@@ -14,6 +15,12 @@ var index = lunr(function() {
 function csv() {
   return path.join(__dirname, 'index.csv');
 };
+
+function sql(tab='groups', opt={}) {
+  return Sql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT'}, corpus.values(),
+    Object.assign({pk: 'code', index: true, tsvector: {code: 'A', group: 'B'}}, opt));
+};
+
 function groups(txt) {
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
@@ -24,5 +31,6 @@ function groups(txt) {
   return z;
 };
 groups.csv = csv;
+groups.sql = sql;
 groups.corpus = corpus;
 module.exports = groups;
