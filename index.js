@@ -18,7 +18,7 @@ function csv() {
 
 function sql(tab='samplingunits', opt={}) {
   return Sql.setupTable(tab, {sno: 'TEXT', state: 'TEXT', districts: 'INT', selected: 'INT'},
-    corpus.values(), {pk: 'sno', index: true, tsvector: {sno: 'A', state: 'B'}});
+    corpus.values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', state: 'B'}}, opt));
 };
 
 function samplingUnits(txt) {
