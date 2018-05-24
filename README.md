@@ -12,7 +12,7 @@ const contents = require('@ifct2017/contents');
 // contents.corpus: Map {sno => {sno, title, pagenos}}
 // contents.sql([table], [options]): sql commands
 // contents.csv(): path to csv file
- 
+
 contents('table 2');
 contents('Water soluble vitamins');
 // [ { sno: '6.2.',
