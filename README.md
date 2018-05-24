@@ -1,6 +1,6 @@
 # @ifct2017/samplingunits
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](http://ninindia.org/ifct_2017.htm)
+[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Number of primary sampling units (districts) in each State/UT in [Indian Food Composition Tables 2017].<br>
 Check data for [sampling units].
