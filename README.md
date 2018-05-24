@@ -1,6 +1,6 @@
 # @ifct2017/contents
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Contents of [Indian Food Composition Tables 2017].<br>
 Check available [contents].
