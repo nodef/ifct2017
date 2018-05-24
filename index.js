@@ -29,5 +29,6 @@ function energies(txt) {
   return z;
 };
 energies.csv = csv;
+energies.sql = sql;
 energies.corpus = corpus;
 module.exports = energies;

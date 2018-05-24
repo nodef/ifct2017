@@ -10,6 +10,7 @@ const energies = require('@ifct2017/energies');
 // energies(<query>)
 // -> [{component, kj, kcal}] for matched components
 // energies.corpus: Map {component => {component, kj, kcal}}
+// energies.sql([table], [options]): sql commands
 // energies.csv(): path to csv file
  
 energies('dietary fibre');
