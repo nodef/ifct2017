@@ -1,6 +1,6 @@
 # @ifct2017/jonesfactors
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](http://ninindia.org/ifct_2017.htm)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Jones factors for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].<br>
 Check available [jones factors].
@@ -10,6 +10,7 @@ const jonesFactors = require('@ifct2017/jonesfactors');
 // jonesFactors(<query>)
 // -> [{food, factor}] for matched foods
 // jonesFactors.corpus: Map {food => {food, factor}}
+// jonesFactors.sql([table], [options]): sql commands
 // jonesFactors.csv(): path to csv file
  
 jonesFactors('maida');

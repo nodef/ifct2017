@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/jonesfactors",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Jones factors for conversion of nitrogen to protein in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,11 @@
     "ifct",
     "2017",
     "jones",
-    "factors"
+    "factors",
+    "indian",
+    "food",
+    "composition",
+    "tables"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
