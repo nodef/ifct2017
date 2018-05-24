@@ -1,6 +1,6 @@
 # @ifct2017/regions
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Categorization of the States/UTs into six different regions in [Indian Food Composition Tables 2017].<br>
 Check available [regions].
@@ -10,6 +10,7 @@ const regions = require('@ifct2017/regions');
 // regions(<query>)
 // -> [{region, states}] for matched regions
 // regions.corpus: Map {region => {region, states}}
+// regions.sql([table], [options]): sql commands
 // regions.csv(): path to csv file
  
 regions('central');
