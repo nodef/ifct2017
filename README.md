@@ -1,6 +1,6 @@
 # @ifct2017/frequencydistribution
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Frequency distribution of States/UTs for fixing the number of districts to be sampled in [Indian Food Composition Tables 2017].<br>
 Check entries of [frequency distribution].
