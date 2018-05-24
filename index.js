@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const corpus = require('./corpus');
 const path = require('path');
@@ -14,6 +15,12 @@ var index = lunr(function() {
 function csv() {
   return path.join(__dirname, 'index.csv');
 };
+
+function sql(tab='samplingunits', opt={}) {
+  return Sql.setupTable(tab, {sno: 'TEXT', state: 'TEXT', districts: 'INT', selected: 'INT'},
+    corpus.values(), {pk: 'sno', index: true, tsvector: {sno: 'A', state: 'B'}});
+};
+
 function samplingUnits(txt) {
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
@@ -24,5 +31,6 @@ function samplingUnits(txt) {
   return z;
 };
 samplingUnits.csv = csv;
+samplingUnits.sql = sql;
 samplingUnits.corpus = corpus;
 module.exports = samplingUnits;
