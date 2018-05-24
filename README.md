@@ -10,6 +10,7 @@ const columns = require('@ifct2017/columns');
 // columns(<query>)
 // -> [{code, name, tags}] for matched columns
 // columns.corpus: Map {code => {code, name, tags}}
+// columns.sql([table], [options]): sql commands
 // columns.csv(): path to csv file
 
 columns('vitamin c');
