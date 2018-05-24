@@ -10,6 +10,7 @@ const carbohydrates = require('@ifct2017/carbohydrates');
 // carbohydrates(<query>)
 // -> [{sno, carbohydrate, hydrolysis, monosaccharide}] for matches
 // carbohydrates.corpus: Map {sno => {sno, carbohydrate, hydrolysis, monosaccharide}}
+// carbohydrates.sql([table], [options]): sql commands
 // carbohydrates.csv(): path to csv file
 
 carbohydrates('monosaccharide');
