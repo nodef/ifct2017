@@ -14,9 +14,9 @@ function csv() {
   return path.join(__dirname, 'index.csv');
 };
 
-function sql(tab='jonesfactors') {
+function sql(tab='jonesfactors', opt={}) {
   return Sql.setupTable(tab, {food: 'TEXT', factor: 'REAL'}, corpus.values(),
-    {index: true, tsvector: {food: 'A'}});
+    Object.assign({index: true, tsvector: {food: 'A'}}, opt));
 };
 
 function jonesFactors(txt) {
@@ -29,5 +29,6 @@ function jonesFactors(txt) {
   return z.length>0? z:[corpus.get('Food where specific factor is not listed')];
 };
 jonesFactors.csv = csv;
+jonesFactors.sql = sql;
 jonesFactors.corpus = corpus;
 module.exports = jonesFactors;
