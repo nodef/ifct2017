@@ -1,6 +1,6 @@
 # @ifct2017/groups
 
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](http://ninindia.org/ifct_2017.htm)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Food groups in [Indian Food Composition Tables 2017].<br>
 Check available [food groups].
@@ -10,6 +10,7 @@ const groups = require('@ifct2017/groups');
 // groups(<query>)
 // -> [{code, group, entries}] for matched groups
 // groups.corpus: Map {code => {code, group, entries}}
+// groups.sql([table], [options]): sql commands
 // groups.csv(): path to csv file
  
 groups('cereals');
