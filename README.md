@@ -1,9 +1,9 @@
 # @ifct2017/compositingcentres
 
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
 Regional compositing centres and sample size of each region in [Indian Food Composition Tables 2017].<br>
-Check available [regions].
+Check available [compositing centres].
 
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
@@ -24,4 +24,4 @@ compositingCentres('North East compositing centre');
 
 
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[regions]: https://github.com/ifct2017/compositingcentres/blob/master/index.csv
+[compositing centres]: https://github.com/ifct2017/compositingcentres/blob/master/index.csv

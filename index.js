@@ -17,7 +17,7 @@ function csv() {
 
 function sql(tab='compositingcentres', opt={}) {
   return Sql.setupTable(tab, {region: 'TEXT', centre: 'TEXT', samples: 'INT'}, corpus.values(),
-    {pk: 'region', index: true, tsvector: {region: 'A', centre: 'B'}});
+    Object.assign({pk: 'region', index: true, tsvector: {region: 'A', centre: 'B'}}, opt));
 };
 
 function compositingCentres(txt) {
