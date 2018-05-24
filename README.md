@@ -10,6 +10,7 @@ const contents = require('@ifct2017/contents');
 // contents(<query>)
 // -> [{sno, title, pagenos}] for matched contents
 // contents.corpus: Map {sno => {sno, title, pagenos}}
+// contents.sql([table], [options]): sql commands
 // contents.csv(): path to csv file
  
 contents('table 2');
