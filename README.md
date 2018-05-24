@@ -10,6 +10,7 @@ const frequencyDistribution = require('@ifct2017/frequencydistribution');
 // frequencyDistribution(<districts>)
 // -> {districts, states, selected, sampled}
 // frequencyDistribution.corpus: Map {districts (start) => {districts, states, selected, sampled}}
+// frequencyDistribution.sql([table], [options]): sql commands
 // frequencyDistribution.csv(): path to csv file
  
 frequencyDistribution(2);
