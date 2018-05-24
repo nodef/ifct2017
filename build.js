@@ -25,7 +25,7 @@ function readIndex() {
 };
 
 function writeCorpus(map) {
-  var z = 'const CORPUS = new Map([';
+  var z = `const CORPUS = new Map([${os.EOL}`;
   for(var [k, v] of map)
     z += `  ["${k}", ${JSON.stringify(v)}],${os.EOL}`;
   z += `]);${os.EOL}`;
