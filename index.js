@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const path = require('path');
 const corpus = require('./corpus');
@@ -16,6 +17,11 @@ function csv() {
   return path.join(__dirname, 'index.csv');
 };
 
+function sql(tab='columns', opt={}) {
+  return Sql.setupTable(tab, {code: 'TEXT', name: 'TEXT', tags: 'TEXT'}, corpus.values(),
+    Object.assign({pk: 'code', index: true, tsvector: {code: 'A', name: 'B', tags: 'C'}}, opt));
+};
+
 function columns(txt) {
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
@@ -26,5 +32,6 @@ function columns(txt) {
   return z;
 };
 columns.csv = csv;
+columns.sql = sql;
 columns.corpus = corpus;
 module.exports = columns;
