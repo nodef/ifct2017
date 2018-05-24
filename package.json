@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/methods",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Analytical methods of nutrient and bioactive components in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,11 @@
   "keywords": [
     "ifct",
     "2017",
-    "methods"
+    "methods",
+    "indian",
+    "food",
+    "composition",
+    "tables"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
@@ -26,6 +30,7 @@
     "lunr": "^2.1.6"
   },
   "dependencies": {
-    "@ifct2017/columns": "^0.2.1"
+    "@ifct2017/columns": "^0.2.1",
+    "sql-extra": "^0.1.3"
   }
 }
