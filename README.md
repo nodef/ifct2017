@@ -10,6 +10,7 @@ const compositingCentres = require('@ifct2017/compositingcentres');
 // compositingCentres(<query>)
 // -> [{region, centre, samples}] for matched components
 // compositingCentres.corpus: Map {region => {region, centre, samples}}
+// compositingCentres.sql([table], [options]): sql commands
 // compositingCentres.csv(): path to csv file
  
 compositingCentres('west');
