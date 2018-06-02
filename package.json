@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/codes",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Food codes from food name in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/ifct2017/codes#readme",
   "dependencies": {
     "csv-parse": "^2.4.0",
-    "lunr": "^2.2.0"
+    "lunr": "^2.2.0",
+    "sql-extra": "^0.1.6"
   }
 }
