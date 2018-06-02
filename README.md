@@ -4,14 +4,21 @@
 
 Food codes from food name in [Indian Food Composition Tables 2017].<br>
 Check available [food codes].
+> Large corpus is not loaded synchronously.<br>
+> Load it asynchronously with **.load()**.
 
 ```javascript
 const codes = require('@ifct2017/codes');
+// codes.corpus: Map {name => {name, code}}
+// codes.load(): load corpus (returns promise)
+// codes.sql([table], [options]): Promise (sql commands)
+// codes.csv(): path to csv file
 // codes(<query>)
 // -> [{name, code}] for matched food names
-// codes.corpus: Map {name => {name, code}}
-// codes.csv(): path to csv file
- 
+
+await codes.load();
+/* load corpus first */
+
 codes('mango green');
 codes('Raw mango');
 // [ { name: 'Mango, green, raw (Common)', code: 'D057' } ]
