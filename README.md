@@ -13,6 +13,7 @@ const descriptions = require('@ifct2017/descriptions');
 // -> [{code, name, scie, desc}] for matched foods
 // descriptions.corpus: Map {code => {code, name, scie, desc}}
 // descriptions.load(): load corpus (returns promise)
+// descriptions.sql([table], [options]): Promise (sql commands)
 // descriptions.csv(): path to csv file
 
 await descriptions.load();

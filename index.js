@@ -1,3 +1,4 @@
+const Sql = require('sql-extra');
 const lunr = require('lunr');
 const parse = require('csv-parse');
 const path = require('path');
@@ -9,6 +10,17 @@ var ready = null;
 
 function csv() {
   return path.join(__dirname, 'index.csv');
+};
+
+async function sql(tab='descriptions', opt={}) {
+  var cols = {code: 'TEXT', name: 'TEXT', scie: 'TEXT', desc: 'TEXT'};
+  var tsv = {code: 'A', name: 'B', scie: 'B', desc: 'B'};
+  var opt = Object.assign({pk: 'code', index: true, tsvector: tsv}, opt);
+  var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
+  var z = Sql.createTable(tab, cols, opt);
+  z = await Sql.insertInto.stream(tab, stream, opt, z);
+  z = Sql.setupTable.index(tab, cols, opt, z);
+  return z;
 };
 
 function loadCorpus() {
@@ -38,7 +50,8 @@ function setupIndex() {
 };
 
 function load() {
-  return ready=ready||loadCorpus().then(setupIndex);
+  ready = ready||loadCorpus();
+  return ready.then(setupIndex);
 };
 
 function descriptions(txt) {
@@ -52,6 +65,7 @@ function descriptions(txt) {
   return z;
 };
 descriptions.csv = csv;
+descriptions.sql = sql;
 descriptions.load = load;
 descriptions.corpus = corpus;
 module.exports = descriptions;
