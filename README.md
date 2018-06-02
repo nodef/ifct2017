@@ -10,7 +10,7 @@ Check available [food codes].
 ```javascript
 const codes = require('@ifct2017/codes');
 // codes.corpus: Map {name => {name, code}}
-// codes.load(): load corpus (returns promise)
+// codes.load(): Promise (corpus loaded)
 // codes.sql([table], [options]): Promise (sql commands)
 // codes.csv(): path to csv file
 // codes(<query>)
