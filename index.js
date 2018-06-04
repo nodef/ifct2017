@@ -12,7 +12,7 @@ function csv() {
   return path.join(__dirname, 'index.csv');
 };
 
-async function sql(tab, opt={}) {
+async function sql(tab='codes', opt={}) {
   var cols = {name: 'TEXT', code: 'TEXT'};
   var opt = Object.assign({pk: 'name', index: true, tsvector: {name: 'A', code: 'B'}}, opt);
   var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
