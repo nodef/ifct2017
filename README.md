@@ -7,12 +7,12 @@ Check available [jones factors].
 
 ```javascript
 const jonesFactors = require('@ifct2017/jonesfactors');
-// jonesFactors(<query>)
-// -> [{food, factor}] for matched foods
 // jonesFactors.corpus: Map {food => {food, factor}}
 // jonesFactors.load(): true (corpus loaded)
 // jonesFactors.sql([table], [options]): sql commands
 // jonesFactors.csv(): path to csv file
+// jonesFactors(<query>)
+// -> [{food, factor}] for matched foods
 
 
 jonesFactors.load();
