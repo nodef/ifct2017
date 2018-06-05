@@ -37,6 +37,7 @@ function load() {
 };
 
 function jonesFactors(txt) {
+  if(index==null) return [];
   var z = [], txt = txt.replace(/\W/g, ' ');
   var mats = index.search(txt), max = 0;
   for(var mat of mats)
