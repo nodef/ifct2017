@@ -7,11 +7,16 @@ Check available [columns].
 
 ```javascript
 const columns = require('@ifct2017/columns');
-// columns(<query>)
-// -> [{code, name, tags}] for matched columns
 // columns.corpus: Map {code => {code, name, tags}}
+// columns.load(): true (corpus loaded)
 // columns.sql([table], [options]): sql commands
 // columns.csv(): path to csv file
+// columns(<query>)
+// -> [{code, name, tags}] for matched columns
+
+
+columns.load();
+/* load corpus first */
 
 columns('vitamin c');
 columns('c-vitamin');
