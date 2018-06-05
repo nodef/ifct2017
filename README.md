@@ -7,12 +7,12 @@ Check available [food groups].
 
 ```javascript
 const groups = require('@ifct2017/groups');
-// groups(<query>)
-// -> [{code, group, entries}] for matched groups
 // groups.corpus: Map {code => {code, group, entries}}
 // groups.load(): true (corpus loaded)
 // groups.sql([table], [options]): sql commands
 // groups.csv(): path to csv file
+// groups(<query>)
+// -> [{code, group, entries}] for matched groups
 
 
 groups.load();
