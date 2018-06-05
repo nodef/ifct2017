@@ -2,7 +2,7 @@
 
 [![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
 
-About Indian Food Composition Tables 2017.
+About [Indian Food Composition Tables 2017].
 
 Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
 column, credit, data, father, form, funder, group, interest, learn, limitation,
@@ -10,8 +10,14 @@ publisher, source, supporter, use, user, what, when, why.
 
 ```javascript
 const about = require('@ifct2017/about');
-// about(<query>)
 // about.corpus: Map {topic => text}
+// about.load(): true (corpus loaded)
+// about(<query>)
+// -> text
+
+
+about.load();
+/* load corpus first */
 
 about('who is you publisher');
 about('which organization issued you');
@@ -70,3 +76,4 @@ about('what was the situation in nineteen fity');
 
 
 [topics]: https://github.com/ifct2017/about/tree/master/assets
+[Indian Food Composition Tables 2017]: http://ifct2017.com/
