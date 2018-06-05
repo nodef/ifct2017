@@ -7,11 +7,16 @@ Check specified [methods].
 
 ```javascript
 const methods = require('@ifct2017/methods');
-// methods(<query>)
-// -> {analyte, method, reference} if matched, null otherwise
 // methods.corpus: Map {column_code => {analyte, method, reference}}
+// methods.load(): true (corpus loaded)
 // methods.sql([table], [options]): sql commands
 // methods.csv(): path to csv file
+// methods(<query>)
+// -> {analyte, method, reference} if matched, null otherwise
+
+
+methods.load();
+/* load corpus first */
 
 methods('soluble oxalic acid');
 methods('Insoluble Oxalic Acid');
