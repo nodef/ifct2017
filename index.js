@@ -26,7 +26,7 @@ function csv() {
 };
 
 function sql(tab='regions', opt={}) {
-  return Sql.setupTable(tab, {region: 'TEXT', states: 'TEXT'}, corpus.values(),
+  return Sql.setupTable(tab, {region: 'TEXT', states: 'TEXT'}, require('./corpus').values(),
     Object.assign({pk: 'region', index: true, tsvector: {region: 'A', states: 'B'}}, opt));
 };
 
