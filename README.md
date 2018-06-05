@@ -7,12 +7,17 @@ Check entries of [frequency distribution].
 
 ```javascript
 const frequencyDistribution = require('@ifct2017/frequencydistribution');
-// frequencyDistribution(<districts>)
-// -> {districts, states, selected, sampled}
 // frequencyDistribution.corpus: Map {districts (start) => {districts, states, selected, sampled}}
+// frequencyDistribution.load(): true (corpus loaded)
 // frequencyDistribution.sql([table], [options]): sql commands
 // frequencyDistribution.csv(): path to csv file
- 
+// frequencyDistribution(<districts>)
+// -> {districts, states, selected, sampled}
+
+
+frequencyDistribution.load();
+/* load corpus first */
+
 frequencyDistribution(2);
 frequencyDistribution(5);
 // { districts: '1-5', states: 9, selected: 1, sampled: 9 }
