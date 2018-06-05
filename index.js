@@ -36,7 +36,7 @@ function sql(tab='carbohydrates', opt={}) {
 };
 
 function load() {
-  if(ready) return;
+  if(ready) return true;
   loadCorpus(); setupIndex();
   return ready = true;
 };
