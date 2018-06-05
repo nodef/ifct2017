@@ -7,9 +7,17 @@ var index = null;
 var ready = false;
 
 
+function fixRow(r) {
+  if(r.sno==='1') r.monosaccharide = 1;
+  r.hydrolysis = r.hydrolysis||NaN;
+  r.monosaccharide = r.monosaccharide||NaN;
+  return r;
+};
+
 function loadCorpus() {
   for(var [k, v] of require('./corpus'))
-    corpus.set(k, v);
+    corpus.set(k, fixRow(v));
+  return corpus;
 };
 
 function setupIndex() {
@@ -17,12 +25,8 @@ function setupIndex() {
     this.ref('sno');
     this.field('sno');
     this.field('carbohydrate');
-    for(var r of corpus.values()) {
-      if(r.sno==='1') r.monosaccharide = 1;
-      r.hydrolysis = r.hydrolysis||NaN;
-      r.monosaccharide = r.monosaccharide||NaN;
-      this.add(r);
-    }
+    for(var r of corpus.values())
+      this.add(fixRow(r));
   });
 };
 
@@ -32,7 +36,7 @@ function csv() {
 
 function sql(tab='carbohydrates', opt={}) {
   return Sql.setupTable(tab, {sno: 'TEXT', carbohydrate: 'TEXT', hydrolysis: 'REAL', monosaccharide: 'REAL'},
-    require('./corpus').values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', carbohydrate: 'B'}}, opt));
+    loadCorpus().values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', carbohydrate: 'B'}}, opt));
 };
 
 function load() {
