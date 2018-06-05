@@ -28,7 +28,7 @@ function csv() {
 };
 
 function sql(tab='contents', opt={}) {
-  return Sql.setupTable(tab, {sno: 'TEXT', title: 'TEXT', pagenos: 'TEXT'}, corpus.values(),
+  return Sql.setupTable(tab, {sno: 'TEXT', title: 'TEXT', pagenos: 'TEXT'}, require('./corpus').values(),
     Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', title: 'B', pagenos: 'C'}}, opt));
 };
 
