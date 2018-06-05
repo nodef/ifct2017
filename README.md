@@ -4,17 +4,16 @@
 
 Food descriptions in [Indian Food Composition Tables 2017].<br>
 Check available [food descriptions].
-> Large corpus is not loaded synchronously.<br>
-> Load it asynchronously with **.load()**.
 
 ```javascript
 const descriptions = require('@ifct2017/descriptions');
-// descriptions(<query>)
-// -> [{code, name, scie, desc}] for matched foods
 // descriptions.corpus: Map {code => {code, name, scie, desc}}
-// descriptions.load(): load corpus (returns promise)
+// descriptions.load(): Promise (corpus loaded)
 // descriptions.sql([table], [options]): Promise (sql commands)
 // descriptions.csv(): path to csv file
+// descriptions(<query>)
+// -> [{code, name, scie, desc}] for matched foods
+
 
 await descriptions.load();
 /* load corpus first */
