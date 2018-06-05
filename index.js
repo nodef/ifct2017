@@ -11,7 +11,7 @@ function csv() {
 
 function sql(tab='frequencydistribution', opt={}) {
   return Sql.setupTable(tab, {districts: 'TEXT', states: 'INT', selected: 'INT', sampled: 'INT'},
-    corpus.values(), Object.assign({pk: 'districts', index: true, tsvector: {districts: 'A'}}, opt));
+    require('./corpus').values(), Object.assign({pk: 'districts', index: true, tsvector: {districts: 'A'}}, opt));
 };
 
 function load() {
