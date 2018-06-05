@@ -11,7 +11,7 @@ function csv() {
 };
 
 function sql(tab='methods', opt={}) {
-  var vals = new Set(corpus.values());
+  var vals = new Set(require('./corpus').values());
   vals.delete(null);
   return Sql.setupTable(tab, {analyte: 'TEXT', method: 'TEXT', reference: 'TEXT'}, vals,
     Object.assign({pk: 'analyte', index: true, tsvector: {analyte: 'A', method: 'B', reference: 'C'}}, opt));
