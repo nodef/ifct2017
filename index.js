@@ -28,7 +28,7 @@ function csv() {
 };
 
 function sql(tab='groups', opt={}) {
-  return Sql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT'}, corpus.values(),
+  return Sql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT'}, require('./corpus').values(),
     Object.assign({pk: 'code', index: true, tsvector: {code: 'A', group: 'B'}}, opt));
 };
 
