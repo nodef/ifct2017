@@ -1,4 +1,3 @@
-const corpus = require('./corpus');
 const nlp = require('./nlp');
 
 const REGEX = {
@@ -29,8 +28,19 @@ const REGEX = {
 const USER = /user|utilizer|applier/i;
 const USE = /use|using|utiliz|employ|appl/i;
 const WHO = /who|person|people|member/i;
+var corpus = new Map();
+var ready = false;
+
+
+function load() {
+  if(ready) return true;
+  for(var [k, v] of require('./corpus'))
+    corpus.set(k, v);
+  return ready = true;
+};
 
 function about(txt) {
+  if(!ready) return null;
   var txt = nlp(txt), reg = REGEX;
   if(USER.test(txt) || (USE.test(txt) && WHO.test(txt))) return corpus.get('user');
   if(USE.test(txt)) return corpus.get('use');
@@ -38,5 +48,6 @@ function about(txt) {
     if(reg[k].test(txt)) return corpus.get(k);
   return null;
 };
+about.load = load;
 about.corpus = corpus;
 module.exports = about;
