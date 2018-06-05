@@ -7,12 +7,17 @@ Check data for [sampling units].
 
 ```javascript
 const samplingUnits = require('@ifct2017/samplingunits');
-// samplingUnits(<query>)
-// -> [{sno, state, districts, selected}] for matched states
 // samplingUnits.corpus: Map {sno => {sno, state, districts, selected}}
+// samplingUnits.load(): true (corpus loaded)
 // samplingUnits.sql([table], [options]): sql commands
 // samplingUnits.csv(): path to csv file
- 
+// samplingUnits(<query>)
+// -> [{sno, state, districts, selected}] for matched states
+
+
+samplingUnits.load();
+/* load corpus first */
+
 samplingUnits('andaman');
 samplingUnits('Nicobar');
 // [ { sno: 'A',
