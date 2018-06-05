@@ -7,11 +7,16 @@ Check available [contents].
 
 ```javascript
 const contents = require('@ifct2017/contents');
-// contents(<query>)
-// -> [{sno, title, pagenos}] for matched contents
 // contents.corpus: Map {sno => {sno, title, pagenos}}
+// contents.load(): true (corpus loaded)
 // contents.sql([table], [options]): sql commands
 // contents.csv(): path to csv file
+// contents(<query>)
+// -> [{sno, title, pagenos}] for matched contents
+
+
+contents.load();
+/* load corpus first */
 
 contents('table 2');
 contents('Water soluble vitamins');
