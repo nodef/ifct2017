@@ -10,9 +10,14 @@ const groups = require('@ifct2017/groups');
 // groups(<query>)
 // -> [{code, group, entries}] for matched groups
 // groups.corpus: Map {code => {code, group, entries}}
+// groups.load(): true (corpus loaded)
 // groups.sql([table], [options]): sql commands
 // groups.csv(): path to csv file
- 
+
+
+groups.load();
+/* load corpus first */
+
 groups('cereals');
 groups('Millet');
 // [ { code: 'A', group: 'Cereals and Millets', entries: 24 } ] 
