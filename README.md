@@ -7,12 +7,17 @@ Check available [energy conversion factors].
 
 ```javascript
 const energies = require('@ifct2017/energies');
-// energies(<query>)
-// -> [{component, kj, kcal}] for matched components
 // energies.corpus: Map {component => {component, kj, kcal}}
+// energies.load(): true (corpus loaded)
 // energies.sql([table], [options]): sql commands
 // energies.csv(): path to csv file
- 
+// energies(<query>)
+// -> [{component, kj, kcal}] for matched components
+
+
+energies.load();
+/* load corpus first */
+
 energies('dietary fibre');
 energies('Soluble fibre');
 // [ { component: 'Fibre', kj: 8, kcal: 2 } ]
