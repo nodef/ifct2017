@@ -7,12 +7,17 @@ Check available [regions].
 
 ```javascript
 const regions = require('@ifct2017/regions');
-// regions(<query>)
-// -> [{region, states}] for matched regions
 // regions.corpus: Map {region => {region, states}}
+// regions.load(): true (corpus loaded)
 // regions.sql([table], [options]): sql commands
 // regions.csv(): path to csv file
- 
+// regions(<query>)
+// -> [{region, states}] for matched regions
+
+
+regions.load();
+/* load corpus first */
+
 regions('central');
 regions('Uttaranchal');
 // [ { region: 'Central',
