@@ -26,7 +26,7 @@ function csv() {
 };
 
 function sql(tab='jonesfactors', opt={}) {
-  return Sql.setupTable(tab, {food: 'TEXT', factor: 'REAL'}, corpus.values(),
+  return Sql.setupTable(tab, {food: 'TEXT', factor: 'REAL'}, require('./corpus').values(),
     Object.assign({pk: 'food', index: true, tsvector: {food: 'A'}}, opt));
 };
 
