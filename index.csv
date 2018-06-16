@@ -429,7 +429,7 @@ code,name,scie,desc
 "Q008","Tiger Prawns, orange","Penaeus monodon","E. Giant tiger prawn, Asian tiger shrimp; Common. Marine crustacean; [Place of collection: Kochi]"
 "R001","Clam, green shell","Perna viridis","E. Asian green mussel, Green-lipped mussel; Mal. Kallumalkai, Kadukka; Common. Mussel, Bivalve; [Place of collection: Goa]"
 "R002","Clam, white shell, ribbed","Meretrix meretrix","E. Asiatic Hard Clam; [Place of collection: Goa]"
-"R003","Octopus","Octopus vulgaris","E. Common octopus; Common. Mollusc; [Place of collection: Mumbai]"
+"R003","Octopus","Octopus vulgaris","E. Common octopus; [Place of collection: Mumbai]"
 "R004","Squid, black","Loligo sp.","[Place of collection: Kolkata]"
 "R005","Squid, hard shell","Sepia pharaonis","E. Pharaoh cuttlefish; Common. Large cuttlefish; [Place of collection: Goa]"
 "R006","Squid, red","Loligo duvauceli","[Place of collection: Chennai and Goa]"
