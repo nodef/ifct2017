@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/groups",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Food groups in the Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "homepage": "https://github.com/ifct2017/groups#readme",
   "dependencies": {
     "lunr": "^2.2.1",
-    "sql-extra": "^0.1.7"
+    "sql-extra": "^0.1.8"
   },
   "devDependencies": {
     "csv": "^3.1.0"

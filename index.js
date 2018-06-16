@@ -17,6 +17,7 @@ function setupIndex() {
     this.ref('code');
     this.field('code');
     this.field('group');
+    this.field('tags');
     this.pipeline.remove(lunr.stopWordFilter);
     for(var r of corpus.values())
       this.add(r);
@@ -28,8 +29,8 @@ function csv() {
 };
 
 function sql(tab='groups', opt={}) {
-  return Sql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT'}, require('./corpus').values(),
-    Object.assign({pk: 'code', index: true, tsvector: {code: 'A', group: 'B'}}, opt));
+  return Sql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT', tags: 'TEXT'}, require('./corpus').values(),
+    Object.assign({pk: 'code', index: true, tsvector: {code: 'A', group: 'B', tags: 'C'}}, opt));
 };
 
 function load() {
