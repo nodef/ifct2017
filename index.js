@@ -41,9 +41,8 @@ function setupIndex() {
     for(var r of corpus.values()) {
       var {code, name, scie, desc} = r;
       name = name.replace(/^(\w+),/g, '$1 $1 $1 $1,');
-      desc = desc.replace(/^\[.*\]$/g).replace(/ā/g, 'a').replace(/ḍ/g, 'd').replace(/ī/g, 'i');
-      desc = desc.replace(/ḷ/g, 'l').replace(/ṃ/g, 'm').replace(/ṇ/g, 'n').replace(/ṅ/g, 'n');
-      desc = desc.replace(/\w+\.\s([\w\',\/\(\)\- ]+)[;\.]?/g, '$1').replace(/[,\/\(\)\- ]+/g, ' ');
+      desc = desc.replace(/\[.*?\]/g, '').replace(/\w+\.\s([\w\',\/\(\)\- ]+)[;\.]?/g, '$1');
+      desc = desc.replace(/[,\/\(\)\- ]+/g, ' ').trim();
       this.add({code, name, scie, desc});
     }
   });
