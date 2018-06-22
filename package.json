@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/descriptions",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Food descriptions in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   "dependencies": {
     "csv-parse": "^2.5.0",
     "lunr": "^2.2.1",
-    "sql-extra": "^0.1.8"
+    "sql-extra": "^0.1.13"
   }
 }
