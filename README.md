@@ -1,9 +1,4 @@
-# @ifct2017/frequencydistribution
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Frequency distribution of States/UTs for fixing the number of districts to be sampled in [Indian Food Composition Tables 2017].<br>
-Check entries of [frequency distribution].
+[Frequency distribution] of States/UTs for fixing the number of districts to be sampled in [Indian Food Composition Tables 2017].
 
 ```javascript
 const frequencyDistribution = require('@ifct2017/frequencydistribution');
@@ -28,5 +23,11 @@ frequencyDistribution(37);
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[frequency distribution]: https://github.com/ifct2017/frequencydistribution/blob/master/index.csv
+[Frequency distribution]: https://github.com/ifct2017/frequencydistribution/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
