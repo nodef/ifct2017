@@ -1,9 +1,4 @@
-# @ifct2017/descriptions
-
-[![IFCT2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Food descriptions in [Indian Food Composition Tables 2017].<br>
-Check available [food descriptions].
+[Food descriptions] in [Indian Food Composition Tables 2017].<br>
 
 ```javascript
 const descriptions = require('@ifct2017/descriptions');
@@ -34,5 +29,14 @@ descriptions('gai ka doodh details.');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[food descriptions]: https://github.com/ifct2017/descriptions/blob/master/index.csv
+[Food descriptions]: https://github.com/ifct2017/descriptions/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1dRKW2HJyWxDJliONe_URNxM0gPBmgZKqoF5lBotxOT8/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSueRUdwru4BNvmLCK16cM8DYO3mum4c-g_8MILZvg6TsT3vaZChWOwN5cUS58GtrXMKqZHeHy0ajeG/pubhtml
