@@ -1,4 +1,4 @@
-[Analytical methods] of nutrient and bioactive components in [Indian Food Composition Tables 2017].<br>
+[Analytical methods] of nutrient and bioactive components in [Indian Food Composition Tables 2017].
 
 ```javascript
 const methods = require('@ifct2017/methods');
