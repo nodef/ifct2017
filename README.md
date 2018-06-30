@@ -1,4 +1,4 @@
-Regional [compositing centres] and sample size of each region in [Indian Food Composition Tables 2017].<br>
+Regional [compositing centres] and sample size of each region in [Indian Food Composition Tables 2017].
 
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
