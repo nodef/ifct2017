@@ -1,9 +1,4 @@
-# @ifct2017/carbohydrates
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Conversion of carbohydrate weights to monosaccharide equivalents in [Indian Food Composition Tables 2017].<br>
-Check available [carbohydrate conversion factors].
+[Conversion of carbohydrate weights] to monosaccharide equivalents in [Indian Food Composition Tables 2017].
 
 ```javascript
 const carbohydrates = require('@ifct2017/carbohydrates');
@@ -34,5 +29,14 @@ carbohydrates('maltose conversion factor');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[carbohydrate conversion factors]: https://github.com/ifct2017/carbohydrates/blob/master/index.csv
+[Conversion of carbohydrate weights]: https://github.com/ifct2017/carbohydrates/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1YoEVoQFR0co_bTHL3Xok1dQfuqxXZa7yQrlUKbYVve4/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ogyx4J5JWX3HQnHhoGt9HsmqNIZ5MFvDvHa2gkYSZg6vxtWeqPrzkyvh1_bmaXDgrsElNgAu1YKk/pubhtml
