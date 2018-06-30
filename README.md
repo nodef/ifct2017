@@ -1,4 +1,4 @@
-Number of primary [sampling units] in each State/UT in [Indian Food Composition Tables 2017].<br>
+Number of primary [sampling units] in each State/UT in [Indian Food Composition Tables 2017].
 
 ```javascript
 const samplingUnits = require('@ifct2017/samplingunits');
