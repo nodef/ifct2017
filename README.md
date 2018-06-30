@@ -1,4 +1,4 @@
-[Jones factors] for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].<br>
+[Jones factors] for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].
 
 ```javascript
 const jonesFactors = require('@ifct2017/jonesfactors');
