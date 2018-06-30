@@ -1,9 +1,4 @@
-# @ifct2017/methods
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Analytical methods of nutrient and bioactive components in [Indian Food Composition Tables 2017].<br>
-Check specified [methods].
+[Analytical methods] of nutrient and bioactive components in [Indian Food Composition Tables 2017].<br>
 
 ```javascript
 const methods = require('@ifct2017/methods');
@@ -32,5 +27,14 @@ methods('how is total saponin measured?');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[methods]: https://github.com/ifct2017/columns/blob/master/index.csv
+[Analytical methods]: https://github.com/ifct2017/columns/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/11nJ7RfjgcTUz1bPmI7EWWOZSAxvwvXseG4AFqtLU3-o/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vShqmhmDcwBNV1Qz-uAed412gfPQBHbO0--NkS7EwuEWjNI3trjMy0Widnqx8eM05B9a-PQLssOzLcj/pubhtml
