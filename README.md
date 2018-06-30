@@ -1,9 +1,4 @@
-# @ifct2017/jonesfactors
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Jones factors for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].<br>
-Check available [jones factors].
+[Jones factors] for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].<br>
 
 ```javascript
 const jonesFactors = require('@ifct2017/jonesfactors');
@@ -31,5 +26,14 @@ jonesFactors('jones factor of oats');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[jones factors]: https://github.com/ifct2017/jonesfactors/blob/master/index.csv
+[Jones factors]: https://github.com/ifct2017/jonesfactors/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1OqV-MSaXH1ARXlyuyayyfj9NXoH1DvW5-n1oxOX4n0o/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSfqNhcPoEpx9TbXLhlyLFYpN-JtKM0J6YtZN7He6Ad4fNoVGcNI3ILaW7PJkgsoTg7-XJqr39HRQe1/pubhtml
