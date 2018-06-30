@@ -1,9 +1,4 @@
-# @ifct2017/compositingcentres
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Regional compositing centres and sample size of each region in [Indian Food Composition Tables 2017].<br>
-Check available [compositing centres].
+Regional [compositing centres] and sample size of each region in [Indian Food Composition Tables 2017].<br>
 
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
@@ -28,5 +23,14 @@ compositingCentres('North East compositing centre');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [compositing centres]: https://github.com/ifct2017/compositingcentres/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1r9J5mC-Dus9YA1AMSE_8-cEsXJ-8eKm6tKZMz0m5xPw/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vQQj5wg7oGpgHZSlmrysbeS7MB92bgyPPVYrM7e2JpP2dC2Csts9pVc_Dcf0iVcCbtXSaWKbvQr0Yib/pubhtml
