@@ -1,4 +1,4 @@
-Categorization of the States/UTs into six different [regions] in [Indian Food Composition Tables 2017].<br>
+Categorization of the States/UTs into six different [regions] in [Indian Food Composition Tables 2017].
 
 ```javascript
 const regions = require('@ifct2017/regions');
