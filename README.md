@@ -1,9 +1,4 @@
-# @ifct2017/samplingunits
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Number of primary sampling units (districts) in each State/UT in [Indian Food Composition Tables 2017].<br>
-Check data for [sampling units].
+Number of primary [sampling units] in each State/UT in [Indian Food Composition Tables 2017].<br>
 
 ```javascript
 const samplingUnits = require('@ifct2017/samplingunits');
@@ -31,5 +26,14 @@ samplingUnits('orissa\'s sampling units');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [sampling units]: https://github.com/ifct2017/samplingunits/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1Wm6eqy0TRwUItBHrU-OU4jVBRuYm162y2viZlP8JyuM/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTL7Qe0f_MEe_6JtxiiROTb-mVewlGjrYlj2u3jPaRkz7mOgUjwOpsrTIPYUSAaKXD781_dCewAIiE9/pubhtml
