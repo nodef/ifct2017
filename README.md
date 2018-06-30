@@ -1,9 +1,4 @@
-# @ifct2017/groups
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
-Food groups in [Indian Food Composition Tables 2017].<br>
-Check available [food groups].
+[Food groups] in [Indian Food Composition Tables 2017].
 
 ```javascript
 const groups = require('@ifct2017/groups');
@@ -38,5 +33,14 @@ groups('vegetable group code?');
 ```
 
 
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+> Take a peek at the raw data here: [Document], [Webpage].
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[food groups]: https://github.com/ifct2017/groups/blob/master/index.csv
+[Food groups]: https://github.com/ifct2017/groups/blob/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[Document]: https://docs.google.com/spreadsheets/d/1PMR0TZLLYsS70lcC0Bap4oNrI1azgmuGx9ekfHJB_0Q/edit?usp=sharing
+[Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSsXdKiSvWypa6aJlCfl_eKIzAOfESO_wHITJtPik3K1goIy81hciSjmTCqFjmFv1cqrLdnYhg1Q3O1/pubhtml
