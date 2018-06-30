@@ -1,12 +1,7 @@
-# @ifct2017/about
-
-[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
-
 About [Indian Food Composition Tables 2017].
-
-Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
-column, credit, data, father, form, funder, group, interest, learn, limitation,
-publisher, source, supporter, use, user, what, when, why.
+> Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
+> column, credit, data, father, form, funder, group, interest, learn, limitation,
+> publisher, source, supporter, use, user, what, when, why.
 
 ```javascript
 const about = require('@ifct2017/about');
@@ -75,5 +70,11 @@ about('what was the situation in nineteen fity');
 ```
 
 
-[topics]: https://github.com/ifct2017/about/tree/master/assets
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
+[topics]: https://github.com/ifct2017/about/tree/master/assets
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
