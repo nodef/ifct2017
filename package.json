@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/intakes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Recommended daily intakes of nutrients in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -27,5 +27,9 @@
   "homepage": "https://github.com/ifct2017/intakes#readme",
   "devDependencies": {
     "csv": "^3.1.0"
+  },
+  "dependencies": {
+    "@ifct2017/columns": "^1.0.3",
+    "sql-extra": "^0.1.13"
   }
 }
