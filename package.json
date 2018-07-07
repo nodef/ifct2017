@@ -1,0 +1,28 @@
+{
+  "name": "@ifct2017/intakes",
+  "version": "0.0.1",
+  "description": "Recommended daily intakes of nutrients in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/intakes.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "intakes",
+    "indian",
+    "food",
+    "composition",
+    "tables"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/intakes/issues"
+  },
+  "homepage": "https://github.com/ifct2017/intakes#readme"
+}
