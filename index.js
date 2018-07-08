@@ -6,6 +6,11 @@ var corpus = new Map();
 var ready = false;
 
 
+function loadCorpus() {
+  for(var [k, v] of require('./corpus'))
+    corpus.set(k, v);
+};
+
 function csv() {
   return path.join(__dirname, 'index.csv');
 };
@@ -18,8 +23,7 @@ function sql(tab='intakes', opt={}) {
 
 function load() {
   if(ready) return true;
-  for(var [k, v] of require('./corpus'))
-    corpus.set(k, v);
+  columns.load(); loadCorpus();
   return ready = true;
 };
 
