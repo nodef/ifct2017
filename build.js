@@ -72,6 +72,7 @@ function createMap(idx) {
   return z;
 };
 
+columns.load();
 var array = [], mapping = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
 stream.on('data', (r) => {

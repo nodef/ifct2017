@@ -227,7 +227,7 @@ const CORPUS = new Map([
   ["amiacce", I32],
   ["amiacne", I32],
   ["amiac", I32],
-  ["orgac", I29],
+  ["orgac", I30],
   ["fauns", I31],
   ["faess", I31],
   ["facn3", I31],
