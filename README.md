@@ -9,17 +9,6 @@ const intakes = require('@ifct2017/intakes');
 // intakes(<query>)
 // -> {code, who, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan} if found, null otherwise
 
-// code:   Column code
-// who:    WHO recommended dietary allowance
-// usear:  US Estimated Average Requirement
-// usrdam: US Recommended Dietary Allowance (Male)
-// usrdaf: US Recommended Dietary Allowance (Female)
-// euprim: EU Population Reference Intake (Male)
-// euprif: EU Population Reference Intake (Female)
-// ulus: Tolerable intake Upper Level (US)
-// uleu: Tolerable intake Upper Level (EU)
-// uljapan: Tolerable intake Upper Level (Japan)
-
 
 intakes.load();
 /* load corpus first */
@@ -50,6 +39,19 @@ intakes('what is rda of total fiber?');
 //   ulus: null,
 //   uleu: null,
 //   uljapan: null }
+
+
+// ->
+// code:   Column code
+// who:    WHO recommended dietary allowance
+// usear:  US Estimated Average Requirement
+// usrdam: US Recommended Dietary Allowance (Male)
+// usrdaf: US Recommended Dietary Allowance (Female)
+// euprim: EU Population Reference Intake (Male)
+// euprif: EU Population Reference Intake (Female)
+// ulus: Tolerable intake Upper Level (US)
+// uleu: Tolerable intake Upper Level (EU)
+// uljapan: Tolerable intake Upper Level (Japan)
 ```
 
 
