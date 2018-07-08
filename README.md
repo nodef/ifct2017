@@ -9,15 +9,47 @@ const intakes = require('@ifct2017/intakes');
 // intakes(<query>)
 // -> {code, who, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan} if found, null otherwise
 
+// code:   Column code
+// who:    WHO recommended dietary allowance
+// usear:  US Estimated Average Requirement
+// usrdam: US Recommended Dietary Allowance (Male)
+// usrdaf: US Recommended Dietary Allowance (Female)
+// euprim: EU Population Reference Intake (Male)
+// euprif: EU Population Reference Intake (Female)
+// ulus: Tolerable intake Upper Level (US)
+// uleu: Tolerable intake Upper Level (EU)
+// uljapan: Tolerable intake Upper Level (Japan)
+
 
 intakes.load();
 /* load corpus first */
 
 intakes('his');
 intakes('Histidine');
+// { code: 'his',
+//   who: -0.01,
+//   usear: null,
+//   usrdam: -0.014,
+//   usrdaf: null,
+//   euprim: null,
+//   euprif: null,
+//   ulus: null,
+//   uleu: null,
+//   uljapan: null }
+/* negative value indicates amount per kg of body weight */
 
-intakes('what is soluble oxalate?');
-intakes('are organic acids useful?');
+intakes('intake of total fibre?');
+intakes('what is rda of total fiber?');
+// { code: 'fibtg',
+//   who: null,
+//   usear: null,
+//   usrdam: 38,
+//   usrdaf: 25,
+//   euprim: null,
+//   euprif: null,
+//   ulus: null,
+//   uleu: null,
+//   uljapan: null }
 ```
 
 
