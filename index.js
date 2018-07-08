@@ -16,8 +16,8 @@ function csv() {
 };
 
 function sql(tab='intakes', opt={}) {
-  return Sql.setupTable(tab, {code: 'TEXT', who: 'REAL', usear: 'REAL', usrdam: 'REAL', usrdaf: 'REAL',
-    euprim: 'REAL', euprif: 'REAL', ulus: 'REAL', uleu: 'REAL', uljapan: 'REAL'},
+  return Sql.setupTable(tab, {code: 'TEXT', whorda: 'REAL', usear: 'REAL', usrdam: 'REAL',
+    usrdaf: 'REAL', euprim: 'REAL', euprif: 'REAL', ulus: 'REAL', uleu: 'REAL', uljapan: 'REAL'},
     require('./corpus').values(), Object.assign({pk: 'code', index: true, tsvector: {code: 'A'}}, opt));
 };
 
