@@ -37,7 +37,7 @@ pantac,Pantothenic acid (B5),vitb,pantothenate vitamin b5 b 5 water soluble esse
 vitb6c,Total B6,vitb,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol vitamer vitamin b6 b 6 water soluble essential
 biot,Biotin (B7),vitb,biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
 folsum,Total Folates (B9),vitb,pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
-vitc,Total Ascorbic acid (C),,ascorbate water soluble vitamin c vitamin c essential
+vitc,Total Ascorbic acid (C),vit,ascorbate water soluble vitamin c vitamin c essential
 # table 3
 retol,Retinol,vita,vitamin a1 vitamin-a 1 fat soluble essential
 ergcal,Ergocalciferol (D2),vitd,calciferol viosterol vitamin d2 d 2 fat soluble essential
@@ -51,7 +51,7 @@ toctra,α-Tocotrienol,toctr,a alpha vitamin e fat soluble methylated phenol anti
 toctrb,β-Tocotrienol,toctr,b beta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 toctrg,γ-Tocotrienol,toctr,g gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 toctrd,δ-Tocotrienol,toctr,d delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
-vite,α-Tocopherol equivalent (E),,total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
+vite,α-Tocopherol equivalent (E),vit,total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
 vitk1,Phylloquinones (K1),vitk,total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
 vitk2,Menaquinones (K2),vitk,total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
 # table 4
@@ -217,9 +217,9 @@ stostrb,β-Sitosterol,,b beta phytosterol plant sterol phytosteroid steroid alco
 phytac,Phytate,,ip6 ip 6 phytic inositol hexakisphosphate polyphosphate cyclohexane hexayl hexakis dihydrogen phosphate salt saturated cyclic acid
 sapon,Total Saponin,,triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
 # added columns
-vitb,Total Vitamin B,,vitamin b
-vitd,Total Vitamin D,,vitamin d
-vitk,Total Vitamin K,,vitamin k
+vitb,Total Vitamin B,vit,vitamin b
+vitd,Total Vitamin D,vit,vitamin d
+vitk,Total Vitamin K,vit,vitamin k
 tocph,Tocopherols,,total tocopherol tcp methylated phenol vitamin e antioxidant
 toctr,Tocotrienols,,total tocotrienol vitamin e antioxidant
 amiace,Essential Amino acids,,total essential
@@ -244,5 +244,5 @@ mnrltx,Toxic Minerals,,total chemical element
 carot,Carotenes,,total carotene carotin photosythetic orange pigment carotenoid
 xantp,Xanthophylls,,total xanthophyll phylloxanthin yellow pigment carotenoid
 cartbeq,β-Carotene equivalents,,total beta b carotene carotenoid provitamin previtamin a
-vita,Total Vitamin A,,vitamin vitamin-a
+vita,Total Vitamin A,vit,vitamin vitamin-a
 vit,Total Vitamins,,vitamin vitamin vitamin
