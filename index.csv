@@ -12,13 +12,13 @@
 # - Column Name
 # - Topics
 # - Tags
-code,name,,tags
+code,name,tops,tags
 code,Food Code,,id tag legend
-name,Food Name,,title label
-scie,Scientific Name,,binomial genus botanical
-lang,Local Name,,colloquial trivial country farmer popular
-grup,Food Group,,category class classification grouping type sort kind
-regn,No. of Regions,,number
+name,Food Name,code,title label
+scie,Scientific Name,name,binomial genus botanical
+lang,Local Name,name,colloquial trivial country farmer popular
+grup,Food Group,code,category class classification grouping type sort kind
+regn,No. of Regions,code,number
 # table 1
 water,Moisture,,total liquid steam vapour proximate
 protcnt,Protein,,total essential macronutrient proximate
