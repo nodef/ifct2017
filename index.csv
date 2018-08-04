@@ -86,14 +86,14 @@ se,Selenium (Se),mnrlet,trace nonmetal mineral chemical element
 na,Sodium (Na),mnrleq,quantity alkali metal mineral chemical element
 zn,Zinc (Zn),mnrlet,trace post transition mineral chemical element
 # table 6
-cho,Total Available CHO,,digest absorb glucogenic carbohydrate available carbohydrate
-starch,Total Starch,,amylum polysaccharide polymeric carbohydrate available
-frus,Fructose,,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
-glus,Glucose,,simple sugar blood dextrose corn grape monosaccharide white powder free available carbohydrate
-sucs,Sucrose,,common table sugar saccharose disaccharide white solid free available carbohydrate
-mals,Maltose,,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
-fsugar,Total Free Sugars,,added natural sugar monosaccharide disaccharide available carbohydrate
-lactose,Lactose Content,,milk sugar disaccharide white solid free available carbohydrate
+cho,Total Available CHO,choavldf,digest absorb glucogenic carbohydrate available carbohydrate
+starch,Total Starch,cho,amylum polysaccharide polymeric carbohydrate available
+frus,Fructose,fsugar,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
+glus,Glucose,fsugar,simple sugar blood dextrose corn grape monosaccharide white powder free available carbohydrate
+sucs,Sucrose,fsugar,common table sugar saccharose disaccharide white solid free available carbohydrate
+mals,Maltose,fsugar,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
+fsugar,Total Free Sugars,cho,added natural sugar monosaccharide disaccharide available carbohydrate
+lactose,Lactose Content,fsugar,milk sugar disaccharide white solid free available carbohydrate
 # table 7-1
 f4d0,Butyric acid (C4:0),,c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
 f6d0,Caproic acid (C6:0),,c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
@@ -234,7 +234,7 @@ facn6,Cis ω-6 Fatty acids,,total ω6 w6 w 6 omega good healthy fat lipid
 facn9,Cis ω-9 Fatty acids,,total ω9 w9 w 9 omega good healthy fat lipid
 famscis,Cis Monounsaturated Fatty acids,,total good healthy fat lipid
 fatrn,Trans Fatty acids,,total trans bad unhealthy harmful detrimental damaging fat lipid
-olsac,Oligosaccharides,,total polymer complex saccharide
+olsac,Oligosaccharides,cho,total polymer complex saccharide
 phystr,Phytosterols,,total plant sterol stanol phytosteroid natural plant steroid
 mnrleq,Essential Quantity Minerals,ash,total chemical element
 mnrlet,Essential Trace Minerals,ash,total essential chemical element
