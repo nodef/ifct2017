@@ -124,7 +124,7 @@ f20d4n6,Arachidonic acid (C20:4n6),facn6 faess fapu,c204n6 c204 c 204 20 4 n6 n 
 f20d5n3,Eicosapentaenoic acid (C20:5n3),facn3 faess fapu,c205n3 c205 c 205 20 5 n3 n 3 epa icosapentaenoic timnodonic eicosa icosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 f22d5n3,Docosapentaenoic acid (C22:5n3),facn3 fapu,c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 f22d6n3,Docosahexaenoic acid (C22:6n3),facn3 faess fapu,c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-fasat,Total Saturated Fatty acids (TSFA),,fat triglyceride lipid
+fasat,Total Saturated Fatty acids (TSFA),fatce,fat triglyceride lipid
 fams,Total Monounsaturated Fatty acids (TMUFA),fauns,mono unsaturated fat triglyceride lipid
 fapu,Total Polyunsaturated Fatty acids (TPUFA),fauns,poly unsaturated fat triglyceride lipid
 cholc,Cholesterol,,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
@@ -165,46 +165,46 @@ quinac,Quinic acid,orgac,tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohex
 sucac,Succinic acid,orgac,butandioic dicarboxylic organic acid
 tarac,Tartaric acid,orgac,dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric organic acid white crystalline crystal powder
 # table 10-1
-dhbenzac34,"3,,4-Dihydroxy Benzoic acid",34 dihydroxybenzoic polyphenol poly phenol phenolic phytochemical phyto
-hbenzal3,3-Hydroxy Benzaldehyde,,Hydroxybenzaldehyde aldehyde polyphenol poly phenol phenolic phytochemical phyto
-pcathac,Protocatechuic acid,,pca protocatechuate dihydroxybenzoic dihydroxy benzoic polyphenol poly phenol phenolic phytochemical phyto light brown solid
-vanlac,Vanillic acid,,dihydroxybenzoic dihydroxy benzoic vanillin hydroxy methoxybenzoic anisic vanillate polyphenol poly phenol phenolic aromatic phytochemical phyto white light yellow powder crystalline crystal
-gallac,Gallic acid,,trihydroxybenzoic trihydroxy benzoic polyphenol poly phenol phenolic aromatic phytochemical phyto white yellow pale fawn crystalline crystal
-cinmac,Cinnamic acid,,phenylprop enoic phenylacrylic cinnamylic phenylacrylic benzenepropenoic benzenepropenoic hydroxycinnamic aromatic unsaturated carboxylic polyphenol poly phenol phenolic phytochemical phyto white monoclinic crystalline crystal
-coumaco,o-Coumaric acid,,ortho hydroxyphenyl prop enoic propenoic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
-coumacp,p-Coumaric acid,,para hydroxyphenyl prop enoic propenoic acrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
-caffac,Caffeic acid,,dihydroxyphenyl propenoic dihydroxy cinnamic trans caffeate cinnamate dihydroxybenzeneacrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
+dhbenzac34,"3,polyph,4-Dihydroxy Benzoic acid",34 dihydroxybenzoic polyphenol poly phenol phenolic phytochemical phyto
+hbenzal3,3-Hydroxy Benzaldehyde,polyph,Hydroxybenzaldehyde aldehyde polyphenol poly phenol phenolic phytochemical phyto
+pcathac,Protocatechuic acid,polyph,pca protocatechuate dihydroxybenzoic dihydroxy benzoic polyphenol poly phenol phenolic phytochemical phyto light brown solid
+vanlac,Vanillic acid,polyph,dihydroxybenzoic dihydroxy benzoic vanillin hydroxy methoxybenzoic anisic vanillate polyphenol poly phenol phenolic aromatic phytochemical phyto white light yellow powder crystalline crystal
+gallac,Gallic acid,polyph,trihydroxybenzoic trihydroxy benzoic polyphenol poly phenol phenolic aromatic phytochemical phyto white yellow pale fawn crystalline crystal
+cinmac,Cinnamic acid,polyph,phenylprop enoic phenylacrylic cinnamylic phenylacrylic benzenepropenoic benzenepropenoic hydroxycinnamic aromatic unsaturated carboxylic polyphenol poly phenol phenolic phytochemical phyto white monoclinic crystalline crystal
+coumaco,o-Coumaric acid,polyph,ortho hydroxyphenyl prop enoic propenoic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
+coumacp,p-Coumaric acid,polyph,para hydroxyphenyl prop enoic propenoic acrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
+caffac,Caffeic acid,polyph,dihydroxyphenyl propenoic dihydroxy cinnamic trans caffeate cinnamate dihydroxybenzeneacrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
 # table 10-2
-chlrac,Chlorogenic acid,,cqa dihydroxycinnamoyl quinate quinic caffeoylquinate caffeoylquinic chlorogenate heriguard hydroxycinnamic aromatic trans ester polyphenol poly phenol phenolic phytochemical phyto
-ferac,Ferulic acid,,propenoic hydroxy methoxyphenyl acrylic methoxy methoxycinnamic ferulate coniferic trans ferulic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto crystalline crystal powder
-apigen,Apigenin,,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid trihydroxyflavone apigenine chamomile apigenol spigenin versulin aglycone glycoside
-apigen6cgls,Apigenin-6-C-gluoside,,6c 6 flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isovitexin homovitexin saponaretin
-apigen7onshps,Apigenin-7-O-neohesperidoside,,7o 7 flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rhoifolin
-luteol,Luteolin,,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal luteolol digitoflavone flacitran luteoline
-kaemf,Kaempferol,,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid antioxidant kaempherol robigenin pelargidenolon rhamnolutein rhamnolutin populnetin trifolitin kempferol swartziol
-querce,Quercetin,,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal powder bitter flavor sophoretin meletin quercetine xanthaurine quercetol quercitin quertine flavin meletin
-querce3bdgls,Quercetin-3-β-D-glucoside,,3βd 3bd 3β 3b βd bd 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isoquercetin isoquercitrin isoquercitroside isoquercitin trifoliin isotrifolin isohyperoside isotrifoliin glucopyranoside
-querce3ortns,Quercetin-3-O-rutinoside,,3o 3 flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rutin rutoside sophorin phytomelin sophorin birutan eldrin globularicitrin violaquercitrin glycoside
+chlrac,Chlorogenic acid,polyph,cqa dihydroxycinnamoyl quinate quinic caffeoylquinate caffeoylquinic chlorogenate heriguard hydroxycinnamic aromatic trans ester polyphenol poly phenol phenolic phytochemical phyto
+ferac,Ferulic acid,polyph,propenoic hydroxy methoxyphenyl acrylic methoxy methoxycinnamic ferulate coniferic trans ferulic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto crystalline crystal powder
+apigen,Apigenin,polyph,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid trihydroxyflavone apigenine chamomile apigenol spigenin versulin aglycone glycoside
+apigen6cgls,Apigenin-6-C-gluoside,polyph,6c 6 flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isovitexin homovitexin saponaretin
+apigen7onshps,Apigenin-7-O-neohesperidoside,polyph,7o 7 flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rhoifolin
+luteol,Luteolin,polyph,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal luteolol digitoflavone flacitran luteoline
+kaemf,Kaempferol,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid antioxidant kaempherol robigenin pelargidenolon rhamnolutein rhamnolutin populnetin trifolitin kempferol swartziol
+querce,Quercetin,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal powder bitter flavor sophoretin meletin quercetine xanthaurine quercetol quercitin quertine flavin meletin
+querce3bdgls,Quercetin-3-β-D-glucoside,polyph,3βd 3bd 3β 3b βd bd 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isoquercetin isoquercitrin isoquercitroside isoquercitin trifoliin isotrifolin isohyperoside isotrifoliin glucopyranoside
+querce3ortns,Quercetin-3-O-rutinoside,polyph,3o 3 flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rutin rutoside sophorin phytomelin sophorin birutan eldrin globularicitrin violaquercitrin glycoside
 # table 10-3
-querce3bgls,Quercetin-3-β-galactoside,,3β 3b 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hyperoside hyperozide hyperasid hyperosid hyperin
-isormt,Isorhamnetin,,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment methylquercetin isorhamnetol isorhamentin isorhamnetine rhamnetin methoxyquercetin methylated
-myrct,Myricetin,,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment cannabiscetin myricetol myricitin
-rsvrtol,Resvertrol,,aglycone stilbenoid phenylpropanoid polyphenol poly phenol phenolic phytochemical trihydroxystilbene stilbenetriol trans phytoalexin
-hespt,Hesperetin,,eriodictyol flavanone flavanoid polyphenol poly phenol phenolic phytochemical
-narng,Naringenin,,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical  colourless pigment bitter naringetol salipurol salipurpol trihydroxyflavanone
-hespd,Hesperdin,,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hesperetin rutinoside flavan glycoside
-daidzn,Daidzein,,formononetin isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pale yellow pigment prism dihydroxyisoflavone daidzeol isoaurostatin
-gnstein,Genistein,,biochanin a isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment angiogenesis inhibitor
-epicatec,(-)-Epicatechin,,epi catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant catechin
+querce3bgls,Quercetin-3-β-galactoside,polyph,3β 3b 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hyperoside hyperozide hyperasid hyperosid hyperin
+isormt,Isorhamnetin,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment methylquercetin isorhamnetol isorhamentin isorhamnetine rhamnetin methoxyquercetin methylated
+myrct,Myricetin,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment cannabiscetin myricetol myricitin
+rsvrtol,Resvertrol,polyph,aglycone stilbenoid phenylpropanoid polyphenol poly phenol phenolic phytochemical trihydroxystilbene stilbenetriol trans phytoalexin
+hespt,Hesperetin,polyph,eriodictyol flavanone flavanoid polyphenol poly phenol phenolic phytochemical
+narng,Naringenin,polyph,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical  colourless pigment bitter naringetol salipurol salipurpol trihydroxyflavanone
+hespd,Hesperdin,polyph,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hesperetin rutinoside flavan glycoside
+daidzn,Daidzein,polyph,formononetin isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pale yellow pigment prism dihydroxyisoflavone daidzeol isoaurostatin
+gnstein,Genistein,polyph,biochanin a isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment angiogenesis inhibitor
+epicatec,(-)-Epicatechin,polyph,epi catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant catechin
 # table 10-4
-epicategc,(-)-Epigallo catechin,,epigallo catechin epigallocatechin epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment
-epicatgc3gal,(-)-Epigallo catechin 3-gallate,,epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment egcg catechin
-catec,(+)-Catechin,,catechin catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical colorless pigment solid antioxidant cianidanol cyanidanol catechinic catechuic cianidol dexcyanidanol trans flavanpentol
-galcatecgal,(-)-Gallocatechin gallate,,gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment gcg
-galcatec,(-)-Gallocatechin,,gallocatechin gallo catechin gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant gc gallocatechol
-syrgac,Syringic acid,,trihydroxybenzoic polyphenol poly phenol phenolic phytochemical
-sinpac,Sinapinic acid,,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical
-ellgac,Ellagic acid,,dilactone hexahydroxydiphenic polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
+epicategc,(-)-Epigallo catechin,polyph,epigallo catechin epigallocatechin epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment
+epicatgc3gal,(-)-Epigallo catechin 3-gallate,polyph,epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment egcg catechin
+catec,(+)-Catechin,polyph,catechin catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical colorless pigment solid antioxidant cianidanol cyanidanol catechinic catechuic cianidol dexcyanidanol trans flavanpentol
+galcatecgal,(-)-Gallocatechin gallate,polyph,gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment gcg
+galcatec,(-)-Gallocatechin,polyph,gallocatechin gallo catechin gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant gc gallocatechol
+syrgac,Syringic acid,polyph,trihydroxybenzoic polyphenol poly phenol phenolic phytochemical
+sinpac,Sinapinic acid,polyph,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical
+ellgac,Ellagic acid,polyph,dilactone hexahydroxydiphenic polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
 polyph,Total polyphenols,,poly phenol phenolic phytochemical
 # table 11
 rafs,Raffinose,olsac,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
@@ -227,8 +227,8 @@ amiacce,Conditionally essential Amino acids,amiac,total
 amiacne,Non-essential Amino acids,amiac,total
 amiac,Total Amino acids,,total amino acid
 orgac,Organic acids,,total organic acid
-fauns,Total unsaturated Fatty acids,,good healthy fat lipid
-faess,Essential Fatty acids,,total good healthy fat lipid
+fauns,Total unsaturated Fatty acids,fatce,good healthy fat lipid
+faess,Essential Fatty acids,fatce,total good healthy fat lipid
 facn3,Cis ω-3 Fatty acids,,total ω3 w3 w 3 omega good healthy fat lipid
 facn6,Cis ω-6 Fatty acids,,total ω6 w6 w 6 omega good healthy fat lipid
 facn9,Cis ω-9 Fatty acids,,total ω9 w9 w 9 omega good healthy fat lipid
