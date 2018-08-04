@@ -19,7 +19,8 @@ function readIndex() {
     var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
     stream.on('data', r => {
       var {code, name, tops, tags} = r;
-      var {type, factor, unit} = meta.get(code)||0;
+      var {type, factor, unit} = meta.get(code);
+      console.log(code, factor);
       index.set(code, {code, name, factor, tops, tags});
     });
     stream.on('end', () => fres(index));
