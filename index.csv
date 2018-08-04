@@ -25,8 +25,8 @@ protcnt,Protein,,total essential macronutrient proximate
 ash,Ash,,total metal oxide mineral inorganic element residue proximate
 fatce,Total Fat,,triglyceride lipid blubber essential macronutrient
 fibtg,Total Dietary Fiber,,fibre roughage bulk indigestible
-fibins,Insoluble Dietary Fiber,,total fibre roughage bulk indigestible
-fibsol,Soluble Dietary Fiber,,total fibre roughage bulk indigestible
+fibins,Insoluble Dietary Fiber,fibtg,total fibre roughage bulk indigestible
+fibsol,Soluble Dietary Fiber,fibtg,total fibre roughage bulk indigestible
 choavldf,Carbohydrate,,total cho saccharide ose glucide hydrate carbon macronutrient proximate
 enerc,Energy,,total atp calorie metabolism essential proximate
 # table 2
