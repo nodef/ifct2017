@@ -134,25 +134,25 @@ cholc,Cholesterol,,total cholesterin cholesteryl alcohol zoosterol animal sterol
 # table 7-7
 # table 7-8
 # table 8-1
-his,Histidine,,h essential amino acid
-ile,Isoleucine,,i essential amino acid
-leu,Leucine,,l essential amino acid
-lys,Lysine,,k essential amino acid
-met,Methionine,,m essential amino acid
-cys,Cysteine,,c essential amino acid
-phe,Phenylalanine,,f essential amino acid
-thr,Threonine,,t essential amino acid
-trp,Tryptophan,,w essential amino acid
-val,Valine,,v essential amino acid
+his,Histidine,amiace,h essential amino acid
+ile,Isoleucine,amiace,i essential amino acid
+leu,Leucine,amiace,l essential amino acid
+lys,Lysine,amiace,k essential amino acid
+met,Methionine,amiace,m essential amino acid
+cys,Cysteine,amiacce,c essential amino acid
+phe,Phenylalanine,amiace,f essential amino acid
+thr,Threonine,amiace,t essential amino acid
+trp,Tryptophan,amiace,w essential amino acid
+val,Valine,amiace,v essential amino acid
 # table 8-2
-ala,Alanine,,a essential amino acid
-arg,Arginine,,r essential amino acid
-asp,Aspartic acid,,d essential amino acid
-glu,Glutamic acid,,e essential amino acid
-gly,Glycine,,g essential amino acid
-pro,Proline,,p essential amino acid
-ser,Serine,,s essential amino acid
-tyr,Tyrosine,,y essential amino acid
+ala,Alanine,amiacne,a essential amino acid
+arg,Arginine,amiacce,r essential amino acid
+asp,Aspartic acid,amiacne,d essential amino acid
+glu,Glutamic acid,amiacne,e essential amino acid
+gly,Glycine,amiacce,g essential amino acid
+pro,Proline,amiacce,p essential amino acid
+ser,Serine,amiacne,s essential amino acid
+tyr,Tyrosine,amiacce,y essential amino acid
 # table 9
 oxalt,Total Oxalate,orgac,ox ethanedioate oxalic organic acid
 oxals,Soluble Oxalate,oxalt,total ox sodium potassium ethanedioate oxalic organic acid
