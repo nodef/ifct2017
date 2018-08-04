@@ -154,16 +154,16 @@ pro,Proline,,p essential amino acid
 ser,Serine,,s essential amino acid
 tyr,Tyrosine,,y essential amino acid
 # table 9
-oxalt,Total Oxalate,,ox ethanedioate oxalic organic acid
-oxals,Soluble Oxalate,,total ox sodium potassium ethanedioate oxalic organic acid
-oxali,Insoluble Oxalate,,total ox calcium ethanedioate oxalic organic acid
-caconac,Cis-Aconitic acid,,achilleic equisetic citridinic pyrocitric organic acid
-citac,Citric acid,,hydroxypropane tricarboxylic organic acid
-fumac,Fumaric acid,,trans butenedioic but enedioic ethylenedicarboxylic allomaleic boletic donitic lichenic unsaturated organic acid white solid
-malac,Malic acid,,hydroxybutanedioic hydroxysuccinic unsaturated organic acid
-quinac,Quinic acid,,tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol organic acid
-sucac,Succinic acid,,butandioic dicarboxylic organic acid
-tarac,Tartaric acid,,dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric organic acid white crystalline crystal powder
+oxalt,Total Oxalate,orgac,ox ethanedioate oxalic organic acid
+oxals,Soluble Oxalate,oxalt,total ox sodium potassium ethanedioate oxalic organic acid
+oxali,Insoluble Oxalate,oxalt,total ox calcium ethanedioate oxalic organic acid
+caconac,Cis-Aconitic acid,orgac,achilleic equisetic citridinic pyrocitric organic acid
+citac,Citric acid,orgac,hydroxypropane tricarboxylic organic acid
+fumac,Fumaric acid,orgac,trans butenedioic but enedioic ethylenedicarboxylic allomaleic boletic donitic lichenic unsaturated organic acid white solid
+malac,Malic acid,orgac,hydroxybutanedioic hydroxysuccinic unsaturated organic acid
+quinac,Quinic acid,orgac,tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol organic acid
+sucac,Succinic acid,orgac,butandioic dicarboxylic organic acid
+tarac,Tartaric acid,orgac,dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric organic acid white crystalline crystal powder
 # table 10-1
 dhbenzac34,"3,,4-Dihydroxy Benzoic acid",34 dihydroxybenzoic polyphenol poly phenol phenolic phytochemical phyto
 hbenzal3,3-Hydroxy Benzaldehyde,,Hydroxybenzaldehyde aldehyde polyphenol poly phenol phenolic phytochemical phyto
