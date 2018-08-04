@@ -222,9 +222,9 @@ vitd,Total Vitamin D,vit,vitamin d
 vitk,Total Vitamin K,vit,vitamin k
 tocph,Tocopherols,,total tocopherol tcp methylated phenol vitamin e antioxidant
 toctr,Tocotrienols,,total tocotrienol vitamin e antioxidant
-amiace,Essential Amino acids,,total essential
-amiacce,Conditionally essential Amino acids,,total
-amiacne,Non-essential Amino acids,,total
+amiace,Essential Amino acids,amiac,total essential
+amiacce,Conditionally essential Amino acids,amiac,total
+amiacne,Non-essential Amino acids,amiac,total
 amiac,Total Amino acids,,total amino acid
 orgac,Organic acids,,total organic acid
 fauns,Total unsaturated Fatty acids,,good healthy fat lipid
