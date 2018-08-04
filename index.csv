@@ -19,15 +19,15 @@ lang,Local Name,colloquial trivial country farmer popular
 grup,Food Group,category class classification grouping type sort kind
 regn,No. of Regions,number
 # table 1
-water,Moisture,liquid steam vapour proximate
-protcnt,Protein,essential macronutrient proximate
+water,Moisture,total liquid steam vapour proximate
+protcnt,Protein,total essential macronutrient proximate
 ash,Ash,total metal oxide mineral inorganic element residue proximate
 fatce,Total Fat,triglyceride lipid blubber essential macronutrient
 fibtg,Total Dietary Fiber,fibre roughage bulk indigestible
-fibins,Insoluble Dietary Fiber,fibre roughage bulk indigestible
-fibsol,Soluble Dietary Fiber,fibre roughage bulk indigestible
+fibins,Insoluble Dietary Fiber,total fibre roughage bulk indigestible
+fibsol,Soluble Dietary Fiber,total fibre roughage bulk indigestible
 choavldf,Carbohydrate,total cho saccharide ose glucide hydrate carbon macronutrient proximate
-enerc,Energy,atp calorie metabolism essential proximate
+enerc,Energy,total atp calorie metabolism essential proximate
 # table 2
 thia,Thiamine (B1),thiamin aneurine vitamin b1 b 1 water soluble essential
 ribf,Riboflavin (B2),vactochrome lactoflavin vitamin b2 b 2 water soluble g essential
@@ -50,9 +50,9 @@ toctra,α-Tocotrienol,a alpha vitamin e fat soluble methylated phenol antioxidan
 toctrb,β-Tocotrienol,b beta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 toctrg,γ-Tocotrienol,g gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 toctrd,δ-Tocotrienol,d delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
-vite,α-Tocopherol equivalent,a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
-vitk1,Phylloquinones (K1),pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
-vitk2,Menaquinones (K2),mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
+vite,α-Tocopherol equivalent,total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
+vitk1,Phylloquinones (K1),total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
+vitk2,Menaquinones (K2),total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
 # table 4
 lutn,Lutein,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
 zea,Zeaxanthin,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
@@ -92,7 +92,7 @@ glus,Glucose,simple sugar blood dextrose corn grape monosaccharide white powder 
 sucs,Sucrose,common table sugar saccharose disaccharide white solid free available carbohydrate
 mals,Maltose,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
 fsugar,Total Free Sugars,added natural sugar monosaccharide disaccharide available carbohydrate
-lactose,Lactose Content,total milk sugar disaccharide white solid free available carbohydrate
+lactose,Lactose Content,milk sugar disaccharide white solid free available carbohydrate
 # table 7-1
 f4d0,Butyric acid (C4:0),c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
 f6d0,Caproic acid (C6:0),c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
