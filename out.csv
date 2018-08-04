@@ -1,3 +1,18 @@
+# Indian Food Composition Tables 2017
+# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
+#
+# Copyright  © 2017 by National Institute of Nutrition
+# Indian Council of Medical Research
+# Department of Health Research Ministry of Health and Family Welfare, Government of India
+# Jamai Osmania (PO), Hyderabad – 500 007
+# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
+#
+# COLUMN DESCRIPTIONS
+# - Column Code
+# - Column Name
+# - Ten Factor
+# - Topics
+# - Tags
 code,name,factor,tops,tags
 code,Food Code,0,,id tag legend
 name,Food Name,0,code,title label
@@ -5,6 +20,7 @@ scie,Scientific Name,0,name,binomial genus botanical
 lang,Local Name,0,name,colloquial trivial country farmer popular
 grup,Food Group,0,code,category class classification grouping type sort kind
 regn,No. of Regions,0,code,number
+# table 1
 water,Moisture,-3,,total liquid steam vapour proximate
 protcnt,Protein,0,,total essential macronutrient proximate
 ash,Ash,0,,total metal oxide mineral inorganic element residue proximate
@@ -14,6 +30,7 @@ fibins,Insoluble Dietary Fiber,0,fibtg,total fibre roughage bulk indigestible
 fibsol,Soluble Dietary Fiber,0,fibtg,total fibre roughage bulk indigestible
 choavldf,Carbohydrate,0,,total cho saccharide ose glucide hydrate carbon macronutrient proximate
 enerc,Energy,0,,total atp calorie metabolism essential proximate
+# table 2
 thia,Thiamine (B1),3,vitb,thiamin aneurine vitamin b1 b 1 water soluble essential
 ribf,Riboflavin (B2),3,vitb,vactochrome lactoflavin vitamin b2 b 2 water soluble g essential
 nia,Niacin (B3),3,vitb,nicotinic acid nicotinamide bionic vitamin b3 b 3 pp water soluble essential white translucent crystalline crystal
@@ -22,6 +39,7 @@ vitb6c,Total B6,3,vitb,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine
 biot,Biotin (B7),3,vitb,biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
 folsum,Total Folates (B9),3,vitb,pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
 vitc,Total Ascorbic acid (C),3,vit,ascorbate water soluble vitamin c vitamin c essential
+# table 3
 retol,Retinol,3,vita,vitamin a1 vitamin-a 1 fat soluble essential
 ergcal,Ergocalciferol (D2),6,vitd,calciferol viosterol vitamin d2 d 2 fat soluble essential
 chocal,Cholecalciferol (D3),6,vitd,activated dehydrocholesterol colecalciferol vitamin d3 d 3 fat soluble essential
@@ -37,6 +55,7 @@ toctrd,δ-Tocotrienol,3,toctr,d delta vitamin e fat soluble methylated phenol an
 vite,α-Tocopherol equivalent (E),3,vit,total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
 vitk1,Phylloquinones (K1),3,vitk,total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
 vitk2,Menaquinones (K2),6,vitk,total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
+# table 4
 lutn,Lutein,3,xantp,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
 zea,Zeaxanthin,3,xantp,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
 crypxb,β-Cryptoxanthin,3,xantp,b beta xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical yellow pigment vitamer provitamin vitamin vitamin-a cryptoxanthol caricaxanthin kryptoxanthin
@@ -45,6 +64,7 @@ cartg,γ-Carotene,6,carot,g gamma carotene carotenoid tetraterpenoid terpenoid i
 carta,α-Carotene,3,carot,a alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
 cartb,β-Carotene,3,carot,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
 cartoid,Total Carotenoids,3,,carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
+# table 5-1
 al,Aluminium (Al),3,mnrlnet,trace post transition metal mineral chemical element
 as,Arsenic (As),6,mnrlet,trace metalloid chemical element
 cd,Cadmium (Cd),3,mnrlnet,trace post transition metal toxic chemical element
@@ -55,6 +75,7 @@ cu,Copper (Cu),3,mnrlet,trace transition metal mineral chemical element
 fe,Iron (Fe),3,mnrlet,trace transition metal mineral chemical element
 pb,Lead (Pb),3,mnrlnet,trace heavy post transition metal toxic chemical element
 li,Lithium (Li),3,mnrlpet,trace alkali metal mineral chemical element
+# table 5-2
 mg,Magnesium (Mg),0,mnrleq,quantity alkaline earth metal mineral chemical element
 mn,Manganese (Mn),3,mnrlet,trace transition metal ineral chemical element
 hg,Mercury (Hg),6,mnrltx,trace heavy liquid post transition metal toxic chemical element
@@ -65,6 +86,7 @@ k,Potassium (K),0,mnrleq,quantity alkali metal mineral chemical element
 se,Selenium (Se),6,mnrlet,trace nonmetal mineral chemical element
 na,Sodium (Na),0,mnrleq,quantity alkali metal mineral chemical element
 zn,Zinc (Zn),3,mnrlet,trace post transition mineral chemical element
+# table 6
 cho,Total Available CHO,0,choavldf,digest absorb glucogenic carbohydrate available carbohydrate
 starch,Total Starch,0,cho,amylum polysaccharide polymeric carbohydrate available
 frus,Fructose,0,fsugar,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
@@ -73,6 +95,7 @@ sucs,Sucrose,0,fsugar,common table sugar saccharose disaccharide white solid fre
 mals,Maltose,0,fsugar,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
 fsugar,Total Free Sugars,0,cho,added natural sugar monosaccharide disaccharide available carbohydrate
 lactose,Lactose Content,0,fsugar,milk sugar disaccharide white solid free available carbohydrate
+# table 7-1
 f4d0,Butyric acid (C4:0),0,fasat,c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
 f6d0,Caproic acid (C6:0),0,fasat,c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
 f8d0,Caprylic acid (C8:0),0,fasat,c80 c 80 8 0 octanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid faint fruity irritating
@@ -106,6 +129,12 @@ fasat,Total Saturated Fatty acids (TSFA),0,fatce,fat triglyceride lipid
 fams,Total Monounsaturated Fatty acids (TMUFA),0,fauns,mono unsaturated fat triglyceride lipid
 fapu,Total Polyunsaturated Fatty acids (TPUFA),0,fauns,poly unsaturated fat triglyceride lipid
 cholc,Cholesterol,0,,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
+# table 7-4
+# table 7-5
+# table 7-6
+# table 7-7
+# table 7-8
+# table 8-1
 his,Histidine,0,amiace,h amino acid
 ile,Isoleucine,0,amiace,i amino acid
 leu,Leucine,0,amiace,l amino acid
@@ -116,6 +145,7 @@ phe,Phenylalanine,0,amiace,f amino acid
 thr,Threonine,0,amiace,t amino acid
 trp,Tryptophan,0,amiace,w amino acid
 val,Valine,0,amiace,v amino acid
+# table 8-2
 ala,Alanine,0,amiacne,a amino acid
 arg,Arginine,0,amiacce,r amino acid
 asp,Aspartic acid,0,amiacne,d amino acid
@@ -124,6 +154,7 @@ gly,Glycine,0,amiacce,g amino acid
 pro,Proline,0,amiacce,p amino acid
 ser,Serine,0,amiacne,s amino acid
 tyr,Tyrosine,0,amiacce,y amino acid
+# table 9
 oxalt,Total Oxalate,0,orgac,ox ethanedioate oxalic organic acid
 oxals,Soluble Oxalate,0,oxalt,total ox sodium potassium ethanedioate oxalic organic acid
 oxali,Insoluble Oxalate,0,oxalt,total ox calcium ethanedioate oxalic organic acid
@@ -134,6 +165,7 @@ malac,Malic acid,0,orgac,hydroxybutanedioic hydroxysuccinic unsaturated organic 
 quinac,Quinic acid,0,orgac,tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol organic acid
 sucac,Succinic acid,0,orgac,butandioic dicarboxylic organic acid
 tarac,Tartaric acid,0,orgac,dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric organic acid white crystalline crystal powder
+# table 10-1
 dhbenzac34,"3,4-Dihydroxy Benzoic acid",3,polyph,34 dihydroxybenzoic polyphenol poly phenol phenolic phytochemical phyto
 hbenzal3,3-Hydroxy Benzaldehyde,3,polyph,Hydroxybenzaldehyde aldehyde polyphenol poly phenol phenolic phytochemical phyto
 pcathac,Protocatechuic acid,3,polyph,pca protocatechuate dihydroxybenzoic dihydroxy benzoic polyphenol poly phenol phenolic phytochemical phyto light brown solid
@@ -143,6 +175,7 @@ cinmac,Cinnamic acid,3,polyph,phenylprop enoic phenylacrylic cinnamylic phenylac
 coumaco,o-Coumaric acid,3,polyph,ortho hydroxyphenyl prop enoic propenoic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
 coumacp,p-Coumaric acid,3,polyph,para hydroxyphenyl prop enoic propenoic acrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
 caffac,Caffeic acid,3,polyph,dihydroxyphenyl propenoic dihydroxy cinnamic trans caffeate cinnamate dihydroxybenzeneacrylic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto
+# table 10-2
 chlrac,Chlorogenic acid,3,polyph,cqa dihydroxycinnamoyl quinate quinic caffeoylquinate caffeoylquinic chlorogenate heriguard hydroxycinnamic aromatic trans ester polyphenol poly phenol phenolic phytochemical phyto
 ferac,Ferulic acid,3,polyph,propenoic hydroxy methoxyphenyl acrylic methoxy methoxycinnamic ferulate coniferic trans ferulic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical phyto crystalline crystal powder
 apigen,Apigenin,3,polyph,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid trihydroxyflavone apigenine chamomile apigenol spigenin versulin aglycone glycoside
@@ -153,6 +186,7 @@ kaemf,Kaempferol,3,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyp
 querce,Quercetin,3,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal powder bitter flavor sophoretin meletin quercetine xanthaurine quercetol quercitin quertine flavin meletin
 querce3bdgls,Quercetin-3-β-D-glucoside,3,polyph,3βd 3bd 3β 3b βd bd 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isoquercetin isoquercitrin isoquercitroside isoquercitin trifoliin isotrifolin isohyperoside isotrifoliin glucopyranoside
 querce3ortns,Quercetin-3-O-rutinoside,3,polyph,3o 3 flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rutin rutoside sophorin phytomelin sophorin birutan eldrin globularicitrin violaquercitrin glycoside
+# table 10-3
 querce3bgls,Quercetin-3-β-galactoside,3,polyph,3β 3b 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hyperoside hyperozide hyperasid hyperosid hyperin
 isormt,Isorhamnetin,3,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment methylquercetin isorhamnetol isorhamentin isorhamnetine rhamnetin methoxyquercetin methylated
 myrct,Myricetin,3,polyph,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment cannabiscetin myricetol myricitin
@@ -163,6 +197,7 @@ hespd,Hesperdin,3,polyph,flavanone flavonoid polyphenol poly phenol polyhydroxyp
 daidzn,Daidzein,3,polyph,formononetin isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pale yellow pigment prism dihydroxyisoflavone daidzeol isoaurostatin
 gnstein,Genistein,3,polyph,biochanin a isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment angiogenesis inhibitor
 epicatec,(-)-Epicatechin,3,polyph,epi catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant catechin
+# table 10-4
 epicategc,(-)-Epigallo catechin,3,polyph,epigallo catechin epigallocatechin epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment
 epicatgc3gal,(-)-Epigallo catechin 3-gallate,3,polyph,epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment egcg catechin
 catec,(+)-Catechin,3,polyph,catechin catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical colorless pigment solid antioxidant cianidanol cyanidanol catechinic catechuic cianidol dexcyanidanol trans flavanpentol
@@ -172,6 +207,7 @@ syrgac,Syringic acid,3,polyph,trihydroxybenzoic polyphenol poly phenol phenolic 
 sinpac,Sinapinic acid,3,polyph,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical
 ellgac,Ellagic acid,3,polyph,dilactone hexahydroxydiphenic polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
 polyph,Total polyphenols,0,,poly phenol phenolic phytochemical
+# table 11
 rafs,Raffinose,0,olsac,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
 stas,Stachyose,0,olsac,fructofuranosyl galactopyranosyl glucopyranoside tetrasaccharide oligosaccharide carbohydrate
 vers,Verbascose,0,olsac,pentasaccharide oligosaccharide carbohydrate
@@ -181,6 +217,7 @@ stgstr,Stigmasterol,3,phystr,phytosterol plant sterol phytosteroid steroid alcoh
 stostrb,β-Sitosterol,0,phystr,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
 phytac,Phytate,0,,ip6 ip 6 phytic inositol hexakisphosphate polyphosphate cyclohexane hexayl hexakis dihydrogen phosphate salt saturated cyclic acid
 sapon,Total Saponin,0,,triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
+# added columns
 vitb,Total Vitamin B,0,vit,vitamin b
 vitd,Total Vitamin D,6,vit,vitamin d
 vitk,Total Vitamin K,3,vit,vitamin k
