@@ -5,8 +5,9 @@ const os = require('os');
 var map = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
 stream.on('data', (r) => {
-  var {code, name, tops, tags} = r;
-  map.set(code, {code, name, tops, tags});
+  var {code, name, factor, tops, tags} = r;
+  factor = parseInt(factor);
+  map.set(code, {code, name, factor, tops, tags});
 });
 stream.on('end', () => {
   var z = `const CORPUS = new Map([${os.EOL}`;
