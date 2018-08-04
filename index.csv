@@ -207,10 +207,10 @@ sinpac,Sinapinic acid,,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyph
 ellgac,Ellagic acid,,dilactone hexahydroxydiphenic polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
 polyph,Total polyphenols,,poly phenol phenolic phytochemical
 # table 11
-rafs,Raffinose,,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
-stas,Stachyose,,fructofuranosyl galactopyranosyl glucopyranoside tetrasaccharide oligosaccharide carbohydrate
-vers,Verbascose,,pentasaccharide oligosaccharide carbohydrate
-ajgs,Ajugose,,hexasaccharide oligosaccharide carbohydrate
+rafs,Raffinose,olsac,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
+stas,Stachyose,olsac,fructofuranosyl galactopyranosyl glucopyranoside tetrasaccharide oligosaccharide carbohydrate
+vers,Verbascose,olsac,pentasaccharide oligosaccharide carbohydrate
+ajgs,Ajugose,olsac,hexasaccharide oligosaccharide carbohydrate
 camt,Campesterol,phystr,phytosterol plant sterol phytosteroid steroid alcohol campestanol
 stgstr,Stigmasterol,phystr,phytosterol plant sterol phytosteroid steroid alcohol unsaturated white solid wulzen anti stiffness factor
 stostrb,β-Sitosterol,phystr,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
