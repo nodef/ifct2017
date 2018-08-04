@@ -64,27 +64,27 @@ carta,α-Carotene,carot,a alpha carotene carotenoid tetraterpenoid terpenoid iso
 cartb,β-Carotene,carot,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
 cartoid,Total Carotenoids,,carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
 # table 5-1
-al,Aluminium (Al),,trace post transition metal mineral chemical element
-as,Arsenic (As),,trace metalloid chemical element
-cd,Cadmium (Cd),,trace post transition metal toxic chemical element
-ca,Calcium (Ca),,quantity alkaline earth metal mineral chemical element
-cr,Chromium (Cr),,trace transition metal mineral chemical element
-co,Cobalt (Co),,trace transition metal mineral chemical element
-cu,Copper (Cu),,trace transition metal mineral chemical element
-fe,Iron (Fe),,trace transition metal mineral chemical element
-pb,Lead (Pb),,trace heavy post transition metal toxic chemical element
-li,Lithium (Li),,trace alkali metal mineral chemical element
+al,Aluminium (Al),mnrlnet,trace post transition metal mineral chemical element
+as,Arsenic (As),mnrlet,trace metalloid chemical element
+cd,Cadmium (Cd),mnrlnet,trace post transition metal toxic chemical element
+ca,Calcium (Ca),mnrleq,quantity alkaline earth metal mineral chemical element
+cr,Chromium (Cr),mnrlet,trace transition metal mineral chemical element
+co,Cobalt (Co),mnrlet,trace transition metal mineral chemical element
+cu,Copper (Cu),mnrlet,trace transition metal mineral chemical element
+fe,Iron (Fe),mnrlet,trace transition metal mineral chemical element
+pb,Lead (Pb),mnrlnet,trace heavy post transition metal toxic chemical element
+li,Lithium (Li),mnrlpet,trace alkali metal mineral chemical element
 # table 5-2
-mg,Magnesium (Mg),,quantity alkaline earth metal mineral chemical element
-mn,Manganese (Mn),,trace transition metal ineral chemical element
-hg,Mercury (Hg),,trace heavy liquid post transition metal toxic chemical element
-mo,Molybdenum (Mo),,trace transition metal mineral chemical element
-ni,Nickel (Ni),,trace transition metal mineral chemical element
-p,Phophorus (P),,quantity nonmetal mineral chemical element
-k,Potassium (K),,quantity alkali metal mineral chemical element
-se,Selenium (Se),,trace nonmetal mineral chemical element
-na,Sodium (Na),,quantity alkali metal mineral chemical element
-zn,Zinc (Zn),,trace post transition mineral chemical element
+mg,Magnesium (Mg),mnrleq,quantity alkaline earth metal mineral chemical element
+mn,Manganese (Mn),mnrlet,trace transition metal ineral chemical element
+hg,Mercury (Hg),mnrltx,trace heavy liquid post transition metal toxic chemical element
+mo,Molybdenum (Mo),mnrlet,trace transition metal mineral chemical element
+ni,Nickel (Ni),mnrlet,trace transition metal mineral chemical element
+p,Phophorus (P),mnrleq,quantity nonmetal mineral chemical element
+k,Potassium (K),mnrleq,quantity alkali metal mineral chemical element
+se,Selenium (Se),mnrlet,trace nonmetal mineral chemical element
+na,Sodium (Na),mnrleq,quantity alkali metal mineral chemical element
+zn,Zinc (Zn),mnrlet,trace post transition mineral chemical element
 # table 6
 cho,Total Available CHO,,digest absorb glucogenic carbohydrate available carbohydrate
 starch,Total Starch,,amylum polysaccharide polymeric carbohydrate available
@@ -236,11 +236,11 @@ famscis,Cis Monounsaturated Fatty acids,,total good healthy fat lipid
 fatrn,Trans Fatty acids,, total trans bad unhealthy harmful detrimental damaging fat lipid
 olsac,Oligosaccharides,,total polymer complex saccharide
 phystr,Phytosterols,,total plant sterol stanol phytosteroid natural plant steroid
-mnrleq,Essential Quantity Minerals,,total chemical element
-mnrlet,Essential Trace Minerals,,total essential chemical element
-mnrlpet,Possibly essential Trace Minerals,,total chemical element
-mnrlnet,Non-essential Trace Minerals,,total chemical element
-mnrltx,Toxic Minerals,,total chemical element
+mnrleq,Essential Quantity Minerals,ash,total chemical element
+mnrlet,Essential Trace Minerals,ash,total essential chemical element
+mnrlpet,Possibly essential Trace Minerals,ash,total chemical element
+mnrlnet,Non-essential Trace Minerals,ash,total chemical element
+mnrltx,Toxic Minerals,ash,total chemical element
 carot,Carotenes,cartoid,total carotene carotin photosythetic orange pigment carotenoid
 xantp,Xanthophylls,cartoid,total xanthophyll phylloxanthin yellow pigment carotenoid
 cartbeq,β-Carotene equivalents,vita,total beta b carotene carotenoid provitamin previtamin a
