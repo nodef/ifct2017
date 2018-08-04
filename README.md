@@ -2,12 +2,12 @@
 
 ```javascript
 const columns = require('@ifct2017/columns');
-// columns.corpus: Map {code => {code, name, tags}}
+// columns.corpus: Map {code => {code, name, tops, tags}}
 // columns.load(): true (corpus loaded)
 // columns.sql([table], [options]): sql commands
 // columns.csv(): path to csv file
 // columns(<query>)
-// -> [{code, name, tags}] for matched columns
+// -> [{code, name, tops, tags}] for matched columns
 
 
 columns.load();
@@ -17,12 +17,14 @@ columns('vitamin c');
 columns('c-vitamin');
 // [ { code: 'vitc',
 //     name: 'Total Ascorbic acid',
+//     tops: 'vit',
 //     tags: 'ascorbate water soluble vitamin c vitamin c essential' } ]
 
 columns('what is butyric acid?');
 columns('c4:0 stands for?');
 // [ { code: 'f4d0',
 //     name: 'Butyric acid (C4:0)',
+//     tops: 'fasat',
 //     tags: 'c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor' } ]
 ```
 
