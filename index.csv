@@ -115,15 +115,15 @@ f18d1tn9,Elaidic acid (C18:1n9t),fatrn,c181n9t c 18 1n9t 1n9 1 n9t n9 n 9 t octa
 f20d1cn9,Eicosenoic acid (C20:1n9),facn9 famscis,c201n9 c201 c20 c 20 201 1n9 1 n9 n 9 gondoic eicos enoic icosenoic icos enoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
 f22d1cn9,Erucic acid (C22:1n9),facn9 famscis,c221n9 c221 c 221 22 1 n9 n 9 docos enoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid white waxy solid
 f24d1cn9,Nervonic acid (C24:1n9),facn9 famscis,c241n9 c241 c 241 24 1 n9 n 9 tetracos enoic tetracosenoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
-f18d2cn6,Linoleic acid (C18:2n6),facn6 faess,c182n6 c182 c 182 18 2 n6 n 6 octadeca dienoic octadecadienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid colorless oil
-f20d2n6,Eicosadienoic acid (C20:2),facn6,c202 c 202 20 2 eicosa icosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f22d2n6,Docosadienoic acid (C22:2),facn6,c222 c 222 22 2 docosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f18d3n3,α-Linolenic acid (C18:3n3),facn3 faess,c183n3 c183 c 183 18 3 n3 n 3 ala lna a alpha octadecatrienoic octadeca trienoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f20d3n6,Eicosatrienoic acid (C20:3n6),facn6,c203n6 c203 c 203 20 3 n6 n 6 eicosa icosa trienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f20d4n6,Arachidonic acid (C20:4n6),facn6 faess,c204n6 c204 c 204 20 4 n6 n 6 aa ara eicosatetraenoic eicosa icosa tetraenoic arachidonate omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f20d5n3,Eicosapentaenoic acid (C20:5n3),facn3 faess,c205n3 c205 c 205 20 5 n3 n 3 epa icosapentaenoic timnodonic eicosa icosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f22d5n3,Docosapentaenoic acid (C22:5n3),facn3,c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-f22d6n3,Docosahexaenoic acid (C22:6n3),facn3 faess,c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f18d2cn6,Linoleic acid (C18:2n6),facn6 faess fapu,c182n6 c182 c 182 18 2 n6 n 6 octadeca dienoic octadecadienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid colorless oil
+f20d2n6,Eicosadienoic acid (C20:2),facn6 fapu,c202 c 202 20 2 eicosa icosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d2n6,Docosadienoic acid (C22:2),facn6 fapu,c222 c 222 22 2 docosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f18d3n3,α-Linolenic acid (C18:3n3),facn3 faess fapu,c183n3 c183 c 183 18 3 n3 n 3 ala lna a alpha octadecatrienoic octadeca trienoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d3n6,Eicosatrienoic acid (C20:3n6),facn6 fapu,c203n6 c203 c 203 20 3 n6 n 6 eicosa icosa trienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d4n6,Arachidonic acid (C20:4n6),facn6 faess fapu,c204n6 c204 c 204 20 4 n6 n 6 aa ara eicosatetraenoic eicosa icosa tetraenoic arachidonate omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d5n3,Eicosapentaenoic acid (C20:5n3),facn3 faess fapu,c205n3 c205 c 205 20 5 n3 n 3 epa icosapentaenoic timnodonic eicosa icosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d5n3,Docosapentaenoic acid (C22:5n3),facn3 fapu,c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d6n3,Docosahexaenoic acid (C22:6n3),facn3 faess fapu,c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 fasat,Total Saturated Fatty acids (TSFA),,fat triglyceride lipid
 fams,Total Monounsaturated Fatty acids (TMUFA),fauns,mono unsaturated fat triglyceride lipid
 fapu,Total Polyunsaturated Fatty acids (TPUFA),fauns,poly unsaturated fat triglyceride lipid
