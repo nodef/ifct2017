@@ -30,30 +30,30 @@ fibsol,Soluble Dietary Fiber,fibtg,total fibre roughage bulk indigestible
 choavldf,Carbohydrate,,total cho saccharide ose glucide hydrate carbon macronutrient proximate
 enerc,Energy,,total atp calorie metabolism essential proximate
 # table 2
-thia,Thiamine (B1),,thiamin aneurine vitamin b1 b 1 water soluble essential
-ribf,Riboflavin (B2),,vactochrome lactoflavin vitamin b2 b 2 water soluble g essential
-nia,Niacin (B3),,nicotinic acid nicotinamide bionic vitamin b3 b 3 pp water soluble essential white translucent crystalline crystal
-pantac,Pantothenic acid (B5),,pantothenate vitamin b5 b 5 water soluble essential yellow oil colorless crystalline crystal
-vitb6c,Total B6,,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol vitamer vitamin b6 b 6 water soluble essential
-biot,Biotin (B7),,biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
-folsum,Total Folates (B9),,pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
+thia,Thiamine (B1),vitb,thiamin aneurine vitamin b1 b 1 water soluble essential
+ribf,Riboflavin (B2),vitb,vactochrome lactoflavin vitamin b2 b 2 water soluble g essential
+nia,Niacin (B3),vitb,nicotinic acid nicotinamide bionic vitamin b3 b 3 pp water soluble essential white translucent crystalline crystal
+pantac,Pantothenic acid (B5),vitb,pantothenate vitamin b5 b 5 water soluble essential yellow oil colorless crystalline crystal
+vitb6c,Total B6,vitb,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol vitamer vitamin b6 b 6 water soluble essential
+biot,Biotin (B7),vitb,biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
+folsum,Total Folates (B9),vitb,pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
 vitc,Total Ascorbic acid,,ascorbate water soluble vitamin c vitamin c essential
 # table 3
-retol,Retinol,,vitamin a1 vitamin-a 1 fat soluble essential
-ergcal,Ergocalciferol (D2),,calciferol viosterol vitamin d2 d 2 fat soluble essential
-chocal,Cholecalciferol (D3),,activated dehydrocholesterol colecalciferol vitamin d3 d 3 fat soluble essential
-doh25,25-OH-D3,,25 oh 0 calcifediol calcidiol hydroxycholecalciferol hydroxyvitamin prehormone vitamin d3 d 3 fat soluble essential
-tocpha,α-Tocopherol,,a alpha tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential yellow brown viscous liquid
-tocphb,β-Tocopherol,,b beta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
-tocphg,γ-Tocopherol,,g gamma tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
-tocphd,δ-Tocopherol,,d delta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
-toctra,α-Tocotrienol,,a alpha vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
-toctrb,β-Tocotrienol,,b beta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
-toctrg,γ-Tocotrienol,,g gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
-toctrd,δ-Tocotrienol,,d delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+retol,Retinol,vita,vitamin a1 vitamin-a 1 fat soluble essential
+ergcal,Ergocalciferol (D2),vitd,calciferol viosterol vitamin d2 d 2 fat soluble essential
+chocal,Cholecalciferol (D3),vitd,activated dehydrocholesterol colecalciferol vitamin d3 d 3 fat soluble essential
+doh25,25-OH-D3,vitd,25 oh 0 calcifediol calcidiol hydroxycholecalciferol hydroxyvitamin prehormone vitamin d3 d 3 fat soluble essential
+tocpha,α-Tocopherol,tocph,a alpha tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential yellow brown viscous liquid
+tocphb,β-Tocopherol,tocph,b beta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+tocphg,γ-Tocopherol,tocph,g gamma tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+tocphd,δ-Tocopherol,tocph,d delta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+toctra,α-Tocotrienol,toctr,a alpha vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrb,β-Tocotrienol,toctr,b beta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrg,γ-Tocotrienol,toctr,g gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrd,δ-Tocotrienol,toctr,d delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 vite,α-Tocopherol equivalent,,total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
-vitk1,Phylloquinones (K1),,total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
-vitk2,Menaquinones (K2),,total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
+vitk1,Phylloquinones (K1),vitk,total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
+vitk2,Menaquinones (K2),vitk,total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
 # table 4
 lutn,Lutein,,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
 zea,Zeaxanthin,,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
