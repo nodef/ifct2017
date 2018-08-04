@@ -95,19 +95,19 @@ mals,Maltose,fsugar,maltobiose malt sugar disaccharide white powder crystalline 
 fsugar,Total Free Sugars,cho,added natural sugar monosaccharide disaccharide available carbohydrate
 lactose,Lactose Content,fsugar,milk sugar disaccharide white solid free available carbohydrate
 # table 7-1
-f4d0,Butyric acid (C4:0),,c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
-f6d0,Caproic acid (C6:0),,c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
-f8d0,Caprylic acid (C8:0),,c80 c 80 8 0 octanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid faint fruity irritating
-f10d0,Capric acid (C10:0),,c100 c 100 10 0 decanoic carboxylic saturated fatty fat medium chain triglyceride lipid white crystals strong rancid and unpleasant
-f11d0,Undecanoic acid (C11:0),,c110 c 110 11 0 undecylic carboxylic saturated fatty fat triglyceride lipid colourless crystals distinctive unpleasant odor
-f12d0,Lauric acid (C12:0),,c120 c 120 12 0 dodecanoic dodecylic dodecoic laurostearic vulvic undecanecarboxylic duodecylic carboxylic saturated fatty fat medium chain triglyceride white powder faint odor bay oil soap
-f14d0,Myristic acid (C14:0),,c140 c 140 14 0 tetradecanoic carboxylic saturated fatty fat triglyceride lipid
-f15d0,Pentadecanoic acid (C15:0),,c150 c 150 15 0 pentadecylic carboxylic saturated fatty fat triglyceride lipid
-f16d0,Palmitic acid (C16:0),,c160 c 160 16 0 hexadecanoic carboxylic saturated fatty fat triglyceride lipid white crystals
-f18d0,Stearic acid (C18:0),,c180 c 180 18 0 octadecanoic carboxylic saturated fatty fat triglyceride lipid white solid pungent oily
-f20d0,Arachidic acid (C20:0),,c200 c 200 20 0 eicosanoic icosanoic arachic carboxylic saturated fatty fat triglyceride lipid white crystalline crystal solid
-f22d0,Behenic acid (C22:0),,c220 c 220 22 0 docosanoic docosanoate hydrofol carboxylic saturated fatty fat triglyceride lipid white yellow crystalline crystal powder
-f24d0,Lignoceric acid (C24:0),,c240 c 240 24 0 tetracosanoic carboxylic saturated fatty fat triglyceride lipid
+f4d0,Butyric acid (C4:0),fasat,c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
+f6d0,Caproic acid (C6:0),fasat,c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
+f8d0,Caprylic acid (C8:0),fasat,c80 c 80 8 0 octanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid faint fruity irritating
+f10d0,Capric acid (C10:0),fasat,c100 c 100 10 0 decanoic carboxylic saturated fatty fat medium chain triglyceride lipid white crystals strong rancid and unpleasant
+f11d0,Undecanoic acid (C11:0),fasat,c110 c 110 11 0 undecylic carboxylic saturated fatty fat triglyceride lipid colourless crystals distinctive unpleasant odor
+f12d0,Lauric acid (C12:0),fasat,c120 c 120 12 0 dodecanoic dodecylic dodecoic laurostearic vulvic undecanecarboxylic duodecylic carboxylic saturated fatty fat medium chain triglyceride white powder faint odor bay oil soap
+f14d0,Myristic acid (C14:0),fasat,c140 c 140 14 0 tetradecanoic carboxylic saturated fatty fat triglyceride lipid
+f15d0,Pentadecanoic acid (C15:0),fasat,c150 c 150 15 0 pentadecylic carboxylic saturated fatty fat triglyceride lipid
+f16d0,Palmitic acid (C16:0),fasat,c160 c 160 16 0 hexadecanoic carboxylic saturated fatty fat triglyceride lipid white crystals
+f18d0,Stearic acid (C18:0),fasat,c180 c 180 18 0 octadecanoic carboxylic saturated fatty fat triglyceride lipid white solid pungent oily
+f20d0,Arachidic acid (C20:0),fasat,c200 c 200 20 0 eicosanoic icosanoic arachic carboxylic saturated fatty fat triglyceride lipid white crystalline crystal solid
+f22d0,Behenic acid (C22:0),fasat,c220 c 220 22 0 docosanoic docosanoate hydrofol carboxylic saturated fatty fat triglyceride lipid white yellow crystalline crystal powder
+f24d0,Lignoceric acid (C24:0),fasat,c240 c 240 24 0 tetracosanoic carboxylic saturated fatty fat triglyceride lipid
 f14d1cn5,Myristoleic acid (C14:1),famscis,c141 c 141 14 1 tetradecenoic myristolenic oleomyristic omega 5 monounsaturated mono unsaturated fatty fat triglyceride lipid
 f16d1cn7,Palmitoleic acid (C16:1),famscis,c161 c 161 16 1 hexadec enoic palmitoleic hexadecenoic omega 7 monounsaturated mono unsaturated fatty fat triglyceride lipid
 f18d1cn9,Oleic acid (C18:1n9),facn9 famscis,c181n9 c181 c 181 18 1n9 1 n9 n 9 octadec enoic octadecenoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
