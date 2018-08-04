@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/columns",
-  "version": "1.2.22",
+  "version": "1.2.23",
   "description": "Columns in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -29,7 +29,7 @@
     "csv": "^3.1.0"
   },
   "dependencies": {
-    "lunr": "^2.3.0",
+    "lunr": "^2.3.1",
     "sql-extra": "^0.1.13"
   }
 }
