@@ -125,8 +125,8 @@ f20d5n3,Eicosapentaenoic acid (C20:5n3),facn3,c205n3 c205 c 205 20 5 n3 n 3 epa 
 f22d5n3,Docosapentaenoic acid (C22:5n3),facn3,c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 f22d6n3,Docosahexaenoic acid (C22:6n3),facn3,c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 fasat,Total Saturated Fatty acids (TSFA),,fat triglyceride lipid
-fams,Total Monounsaturated Fatty acids (TMUFA),,mono unsaturated fat triglyceride lipid
-fapu,Total Polyunsaturated Fatty acids (TPUFA),,poly unsaturated fat triglyceride lipid
+fams,Total Monounsaturated Fatty acids (TMUFA),fauns,mono unsaturated fat triglyceride lipid
+fapu,Total Polyunsaturated Fatty acids (TPUFA),fauns,poly unsaturated fat triglyceride lipid
 cholc,Cholesterol,,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
 # table 7-4
 # table 7-5
