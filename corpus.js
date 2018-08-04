@@ -1,4 +1,5 @@
-const CORPUS = new Map([
+(function(root) {
+var CORPUS = new Map([
   ["code", {code:"code",name:"Food Code",factor:0,tops:"",tags:"id tag legend"}],
   ["name", {code:"name",name:"Food Name",factor:0,tops:"code",tags:"title label"}],
   ["scie", {code:"scie",name:"Scientific Name",factor:0,tops:"name",tags:"binomial genus botanical"}],
@@ -211,4 +212,8 @@ const CORPUS = new Map([
   ["vita", {code:"vita",name:"Total Vitamin A",factor:3,tops:"vit",tags:"vitamin vitamin-a"}],
   ["vit", {code:"vit",name:"Total Vitamins",factor:0,tops:"",tags:"vitamin vitamin vitamin"}],
 ]);
-module.exports = CORPUS;
+if(typeof module!=='undefined' && module.exports) return module.exports = CORPUS;
+if(typeof root.ifct2017==='undefined') root.ifct2017 = {};
+if(typeof root.ifct2017.columns==='undefined') root.ifct2017.columns = {};
+root.ifct2017.columns.corpus = CORPUS;
+})(this);

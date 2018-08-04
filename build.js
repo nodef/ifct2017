@@ -10,10 +10,15 @@ stream.on('data', (r) => {
   map.set(code, {code, name, factor, tops, tags});
 });
 stream.on('end', () => {
-  var z = `const CORPUS = new Map([${os.EOL}`;
+  var z = `(function(root) {${os.EOL}`;
+  z += `var CORPUS = new Map([${os.EOL}`;
   for(var [k, v] of map)
     z += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],${os.EOL}`;
   z += `]);${os.EOL}`;
-  z += `module.exports = CORPUS;${os.EOL}`;
+  z += `if(typeof module!=='undefined' && module.exports) return module.exports = CORPUS;${os.EOL}`;
+  z += `if(typeof root.ifct2017==='undefined') root.ifct2017 = {};${os.EOL}`;
+  z += `if(typeof root.ifct2017.columns==='undefined') root.ifct2017.columns = {};${os.EOL}`;
+  z += `root.ifct2017.columns.corpus = CORPUS;${os.EOL}`;
+  z += `})(this);${os.EOL}`;
   fs.writeFileSync('corpus.js', z);
 });
