@@ -55,13 +55,13 @@ vite,α-Tocopherol equivalent (E),vit,total a alpha ate te vitamin e vitamin e f
 vitk1,Phylloquinones (K1),vitk,total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
 vitk2,Menaquinones (K2),vitk,total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
 # table 4
-lutn,Lutein,,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
-zea,Zeaxanthin,,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
-crypxb,β-Cryptoxanthin,,b beta xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical yellow pigment vitamer provitamin vitamin vitamin-a cryptoxanthol caricaxanthin kryptoxanthin
-lycpn,Lycopene,,carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical deep red orange pigment solid
-cartg,γ-Carotene,,g gamma carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
-carta,α-Carotene,,a alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
-cartb,β-Carotene,,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
+lutn,Lutein,xantp,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
+zea,Zeaxanthin,xantp,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
+crypxb,β-Cryptoxanthin,xantp,b beta xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical yellow pigment vitamer provitamin vitamin vitamin-a cryptoxanthol caricaxanthin kryptoxanthin
+lycpn,Lycopene,carot,carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical deep red orange pigment solid
+cartg,γ-Carotene,carot,g gamma carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
+carta,α-Carotene,carot,a alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
+cartb,β-Carotene,carot,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
 cartoid,Total Carotenoids,,carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
 # table 5-1
 al,Aluminium (Al),,trace post transition metal mineral chemical element
@@ -241,8 +241,8 @@ mnrlet,Essential Trace Minerals,,total essential chemical element
 mnrlpet,Possibly essential Trace Minerals,,total chemical element
 mnrlnet,Non-essential Trace Minerals,,total chemical element
 mnrltx,Toxic Minerals,,total chemical element
-carot,Carotenes,,total carotene carotin photosythetic orange pigment carotenoid
-xantp,Xanthophylls,,total xanthophyll phylloxanthin yellow pigment carotenoid
-cartbeq,β-Carotene equivalents,,total beta b carotene carotenoid provitamin previtamin a
+carot,Carotenes,cartoid,total carotene carotin photosythetic orange pigment carotenoid
+xantp,Xanthophylls,cartoid,total xanthophyll phylloxanthin yellow pigment carotenoid
+cartbeq,β-Carotene equivalents,vita,total beta b carotene carotenoid provitamin previtamin a
 vita,Total Vitamin A,vit,vitamin vitamin-a
 vit,Total Vitamins,,vitamin vitamin vitamin
