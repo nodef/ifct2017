@@ -211,9 +211,9 @@ rafs,Raffinose,,rafinosa gossypose melitose melitriose galactosylsucrose fructof
 stas,Stachyose,,fructofuranosyl galactopyranosyl glucopyranoside tetrasaccharide oligosaccharide carbohydrate
 vers,Verbascose,,pentasaccharide oligosaccharide carbohydrate
 ajgs,Ajugose,,hexasaccharide oligosaccharide carbohydrate
-camt,Campesterol,,phytosterol plant sterol phytosteroid steroid alcohol campestanol
-stgstr,Stigmasterol,,phytosterol plant sterol phytosteroid steroid alcohol unsaturated white solid wulzen anti stiffness factor
-stostrb,β-Sitosterol,,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
+camt,Campesterol,phystr,phytosterol plant sterol phytosteroid steroid alcohol campestanol
+stgstr,Stigmasterol,phystr,phytosterol plant sterol phytosteroid steroid alcohol unsaturated white solid wulzen anti stiffness factor
+stostrb,β-Sitosterol,phystr,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
 phytac,Phytate,,ip6 ip 6 phytic inositol hexakisphosphate polyphosphate cyclohexane hexayl hexakis dihydrogen phosphate salt saturated cyclic acid
 sapon,Total Saponin,,triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
 # added columns
