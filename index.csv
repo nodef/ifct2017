@@ -21,7 +21,7 @@ lang,Local Name,0,name,colloquial trivial country farmer popular
 grup,Food Group,0,code,category class classification grouping type sort kind
 regn,No. of Regions,0,code,number
 # table 1
-water,Moisture,-3,,total liquid steam vapour proximate
+water,Moisture,0,,total liquid steam vapour proximate
 protcnt,Protein,0,,total essential macronutrient proximate
 ash,Ash,0,,total metal oxide mineral inorganic element residue proximate
 fatce,Total Fat,0,,triglyceride lipid blubber essential macronutrient
@@ -223,10 +223,10 @@ vitd,Total Vitamin D,6,vit,vitamin d
 vitk,Total Vitamin K,3,vit,vitamin k
 tocph,Tocopherols,3,,total tocopherol tcp methylated phenol vitamin e antioxidant
 toctr,Tocotrienols,3,,total tocotrienol vitamin e antioxidant
-amiace,Essential Amino acids,-3,amiac,total essential
+amiace,Essential Amino acids,0,amiac,total essential
 amiacce,Conditionally essential Amino acids,0,amiac,total
-amiacne,Non-essential Amino acids,-3,amiac,total
-amiac,Total Amino acids,-3,,total amino acid
+amiacne,Non-essential Amino acids,0,amiac,total
+amiac,Total Amino acids,0,,total amino acid
 orgac,Organic acids,0,,total organic acid
 fauns,Total unsaturated Fatty acids,0,fatce,good healthy fat lipid
 faess,Essential Fatty acids,0,fatce,total good healthy fat lipid
