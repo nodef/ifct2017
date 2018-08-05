@@ -29,7 +29,7 @@ function csv() {
 };
 
 function sql(tab='columns', opt={}) {
-  return Sql.setupTable(tab, {code: 'TEXT', name: 'TEXT', factor: 'INT', tops: 'TEXT', tags: 'TEXT'}, require('./corpus').values(),
+  return Sql.setupTable(tab, {code: 'TEXT', name: 'TEXT', tags: 'TEXT'}, require('./corpus').values(),
     Object.assign({pk: 'code', index: true, tsvector: {code: 'A', name: 'B', tags: 'C'}}, opt));
 };
 
