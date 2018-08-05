@@ -1,0 +1,28 @@
+{
+  "name": "@ifct2017/representations",
+  "version": "0.0.1",
+  "description": "Representations of columns (as factors and units) in Indian Food Composition Tables 2017.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/representations.git"
+  },
+  "keywords": [
+    "ifct",
+    "2017",
+    "representations",
+    "indian",
+    "food",
+    "composition",
+    "tables"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ifct2017/representations/issues"
+  },
+  "homepage": "https://github.com/ifct2017/representations#readme"
+}
