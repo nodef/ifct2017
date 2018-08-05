@@ -21,7 +21,7 @@ function setupIndex() {
     this.pipeline.remove(lunr.stopWordFilter);
     for(var {code, name, tags} of corpus.values()) {
       name = name.replace(/\W/g, ' ');
-      this.add({code, name: name+name, tags});
+      this.add({code: code+' '+code, name: name+' '+name, tags});
     }
   });
 };
