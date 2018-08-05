@@ -1,8 +1,10 @@
+const compositions = require('@ifct2017/compositions');
+const deepEqual = require('deep-equal');
 const fs = require('fs');
 const os = require('os');
-const compositions = require('./');
 
 
+// global variables
 const IGNORE = new Set(['code', 'name', 'scie', 'lang', 'grup', 'regn', 'tags']);
 const UNIT = new Map([
   [0, 'g'],
@@ -10,14 +12,26 @@ const UNIT = new Map([
   [6, 'ug'],
   [9, 'ng'],
 ]);
+var representations = new Map();
+var values = [];
 
+
+function arrayIndexOf(arr, val) {
+  for(var i=0, I=arr.length; i<I; i++)
+    if(deepEqual(arr[i], val)) return i;
+  return -1;
+};
+function imapSet(map, arr, key, val) {
+  var i = arrayIndexOf(arr, val);
+  if(i<0) arr[i=arr.length] = val;
+  map.set(key, i);
+};
 
 function getType(k) {
   if(k==='regn') return 'INT';
   if(IGNORE.has(k)) return 'TEXT';
   return 'REAL';
 };
-
 function getFactor(map, k) {
   if(IGNORE.has(k)) return 0;
   if(k==='enerc') return 0;
@@ -27,26 +41,45 @@ function getFactor(map, k) {
   if(!n) return 0;
   return -3*Math.round(Math.log(s/n)/Math.log(1000));
 };
-
 function getUnit(k, f) {
   if(IGNORE.has(k)) return null;
   if(k==='enerc') return 'kJ';
   return UNIT.get(f);
 };
 
+function writeIndex(map, arr) {
+  var z = `code,type,factor,unit${os.EOL}`;
+  for(var [code, i] of map) {
+    var {type, factor, unit} = arr[i];
+    z += `${code},${type},${factor},${unit}${os.EOL}`;
+  }
+  fs.writeFileSync('index.csv', z);
+};
+function writeCorpus(map, arr) {
+  var z = '';
+  for(var i=0, I=arr.length; i<I; i++)
+    z += `const I${i} = ${JSON.stringify(arr[i]).replace(/\"(\w+)\":/g, '$1:')};${os.EOL}`;
+  z += `const CORPUS = new Map([${os.EOL}`;
+  for(var [code, i] of map)
+    z += `  ["${code}", I${i}],${os.EOL}`;
+  z += `]);${os.EOL}`;
+  z += `module.exports = CORPUS;${os.EOL}`;
+  fs.writeFileSync('corpus.js', z);
+};
+
 async function main() {
   await compositions.load();
   var map = compositions.corpus;
   var cols = Object.keys(map.get('A001'));
-  var z = `code,type,fact,unit${os.EOL}`;
   for(var c of cols) {
     if(c.endsWith('_e')) continue;
     var code = c;
     var type = getType(c);
-    var fact = getFactor(map, c);
-    var unit = getUnit(c, fact)||'';
-    z += `${code},${type},${fact},${unit}${os.EOL}`;
+    var factor = getFactor(map, c);
+    var unit = getUnit(c, factor)||'';
+    imapSet(representations, values, code, {type, factor, unit});
   }
-  fs.writeFileSync('meta.csv', z);
+  writeIndex(representations, values);
+  writeCorpus(representations, values);
 };
 main();
