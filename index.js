@@ -17,7 +17,7 @@ function csv() {
 
 function sql(tab='representations', opt={}) {
   return Sql.setupTable(tab, {code: 'TEXT', type: 'TEXT', factor: 'REAL', unit: 'TEXT'},
-    require('./corpus').values(), Object.assign({pk: 'code', index: true, tsvector: {code: 'A'}}, opt));
+    require('./corpus').values(), Object.assign({pk: 'code', index: true, tsvector: {code: 'A', type: 'B', unit: 'C'}}, opt));
 };
 
 function load() {
@@ -26,14 +26,14 @@ function load() {
   return ready = true;
 };
 
-function intakes(txt) {
+function representations(txt) {
   if(!ready) return null;
   var mats = columns(txt);
   if(mats.length===0) return null;
   return corpus.get(mats[0].code)||null;
 };
-intakes.csv = csv;
-intakes.sql = sql;
-intakes.load = load;
-intakes.corpus = corpus;
-module.exports = intakes;
+representations.csv = csv;
+representations.sql = sql;
+representations.load = load;
+representations.corpus = corpus;
+module.exports = representations;
