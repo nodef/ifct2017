@@ -1,2 +1,39 @@
-# representations
-Representations of columns (as factors and units) in Indian Food Composition Tables 2017.
+[Representations] of columns (as factors and units) in [Indian Food Composition Tables 2017].
+
+```javascript
+const representations = require('@ifct2017/representations');
+// representations.corpus: Map {column_code => {type, factor, unit}}
+// representations.load(): true (corpus loaded)
+// representations.sql([table], [options]): sql commands
+// representations.csv(): path to csv file
+// representations(<query>)
+// -> {type, factor, unit} if found, null otherwise
+
+
+representations.load();
+/* load corpus first */
+
+representations('his');
+representations('Histidine');
+// { type: 'REAL', factor: 1, unit: 'g' }
+
+representations('representation of vitamin d?');
+representations('what is unit of cholecalciferol?');
+// { type: 'REAL', factor: 1000000, unit: 'ug' }
+
+
+// ->
+// type:   Column SQL datatype
+// factor: Multiplication factor for representation
+// unit:   Unit for representation
+```
+
+
+[![ifct2017](http://ninindia.org/images/ifct_2017.png)](https://www.npmjs.com/package/ifct2017)
+> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+
+[Indian Food Composition Tables 2017]: http://ifct2017.com/
+[Representations]: https://github.com/ifct2017/representations/tree/master/index.csv
+[ifct2017.github.io]: https://ifct2017.github.io
+[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
