@@ -1,0 +1,263 @@
+# Indian Food Composition Tables 2017
+# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
+#
+# Copyright  © 2017 by National Institute of Nutrition
+# Indian Council of Medical Research
+# Department of Health Research Ministry of Health and Family Welfare, Government of India
+# Jamai Osmania (PO), Hyderabad – 500 007
+# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
+#
+# COLUMN DESCRIPTIONS
+# - Column Code
+# - Parent
+code,parent
+code,
+name,code
+scie,name
+lang,name
+grup,code
+regn,code
+#
+# TABLE 1
+water,
+protcnt,
+ash,
+fatce,
+fibtg,
+fibins,fibtg
+fibsol,fibtg
+choavldf,
+enerc,
+#
+# TABLE 2
+thia,vitb
+ribf,vitb
+nia,vitb
+pantac,vitb
+vitb6c,vitb
+biot,vitb
+folsum,vitb
+vitc,vit
+#
+# TABLE 3
+retol,vita
+ergcal,vitd
+chocal,vitd
+doh25,vitd
+tocpha,tocph
+tocphb,tocph
+tocphg,tocph
+tocphd,tocph
+toctra,toctr
+toctrb,toctr
+toctrg,toctr
+toctrd,toctr
+vite,vit
+vitk1,vitk
+vitk2,vitk
+#
+# TABLE 4
+lutn,xantp
+zea,xantp
+crypxb,xantp
+lycpn,carot
+cartg,carot
+carta,carot
+cartb,carot
+cartoid,
+#
+# TABLE 5-1
+al,mnrlnet
+as,mnrlet
+cd,mnrlnet
+ca,mnrleq
+cr,mnrlet
+co,mnrlet
+cu,mnrlet
+fe,mnrlet
+pb,mnrlnet
+li,mnrlpet
+#
+# TABLE 5-2
+mg,mnrleq
+mn,mnrlet
+hg,mnrltx
+mo,mnrlet
+ni,mnrlet
+p,mnrleq
+k,mnrleq
+se,mnrlet
+na,mnrleq
+zn,mnrlet
+#
+# TABLE 6
+cho,choavldf
+starch,cho
+frus,fsugar
+glus,fsugar
+sucs,fsugar
+mals,fsugar
+fsugar,cho
+lactose,fsugar
+#
+# TABLE 7-1
+f4d0,fasat
+f6d0,fasat
+f8d0,fasat
+f10d0,fasat
+f11d0,fasat
+f12d0,fasat
+f14d0,fasat
+f15d0,fasat
+f16d0,fasat
+f18d0,fasat
+f20d0,fasat
+f22d0,fasat
+f24d0,fasat
+f14d1cn5,famscis
+f16d1cn7,famscis
+f18d1cn9,facn9 famscis
+f18d1tn9,fatrn
+f20d1cn9,facn9 famscis
+f22d1cn9,facn9 famscis
+f24d1cn9,facn9 famscis
+f18d2cn6,facn6 faess fapu
+f20d2n6,facn6 fapu
+f22d2n6,facn6 fapu
+f18d3n3,facn3 faess fapu
+f20d3n6,facn6 fapu
+f20d4n6,facn6 faess fapu
+f20d5n3,facn3 faess fapu
+f22d5n3,facn3 fapu
+f22d6n3,facn3 faess fapu
+fasat,fatce
+fams,fauns
+fapu,fauns
+cholc,
+#
+# TABLE 7-4
+# TABLE 7-5
+# TABLE 7-6
+# TABLE 7-7
+# TABLE 7-8
+# TABLE 8-1
+his,amiace
+ile,amiace
+leu,amiace
+lys,amiace
+met,amiace
+cys,amiacce
+phe,amiace
+thr,amiace
+trp,amiace
+val,amiace
+#
+# TABLE 8-2
+ala,amiacne
+arg,amiacce
+asp,amiacne
+glu,amiacne
+gly,amiacce
+pro,amiacce
+ser,amiacne
+tyr,amiacce
+#
+# TABLE 9
+oxalt,orgac
+oxals,oxalt
+oxali,oxalt
+caconac,orgac
+citac,orgac
+fumac,orgac
+malac,orgac
+quinac,orgac
+sucac,orgac
+tarac,orgac
+#
+# TABLE 10-1
+dhbenzac34,3
+hbenzal3,polyph
+pcathac,polyph
+vanlac,polyph
+gallac,polyph
+cinmac,polyph
+coumaco,polyph
+coumacp,polyph
+caffac,polyph
+#
+# TABLE 10-2
+chlrac,polyph
+ferac,polyph
+apigen,polyph
+apigen6cgls,polyph
+apigen7onshps,polyph
+luteol,polyph
+kaemf,polyph
+querce,polyph
+querce3bdgls,polyph
+querce3ortns,polyph
+#
+# TABLE 10-3
+querce3bgls,polyph
+isormt,polyph
+myrct,polyph
+rsvrtol,polyph
+hespt,polyph
+narng,polyph
+hespd,polyph
+daidzn,polyph
+gnstein,polyph
+epicatec,polyph
+#
+# TABLE 10-4
+epicategc,polyph
+epicatgc3gal,polyph
+catec,polyph
+galcatecgal,polyph
+galcatec,polyph
+syrgac,polyph
+sinpac,polyph
+ellgac,polyph
+polyph,
+#
+# TABLE 11
+rafs,olsac
+stas,olsac
+vers,olsac
+ajgs,olsac
+camt,phystr
+stgstr,phystr
+stostrb,phystr
+phytac,
+sapon,
+#
+# TABLE ADDED
+vitb,vit
+vitd,vit
+vitk,vit
+tocph,
+toctr,
+amiace,amiac
+amiacce,amiac
+amiacne,amiac
+amiac,
+orgac,
+fauns,fatce
+faess,fatce
+facn3,
+facn6,
+facn9,
+famscis,fams
+fatrn,fams
+olsac,cho
+phystr,
+mnrleq,ash
+mnrlet,ash
+mnrlpet,ash
+mnrlnet,ash
+mnrltx,ash
+carot,cartoid
+xantp,cartoid
+cartbeq,vita
+vita,vit
+vit,
