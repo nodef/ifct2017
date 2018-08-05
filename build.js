@@ -7,10 +7,10 @@ const os = require('os');
 // global variables
 const IGNORE = new Set(['code', 'name', 'scie', 'lang', 'grup', 'regn', 'tags']);
 const UNIT = new Map([
-  [0, 'g'],
-  [3, 'mg'],
-  [6, 'ug'],
-  [9, 'ng'],
+  [1, 'g'],
+  [1e+3, 'mg'],
+  [1e+6, 'ug'],
+  [1e+9, 'ng'],
 ]);
 var representations = new Map();
 var values = [];
@@ -33,13 +33,16 @@ function getType(k) {
   return 'REAL';
 };
 function getFactor(map, k) {
+  if(k==='regn') return 1;
   if(IGNORE.has(k)) return 0;
-  if(k==='enerc') return 0;
+  if(k==='enerc') return 1;
   var n = 0, s = 0;
   for(var r of map.values())
     if(r[k]>0) { s += r[k]; n++; }
   if(!n) return 0;
-  return -3*Math.round(Math.log(s/n)/Math.log(1000));
+  var l3 = Math.log(s/n)/Math.log(1000);
+  var e = -3*Math.round(l3-0.33);
+  return Math.pow(10, Math.max(e, 0));
 };
 function getUnit(k, f) {
   if(IGNORE.has(k)) return null;
@@ -75,7 +78,7 @@ async function main() {
     if(c.endsWith('_e')) continue;
     var code = c;
     var type = getType(c);
-    var factor = Math.max(getFactor(map, c), 0);
+    var factor = getFactor(map, c);
     var unit = getUnit(c, factor)||'';
     imapSet(representations, values, code, {type, factor, unit});
   }
