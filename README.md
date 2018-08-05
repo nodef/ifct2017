@@ -2,12 +2,12 @@
 
 ```javascript
 const intakes = require('@ifct2017/intakes');
-// intakes.corpus: Map {code => description}
+// intakes.corpus: Map {column_code => {whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan}}
 // intakes.load(): true (corpus loaded)
 // intakes.sql([table], [options]): sql commands
 // intakes.csv(): path to csv file
 // intakes(<query>)
-// -> {code, whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan} if found, null otherwise
+// -> {whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan} if found, null otherwise
 
 
 intakes.load();
@@ -15,8 +15,7 @@ intakes.load();
 
 intakes('his');
 intakes('Histidine');
-// { code: 'his',
-//   whorda: -0.01,
+// { whorda: -0.01,
 //   usear: null,
 //   usrdam: -0.014,
 //   usrdaf: null,
@@ -29,8 +28,7 @@ intakes('Histidine');
 
 intakes('intake of total fibre?');
 intakes('what is rda of total fiber?');
-// { code: 'fibtg',
-//   whorda: null,
+// { whorda: null,
 //   usear: null,
 //   usrdam: 38,
 //   usrdaf: 25,
@@ -42,7 +40,6 @@ intakes('what is rda of total fiber?');
 
 
 // ->
-// code:   Column code
 // whorda: WHO Recommended Dietary Allowance
 // usear:  US Estimated Average Requirement
 // usrdam: US Recommended Dietary Allowance (Male)
