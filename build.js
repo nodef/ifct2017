@@ -12,7 +12,7 @@ function readAsset() {
     var stream = fs.createReadStream('asset.csv').pipe(parse({columns: true, comment: '#'}));
     stream.on('data', r => {
       var {code, parents} = r;
-      parents = new Set(parents.split(' '));
+      parents = parents? new Set(parents.split(' ')):new Set();
       asset.set(code, {code, parents});
     });
     stream.on('end', () => fres(asset));
@@ -39,13 +39,15 @@ function getChildren(cod) {
 };
 
 function updateAsset() {
+  var z = new Map();
   for(var r of asset.values()) {
     var {code, parents} = r;
     parents = Array.from(parents).join(' ');
     var ancestry = Array.from(getAncestry(code)).join(' ');
     var children = Array.from(getChildren(code)).join(' ');
-    asset.set(code, {code, parents, ancestry, children});
+    z.set(code, {code, parents, ancestry, children});
   }
+  asset = z;
 };
 
 function writeIndex() {
