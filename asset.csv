@@ -9,8 +9,8 @@
 #
 # COLUMN DESCRIPTIONS
 # - Column Code
-# - Parent
-code,parent
+# - Parents
+code,parents
 code,
 name,code
 scie,name
