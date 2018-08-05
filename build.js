@@ -75,7 +75,7 @@ async function main() {
     if(c.endsWith('_e')) continue;
     var code = c;
     var type = getType(c);
-    var factor = getFactor(map, c);
+    var factor = Math.max(getFactor(map, c), 0);
     var unit = getUnit(c, factor)||'';
     imapSet(representations, values, code, {type, factor, unit});
   }
