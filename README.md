@@ -2,12 +2,12 @@
 
 ```javascript
 const hierarchy = require('@ifct2017/hierarchy');
-// hierarchy.corpus: Map {column_code => {code, parents, ancestry, children}}
+// hierarchy.corpus: Map {column_code => {parents, ancestry, children}}
 // hierarchy.load(): true (corpus loaded)
 // hierarchy.sql([table], [options]): sql commands
 // hierarchy.csv(): path to csv file
 // hierarchy(<query>)
-// -> {code, parents, ancestry, children} if matched, null otherwise
+// -> {parents, ancestry, children} if matched, null otherwise
 
 
 hierarchy.load();
@@ -15,15 +15,11 @@ hierarchy.load();
 
 hierarchy('soluble oxalic acid');
 hierarchy('Soluble Oxalic Acid');
-// { code: 'oxals',
-//   parents: 'oxalt',
-//   ancestry: 'orgac',
-//   children: '' }
+// { parents: 'oxalt', ancestry: 'oxalt orgac', children: '' }
 
 hierarchy('what is hierarchy of total saturated fat?');
 hierarchy('who are children of total saturated fat?');
-// { code: 'fasat',
-//   parents: 'fatce',
+// { parents: 'fatce',
 //   ancestry: 'fatce',
 //   children:
 //    'f4d0 f6d0 f8d0 f10d0 f11d0 f12d0 f14d0 f15d0 f16d0 f18d0 f20d0 f22d0 f24d0' }
