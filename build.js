@@ -1,6 +1,6 @@
 const columns = require('@ifct2017/columns');
+const parse = require('csv-parse');
 const lunr = require('lunr');
-const csv = require('csv');
 const fs = require('fs');
 const os = require('os');
 
@@ -74,7 +74,7 @@ function createMap(idx) {
 
 columns.load();
 var array = [], mapping = new Map();
-var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+var stream = fs.createReadStream('index.csv').pipe(parse({columns: true, comment: '#'}));
 stream.on('data', (r) => {
   mapping.set(r.analyte, array.length);
   array.push(r);
