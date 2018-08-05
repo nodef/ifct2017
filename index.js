@@ -15,14 +15,12 @@ function loadCorpus() {
 function setupIndex() {
   index = lunr(function() {
     this.ref('code');
-    this.field('code');
-    this.field('name');
+    this.field('code', {boost: 3});
+    this.field('name', {boost: 2});
     this.field('tags');
     this.pipeline.remove(lunr.stopWordFilter);
-    for(var {code, name, tags} of corpus.values()) {
-      name = name.replace(/\W/g, ' ');
-      this.add({code: code+' '+code, name: name+' '+name, tags});
-    }
+    for(var {code, name, tags} of corpus.values())
+      this.add({code, name: name.replace(/\W/g, ' '), tags});
   });
 };
 
