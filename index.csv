@@ -1,20 +1,47 @@
 code,parents,ancestry,children
-code,,,name grup regn
-name,code,code,scie lang
-scie,name,name code,
-lang,name,name code,
-grup,code,code,
-regn,code,code,
+code,,,
+name,,,scie lang
+grup,,,
+regn,,,
 tags,,,
+scie,name,name,
+lang,name,name,
+enerc,,,
 water,,,
-protcnt,,,
 ash,,,mnrleq mnrlet mnrlpet mnrlnet mnrltx
-fatce,,,fasat fauns faess
+vit,,,vita vitb vitc vitd vite vitk
+fatce,,,fasat fauns faess famscis fatrn
+cholc,,,
 fibtg,,,fibins fibsol
+choavldf,,,cho
+protcnt,,,
+amiac,,,amiace amiacce amiacne
+cartoid,,,carot xantp
+polyph,,,dhbenzac34 hbenzal3 pcathac vanlac gallac cinmac coumaco coumacp caffac chlrac ferac apigen apigen6cgls apigen7onshps luteol kaemf querce querce3bdgls querce3ortns querce3bgls isormt myrct rsvrtol hespt narng hespd daidzn gnstein epicatec epicategc epicatgc3gal catec galcatecgal galcatec syrgac sinpac ellgac
+phystr,,,camt stgstr stostrb
+tocph,,,tocpha tocphb tocphg tocphd
+toctr,,,toctra toctrb toctrg toctrd
+orgac,,,oxalt caconac citac fumac malac quinac sucac tarac
+phytac,,,
+sapon,,,
+mnrleq,ash,ash,ca mg p k na
+mnrlet,ash,ash,as cr co cu fe mn mo ni se zn
+mnrlpet,ash,ash,li
+mnrlnet,ash,ash,al cd pb
+mnrltx,ash,ash,hg
+vita,vit,vit,retol cartbeq
+vitb,vit,vit,thia ribf nia pantac vitb6c biot folsum
+vitc,vit,vit,
+vitd,vit,vit,ergcal chocal doh25
+vite,vit,vit,
+vitk,vit,vit,vitk1 vitk2
+fasat,fatce,fatce,f4d0 f6d0 f8d0 f10d0 f11d0 f12d0 f14d0 f15d0 f16d0 f18d0 f20d0 f22d0 f24d0
+fauns,fatce,fatce,fams fapu
+faess,fatce,fatce,f18d2cn6 f18d3n3 f20d4n6 f20d5n3 f22d6n3
+famscis,fatce,fatce,f14d1cn5 f16d1cn7 f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
+fatrn,fatce,fatce,f18d1tn9
 fibins,fibtg,fibtg,
 fibsol,fibtg,fibtg,
-choavldf,,,cho
-enerc,,,
 thia,vitb,vitb vit,
 ribf,vitb,vitb vit,
 nia,vitb,vitb vit,
@@ -22,7 +49,6 @@ pantac,vitb,vitb vit,
 vitb6c,vitb,vitb vit,
 biot,vitb,vitb vit,
 folsum,vitb,vitb vit,
-vitc,vit,vit,
 retol,vita,vita vit,
 ergcal,vitd,vitd vit,
 chocal,vitd,vitd vit,
@@ -35,7 +61,6 @@ toctra,toctr,toctr,
 toctrb,toctr,toctr,
 toctrg,toctr,toctr,
 toctrd,toctr,toctr,
-vite,vit,vit,
 vitk1,vitk,vitk vit,
 vitk2,vitk,vitk vit,
 lutn,xantp,xantp cartoid,
@@ -45,7 +70,6 @@ lycpn,carot,carot cartoid,
 cartg,carot,carot cartoid,
 carta,carot,carot cartoid,
 cartb,carot,carot cartoid,
-cartoid,,,carot xantp
 al,mnrlnet,mnrlnet ash,
 as,mnrlet,mnrlet ash,
 cd,mnrlnet,mnrlnet ash,
@@ -66,8 +90,9 @@ k,mnrleq,mnrleq ash,
 se,mnrlet,mnrlet ash,
 na,mnrleq,mnrleq ash,
 zn,mnrlet,mnrlet ash,
-cho,choavldf,choavldf,starch fsugar olsac
+cho,choavldf,choavldf,starch olsac fsugar
 starch,cho,cho choavldf,
+olsac,cho,cho choavldf,rafs stas vers ajgs
 frus,fsugar,fsugar cho choavldf,
 glus,fsugar,fsugar cho choavldf,
 sucs,fsugar,fsugar cho choavldf,
@@ -87,13 +112,13 @@ f18d0,fasat,fasat fatce,
 f20d0,fasat,fasat fatce,
 f22d0,fasat,fasat fatce,
 f24d0,fasat,fasat fatce,
-f14d1cn5,famscis,famscis fams fauns fatce,
-f16d1cn7,famscis,famscis fams fauns fatce,
-f18d1cn9,facn9 famscis,facn9 famscis fams fauns fatce,
-f18d1tn9,fatrn,fatrn fams fauns fatce,
-f20d1cn9,facn9 famscis,facn9 famscis fams fauns fatce,
-f22d1cn9,facn9 famscis,facn9 famscis fams fauns fatce,
-f24d1cn9,facn9 famscis,facn9 famscis fams fauns fatce,
+f14d1cn5,famscis,famscis fatce,
+f16d1cn7,famscis,famscis fatce,
+f18d1cn9,facn9 famscis,facn9 famscis fatce,
+f18d1tn9,fatrn,fatrn fatce,
+f20d1cn9,facn9 famscis,facn9 famscis fatce,
+f22d1cn9,facn9 famscis,facn9 famscis fatce,
+f24d1cn9,facn9 famscis,facn9 famscis fatce,
 f18d2cn6,facn6 faess fapu,facn6 faess fatce fapu fauns,
 f20d2n6,facn6 fapu,facn6 fapu fauns fatce,
 f22d2n6,facn6 fapu,facn6 fapu fauns fatce,
@@ -103,10 +128,8 @@ f20d4n6,facn6 faess fapu,facn6 faess fatce fapu fauns,
 f20d5n3,facn3 faess fapu,facn3 faess fatce fapu fauns,
 f22d5n3,facn3 fapu,facn3 fapu fauns fatce,
 f22d6n3,facn3 faess fapu,facn3 faess fatce fapu fauns,
-fasat,fatce,fatce,f4d0 f6d0 f8d0 f10d0 f11d0 f12d0 f14d0 f15d0 f16d0 f18d0 f20d0 f22d0 f24d0
-fams,fauns,fauns fatce,famscis fatrn
+fams,fauns,fauns fatce,
 fapu,fauns,fauns fatce,f18d2cn6 f20d2n6 f22d2n6 f18d3n3 f20d3n6 f20d4n6 f20d5n3 f22d5n3 f22d6n3
-cholc,,,
 his,amiace,amiace amiac,
 ile,amiace,amiace amiac,
 leu,amiace,amiace amiac,
@@ -172,7 +195,6 @@ galcatec,polyph,polyph,
 syrgac,polyph,polyph,
 sinpac,polyph,polyph,
 ellgac,polyph,polyph,
-polyph,,,dhbenzac34 hbenzal3 pcathac vanlac gallac cinmac coumaco coumacp caffac chlrac ferac apigen apigen6cgls apigen7onshps luteol kaemf querce querce3bdgls querce3ortns querce3bgls isormt myrct rsvrtol hespt narng hespd daidzn gnstein epicatec epicategc epicatgc3gal catec galcatecgal galcatec syrgac sinpac ellgac
 rafs,olsac,olsac cho choavldf,
 stas,olsac,olsac cho choavldf,
 vers,olsac,olsac cho choavldf,
@@ -180,34 +202,12 @@ ajgs,olsac,olsac cho choavldf,
 camt,phystr,phystr,
 stgstr,phystr,phystr,
 stostrb,phystr,phystr,
-phytac,,,
-sapon,,,
-vitb,vit,vit,thia ribf nia pantac vitb6c biot folsum
-vitd,vit,vit,ergcal chocal doh25
-vitk,vit,vit,vitk1 vitk2
-tocph,,,tocpha tocphb tocphg tocphd
-toctr,,,toctra toctrb toctrg toctrd
 amiace,amiac,amiac,his ile leu lys met phe thr trp val
 amiacce,amiac,amiac,cys arg gly pro tyr
 amiacne,amiac,amiac,ala asp glu ser
-amiac,,,amiace amiacce amiacne
-orgac,,,oxalt caconac citac fumac malac quinac sucac tarac
-fauns,fatce,fatce,fams fapu
-faess,fatce,fatce,f18d2cn6 f18d3n3 f20d4n6 f20d5n3 f22d6n3
 facn3,,,f18d3n3 f20d5n3 f22d5n3 f22d6n3
 facn6,,,f18d2cn6 f20d2n6 f22d2n6 f20d3n6 f20d4n6
 facn9,,,f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
-famscis,fams,fams fauns fatce,f14d1cn5 f16d1cn7 f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
-fatrn,fams,fams fauns fatce,f18d1tn9
-olsac,cho,cho choavldf,rafs stas vers ajgs
-phystr,,,camt stgstr stostrb
-mnrleq,ash,ash,ca mg p k na
-mnrlet,ash,ash,as cr co cu fe mn mo ni se zn
-mnrlpet,ash,ash,li
-mnrlnet,ash,ash,al cd pb
-mnrltx,ash,ash,hg
 carot,cartoid,cartoid,lycpn cartg carta cartb
 xantp,cartoid,cartoid,lutn zea crypxb
 cartbeq,vita,vita vit,
-vita,vit,vit,retol cartbeq
-vit,,,vitc vite vitb vitd vitk vita

@@ -38,15 +38,24 @@ toctr,
 orgac,
 phytac,
 sapon,
-
-fibins,fibtg
-fibsol,fibtg
+mnrleq,ash
+mnrlet,ash
+mnrlpet,ash
+mnrlnet,ash
+mnrltx,ash
 vita,vit
 vitb,vit
 vitc,vit
 vitd,vit
 vite,vit
 vitk,vit
+fasat,fatce
+fauns,fatce
+faess,fatce
+famscis,fatce
+fatrn,fatce
+fibins,fibtg
+fibsol,fibtg
 #
 # TABLE 2
 thia,vitb
@@ -109,6 +118,7 @@ zn,mnrlet
 # TABLE 6
 cho,choavldf
 starch,cho
+olsac,cho
 frus,fsugar
 glus,fsugar
 sucs,fsugar
@@ -146,7 +156,6 @@ f20d4n6,facn6 faess fapu
 f20d5n3,facn3 faess fapu
 f22d5n3,facn3 fapu
 f22d6n3,facn3 faess fapu
-fasat,fatce
 fams,fauns
 fapu,fauns
 #
@@ -247,19 +256,9 @@ stostrb,phystr
 amiace,amiac
 amiacce,amiac
 amiacne,amiac
-fauns,fatce
-faess,fatce
 facn3,
 facn6,
 facn9,
-famscis,fams
-fatrn,fams
-olsac,cho
-mnrleq,ash
-mnrlet,ash
-mnrlpet,ash
-mnrlnet,ash
-mnrltx,ash
 carot,cartoid
 xantp,cartoid
 cartbeq,vita
