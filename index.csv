@@ -29,7 +29,7 @@ fibtg,Dietary Fiber,fibre roughage bulk indigestible
 fibins,Insoluble Dietary Fiber,total fibre roughage bulk indigestible
 fibsol,Soluble Dietary Fiber,total fibre roughage bulk indigestible
 choavldf,Carbohydrate,total cho saccharide ose glucide hydrate carbon macronutrient proximate
-enerc,Energy,total atp calorie metabolism essential proximate
+enerc,Energy,total atp calorie metabolism essential proximate kj kilojoule kilo joule
 #
 # TABLE 2
 thia,Thiamine (B1),thiamin aneurine vitamin b1 b 1 water soluble essential
@@ -39,7 +39,7 @@ pantac,Pantothenic acid (B5),pantothenate vitamin b5 b 5 water soluble essential
 vitb6c,Total B6,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol vitamer vitamin b6 b 6 water soluble essential
 biot,Biotin (B7),biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
 folsum,Folates (B9),pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
-vitc,Ascorbic acids (C),ascorbate water soluble vitamin c vitamin c essential
+vitc,Ascorbic acids (C),total ascorbate water soluble vitamin c vitamin c essential
 #
 # TABLE 3
 retol,Retinol,vitamin a1 vitamin-a 1 fat soluble essential
@@ -66,7 +66,7 @@ lycpn,Lycopene,carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochem
 cartg,γ-Carotene,g gamma carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
 carta,α-Carotene,a alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
 cartb,β-Carotene,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
-cartoid,Carotenoids,carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
+cartoid,Carotenoids,total carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
 #
 # TABLE 5-1
 al,Aluminium (Al),trace post transition metal mineral chemical element
@@ -93,14 +93,14 @@ na,Sodium (Na),quantity alkali metal mineral chemical element
 zn,Zinc (Zn),trace post transition mineral chemical element
 #
 # TABLE 6
-cho,Available CHO,digest absorb glucogenic carbohydrate available carbohydrate
-starch,Starch,amylum polysaccharide polymeric carbohydrate available
+cho,Available CHO,total digest absorb glucogenic carbohydrate available carbohydrate
+starch,Starch,total amylum polysaccharide polymeric carbohydrate available
 frus,Fructose,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
 glus,Glucose,simple sugar blood dextrose corn grape monosaccharide white powder free available carbohydrate
 sucs,Sucrose,common table sugar saccharose disaccharide white solid free available carbohydrate
 mals,Maltose,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
-fsugar,Free Sugars,added natural sugar monosaccharide disaccharide available carbohydrate
-lactose,Lactose Content,milk sugar disaccharide white solid free available carbohydrate
+fsugar,Free Sugars,total added natural sugar monosaccharide disaccharide available carbohydrate
+lactose,Lactose,milk sugar disaccharide white solid free available carbohydrate content
 #
 # TABLE 7-1
 f4d0,Butyric acid (C4:0),c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
@@ -132,9 +132,9 @@ f20d4n6,Arachidonic acid (C20:4n6),c204n6 c204 c 204 20 4 n6 n 6 aa ara eicosate
 f20d5n3,Eicosapentaenoic acid (C20:5n3),c205n3 c205 c 205 20 5 n3 n 3 epa icosapentaenoic timnodonic eicosa icosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 f22d5n3,Docosapentaenoic acid (C22:5n3),c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
 f22d6n3,Docosahexaenoic acid (C22:6n3),c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
-fasat,Saturated Fatty acids (TSFA),fat triglyceride lipid
-fams,Monounsaturated Fatty acids (TMUFA),mono unsaturated fat triglyceride lipid
-fapu,Polyunsaturated Fatty acids (TPUFA),poly unsaturated fat triglyceride lipid
+fasat,Saturated Fatty acids,tsfa sfa total fat triglyceride lipid
+fams,Monounsaturated Fatty acids,tmufa mufa total mono unsaturated fat triglyceride lipid
+fapu,Polyunsaturated Fatty acids,tpufa pufa total poly unsaturated fat triglyceride lipid
 cholc,Cholesterol,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
 #
 # TABLE 7-4
@@ -165,7 +165,7 @@ ser,Serine,s amino acid
 tyr,Tyrosine,y amino acid
 #
 # TABLE 9
-oxalt,Oxalates,ox ethanedioate oxalic organic acid
+oxalt,Oxalates,total ox ethanedioate oxalic organic acid
 oxals,Soluble Oxalate,total ox sodium potassium ethanedioate oxalic organic acid
 oxali,Insoluble Oxalate,total ox calcium ethanedioate oxalic organic acid
 caconac,Cis-Aconitic acid,achilleic equisetic citridinic pyrocitric organic acid
@@ -220,7 +220,7 @@ galcatec,(-)-Gallocatechin,gallocatechin gallo catechin gallo catechin flavan fl
 syrgac,Syringic acid,trihydroxybenzoic polyphenol poly phenol phenolic phytochemical
 sinpac,Sinapinic acid,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyphenol poly phenol phenolic phytochemical
 ellgac,Ellagic acid,dilactone hexahydroxydiphenic polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
-polyph,Polyphenols,poly phenol phenolic phytochemical
+polyph,Polyphenols,total poly phenol phenolic phytochemical
 #
 # TABLE 11
 rafs,Raffinose,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
@@ -231,12 +231,12 @@ camt,Campesterol,phytosterol plant sterol phytosteroid steroid alcohol campestan
 stgstr,Stigmasterol,phytosterol plant sterol phytosteroid steroid alcohol unsaturated white solid wulzen anti stiffness factor
 stostrb,β-Sitosterol,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
 phytac,Phytate,ip6 ip 6 phytic inositol hexakisphosphate polyphosphate cyclohexane hexayl hexakis dihydrogen phosphate salt saturated cyclic acid
-sapon,Saponins,triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
+sapon,Saponins,total triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
 #
 # TABLE ADDED
-vitb,Vitamin B,vitamin b
-vitd,Vitamin D,vitamin d
-vitk,Vitamin K,vitamin k
+vitb,Vitamin B,total vitamin b
+vitd,Vitamin D,total vitamin d
+vitk,Vitamin K,total vitamin k
 tocph,Tocopherols,total tocopherol tcp methylated phenol vitamin e antioxidant
 toctr,Tocotrienols,total tocotrienol vitamin e antioxidant
 amiace,Essential Amino acids,total essential
@@ -244,13 +244,13 @@ amiacce,Conditionally essential Amino acids,total
 amiacne,Non-essential Amino acids,total
 amiac,Amino acids,total amino acid
 orgac,Organic acids,total organic acid
-fauns,Unsaturated Fatty acids,good healthy fat lipid
-faess,Essential Fatty acids,total good healthy fat lipid
+fauns,Unsaturated Fatty acids,tufa ufa good healthy fat lipid
+faess,Essential Fatty acids,tefa efa total good healthy fat lipid
 facn3,Cis ω-3 Fatty acids,total ω3 w3 w 3 omega good healthy fat lipid
 facn6,Cis ω-6 Fatty acids,total ω6 w6 w 6 omega good healthy fat lipid
 facn9,Cis ω-9 Fatty acids,total ω9 w9 w 9 omega good healthy fat lipid
 famscis,Cis Monounsaturated Fatty acids,total good healthy fat lipid
-fatrn,Trans Fatty acids,total trans bad unhealthy harmful detrimental damaging fat lipid
+fatrn,Trans Fatty acids,ttfa tfa total trans bad unhealthy harmful detrimental damaging fat lipid
 olsac,Oligosaccharides,total polymer complex saccharide
 phystr,Phytosterols,total plant sterol stanol phytosteroid natural plant steroid
 mnrleq,Essential Quantity Minerals,total chemical element
@@ -261,5 +261,5 @@ mnrltx,Toxic Minerals,total chemical element
 carot,Carotenes,total carotene carotin photosythetic orange pigment carotenoid
 xantp,Xanthophylls,total xanthophyll phylloxanthin yellow pigment carotenoid
 cartbeq,β-Carotene equivalents,total beta b carotene carotenoid provitamin previtamin a
-vita,Vitamin A,vitamin vitamin-a
-vit,Vitamins,vitamin vitamin vitamin
+vita,Vitamin A,total vitamin vitamin-a
+vit,Vitamins,total vitamin vitamin vitamin
