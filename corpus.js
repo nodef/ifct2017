@@ -1,5 +1,5 @@
-const I0 = {type:"TEXT",factor:0,unit:""};
-const I1 = {type:"INT",factor:1,unit:""};
+const I0 = {type:"TEXT",factor:0,unit:null};
+const I1 = {type:"INT",factor:1,unit:null};
 const I2 = {type:"REAL",factor:1,unit:"g"};
 const I3 = {type:"REAL",factor:1,unit:"kJ"};
 const I4 = {type:"REAL",factor:1000,unit:"mg"};

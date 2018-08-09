@@ -54,7 +54,7 @@ function writeIndex(map, arr) {
   var z = `code,type,factor,unit${os.EOL}`;
   for(var [code, i] of map) {
     var {type, factor, unit} = arr[i];
-    z += `${code},${type},${factor},${unit}${os.EOL}`;
+    z += `${code},${type},${factor},${unit||''}${os.EOL}`;
   }
   fs.writeFileSync('index.csv', z);
 };
@@ -79,7 +79,7 @@ async function main() {
     var code = c;
     var type = getType(c);
     var factor = getFactor(map, c);
-    var unit = getUnit(c, factor)||'';
+    var unit = getUnit(c, factor);
     imapSet(representations, values, code, {type, factor, unit});
   }
   writeIndex(representations, values);
