@@ -5,6 +5,7 @@ var CORPUS = new Map([
   ["lang", {parents:"name",ancestry:"name code",children:""}],
   ["grup", {parents:"code",ancestry:"code",children:""}],
   ["regn", {parents:"code",ancestry:"code",children:""}],
+  ["tags", {parents:"",ancestry:"",children:""}],
   ["water", {parents:"",ancestry:"",children:""}],
   ["protcnt", {parents:"",ancestry:"",children:""}],
   ["ash", {parents:"",ancestry:"",children:"mnrleq mnrlet mnrlpet mnrlnet mnrltx"}],
