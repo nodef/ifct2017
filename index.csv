@@ -249,8 +249,8 @@ faess,Essential Fatty acids,tefa efa total good healthy fat lipid
 facn3,Cis ω-3 Fatty acids,total ω3 w3 w 3 omega good healthy fat lipid
 facn6,Cis ω-6 Fatty acids,total ω6 w6 w 6 omega good healthy fat lipid
 facn9,Cis ω-9 Fatty acids,total ω9 w9 w 9 omega good healthy fat lipid
-famscis,Cis Monounsaturated Fatty acids,total good healthy fat lipid
-fatrn,Trans Fatty acids,ttfa tfa total trans bad unhealthy harmful detrimental damaging fat lipid
+famscis,Cis Fatty acids,tcmufa cmufa tcfa cfa total monounsaturated mono unsaturated good healthy fat lipid
+fatrn,Trans Fatty acids,ttfa tfa total trans monounsaturated mono unsaturated bad unhealthy harmful detrimental damaging fat lipid
 olsac,Oligosaccharides,total polymer complex saccharide
 phystr,Phytosterols,total plant sterol stanol phytosteroid natural plant steroid
 mnrleq,Essential Quantity Minerals,total chemical element
