@@ -12,23 +12,41 @@
 # - Parents
 code,parents
 code,
-name,code
+name,
+grup,
+regn,
+tags,
 scie,name
 lang,name
-grup,code
-regn,code
-tags,
 #
 # TABLE 1
+enerc,
 water,
-protcnt,
 ash,
+vit,
 fatce,
+cholc,
 fibtg,
+choavldf,
+protcnt,
+amiac,
+cartoid,
+polyph,
+phystr,
+tocph,
+toctr,
+orgac,
+phytac,
+sapon,
+
 fibins,fibtg
 fibsol,fibtg
-choavldf,
-enerc,
+vita,vit
+vitb,vit
+vitc,vit
+vitd,vit
+vite,vit
+vitk,vit
 #
 # TABLE 2
 thia,vitb
@@ -38,7 +56,6 @@ pantac,vitb
 vitb6c,vitb
 biot,vitb
 folsum,vitb
-vitc,vit
 #
 # TABLE 3
 retol,vita
@@ -53,7 +70,6 @@ toctra,toctr
 toctrb,toctr
 toctrg,toctr
 toctrd,toctr
-vite,vit
 vitk1,vitk
 vitk2,vitk
 #
@@ -65,7 +81,6 @@ lycpn,carot
 cartg,carot
 carta,carot
 cartb,carot
-cartoid,
 #
 # TABLE 5-1
 al,mnrlnet
@@ -134,7 +149,6 @@ f22d6n3,facn3 faess fapu
 fasat,fatce
 fams,fauns
 fapu,fauns
-cholc,
 #
 # TABLE 7-4
 # TABLE 7-5
@@ -219,7 +233,6 @@ galcatec,polyph
 syrgac,polyph
 sinpac,polyph
 ellgac,polyph
-polyph,
 #
 # TABLE 11
 rafs,olsac
@@ -229,20 +242,11 @@ ajgs,olsac
 camt,phystr
 stgstr,phystr
 stostrb,phystr
-phytac,
-sapon,
 #
 # TABLE ADDED
-vitb,vit
-vitd,vit
-vitk,vit
-tocph,
-toctr,
 amiace,amiac
 amiacce,amiac
 amiacne,amiac
-amiac,
-orgac,
 fauns,fatce
 faess,fatce
 facn3,
@@ -251,7 +255,6 @@ facn9,
 famscis,fams
 fatrn,fams
 olsac,cho
-phystr,
 mnrleq,ash
 mnrlet,ash
 mnrlpet,ash
@@ -260,5 +263,3 @@ mnrltx,ash
 carot,cartoid
 xantp,cartoid
 cartbeq,vita
-vita,vit
-vit,
