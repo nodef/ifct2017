@@ -18,6 +18,7 @@ scie,Scientific Name,binomial genus botanical
 lang,Local Name,colloquial trivial country farmer popular
 grup,Food Group,category class classification grouping type sort kind
 regn,No. of Regions,number
+tags,Tags,
 #
 # TABLE 1
 water,Moisture,total liquid steam vapour proximate

@@ -5,6 +5,7 @@ var CORPUS = new Map([
   ["lang", {code:"lang",name:"Local Name",tags:"colloquial trivial country farmer popular"}],
   ["grup", {code:"grup",name:"Food Group",tags:"category class classification grouping type sort kind"}],
   ["regn", {code:"regn",name:"No. of Regions",tags:"number"}],
+  ["tags", {code:"tags",name:"Tags",tags:""}],
   ["water", {code:"water",name:"Moisture",tags:"total liquid steam vapour proximate"}],
   ["protcnt", {code:"protcnt",name:"Protein",tags:"total essential macronutrient proximate"}],
   ["ash", {code:"ash",name:"Ash",tags:"total metal oxide mineral inorganic element residue proximate"}],
