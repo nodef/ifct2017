@@ -90,9 +90,9 @@ k,mnrleq,mnrleq ash,
 se,mnrlet,mnrlet ash,
 na,mnrleq,mnrleq ash,
 zn,mnrlet,mnrlet ash,
-cho,choavldf,choavldf,starch olsac fsugar
-starch,cho,cho choavldf,
-olsac,cho,cho choavldf,rafs stas vers ajgs
+cho,choavldf,choavldf,starch fsugar
+starch,cho,cho choavldf,olsac
+olsac,starch,starch cho choavldf,rafs stas vers ajgs
 frus,fsugar,fsugar cho choavldf,
 glus,fsugar,fsugar cho choavldf,
 sucs,fsugar,fsugar cho choavldf,
@@ -195,10 +195,10 @@ galcatec,polyph,polyph,
 syrgac,polyph,polyph,
 sinpac,polyph,polyph,
 ellgac,polyph,polyph,
-rafs,olsac,olsac cho choavldf,
-stas,olsac,olsac cho choavldf,
-vers,olsac,olsac cho choavldf,
-ajgs,olsac,olsac cho choavldf,
+rafs,olsac,olsac starch cho choavldf,
+stas,olsac,olsac starch cho choavldf,
+vers,olsac,olsac starch cho choavldf,
+ajgs,olsac,olsac starch cho choavldf,
 camt,phystr,phystr,
 stgstr,phystr,phystr,
 stostrb,phystr,phystr,

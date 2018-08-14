@@ -118,7 +118,7 @@ zn,mnrlet
 # TABLE 6
 cho,choavldf
 starch,cho
-olsac,cho
+olsac,starch
 frus,fsugar
 glus,fsugar
 sucs,fsugar
