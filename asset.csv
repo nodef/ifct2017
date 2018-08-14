@@ -52,7 +52,7 @@ vitk,vit
 fasat,fatce
 fauns,fatce
 faess,fatce
-famscis,fatce
+facis,fatce
 fatrn,fatce
 fibins,fibtg
 fibsol,fibtg
@@ -140,22 +140,22 @@ f18d0,fasat
 f20d0,fasat
 f22d0,fasat
 f24d0,fasat
-f14d1cn5,famscis
-f16d1cn7,famscis
-f18d1cn9,facn9 famscis
-f18d1tn9,fatrn
-f20d1cn9,facn9 famscis
-f22d1cn9,facn9 famscis
-f24d1cn9,facn9 famscis
-f18d2cn6,facn6 faess fapu
+f14d1cn5,facn5 fams
+f16d1cn7,facn7 fams
+f18d1cn9,facn9 fams
+f18d1tn9,fatrn fams
+f20d1cn9,facn9 fams
+f22d1cn9,facn9 fams
+f24d1cn9,facn9 fams
+f18d2cn6,facn6 fapu faess
 f20d2n6,facn6 fapu
 f22d2n6,facn6 fapu
-f18d3n3,facn3 faess fapu
+f18d3n3,facn3 fapu faess
 f20d3n6,facn6 fapu
-f20d4n6,facn6 faess fapu
-f20d5n3,facn3 faess fapu
+f20d4n6,facn6 fapu faess
+f20d5n3,facn3 fapu faess
 f22d5n3,facn3 fapu
-f22d6n3,facn3 faess fapu
+f22d6n3,facn3 fapu faess
 fams,fauns
 fapu,fauns
 #
@@ -256,9 +256,11 @@ stostrb,phystr
 amiace,amiac
 amiacce,amiac
 amiacne,amiac
-facn3,
-facn6,
-facn9,
+facn3,facis
+facn6,facis
+facn9,facis
+facn5,facis
+facn7,facis
 carot,cartoid
 xantp,cartoid
 cartbeq,vita

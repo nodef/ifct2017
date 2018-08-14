@@ -10,7 +10,7 @@ enerc,,,
 water,,,
 ash,,,mnrleq mnrlet mnrlpet mnrlnet mnrltx
 vit,,,vita vitb vitc vitd vite vitk
-fatce,,,fasat fauns faess famscis fatrn
+fatce,,,fasat fauns faess facis fatrn
 cholc,,,
 fibtg,,,fibins fibsol
 choavldf,,,cho
@@ -38,7 +38,7 @@ vitk,vit,vit,vitk1 vitk2
 fasat,fatce,fatce,f4d0 f6d0 f8d0 f10d0 f11d0 f12d0 f14d0 f15d0 f16d0 f18d0 f20d0 f22d0 f24d0
 fauns,fatce,fatce,fams fapu
 faess,fatce,fatce,f18d2cn6 f18d3n3 f20d4n6 f20d5n3 f22d6n3
-famscis,fatce,fatce,f14d1cn5 f16d1cn7 f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
+facis,fatce,fatce,facn3 facn6 facn9 facn5 facn7
 fatrn,fatce,fatce,f18d1tn9
 fibins,fibtg,fibtg,
 fibsol,fibtg,fibtg,
@@ -112,23 +112,23 @@ f18d0,fasat,fasat fatce,
 f20d0,fasat,fasat fatce,
 f22d0,fasat,fasat fatce,
 f24d0,fasat,fasat fatce,
-f14d1cn5,famscis,famscis fatce,
-f16d1cn7,famscis,famscis fatce,
-f18d1cn9,facn9 famscis,facn9 famscis fatce,
-f18d1tn9,fatrn,fatrn fatce,
-f20d1cn9,facn9 famscis,facn9 famscis fatce,
-f22d1cn9,facn9 famscis,facn9 famscis fatce,
-f24d1cn9,facn9 famscis,facn9 famscis fatce,
-f18d2cn6,facn6 faess fapu,facn6 faess fatce fapu fauns,
-f20d2n6,facn6 fapu,facn6 fapu fauns fatce,
-f22d2n6,facn6 fapu,facn6 fapu fauns fatce,
-f18d3n3,facn3 faess fapu,facn3 faess fatce fapu fauns,
-f20d3n6,facn6 fapu,facn6 fapu fauns fatce,
-f20d4n6,facn6 faess fapu,facn6 faess fatce fapu fauns,
-f20d5n3,facn3 faess fapu,facn3 faess fatce fapu fauns,
-f22d5n3,facn3 fapu,facn3 fapu fauns fatce,
-f22d6n3,facn3 faess fapu,facn3 faess fatce fapu fauns,
-fams,fauns,fauns fatce,
+f14d1cn5,facn5 fams,facn5 facis fatce fams fauns,
+f16d1cn7,facn7 fams,facn7 facis fatce fams fauns,
+f18d1cn9,facn9 fams,facn9 facis fatce fams fauns,
+f18d1tn9,fatrn fams,fatrn fatce fams fauns,
+f20d1cn9,facn9 fams,facn9 facis fatce fams fauns,
+f22d1cn9,facn9 fams,facn9 facis fatce fams fauns,
+f24d1cn9,facn9 fams,facn9 facis fatce fams fauns,
+f18d2cn6,facn6 fapu faess,facn6 facis fatce fapu fauns faess,
+f20d2n6,facn6 fapu,facn6 facis fatce fapu fauns,
+f22d2n6,facn6 fapu,facn6 facis fatce fapu fauns,
+f18d3n3,facn3 fapu faess,facn3 facis fatce fapu fauns faess,
+f20d3n6,facn6 fapu,facn6 facis fatce fapu fauns,
+f20d4n6,facn6 fapu faess,facn6 facis fatce fapu fauns faess,
+f20d5n3,facn3 fapu faess,facn3 facis fatce fapu fauns faess,
+f22d5n3,facn3 fapu,facn3 facis fatce fapu fauns,
+f22d6n3,facn3 fapu faess,facn3 facis fatce fapu fauns faess,
+fams,fauns,fauns fatce,f14d1cn5 f16d1cn7 f18d1cn9 f18d1tn9 f20d1cn9 f22d1cn9 f24d1cn9
 fapu,fauns,fauns fatce,f18d2cn6 f20d2n6 f22d2n6 f18d3n3 f20d3n6 f20d4n6 f20d5n3 f22d5n3 f22d6n3
 his,amiace,amiace amiac,
 ile,amiace,amiace amiac,
@@ -205,9 +205,11 @@ stostrb,phystr,phystr,
 amiace,amiac,amiac,his ile leu lys met phe thr trp val
 amiacce,amiac,amiac,cys arg gly pro tyr
 amiacne,amiac,amiac,ala asp glu ser
-facn3,,,f18d3n3 f20d5n3 f22d5n3 f22d6n3
-facn6,,,f18d2cn6 f20d2n6 f22d2n6 f20d3n6 f20d4n6
-facn9,,,f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
+facn3,facis,facis fatce,f18d3n3 f20d5n3 f22d5n3 f22d6n3
+facn6,facis,facis fatce,f18d2cn6 f20d2n6 f22d2n6 f20d3n6 f20d4n6
+facn9,facis,facis fatce,f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
+facn5,facis,facis fatce,f14d1cn5
+facn7,facis,facis fatce,f16d1cn7
 carot,cartoid,cartoid,lycpn cartg carta cartb
 xantp,cartoid,cartoid,lutn zea crypxb
 cartbeq,vita,vita vit,
