@@ -28,9 +28,10 @@ function imapSet(map, arr, key, val) {
 };
 
 function getType(k) {
-  if(k==='regn') return 'INT';
-  if(IGNORE.has(k)) return 'TEXT';
-  return 'REAL';
+  if(k==='regn') return 'integer';
+  if(k==='enerc') return 'energy';
+  if(IGNORE.has(k)) return 'string';
+  return 'mass';
 };
 function getFactor(map, k) {
   if(k==='regn') return 1;

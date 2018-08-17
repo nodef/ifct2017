@@ -1,10 +1,10 @@
-const I0 = {type:"TEXT",factor:0,unit:null};
-const I1 = {type:"INT",factor:1,unit:null};
-const I2 = {type:"REAL",factor:1,unit:"kJ"};
-const I3 = {type:"REAL",factor:1,unit:"g"};
-const I4 = {type:"REAL",factor:1000,unit:"mg"};
-const I5 = {type:"REAL",factor:1000000,unit:"ug"};
-const I6 = {type:"REAL",factor:1000000000,unit:"ng"};
+const I0 = {type:"string",factor:0,unit:null};
+const I1 = {type:"integer",factor:1,unit:null};
+const I2 = {type:"energy",factor:1,unit:"kJ"};
+const I3 = {type:"mass",factor:1,unit:"g"};
+const I4 = {type:"mass",factor:1000,unit:"mg"};
+const I5 = {type:"mass",factor:1000000,unit:"ug"};
+const I6 = {type:"mass",factor:1000000000,unit:"ng"};
 const CORPUS = new Map([
   ["code", I0],
   ["name", I0],
