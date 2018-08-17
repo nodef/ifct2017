@@ -15,15 +15,15 @@ representations.load();
 
 representations('his');
 representations('Histidine');
-// { type: 'REAL', factor: 1, unit: 'g' }
+// { type: 'mass', factor: 1, unit: 'g' }
 
 representations('representation of vitamin d?');
 representations('what is unit of cholecalciferol?');
-// { type: 'REAL', factor: 1000000, unit: 'ug' }
+// { type: 'mass', factor: 1000000, unit: 'ug' }
 
 
 // ->
-// type:   Column SQL datatype
+// type:   Type of physical quantity
 // factor: Multiplication factor for representation
 // unit:   Unit for representation
 ```
