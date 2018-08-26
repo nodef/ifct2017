@@ -14,8 +14,8 @@ fatce,,,fasat fauns faess facis fatrn
 cholc,,,
 fibtg,,,fibins fibsol
 choavldf,,,cho
-protcnt,,,
-amiac,,,amiace amiacce amiacne
+protcnt,,,amiac
+amiac,protcnt,protcnt,amiace amiacce amiacne
 cartoid,,,carot xantp
 polyph,,,dhbenzac34 hbenzal3 pcathac vanlac gallac cinmac coumaco coumacp caffac chlrac ferac apigen apigen6cgls apigen7onshps luteol kaemf querce querce3bdgls querce3ortns querce3bgls isormt myrct rsvrtol hespt narng hespd daidzn gnstein epicatec epicategc epicatgc3gal catec galcatecgal galcatec syrgac sinpac ellgac
 phystr,,,camt stgstr stostrb
@@ -130,24 +130,24 @@ f22d5n3,facn3 fapu,facn3 facis fatce fapu fauns,
 f22d6n3,facn3 fapu faess,facn3 facis fatce fapu fauns faess,
 fams,fauns,fauns fatce,f14d1cn5 f16d1cn7 f18d1cn9 f18d1tn9 f20d1cn9 f22d1cn9 f24d1cn9
 fapu,fauns,fauns fatce,f18d2cn6 f20d2n6 f22d2n6 f18d3n3 f20d3n6 f20d4n6 f20d5n3 f22d5n3 f22d6n3
-his,amiace,amiace amiac,
-ile,amiace,amiace amiac,
-leu,amiace,amiace amiac,
-lys,amiace,amiace amiac,
-met,amiace,amiace amiac,
-cys,amiacce,amiacce amiac,
-phe,amiace,amiace amiac,
-thr,amiace,amiace amiac,
-trp,amiace,amiace amiac,
-val,amiace,amiace amiac,
-ala,amiacne,amiacne amiac,
-arg,amiacce,amiacce amiac,
-asp,amiacne,amiacne amiac,
-glu,amiacne,amiacne amiac,
-gly,amiacce,amiacce amiac,
-pro,amiacce,amiacce amiac,
-ser,amiacne,amiacne amiac,
-tyr,amiacce,amiacce amiac,
+his,amiace,amiace amiac protcnt,
+ile,amiace,amiace amiac protcnt,
+leu,amiace,amiace amiac protcnt,
+lys,amiace,amiace amiac protcnt,
+met,amiace,amiace amiac protcnt,
+cys,amiacce,amiacce amiac protcnt,
+phe,amiace,amiace amiac protcnt,
+thr,amiace,amiace amiac protcnt,
+trp,amiace,amiace amiac protcnt,
+val,amiace,amiace amiac protcnt,
+ala,amiacne,amiacne amiac protcnt,
+arg,amiacce,amiacce amiac protcnt,
+asp,amiacne,amiacne amiac protcnt,
+glu,amiacne,amiacne amiac protcnt,
+gly,amiacce,amiacce amiac protcnt,
+pro,amiacce,amiacce amiac protcnt,
+ser,amiacne,amiacne amiac protcnt,
+tyr,amiacce,amiacce amiac protcnt,
 oxalt,orgac,orgac,oxals oxali
 oxals,oxalt,oxalt orgac,
 oxali,oxalt,oxalt orgac,
@@ -202,9 +202,9 @@ ajgs,olsac,olsac starch cho choavldf,
 camt,phystr,phystr,
 stgstr,phystr,phystr,
 stostrb,phystr,phystr,
-amiace,amiac,amiac,his ile leu lys met phe thr trp val
-amiacce,amiac,amiac,cys arg gly pro tyr
-amiacne,amiac,amiac,ala asp glu ser
+amiace,amiac,amiac protcnt,his ile leu lys met phe thr trp val
+amiacce,amiac,amiac protcnt,cys arg gly pro tyr
+amiacne,amiac,amiac protcnt,ala asp glu ser
 facn3,facis,facis fatce,f18d3n3 f20d5n3 f22d5n3 f22d6n3
 facn6,facis,facis fatce,f18d2cn6 f20d2n6 f22d2n6 f20d3n6 f20d4n6
 facn9,facis,facis fatce,f18d1cn9 f20d1cn9 f22d1cn9 f24d1cn9
