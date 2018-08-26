@@ -42,7 +42,7 @@ function getFactor(map, k) {
     if(r[k]>0) { s += r[k]; n++; }
   if(!n) return 0;
   var l3 = Math.log(s/n)/Math.log(1000);
-  var e = -3*Math.round(l3-0.33);
+  var e = -3*Math.round(l3-0.55);
   return Math.pow(10, Math.max(e, 0));
 };
 function getUnit(k, f) {

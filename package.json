@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/representations",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Representations of columns (as factors and units) in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/ifct2017/representations#readme",
   "devDependencies": {
-    "@ifct2017/compositions": "^1.1.1",
+    "@ifct2017/compositions": "^1.1.2",
     "deep-equal": "^1.0.1"
   },
   "dependencies": {
