@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/hierarchy",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Hierarchy of columns in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,10 @@
   },
   "homepage": "https://github.com/ifct2017/hierarchy#readme",
   "devDependencies": {
-    "csv-parse": "^2.5.0"
+    "csv-parse": "4.8"
   },
   "dependencies": {
-    "@ifct2017/columns": "^1.4.1",
-    "sql-extra": "^0.1.13"
+    "@ifct2017/columns": "1.4",
+    "sql-extra": "0.1"
   }
 }
