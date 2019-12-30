@@ -1,16 +1,3 @@
-# Indian Food Composition Tables 2017
-# T. Longvah, R. Ananthan, K. Bhaskarachary and K. Venkaiah
-#
-# Copyright  © 2017 by National Institute of Nutrition
-# Indian Council of Medical Research
-# Department of Health Research Ministry of Health and Family Welfare, Government of India
-# Jamai Osmania (PO), Hyderabad – 500 007
-# Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
-#
-# FOOD DESCRIPTION
-# - Code
-# - Food groups
-# - No. of food entries
 code,group,entries,tags
 A,Cereals and Millets,24,vegetarian eggetarian fishetarian veg
 B,Grain Legumes,25,vegetarian eggetarian fishetarian veg
