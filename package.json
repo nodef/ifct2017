@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/frequencydistribution",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Frequency distribution of States/UTs for fixing the number of districts to be sampled in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
