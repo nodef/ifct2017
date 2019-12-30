@@ -37,6 +37,6 @@ carbohydrates('maltose conversion factor');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Conversion of carbohydrate weights]: https://github.com/ifct2017/carbohydrates/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1YoEVoQFR0co_bTHL3Xok1dQfuqxXZa7yQrlUKbYVve4/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vQ4Ogyx4J5JWX3HQnHhoGt9HsmqNIZ5MFvDvHa2gkYSZg6vxtWeqPrzkyvh1_bmaXDgrsElNgAu1YKk/pubhtml
