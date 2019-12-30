@@ -77,4 +77,4 @@ about('what was the situation in nineteen fity');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [topics]: https://github.com/ifct2017/about/tree/master/assets
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
