@@ -37,6 +37,6 @@ descriptions('gai ka doodh details.');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Food descriptions]: https://github.com/ifct2017/descriptions/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1dRKW2HJyWxDJliONe_URNxM0gPBmgZKqoF5lBotxOT8/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSueRUdwru4BNvmLCK16cM8DYO3mum4c-g_8MILZvg6TsT3vaZChWOwN5cUS58GtrXMKqZHeHy0ajeG/pubhtml
