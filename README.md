@@ -60,6 +60,6 @@ intakes('what is rda of total fiber?');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Recommended daily intakes]: https://github.com/ifct2017/intakes/tree/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/14rD34GjeJ6jx9-RXLa7zu4m_896CojCP4qSTPKeWLEU/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vShOB5MaBlnccsBXPGT1KbG3442fF7ZPChdJCm7Ez3C9ejVF6503gMY28dOOdBJRDpCLL9o0BfJO8Nj/pubhtml
