@@ -33,6 +33,6 @@ regions('details of south region');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [regions]: https://github.com/ifct2017/regions/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1a01-O3cex87z9My2hF3ByoUMVMLZtMYKuRFGTbmcIzQ/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRXTC_URrQPaVbgG0tyMvJGkuaZgTjaQ9UZivesdtVBgpJXWHQldR9ps8C04HVDcZmEuKjCX2LhjUNA/pubhtml
