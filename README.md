@@ -41,6 +41,6 @@ groups('vegetable group code?');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Food groups]: https://github.com/ifct2017/groups/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1PMR0TZLLYsS70lcC0Bap4oNrI1azgmuGx9ekfHJB_0Q/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSsXdKiSvWypa6aJlCfl_eKIzAOfESO_wHITJtPik3K1goIy81hciSjmTCqFjmFv1cqrLdnYhg1Q3O1/pubhtml
