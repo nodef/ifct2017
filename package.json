@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/energies",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Metabolizeable energy conversion factors in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {

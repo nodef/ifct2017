@@ -31,6 +31,6 @@ energies('conversion factor of fat');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [energy conversion factors]: https://github.com/ifct2017/energies/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1Go_O1rv7gwDw9GFx5S9-eBOOEueyrSnqf2KmQmB5ZEw/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vRbNMeTawz-rXs53C9NTcMkJVnLCzJ79kxbOahFhq49Q7qDFMApQ5fcFvUoTGs6nDyHshtwcIzXMLiM/pubhtml
