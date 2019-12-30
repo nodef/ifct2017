@@ -36,7 +36,7 @@ function setupIndex() {
     this.field('name');
     this.field('code');
     this.pipeline.remove(lunr.stopWordFilter);
-    for(var r of CORPUS.values())
+    for(var r of corpus.values())
       this.add({key: r.name, name: r.name.replace(/\W+/g, ' '), code: r.code});
   });
 };
@@ -53,7 +53,7 @@ function codes(txt) {
   for(var mat of mats)
     max = Math.max(max, Object.keys(mat.matchData.metadata).length);
   for(var mat of mats)
-    if(Object.keys(mat.matchData.metadata).length===max) z.push(CORPUS.get(mat.ref));
+    if(Object.keys(mat.matchData.metadata).length===max) z.push(corpus.get(mat.ref));
   return z;
 };
 codes.csv = csv;
