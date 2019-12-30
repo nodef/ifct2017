@@ -34,6 +34,6 @@ hierarchy('who are children of total saturated fat?');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Hierarchy]: https://github.com/ifct2017/hierarchy/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/174DDCwdVRZ0RQT8zfGFSciQltA2sIHIIRXkWiejU_JQ/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vR1C-FJ2driNzJ_rRVmftv_wYPo4Rz4SJKGEo-pFNccvbF3nsAFj2zmbiGHDGlX4YnozoqMydg0xBwZ/pubhtml
