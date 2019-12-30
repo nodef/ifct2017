@@ -33,6 +33,6 @@ codes('atta code');
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Food codes]: https://github.com/ifct2017/codes/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
-[National Institute of Nutrition, Hyderabad]: http://www.ninindia.org
+[National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1Q-M1C3DAEhoA6y7X89M3Fl_zml__v0Mr-fJAYBJkLJc/edit?usp=sharing
 [Webpage]: https://docs.google.com/spreadsheets/d/e/2PACX-1vSZD-_xy9EvbEM2axafTL251gWsCPUYRZA8wAUvscy0MZmHS9bCOpbvqJQsbf5TujlOA8FmL91bOzF8/pubhtml
