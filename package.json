@@ -1,7 +1,7 @@
 {
   "name": "@ifct2017/regions",
-  "version": "1.0.6",
-  "description": "Categorization of the States/UTs into six different regions in Indian Food Composition Tables 2017.",
+  "version": "1.0.7",
+  "description": "Categorization of the States/UTs into six different regions.",
   "main": "index.js",
   "scripts": {
     "test": "exit"
@@ -17,7 +17,18 @@
     "indian",
     "food",
     "composition",
-    "table"
+    "table",
+    "carbohydrates",
+    "proteins",
+    "fats",
+    "amino",
+    "acids",
+    "vitamins",
+    "minerals",
+    "national",
+    "institute",
+    "nutrition",
+    "research"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
