@@ -2,10 +2,6 @@ On the history of malnutrition, current status, and data details.
 > This is part of package [ifct2017].<br>
 > Source: [Indian Food Composition Tables 2017].
 
-> Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
-> column, credit, data, father, form, funder, group, interest, learn, limitation,
-> publisher, source, supporter, use, user, what, when, why.
-
 ```javascript
 const about = require('@ifct2017/about');
 // about.corpus: Map {topic => text}
@@ -72,6 +68,12 @@ about('what was the situation in nineteen fity');
 // edition of the Health Bulletin No. 23 by Aykroyd, Patwardhan, and Ranganathan (1951).
 ```
 
+> Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
+> column, credit, data, father, form, funder, group, interest, learn, limitation,
+> publisher, source, supporter, use, user, what, when, why.
+
+<br>
+<br>
 
 [![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
