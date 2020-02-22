@@ -1,4 +1,7 @@
-[Jones factors] for conversion of nitrogen to protein in [Indian Food Composition Tables 2017].
+[Jones factors] for conversion of nitrogen to protein.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const jonesFactors = require('@ifct2017/jonesfactors');
@@ -31,6 +34,7 @@ jonesFactors('jones factor of oats');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Jones factors]: https://github.com/ifct2017/jonesfactors/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
