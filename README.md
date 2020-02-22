@@ -1,4 +1,5 @@
-[Contents] of [Indian Food Composition Tables 2017].
+[Contents] in the original book.
+> Source: [Indian Food Composition Tables 2017].
 
 ```javascript
 const contents = require('@ifct2017/contents');
