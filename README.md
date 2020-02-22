@@ -1,4 +1,7 @@
-[Conversion of carbohydrate weights] to monosaccharide equivalents in [Indian Food Composition Tables 2017].
+[Conversion of carbohydrate weights] to monosaccharide equivalents.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const carbohydrates = require('@ifct2017/carbohydrates');
@@ -34,6 +37,7 @@ carbohydrates('maltose conversion factor');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Conversion of carbohydrate weights]: https://github.com/ifct2017/carbohydrates/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
