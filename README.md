@@ -1,4 +1,7 @@
-Regional [compositing centres] and sample size of each region in [Indian Food Composition Tables 2017].
+Regional [compositing centres] and sample size of each region.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
@@ -28,6 +31,7 @@ compositingCentres('North East compositing centre');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [compositing centres]: https://github.com/ifct2017/compositingcentres/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
