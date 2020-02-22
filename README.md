@@ -1,4 +1,7 @@
-About [Indian Food Composition Tables 2017].
+On the history of malnutrition, current status, and data details.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 > Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
 > column, credit, data, father, form, funder, group, interest, learn, limitation,
 > publisher, source, supporter, use, user, what, when, why.
@@ -74,6 +77,7 @@ about('what was the situation in nineteen fity');
 > You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [topics]: https://github.com/ifct2017/about/tree/master/assets
 [ifct2017.github.io]: https://ifct2017.github.io
