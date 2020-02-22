@@ -1,7 +1,7 @@
 {
   "name": "@ifct2017/codes",
-  "version": "1.0.6",
-  "description": "Food codes from food name in Indian Food Composition Tables 2017.",
+  "version": "1.0.7",
+  "description": "Uniquely identifiable codes for each food.",
   "main": "index.js",
   "scripts": {
     "test": "exit"
@@ -17,7 +17,18 @@
     "indian",
     "food",
     "composition",
-    "tables"
+    "tables",
+    "carbohydrates",
+    "proteins",
+    "fats",
+    "amino",
+    "acids",
+    "vitamins",
+    "minerals",
+    "national",
+    "institute",
+    "nutrition",
+    "research"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",

@@ -1,4 +1,6 @@
-[Food codes] from food name in [Indian Food Composition Tables 2017].
+Uniquely identifiable [codes] for each food.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
 
 ```javascript
 const codes = require('@ifct2017/codes');
@@ -30,8 +32,9 @@ codes('atta code');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[Food codes]: https://github.com/ifct2017/codes/blob/master/index.csv
+[codes]: https://github.com/ifct2017/codes/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
 [National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1Q-M1C3DAEhoA6y7X89M3Fl_zml__v0Mr-fJAYBJkLJc/edit?usp=sharing
