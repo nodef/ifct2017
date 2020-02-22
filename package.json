@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/contents",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Contents of Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,6 @@
     "food",
     "composition",
     "tables",
-    "nutrition",
     "carbohydrates",
     "proteins",
     "fats",
