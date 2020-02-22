@@ -1,4 +1,7 @@
-[Analytical methods] of nutrient and bioactive components in [Indian Food Composition Tables 2017].
+[Analytical methods] of nutrient and bioactive components.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const methods = require('@ifct2017/methods');
@@ -32,6 +35,7 @@ methods('how is total saponin measured?');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [Analytical methods]: https://github.com/ifct2017/columns/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
