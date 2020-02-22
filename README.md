@@ -1,4 +1,7 @@
-Number of primary [sampling units] in each State/UT in [Indian Food Composition Tables 2017].
+Number of primary [sampling units] in each State/UT.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const samplingUnits = require('@ifct2017/samplingunits');
@@ -31,6 +34,7 @@ samplingUnits('orissa\'s sampling units');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [sampling units]: https://github.com/ifct2017/samplingunits/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
