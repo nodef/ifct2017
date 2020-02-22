@@ -1,4 +1,7 @@
-Metabolizable [energy conversion factors] in [Indian Food Composition Tables 2017].
+Metabolizable [energy conversion factors].
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
+
 
 ```javascript
 const energies = require('@ifct2017/energies');
@@ -28,6 +31,7 @@ energies('conversion factor of fat');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [energy conversion factors]: https://github.com/ifct2017/energies/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
