@@ -1,7 +1,7 @@
 {
   "name": "@ifct2017/groups",
-  "version": "1.0.6",
-  "description": "Food groups in the Indian Food Composition Tables 2017.",
+  "version": "1.0.7",
+  "description": "Categorization of food by their common names.",
   "main": "index.js",
   "scripts": {
     "test": "exit"
@@ -17,7 +17,18 @@
     "indian",
     "food",
     "composition",
-    "tables"
+    "tables",
+    "carbohydrates",
+    "proteins",
+    "fats",
+    "amino",
+    "acids",
+    "vitamins",
+    "minerals",
+    "national",
+    "institute",
+    "nutrition",
+    "research"
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",

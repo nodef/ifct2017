@@ -1,4 +1,6 @@
-[Food groups] in [Indian Food Composition Tables 2017].
+[Categorization] of food by their common names.
+> This is part of package [ifct2017].<br>
+> Source: [Indian Food Composition Tables 2017].
 
 ```javascript
 const groups = require('@ifct2017/groups');
@@ -38,8 +40,9 @@ groups('vegetable group code?');
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
+[ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
-[Food groups]: https://github.com/ifct2017/groups/blob/master/index.csv
+[Categorization]: https://github.com/ifct2017/groups/blob/master/index.csv
 [ifct2017.github.io]: https://ifct2017.github.io
 [National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
 [Document]: https://docs.google.com/spreadsheets/d/1PMR0TZLLYsS70lcC0Bap4oNrI1azgmuGx9ekfHJB_0Q/edit?usp=sharing
