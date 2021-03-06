@@ -4,13 +4,9 @@ const esql = require('sql-extra');
 
 var corpus = new Map();
 var index = null;
-var ready = false;
 
 
-function loadCorpus() {
-  for(var [k, v] of require('./corpus'))
-    corpus.set(k, v);
-}
+
 
 function setupIndex() {
   index = lunr(function() {
@@ -23,6 +19,13 @@ function setupIndex() {
   });
 }
 
+function load() {
+  if (corpus) return corpus;
+  corpus = require('./corpus');
+  setupIndex();
+  return corpus;
+}
+
 function csv() {
   return path.join(__dirname, 'index.csv');
 }
@@ -32,23 +35,17 @@ function sql(tab='contents', opt={}) {
     Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', title: 'B', pagenos: 'C'}}, opt));
 }
 
-function load() {
-  if(ready) return true;
-  loadCorpus(); setupIndex();
-  return ready = true;
-}
-
 function contents(txt) {
-  if(index==null) return [];
-  var z = [], txt = txt.replace(/\W/g, ' ');
-  var mats = index.search(txt), max = 0;
-  for(var mat of mats)
-    max = Math.max(max, Object.keys(mat.matchData.metadata).length);
-  for(var mat of mats)
-    if(Object.keys(mat.matchData.metadata).length===max) z.push(corpus.get(mat.ref));
-  return z;
+  if (!corpus) load();
+  var a = [], txt = txt.replace(/\W/g, ' ');
+  var ms = index.search(txt), max = 0;
+  for(var m of ms)
+    max = Math.max(max, Object.keys(m.matchData.metadata).length);
+  for(var m of ms)
+    if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
+  return a;
 }
+contents.load = load;
 contents.csv = csv;
 contents.sql = sql;
-contents.load = load;
 module.exports = contents;
