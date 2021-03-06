@@ -1,15 +1,14 @@
 [Contents] in the original book.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const contents = require('@ifct2017/contents');
-// contents.corpus: Map {sno => {sno, title, pagenos}}
-// contents.load(): true (corpus loaded)
-// contents.sql([table], [options]): sql commands
-// contents.csv(): path to csv file
-// contents(<query>)
-// -> [{sno, title, pagenos}] for matched contents
+// contents(query)
+// → [{sno, title, pagenos}] for matched contents
 
 
 contents('table 2');
@@ -25,9 +24,19 @@ contents('fat soluble vitamin page number');
 //     pagenos: '61' } ]
 ```
 
+```javascript
+// Additional methods:
+contents.load() // → corpus
+contents.sql([table], [options]) // → sql statements
+contents.csv(): // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
 [ifct2017]: https://www.npmjs.com/package/ifct2017
