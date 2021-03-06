@@ -14,7 +14,7 @@ function testAll() {
   assert.deepStrictEqual(a, b);
 
   var a = about('what happened in 1951');
-  var b = about('what was the situation in nineteen fity');
+  var b = about('what was the situation in nineteen fifty');
   assert.deepStrictEqual(a, b);
 }
 testAll();

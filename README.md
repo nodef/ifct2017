@@ -45,7 +45,7 @@ about('i want to know what types of food are there');
 // - T: Edible Oils and Fats. 9 foods.
 
 about('what happened in 1951');
-about('what was the situation in nineteen fity');
+about('what was the situation in nineteen fifty');
 /* (can convert textual number to number) */
 /* (1950-1959 is considered for 1951 event) */
 // Between 1938 and 1951, there was a notable transition in the Indian nutrition

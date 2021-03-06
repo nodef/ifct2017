@@ -1,12 +1,12 @@
 {
   "name": "@ifct2017/about",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "On the history of malnutrition, current status, and data details.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./test",
     "build": "node ./build",
-    "deploy": "node ./build && npm publish"
+    "deploy": "node ./build && ebuild publish --publishMin=false --publishBranch=false",
+    "test": "node ./build && node ./test"
   },
   "repository": {
     "type": "git",
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/ifct2017/about/issues"
   },
-  "homepage": "https://github.com/ifct2017/about#readme"
+  "homepage": "https://github.com/ifct2017/about#readme",
+  "devDependencies": {
+    "extra-build": "^1.3.31"
+  }
 }
