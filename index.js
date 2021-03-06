@@ -2,14 +2,14 @@ const path = require('path');
 const lunr = require('lunr');
 const esql = require('sql-extra');
 
-var corpus = new Map();
+var corpus = null;
 var index = null;
 
 
 
 
-function setupIndex() {
-  index = lunr(function() {
+function createIndex() {
+  return lunr(function() {
     this.ref('sno');
     this.field('sno');
     this.field('title');
@@ -22,7 +22,7 @@ function setupIndex() {
 function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
-  setupIndex();
+  index = createIndex();
   return corpus;
 }
 
