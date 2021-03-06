@@ -12,9 +12,6 @@ const contents = require('@ifct2017/contents');
 // -> [{sno, title, pagenos}] for matched contents
 
 
-contents.load();
-/* load corpus first */
-
 contents('table 2');
 contents('Water soluble vitamins');
 // [ { sno: '6.2.',
