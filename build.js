@@ -4,9 +4,15 @@ const os = require('os');
 
 var map = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+
+
+
+
 stream.on('data', (r) => {
   map.set(r.sno, r);
 });
+
+
 stream.on('end', () => {
   var z = `const CORPUS = new Map([${os.EOL}`;
   for(var [k, v] of map)
