@@ -1,6 +1,8 @@
-# scripts
-build.js
-
-# assets
-assets
+# Data
+assets/
 index.txt
+
+# Build
+.travis.yml
+build.js
+test.js

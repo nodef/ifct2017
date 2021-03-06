@@ -35,7 +35,7 @@ function readIndex() {
     else a.set(k.replace(/:.*/, ''), v.split('\n'));
   }
   return a;
-};
+}
 
 function writeCorpus(map) {
   var a = `const CORPUS = new Map([${os.EOL}`;
@@ -44,7 +44,7 @@ function writeCorpus(map) {
   a += `]);${os.EOL}`;
   a += `module.exports = CORPUS;${os.EOL}`;
   writeFile('corpus.js', a);
-};
+}
 
 var map = /index/i.test(A[2]||'')? readIndex() : readAssets();
 writeCorpus(map);

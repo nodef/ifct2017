@@ -4,14 +4,9 @@ On the history of malnutrition, current status, and data details.
 
 ```javascript
 const about = require('@ifct2017/about');
-// about.corpus: Map {topic => text}
-// about.load(): true (corpus loaded)
 // about(<query>)
 // -> text
 
-
-about.load();
-/* load corpus first */
 
 about('who is you publisher');
 about('which organization issued you');
@@ -66,6 +61,10 @@ about('what was the situation in nineteen fity');
 // infant beriberi and osteomalacia continued to be rampant. Sustained nutritional
 // issues prompted the revision of Indian FCT resulting in the publication of fourth
 // edition of the Health Bulletin No. 23 by Aykroyd, Patwardhan, and Ranganathan (1951).
+
+
+// Additional methods:
+// about.load(): load corpus now
 ```
 
 > Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,

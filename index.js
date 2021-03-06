@@ -31,6 +31,8 @@ const WHO = /who|person|people|member/i;
 var corpus = null;
 
 
+
+
 function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
@@ -40,11 +42,11 @@ function load() {
 
 function about(txt) {
   if (!corpus) load();
-  var txt = nlp(txt), reg = REGEX;
+  var txt = nlp(txt), re = REGEX;
   if(USER.test(txt) || (USE.test(txt) && WHO.test(txt))) return corpus.get('user');
   if(USE.test(txt)) return corpus.get('use');
-  for(var k in reg)
-    if(reg[k].test(txt)) return corpus.get(k);
+  for(var k in re)
+    if(re[k].test(txt)) return corpus.get(k);
   return null;
 }
 about.load = load;
