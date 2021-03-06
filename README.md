@@ -5,7 +5,7 @@ On the history of malnutrition, current status, and data details.
 ```javascript
 const about = require('@ifct2017/about');
 // about(<query>)
-// -> text
+// → text
 
 
 about('who is you publisher');
