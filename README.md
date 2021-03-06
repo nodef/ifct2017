@@ -1,11 +1,14 @@
 On the history of malnutrition, current status, and data details.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const about = require('@ifct2017/about');
-// about(<query>)
-// → text
+// about(query)
+// → text if matched, null otherwise
 
 
 about('who is you publisher');
@@ -64,10 +67,11 @@ about('what was the situation in nineteen fifty');
 // Note:
 // Can convert textual number to number.
 // 1950-1959 is considered for 1951 event.
+```
 
-
+```javascript
 // Additional methods:
-// about.load(): load corpus now
+about.load() // → corpus
 ```
 
 > Supported [topics] include: 1937, 1951, 1963, 1971, 1989, 2017, challenge,
@@ -77,8 +81,9 @@ about('what was the situation in nineteen fifty');
 <br>
 <br>
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
 [ifct2017]: https://www.npmjs.com/package/ifct2017
