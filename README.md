@@ -46,8 +46,6 @@ about('i want to know what types of food are there');
 
 about('what happened in 1951');
 about('what was the situation in nineteen fifty');
-/* (can convert textual number to number) */
-/* (1950-1959 is considered for 1951 event) */
 // Between 1938 and 1951, there was a notable transition in the Indian nutrition
 // scenario. Among tropical regions, India contributed substantially in the field
 // of nutrition (Nicholls, 1945). The incidence of pellagra was noticed and the
@@ -61,6 +59,11 @@ about('what was the situation in nineteen fifty');
 // infant beriberi and osteomalacia continued to be rampant. Sustained nutritional
 // issues prompted the revision of Indian FCT resulting in the publication of fourth
 // edition of the Health Bulletin No. 23 by Aykroyd, Patwardhan, and Ranganathan (1951).
+
+
+// Note:
+// Can convert textual number to number.
+// 1950-1959 is considered for 1951 event.
 
 
 // Additional methods:
