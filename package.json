@@ -1,9 +1,10 @@
 {
   "name": "@ifct2017/about",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "On the history of malnutrition, current status, and data details.",
   "main": "index.js",
   "scripts": {
+    "build": "node ./build",
     "test": "exit"
   },
   "repository": {

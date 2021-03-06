@@ -4,34 +4,47 @@ const os = require('os');
 
 const A = process.argv;
 
+
+
+
+function readFile(pth) {
+  var d = fs.readFileSync(pth, 'utf8');
+  return d.replace(/\r?\n/g, '\n');
+}
+
+function writeFile(pth, d) {
+  d = d.replace(/\r?\n/g, os.EOL);
+  fs.writeFileSync(pth, d);
+}
+
+
 function readAssets() {
-  var z = new Map();
+  var a = new Map();
   for(var f of fs.readdirSync('assets'))
-    z.set(f.replace('.txt', ''), fs.readFileSync(path.join('assets', f), 'utf8'));
-  return z;
-};
+    a.set(f.replace('.txt', ''), readFile(path.join('assets', f)));
+  return a;
+}
+
 
 function readIndex() {
-  var z = new Map(), txt = fs.readFileSync('index.txt', 'uf8');
-  var regex = /\[\[([\w:]+)\]\]\r?\n([\w\W]*?)\r?\n\r?\n\r?\n/g;
-  while(true) {
-    var m = regex.exec(txt);
-    if(m==null) break;
+  var a = new Map(), txt = readFile('index.txt');
+  var re = /\[\[([\w:]+)\]\]\n([\w\W]*?)\n\n\n/g, m;
+  while ((m = re.exec(txt)) != null) {
     var k = m[1], v = m[2].trim();
-    if(!k.endsWith(':')) z.set(k, [v]);
-    else z.set(k.replace(/:.*/, ''), v.split(/\r?\n/g));
+    if (!k.endsWith(':')) a.set(k, [v]);
+    else a.set(k.replace(/:.*/, ''), v.split('\n'));
   }
-  return z;
+  return a;
 };
 
 function writeCorpus(map) {
-  var z = `const CORPUS = new Map([${os.EOL}`;
-  for(var [k, v] of map)
-    z += `  ["${k}", ${JSON.stringify(v)}],${os.EOL}`;
-  z += `]);${os.EOL}`;
-  z += `module.exports = CORPUS;${os.EOL}`;
-  fs.writeFileSync('corpus.js', z);
+  var a = `const CORPUS = new Map([${os.EOL}`;
+  for (var [k, v] of map)
+    a += `  ["${k}", ${JSON.stringify(v)}],${os.EOL}`;
+  a += `]);${os.EOL}`;
+  a += `module.exports = CORPUS;${os.EOL}`;
+  writeFile('corpus.js', a);
 };
 
-var map = /index/i.test(A[2]||'')? readIndex():readAssets();
+var map = /index/i.test(A[2]||'')? readIndex() : readAssets();
 writeCorpus(map);
