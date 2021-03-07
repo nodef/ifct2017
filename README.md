@@ -1,20 +1,15 @@
 [Jones factors] for conversion of nitrogen to protein.
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const jonesFactors = require('@ifct2017/jonesfactors');
-// jonesFactors.corpus: Map {food => {food, factor}}
-// jonesFactors.load(): true (corpus loaded)
-// jonesFactors.sql([table], [options]): sql commands
-// jonesFactors.csv(): path to csv file
-// jonesFactors(<query>)
-// -> [{food, factor}] for matched foods
+// jonesFactors(query)
+// → matches [{food, factor}]
 
-
-jonesFactors.load();
-/* load corpus first */
 
 jonesFactors('maida');
 jonesFactors('Refined wheat');
@@ -26,9 +21,19 @@ jonesFactors('jones factor of oats');
 //     factor: '5.83' } ]
 ```
 
+```javascript
+// Additional methods:
+jonesFactors.load() // → corpus
+jonesFactors.sql([table], [options]) // → sql statements
+jonesFactors.csv() // → path of csv data file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
