@@ -23,9 +23,7 @@ jonesFactors('Refined wheat');
 jonesFactors('what is jones factor of barley?');
 jonesFactors('jones factor of oats');
 // [ { food: 'Barley and its flour;Rye and its flour;Oats',
-//     factor: '5.83' },
-//   { food: 'Food where specific factor is not listed',
-//     factor: '6.25' } ]
+//     factor: '5.83' } ]
 ```
 
 

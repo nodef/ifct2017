@@ -36,13 +36,13 @@ function sql(tab='jonesfactors', opt={}) {
 
 function jonesFactors(txt) {
   if (!corpus) load();
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a = [], txt = txt.replace(/\W/g, ' ').replace(/factor/gi, '');
   var ms = index.search(txt), max = 0;
   for(var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
   for(var m of ms)
     if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
-  return a.length>0? a:[corpus.get('Food where specific factor is not listed')];
+  return a.length>0? a : [corpus.get('Food where specific factor is not listed')];
 }
 jonesFactors.load = load;
 jonesFactors.csv = csv;
