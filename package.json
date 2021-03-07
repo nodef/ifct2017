@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/regions",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Categorization of the States/UTs into six different regions.",
   "main": "index.js",
   "scripts": {
@@ -43,6 +43,7 @@
     "sql-extra": "0.1"
   },
   "devDependencies": {
-    "csv": "5.3"
+    "csv": "5.3",
+    "extra-build": "^1.3.31"
   }
 }

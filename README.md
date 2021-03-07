@@ -5,7 +5,7 @@ Categorization of the States/UTs into six different [regions].
 
 ```javascript
 const regions = require('@ifct2017/regions');
-// regions.corpus: Map {region => {region, states}}
+// regions.corpus: Map {region ⇒ {region, states}}
 // regions.load(): true (corpus loaded)
 // regions.sql([table], [options]): sql commands
 // regions.csv(): path to csv file
