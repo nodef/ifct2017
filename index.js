@@ -40,10 +40,10 @@ function contents(txt) {
   if (!corpus) load();
   var a = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
-  for(var m of ms)
+  for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
-  for(var m of ms)
-    if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
+  for (var m of ms)
+    if (Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
   return a;
 }
 contents.load = load;
