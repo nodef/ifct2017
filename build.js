@@ -4,16 +4,27 @@ const os = require('os');
 
 var map = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
-stream.on('data', (r) => {
+
+
+
+
+function writeFile(pth, d) {
+  d = d.replace(/\r?\n/g, os.EOL);
+  fs.writeFileSync(pth, d);
+}
+
+
+stream.on('data', r => {
   r.districts = parseInt(r.districts, 10);
   r.selected = parseInt(r.selected, 10);
   map.set(r.sno, r);
 });
+
 stream.on('end', () => {
-  var z = `var CORPUS = new Map([${os.EOL}`;
-  for(var [k, v] of map)
-    z += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],${os.EOL}`;
-  z += `]);${os.EOL}`;
-  z += `module.exports = CORPUS;${os.EOL}`;
-  fs.writeFileSync('corpus.js', z);
+  var a = `var CORPUS = new Map([\n`;
+  for (var [k, v] of map)
+    a += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],\n`;
+  a += `]);\n`;
+  a += `module.exports = CORPUS;\n`;
+  writeFile('corpus.js', a);
 });
