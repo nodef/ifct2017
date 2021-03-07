@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/compositingcentres",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Regional compositing centres and sample size of each region.",
   "main": "index.js",
   "scripts": {

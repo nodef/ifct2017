@@ -11,7 +11,7 @@ export interface CompositingCentre {
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/compositingcentres)
- * @returns corpus {region => {region, centre, samples}}
+ * @returns corpus {region ⇒ {region, centre, samples}}
  */
 export function load() : Map<string, CompositingCentre>;
 
@@ -36,7 +36,7 @@ export function load() : Map<string, CompositingCentre>;
  * Finds matching compositing centres of a region/centre query.
  * [📦](https://www.npmjs.com/package/@ifct2017/compositingcentres)
  * @param txt region/centre query
- * @returns matched compositing centres => [{region, centre, samples}]
+ * @returns matched compositing centres ⇒ [{region, centre, samples}]
  * @examples
  * ```javascript
  * compositingCentres('west');
