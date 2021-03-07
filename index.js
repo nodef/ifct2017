@@ -45,7 +45,7 @@ function compositingCentres(txt) {
   for(var m of ms)
     if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
   return a;
-};
+}
 compositingCentres.load = load;
 compositingCentres.csv = csv;
 compositingCentres.sql = sql;
