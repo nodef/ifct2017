@@ -1,10 +1,12 @@
 {
   "name": "@ifct2017/carbohydrates",
-  "version": "1.0.7",
+  "version": "2.0.0",
   "description": "Conversion of carbohydrate weights to monosaccharide equivalents in Indian Food Composition Tables 2017.",
   "main": "index.js",
   "scripts": {
-    "test": "exit"
+    "build": "node ./build",
+    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
+    "test": "node ./build && node ./tests"
   },
   "repository": {
     "type": "git",
