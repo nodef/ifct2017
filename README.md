@@ -1,20 +1,15 @@
 Regional [compositing centres] and sample size of each region.
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
-// compositingCentres.corpus: Map {region => {region, centre, samples}}
-// compositingCentres.load(): true (corpus loaded)
-// compositingCentres.sql([table], [options]): sql commands
-// compositingCentres.csv(): path to csv file
-// compositingCentres(<query>)
-// -> [{region, centre, samples}] for matched components
+// compositingCentres(query)
+// → [{region, centre, samples}] for matched compositing centres
 
-
-compositingCentres.load();
-/* load corpus first */
 
 compositingCentres('west');
 compositingCentres('Mumbai');
@@ -25,10 +20,20 @@ compositingCentres('North East compositing centre');
 // [ { region: 'North East', centre: 'Guwahati', samples: 11 } ]
 ```
 
+```javascript
+// Additional methods:
+compositingCentres.load() // → corpus
+compositingCentres.sql([table], [options]) // → sql statements
+compositingCentres.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
-> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 > Take a peek at the raw data here: [Document], [Webpage].
 
 [ifct2017]: https://www.npmjs.com/package/ifct2017
