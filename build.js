@@ -38,11 +38,11 @@ function readIndex() {
 }
 
 function writeCorpus(map) {
-  var a = `const CORPUS = new Map([${os.EOL}`;
+  var a = `const CORPUS = new Map([\n`;
   for (var [k, v] of map)
-    a += `  ["${k}", ${JSON.stringify(v)}],${os.EOL}`;
-  a += `]);${os.EOL}`;
-  a += `module.exports = CORPUS;${os.EOL}`;
+    a += `  ["${k}", ${JSON.stringify(v)}],\n`;
+  a += `]);\n`;
+  a += `module.exports = CORPUS;\n`;
   writeFile('corpus.js', a);
 }
 
