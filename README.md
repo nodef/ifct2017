@@ -1,20 +1,15 @@
 [Conversion of carbohydrate weights] to monosaccharide equivalents.
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const carbohydrates = require('@ifct2017/carbohydrates');
-// carbohydrates.corpus: Map {sno => {sno, carbohydrate, hydrolysis, monosaccharide}}
-// carbohydrates.load(): true (corpus loaded)
-// carbohydrates.sql([table], [options]): sql commands
-// carbohydrates.csv(): path to csv file
-// carbohydrates(<query>)
-// -> [{sno, carbohydrate, hydrolysis, monosaccharide}] for matches
+// carbohydrates(query)
+// → matches [{sno, carbohydrate, hydrolysis, monosaccharide}]
 
-
-carbohydrates.load();
-/* load corpus first */
 
 carbohydrates('monosaccharide');
 carbohydrates('Glucose');
@@ -31,9 +26,19 @@ carbohydrates('maltose conversion factor');
 //     monosaccharide: 1.05 } ]
 ```
 
+```javascript
+// Additional methods:
+carbohydrates.load() // → corpus
+carbohydrates.sql([table], [options]) // → sql statements
+carbohydrates.csv() // → path of csv data file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
