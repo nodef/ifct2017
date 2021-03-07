@@ -13,7 +13,7 @@ export interface FrequencyDistribution {
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/frequencydistribution)
- * @returns corpus {districts (start) => {districts, states, selected, sampled}}
+ * @returns corpus {districts (start) ⇒ {districts, states, selected, sampled}}
  */
 export function load() : Map<string, FrequencyDistribution>;
 
@@ -38,7 +38,7 @@ export function load() : Map<string, FrequencyDistribution>;
  * Finds matching frequency distribution for a given no. of districts.
  * [📦](https://www.npmjs.com/package/@ifct2017/frequencydistribution)
  * @param dis no. of districts
- * @returns found => {districts, states, selected, sampled}, else => null
+ * @returns found ⇒ {districts, states, selected, sampled}, else ⇒ null
  * @example
  * ```javascript
  * frequencyDistribution(2);
