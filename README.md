@@ -1,20 +1,15 @@
 Metabolizable [energy conversion factors].
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const energies = require('@ifct2017/energies');
-// energies.corpus: Map {component => {component, kj, kcal}}
-// energies.load(): true (corpus loaded)
-// energies.sql([table], [options]): sql commands
-// energies.csv(): path to csv file
-// energies(<query>)
-// -> [{component, kj, kcal}] for matched components
+// energies(query)
+// → matches [{component, kj, kcal}]
 
-
-energies.load();
-/* load corpus first */
 
 energies('dietary fibre');
 energies('Soluble fibre');
@@ -25,9 +20,19 @@ energies('conversion factor of fat');
 // [ { component: 'Fat', kj: 37, kcal: 9 } ]
 ```
 
+```javascript
+// Additional methods:
+energies.load() // → corpus
+energies.sql([table], [options]) // → sql statements
+energies.csv() // → path of csv data file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
