@@ -1,7 +1,7 @@
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/about)
- * @returns corpus {topic => text}
+ * @returns corpus {topic ⇒ text}
  */
 export function load() : Map<string, string>;
 
@@ -10,7 +10,7 @@ export function load() : Map<string, string>;
  * Finds matching description of an about query.
  * [📦](https://www.npmjs.com/package/@ifct2017/about)
  * @param txt about query
- * @returns found => text, else => null
+ * @returns found ⇒ text, else ⇒ null
  * @example
  * ```javascript
  * about('who is you publisher');
