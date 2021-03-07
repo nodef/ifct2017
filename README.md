@@ -1,20 +1,15 @@
 Categorization of the States/UTs into six different [regions].
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const regions = require('@ifct2017/regions');
-// regions.corpus: Map {region ⇒ {region, states}}
-// regions.load(): true (corpus loaded)
-// regions.sql([table], [options]): sql commands
-// regions.csv(): path to csv file
-// regions(<query>)
-// -> [{region, states}] for matched regions
+// regions(query)
+// → matches [{region, states}]
 
-
-regions.load();
-/* load corpus first */
 
 regions('central');
 regions('Uttaranchal');
@@ -27,9 +22,19 @@ regions('details of south region');
 //     states: 'Andaman & Nicobar Islands;Andhra Pradesh;Karnataka;Kerala;Lakshadweep;Pondicherry;Telangana;Tamil Nadu' } ]
 ```
 
+```javascript
+// Additional methods:
+regions.load() // → corpus loaded
+regions.sql([table], [options]) // → sql statements
+regions.csv() // → path of csv data file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
