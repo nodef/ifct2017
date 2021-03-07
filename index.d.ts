@@ -11,7 +11,7 @@ export interface Content {
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
- * @returns corpus {sno => {sno, title, pagenos}}
+ * @returns corpus {sno ⇒ {sno, title, pagenos}}
  */
 export function load() : Map<string, Content>;
 
@@ -33,10 +33,10 @@ export function load() : Map<string, Content>;
 
 
 /**
- * Finds matching contents of a content query.
+ * Finds matching contents of an sno/title/pagenos query.
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @param txt content query
- * @returns matched contents => [{sno, title, pagenos}]
+ * @returns matched contents ⇒ [{sno, title, pagenos}]
  * @example
  * ```javascript
  * contents('table 2');
@@ -52,5 +52,5 @@ export function load() : Map<string, Content>;
  * //     pagenos: '61' } ]
  * ```
  */
-function contents(txt: string): [ContentRow];
+function contents(txt: string): [Content];
 export = contents;
