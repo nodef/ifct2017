@@ -13,7 +13,7 @@ export interface SamplingUnit {
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/samplingunits)
- * @returns corpus {sno => {sno, state, districts, selected}}
+ * @returns corpus {sno ⇒ {sno, state, districts, selected}}
  */
 export function load() : Map<string, SamplingUnit>;
 
