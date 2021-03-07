@@ -1,19 +1,15 @@
 [Frequency distribution] of States/UTs for fixing the number of districts to be sampled.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const frequencyDistribution = require('@ifct2017/frequencydistribution');
-// frequencyDistribution.corpus: Map {districts (start) => {districts, states, selected, sampled}}
-// frequencyDistribution.load(): true (corpus loaded)
-// frequencyDistribution.sql([table], [options]): sql commands
-// frequencyDistribution.csv(): path to csv file
-// frequencyDistribution(<districts>)
-// -> {districts, states, selected, sampled}
+// frequencyDistribution(districts)
+// → {districts, states, selected, sampled} if found, null otherwise
 
-
-frequencyDistribution.load();
-/* load corpus first */
 
 frequencyDistribution(2);
 frequencyDistribution(5);
@@ -24,10 +20,20 @@ frequencyDistribution(37);
 // { districts: '31-40', states: 4, selected: 5, sampled: 20 }
 ```
 
+```javascript
+// Additional methods:
+frequencyDistribution.load() // → corpus
+frequencyDistribution.sql([table], [options]) // → sql statements
+frequencyDistribution.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
-> Food composition values were measured by [National Institute of Nutrition, Hyderabad].
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 
 [ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
