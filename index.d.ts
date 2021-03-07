@@ -38,7 +38,7 @@ export function load() : Map<string, SamplingUnit>;
  * Finds matching sampling units of an sno/state query.
  * [📦](https://www.npmjs.com/package/@ifct2017/samplingunits)
  * @param txt sno/state query
- * @returns matched sampling units => [{sno, state, districts, selected}]
+ * @returns matches [{sno, state, districts, selected}]
  * @example
  * ```javascript
  * samplingUnits('andaman');
