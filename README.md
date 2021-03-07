@@ -8,7 +8,7 @@
 ```javascript
 const contents = require('@ifct2017/contents');
 // contents(query)
-// → [{sno, title, pagenos}] for matched contents
+// → matches [{sno, title, pagenos}]
 
 
 contents('table 2');
@@ -28,7 +28,7 @@ contents('fat soluble vitamin page number');
 // Additional methods:
 contents.load() // → corpus
 contents.sql([table], [options]) // → sql statements
-contents.csv(): // → path of csv file
+contents.csv() // → path of csv data file
 ```
 
 <br>
