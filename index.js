@@ -4,7 +4,6 @@ const esql = require('sql-extra');
 
 var corpus = null;
 var index = null;
-var ready = false;
 
 
 
