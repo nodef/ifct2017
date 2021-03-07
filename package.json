@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/samplingunits",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "Number of primary sampling units (districts) in each State/UT.",
   "main": "index.js",
   "scripts": {
