@@ -14,7 +14,7 @@ function writeFile(pth, d) {
 }
 
 
-stream.on('data', (r) => {
+stream.on('data', r => {
   r.states = parseFloat(r.states);
   r.selected = parseFloat(r.selected);
   r.sampled = parseFloat(r.sampled);

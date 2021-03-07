@@ -21,6 +21,7 @@ function sql(tab='frequencydistribution', opt={}) {
     require('./corpus').values(), Object.assign({pk: 'districts', index: true, tsvector: {districts: 'A'}}, opt));
 }
 
+
 function frequencyDistribution(dis) {
   if (!corpus) load();
   if (dis <= 5) return corpus.get(1);
