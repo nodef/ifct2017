@@ -1,11 +1,11 @@
 {
   "name": "@ifct2017/frequencydistribution",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Frequency distribution of States/UTs for fixing the number of districts to be sampled.",
   "main": "index.js",
   "scripts": {
     "build": "node ./build",
-    "deploy": "node ./build && ebuild publish --publishMin=false --publishBranch=false",
+    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
     "test": "node ./build && node ./tests"
   },
   "repository": {
