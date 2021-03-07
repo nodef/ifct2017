@@ -35,6 +35,7 @@ function sql(tab='contents', opt={}) {
     Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', title: 'B', pagenos: 'C'}}, opt));
 }
 
+
 function contents(txt) {
   if (!corpus) load();
   var a = [], txt = txt.replace(/\W/g, ' ');

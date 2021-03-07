@@ -1,9 +1,9 @@
-export interface ContentRow {
-  /** Serial number. */
+export interface Content {
+  /** S. No. */
   sno: string,
-  /** Chapter title. */
+  /** Title. */
   title: string,
-  /** Page numbers. */
+  /** Page Nos. */
   pagenos: string
 }
 
@@ -13,7 +13,7 @@ export interface ContentRow {
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @returns corpus {sno => {sno, title, pagenos}}
  */
-export function load() : Map<string, ContentRow>;
+export function load() : Map<string, Content>;
 
 
 /**
@@ -21,7 +21,7 @@ export function load() : Map<string, ContentRow>;
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @returns CREATE TABLE, INSERT, CREATE VIEW, CREATE INDEX statements
  */
- export function sql() : string;
+ export function sql(tab: string='contents', opt: object={}) : string;
 
 
 /**

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const contents = require('./')
+const contents = require('./');
 
 
 

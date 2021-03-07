@@ -1,12 +1,12 @@
 {
   "name": "@ifct2017/contents",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Contents in the original book.",
   "main": "index.js",
   "scripts": {
     "build": "node ./build",
-    "deploy": "node ./build && ebuild publish --publishMin=false --publishBranch=false",
-    "test": "node ./build && node ./test"
+    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
+    "test": "node ./build && node ./tests"
   },
   "repository": {
     "type": "git",
