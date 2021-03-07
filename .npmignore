@@ -4,4 +4,4 @@ index.txt
 # Build
 .travis.yml
 build.js
-test.js
+tests.js
