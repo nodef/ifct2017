@@ -8,7 +8,7 @@ Regional [compositing centres] and sample size of each region.
 ```javascript
 const compositingCentres = require('@ifct2017/compositingcentres');
 // compositingCentres(query)
-// → [{region, centre, samples}] for matched compositing centres
+// → matches [{region, centre, samples}]
 
 
 compositingCentres('west');
@@ -30,7 +30,7 @@ compositingCentres.csv() // → path of csv file
 <br>
 <br>
 
-[![](https://i.imgur.com/D5UYmbD.jpg)](https://www.npmjs.com/package/ifct2017)
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
 
 > Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
