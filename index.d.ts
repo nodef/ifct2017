@@ -13,7 +13,7 @@ export interface Carbohydrate {
 /**
  * Loads corpus to enable queries.
  * [📦](https://www.npmjs.com/package/@ifct2017/carbohydrates)
- * @returns corpus {sno => {sno, carbohydrate, hydrolysis, monosaccharide}}
+ * @returns corpus {sno ⇒ {sno, carbohydrate, hydrolysis, monosaccharide}}
  */
 export function load() : Map<string, Carbohydrate>;
 
