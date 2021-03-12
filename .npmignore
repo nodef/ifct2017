@@ -1,5 +1,7 @@
-# info
+# Data
 index.txt
 
-# scripts
+# Build
+.travis.yml
 build.js
+tests.js
