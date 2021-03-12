@@ -1,10 +1,12 @@
 {
   "name": "@ifct2017/groups",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Categorization of food by their common names.",
   "main": "index.js",
   "scripts": {
-    "test": "exit"
+    "build": "node ./build",
+    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
+    "test": "node ./build && node ./tests"
   },
   "repository": {
     "type": "git",
