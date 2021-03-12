@@ -1,47 +1,49 @@
 [Recommended daily intakes] of nutrients.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const intakes = require('@ifct2017/intakes');
-// intakes.corpus: Map {column_code => {whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan}}
-// intakes.load(): true (corpus loaded)
-// intakes.sql([table], [options]): sql commands
-// intakes.csv(): path to csv file
-// intakes(<query>)
-// -> {whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan} if found, null otherwise
+// intakes(query)
+// → matches [{code, whorda, usear, usrdam, usrdaf, euprim, euprif, ulus, uleu, uljapan}]
 
-
-intakes.load();
-/* load corpus first */
 
 intakes('his');
 intakes('Histidine');
-// { whorda: -0.01,
-//   usear: null,
+// { code: 'his',
+//   whorda: -0.01,
+//   usear: NaN,
 //   usrdam: -0.014,
-//   usrdaf: null,
-//   euprim: null,
-//   euprif: null,
-//   ulus: null,
-//   uleu: null,
-//   uljapan: null }
-/* negative value indicates amount per kg of body weight */
+//   usrdaf: NaN,
+//   euprim: NaN,
+//   euprif: NaN,
+//   ulus: NaN,
+//   uleu: NaN,
+//   uljapan: NaN }
 
 intakes('intake of total fibre?');
 intakes('what is rda of total fiber?');
-// { whorda: null,
-//   usear: null,
+// { code: 'fibtg',
+//   whorda: NaN,
+//   usear: NaN,
 //   usrdam: 38,
 //   usrdaf: 25,
-//   euprim: null,
-//   euprif: null,
-//   ulus: null,
-//   uleu: null,
-//   uljapan: null }
+//   euprim: NaN,
+//   euprif: NaN,
+//   ulus: NaN,
+//   uleu: NaN,
+//   uljapan: NaN }
 
 
-// ->
+// Note:
+// +ve value indicates amount in grams.
+// -ve value indicates amount in grams per kg of body weight.
+// NaN indicates no recommentation given.
+
+// Note:
 // whorda: WHO Recommended Dietary Allowance
 // usear:  US Estimated Average Requirement
 // usrdam: US Recommended Dietary Allowance (Male)
@@ -53,9 +55,19 @@ intakes('what is rda of total fiber?');
 // uljapan: Tolerable intake Upper Level (Japan)
 ```
 
+```javascript
+// Additional methods:
+intakes.load() // → corpus
+intakes.sql([table], [options]) // → sql statements
+intakes.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
