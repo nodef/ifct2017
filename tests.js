@@ -8,8 +8,8 @@ function testAll() {
   var a = columns('vitamin c');
   var b = columns('c-vitamin');
   var c = [{
-    code: 'vitc', name: 'Total Ascorbic acid',
-    tags: 'ascorbate water soluble vitamin c vitamin c essential'
+    code: 'vitc', name: 'Ascorbic acids (C)',
+    tags: 'total ascorbate water soluble vitamin c vitamin c essential'
   }];
   assert.deepStrictEqual(a, c);
   assert.deepStrictEqual(b, c);
