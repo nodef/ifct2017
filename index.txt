@@ -7,64 +7,8 @@ Department of Health Research Ministry of Health and Family Welfare, Government 
 Jamai Osmania (PO), Hyderabad – 500 007
 Telangana, India Phone: +91 40 27197334, Fax: +91 40 27000339, Email: nin@ap.nic.in
 
-HIERARCHY DETAILS
+HIERARCHY
 - Column Code
 - List of Parent columns
-
-TABLE 1
-enerc
-
-TABLE 2
-thia
-
-TABLE 3
-retol
-
-TABLE 4
-lutn
-
-TABLE 5-1
-al
-
-TABLE 5-2
-mg
-
-TABLE 6
-cho
-
-TABLE 7-1
-TABLE 7-2
-TABLE 7-3
-TABLE 7-4
-TABLE 7-5
-TABLE 7-6
-TABLE 7-7
-TABLE 7-8
-f4d0
-
-TABLE 8-1
-his
-
-TABLE 8-2
-ala
-
-TABLE 9
-oxalt
-
-TABLE 10-1
-dhbenzac34
-
-TABLE 10-2
-chlrac
-
-TABLE 10-3
-querce3bgls
-
-TABLE 10-4
-epicategc
-
-TABLE 11
-rafs
-
-TABLE ADDED
-amiace
+- List of Ancestor columns
+- List of Child columns
