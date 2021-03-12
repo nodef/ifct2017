@@ -34,7 +34,7 @@ function csv() {
 
 
 function sql(tab='groups', opt={}) {
-  return esql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT', tags: 'TEXT'}, require('./corpus').values(),
+  return esql.setupTable(tab, {code: 'TEXT', group: 'TEXT', entries: 'INT', tags: 'TEXT'}, load().values(),
     Object.assign({pk: 'code', index: true, tsvector: {code: 'A', group: 'B', tags: 'C'}}, opt));
 }
 
@@ -43,12 +43,12 @@ function groups(txt) {
   if (!corpus) load();
   var a = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
-  for(var m of ms)
+  for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
-  for(var m of ms)
-    if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
+  for (var m of ms)
+    if (Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
   return a;
-};
+}
 groups.load = load;
 groups.csv = csv;
 groups.sql = sql;
