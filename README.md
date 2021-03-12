@@ -1,19 +1,15 @@
 [Categorization] of food by their common names.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const groups = require('@ifct2017/groups');
-// groups.corpus: Map {code => {code, group, entries, tags}}
-// groups.load(): true (corpus loaded)
-// groups.sql([table], [options]): sql commands
-// groups.csv(): path to csv file
-// groups(<query>)
-// -> [{code, group, entries, tags}] for matched groups
+// groups(query)
+// → matches [{code, group, entries, tags}]
 
-
-groups.load();
-/* load corpus first */
 
 groups('cereals');
 groups('Millet');
@@ -34,9 +30,19 @@ groups('vegetable group code?');
 //     tags: 'vegetarian eggetarian fishetarian veg' } ]
 ```
 
+```javascript
+// Additional methods:
+groups.load() // → corpus
+groups.sql([table], [options]) // → sql statements
+groups.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
