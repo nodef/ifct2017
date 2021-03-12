@@ -1,19 +1,18 @@
 Uniquely identifiable [codes] for each food.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const codes = require('@ifct2017/codes');
-// codes.corpus: Map {name => {name, code}}
-// codes.load(): Promise (corpus loaded)
-// codes.sql([table], [options]): Promise (sql commands)
-// codes.csv(): path to csv file
-// codes(<query>)
-// -> [{name, code}] for matched food names
+// codes(query)
+// → matches [{name, code}]
 
 
 await codes.load();
-/* load corpus first */
+/// Load corpus first
 
 codes('mango green');
 codes('Raw mango');
@@ -26,9 +25,19 @@ codes('atta code');
 //   { name: 'Wheat flour, atta (Common)', code: 'A019' } ]
 ```
 
+```javascript
+// Additional methods:
+codes.load() // → corpus (promise)
+codes.sql([table], [options]) // → sql statements (promise)
+codes.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
