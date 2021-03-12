@@ -29,9 +29,7 @@ function sql(tab='intakes', opt={}) {
 
 function intakes(txt) {
   if (!corpus) load();
-  var ms = columns(txt);
-  if (ms.length===0) return null;
-  return corpus.get(ms[0].code)||null;
+  return columns(txt).map(r => corpus.get(r.code));
 }
 intakes.load = load;
 intakes.csv = csv;
