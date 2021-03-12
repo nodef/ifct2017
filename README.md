@@ -13,29 +13,29 @@ const intakes = require('@ifct2017/intakes');
 
 intakes('his');
 intakes('Histidine');
-// { code: 'his',
-//   whorda: -0.01,
-//   usear: NaN,
-//   usrdam: -0.014,
-//   usrdaf: NaN,
-//   euprim: NaN,
-//   euprif: NaN,
-//   ulus: NaN,
-//   uleu: NaN,
-//   uljapan: NaN }
+// [{ code: 'his',
+//    whorda: -0.01,
+//    usear: NaN,
+//    usrdam: -0.014,
+//    usrdaf: NaN,
+//    euprim: NaN,
+//    euprif: NaN,
+//    ulus: NaN,
+//    uleu: NaN,
+//    uljapan: NaN }]
 
 intakes('intake of total fibre?');
 intakes('what is rda of total fiber?');
-// { code: 'fibtg',
-//   whorda: NaN,
-//   usear: NaN,
-//   usrdam: 38,
-//   usrdaf: 25,
-//   euprim: NaN,
-//   euprif: NaN,
-//   ulus: NaN,
-//   uleu: NaN,
-//   uljapan: NaN }
+// [{ code: 'fibtg',
+//    whorda: NaN,
+//    usear: NaN,
+//    usrdam: 38,
+//    usrdaf: 25,
+//    euprim: NaN,
+//    euprif: NaN,
+//    ulus: NaN,
+//    uleu: NaN,
+//    uljapan: NaN }]
 
 
 // Note:
