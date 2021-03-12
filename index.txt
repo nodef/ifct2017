@@ -11,3 +11,4 @@
 # - Code
 # - Food groups
 # - No. of food entries
+# - Tags

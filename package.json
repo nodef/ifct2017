@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/groups",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Categorization of food by their common names.",
   "main": "index.js",
   "scripts": {
