@@ -6,28 +6,28 @@ lang,Local Name,colloquial trivial country farmer popular
 grup,Food Group,category class classification grouping type sort kind
 regn,No. of Regions,number
 tags,Tags,
-water,Moisture,total liquid steam vapour proximate
-protcnt,Protein,total essential macronutrient proximate
-ash,Ash,total metal oxide mineral inorganic element residue proximate
-fatce,Total Fat,triglyceride lipid blubber essential macronutrient
-fibtg,Dietary Fiber,fibre roughage bulk indigestible
-fibins,Insoluble Dietary Fiber,total fibre roughage bulk indigestible
-fibsol,Soluble Dietary Fiber,total fibre roughage bulk indigestible
-choavldf,Carbohydrate,total cho saccharide ose glucide hydrate carbon macronutrient proximate
-enerc,Energy,total atp calorie metabolism essential proximate kj kilojoule kilo joule
-thia,Thiamine (B1),thiamin aneurine vitamin b1 b 1 water soluble essential
-ribf,Riboflavin (B2),vactochrome lactoflavin vitamin b2 b 2 water soluble g essential
-nia,Niacin (B3),nicotinic acid nicotinamide bionic vitamin b3 b 3 pp water soluble essential white translucent crystalline crystal
-pantac,Pantothenic acid (B5),pantothenate vitamin b5 b 5 water soluble essential yellow oil colorless crystalline crystal
-vitb6c,Total B6,pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol vitamer vitamin b6 b 6 water soluble essential
-biot,Biotin (B7),biopeiderm vitamin b7 b 7 h coenzyme r water soluble essential white crystalline crystal needle
-folsum,Folates (B9),pteroyl glutamic acid glutamate folic folacin vitamin b9 b 9 bc m water soluble essential
-vitc,Ascorbic acids (C),total ascorbate water soluble vitamin c vitamin c essential
-retol,Retinol,vitamin a1 vitamin-a 1 fat soluble essential
-ergcal,Ergocalciferol (D2),calciferol viosterol vitamin d2 d 2 fat soluble essential
-chocal,Cholecalciferol (D3),activated dehydrocholesterol colecalciferol vitamin d3 d 3 fat soluble essential
-doh25,25-OH-D3,25 oh 0 calcifediol calcidiol hydroxycholecalciferol hydroxyvitamin prehormone vitamin d3 d 3 fat soluble essential
-tocpha,α-Tocopherol,a alpha tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential yellow brown viscous liquid
+water,Moisture,total essential proximate liquid steam vapour
+protcnt,Protein,total essential proximate macronutrient
+ash,Ash,total essential proximate macronutrient chemical inorganic element mineral metal residue
+fatce,Total Fat,total essential proximate macronutrient triglyceride lipid blubber
+fibtg,Dietary Fiber,total fibre roughage bulk indigestible
+fibins,Insoluble Dietary Fiber,fibre roughage bulk indigestible
+fibsol,Soluble Dietary Fiber,fibre roughage bulk indigestible
+choavldf,Carbohydrate,total proximate macronutrient cho saccharide ose glucide hydrate carbon
+enerc,Energy,total essential metabolism atp calorie kilocalorie cal kcal joule kilojoule j kj
+thia,Thiamine (B1),essential water soluble vitamin b1 b 1 thiamin aneurine
+ribf,Riboflavin (B2),essential water soluble vitamin b2 b 2 g vactochrome lactoflavin
+nia,Niacin (B3),essential water soluble vitamin b3 b 3 pp white translucent crystalline crystal bionic nicotinic acid nicotinamide
+pantac,Pantothenic acid (B5),essential water soluble vitamin b5 b 5 yellow oil colorless crystalline crystal pantothenate
+vitb6c,Total B6,essential water soluble vitamin b6 b 6 vitamer pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol
+biot,Biotin (B7),essential water soluble vitamin b7 b 7 h coenzyme r white crystalline crystal needle biopeiderm
+folsum,Folates (B9),essential water soluble vitamin b9 b 9 bc m folic folacin pteroyl glutamic acid glutamate
+vitc,Ascorbic acids (C),total essential water soluble vitamin c vitamin c ascorbate
+retol,Retinol,essential fat soluble vitamin a1 vitamin-a 1
+ergcal,Ergocalciferol (D2),essential fat soluble vitamin d2 d 2 calciferol viosterol
+chocal,Cholecalciferol (D3),essential fat soluble vitamin d3 d 3 activated dehydrocholesterol colecalciferol
+doh25,25-OH-D3,essential fat soluble vitamin d3 d 3 25 oh 0 calcifediol calcidiol hydroxycholecalciferol hydroxyvitamin prehormone
+tocpha,α-Tocopherol,essential fat soluble vitamin e yellow brown viscous liquid antioxidant saturated a alpha tcp methylated phenol phytyl
 tocphb,β-Tocopherol,b beta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
 tocphg,γ-Tocopherol,g gamma tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
 tocphd,δ-Tocopherol,d delta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
@@ -46,26 +46,26 @@ cartg,γ-Carotene,g gamma carotene carotenoid tetraterpenoid terpenoid isoprenoi
 carta,α-Carotene,a alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
 cartb,β-Carotene,b beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
 cartoid,Carotenoids,total carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
-al,Aluminium (Al),trace post transition metal mineral chemical element
-as,Arsenic (As),trace metalloid chemical element
-cd,Cadmium (Cd),trace post transition metal toxic chemical element
-ca,Calcium (Ca),quantity alkaline earth metal mineral chemical element
-cr,Chromium (Cr),trace transition metal mineral chemical element
-co,Cobalt (Co),trace transition metal mineral chemical element
-cu,Copper (Cu),trace transition metal mineral chemical element
-fe,Iron (Fe),trace transition metal mineral chemical element
-pb,Lead (Pb),trace heavy post transition metal toxic chemical element
-li,Lithium (Li),trace alkali metal mineral chemical element
-mg,Magnesium (Mg),quantity alkaline earth metal mineral chemical element
-mn,Manganese (Mn),trace transition metal ineral chemical element
-hg,Mercury (Hg),trace heavy liquid post transition metal toxic chemical element
-mo,Molybdenum (Mo),trace transition metal mineral chemical element
-ni,Nickel (Ni),trace transition metal mineral chemical element
-p,Phophorus (P),quantity nonmetal mineral chemical element
-k,Potassium (K),quantity alkali metal mineral chemical element
-se,Selenium (Se),trace nonmetal mineral chemical element
-na,Sodium (Na),quantity alkali metal mineral chemical element
-zn,Zinc (Zn),trace post transition mineral chemical element
+al,Aluminium (Al),trace post transition chemical inorganic element mineral metal
+as,Arsenic (As),trace metalloid chemical inorganic element mineral metal
+cd,Cadmium (Cd),trace post transition toxic chemical inorganic element mineral metal
+ca,Calcium (Ca),quantity alkaline earth chemical inorganic element mineral metal
+cr,Chromium (Cr),trace transition chemical inorganic element mineral metal
+co,Cobalt (Co),trace transition chemical inorganic element mineral metal
+cu,Copper (Cu),trace transition chemical inorganic element mineral metal
+fe,Iron (Fe),trace transition chemical inorganic element mineral metal
+pb,Lead (Pb),trace heavy post transition toxic chemical inorganic element mineral metal
+li,Lithium (Li),trace alkali chemical inorganic element mineral metal
+mg,Magnesium (Mg),quantity alkaline earth chemical inorganic element mineral metal
+mn,Manganese (Mn),trace transition ineral chemical inorganic element mineral metal
+hg,Mercury (Hg),trace heavy liquid post transition toxic chemical inorganic element mineral metal
+mo,Molybdenum (Mo),trace transition chemical inorganic element mineral metal
+ni,Nickel (Ni),trace transition chemical inorganic element mineral metal
+p,Phophorus (P),quantity nonmetal chemical inorganic element mineral metal
+k,Potassium (K),quantity alkali chemical inorganic element mineral metal
+se,Selenium (Se),trace nonmetal chemical inorganic element mineral metal
+na,Sodium (Na),quantity alkali chemical inorganic element mineral metal
+zn,Zinc (Zn),trace post transition chemical inorganic element mineral metal
 cho,Available CHO,total digest absorb glucogenic carbohydrate available carbohydrate
 starch,Starch,total amylum polysaccharide polymeric carbohydrate available
 frus,Fructose,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
@@ -107,34 +107,34 @@ fasat,Saturated Fatty acids,tsfa sfa total fat triglyceride lipid
 fams,Monounsaturated Fatty acids,tmufa mufa total mono unsaturated fat triglyceride lipid
 fapu,Polyunsaturated Fatty acids,tpufa pufa total poly unsaturated fat triglyceride lipid
 cholc,Cholesterol,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
-his,Histidine,h _his amino acid
-ile,Isoleucine,i amino acid
-leu,Leucine,l amino acid
-lys,Lysine,k amino acid
-met,Methionine,m amino acid
-cys,Cysteine,c amino acid
-phe,Phenylalanine,f amino acid
-thr,Threonine,t amino acid
-trp,Tryptophan,w amino acid
-val,Valine,v amino acid
-ala,Alanine,a amino acid
-arg,Arginine,r amino acid
-asp,Aspartic acid,d amino acid
-glu,Glutamic acid,e amino acid
-gly,Glycine,g amino acid
-pro,Proline,p amino acid
-ser,Serine,s amino acid
-tyr,Tyrosine,y amino acid
-oxalt,Oxalates,total ox ethanedioate oxalic organic acid
-oxals,Soluble Oxalate,total ox sodium potassium ethanedioate oxalic organic acid
-oxali,Insoluble Oxalate,total ox calcium ethanedioate oxalic organic acid
-caconac,Cis-Aconitic acid,achilleic equisetic citridinic pyrocitric organic acid
-citac,Citric acid,hydroxypropane tricarboxylic organic acid
-fumac,Fumaric acid,trans butenedioic but enedioic ethylenedicarboxylic allomaleic boletic donitic lichenic unsaturated organic acid white solid
-malac,Malic acid,hydroxybutanedioic hydroxysuccinic unsaturated organic acid
-quinac,Quinic acid,tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol organic acid
-sucac,Succinic acid,butandioic dicarboxylic organic acid
-tarac,Tartaric acid,dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric organic acid white crystalline crystal powder
+his,Histidine,amino acid h _his
+ile,Isoleucine,amino acid i
+leu,Leucine,amino acid l
+lys,Lysine,amino acid k
+met,Methionine,amino acid m
+cys,Cysteine,amino acid c
+phe,Phenylalanine,amino acid f
+thr,Threonine,amino acid t
+trp,Tryptophan,amino acid w
+val,Valine,amino acid v
+ala,Alanine,amino acid a
+arg,Arginine,amino acid r
+asp,Aspartic acid,amino acid d
+glu,Glutamic acid,amino acid e
+gly,Glycine,amino acid g
+pro,Proline,amino acid p
+ser,Serine,amino acid s
+tyr,Tyrosine,amino acid y
+oxalt,Oxalates,total organic acid oxalic ox ethanedioate
+oxals,Soluble Oxalate,total organic acid oxalic ox sodium potassium ethanedioate
+oxali,Insoluble Oxalate,total organic acid oxalic ox calcium ethanedioate
+caconac,Cis-Aconitic acid,organic acid achilleic equisetic citridinic pyrocitric
+citac,Citric acid,organic acid hydroxypropane tricarboxylic
+fumac,Fumaric acid,organic acid trans butenedioic but enedioic ethylenedicarboxylic allomaleic boletic donitic lichenic unsaturated white solid
+malac,Malic acid,organic acid hydroxybutanedioic hydroxysuccinic unsaturated
+quinac,Quinic acid,organic acid tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol
+sucac,Succinic acid,organic acid butandioic dicarboxylic
+tarac,Tartaric acid,organic acid dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric white crystalline crystal powder
 dhbenzac34,"3,4-Dihydroxy Benzoic acid",34 dihydroxybenzoic polyphenol poly phenol phenolic phytochemical phyto
 hbenzal3,3-Hydroxy Benzaldehyde,Hydroxybenzaldehyde aldehyde polyphenol poly phenol phenolic phytochemical phyto
 pcathac,Protocatechuic acid,pca protocatechuate dihydroxybenzoic dihydroxy benzoic polyphenol poly phenol phenolic phytochemical phyto light brown solid
@@ -203,13 +203,13 @@ facis,Cis Fatty acids,tcfa cfa total good healthy fat lipid
 fatrn,Trans Fatty acids,ttfa tfa total trans bad unhealthy harmful detrimental damaging fat lipid
 olsac,Oligosaccharides,total polymer complex saccharide
 phystr,Phytosterols,total plant sterol stanol phytosteroid natural plant steroid
-mnrleq,Essential Quantity Minerals,total chemical element
-mnrlet,Essential Trace Minerals,total essential chemical element
-mnrlpet,Possibly essential Trace Minerals,total chemical element
-mnrlnet,Non-essential Trace Minerals,total chemical element
-mnrltx,Toxic Minerals,total chemical element
+mnrleq,Essential Quantity Minerals,total chemical inorganic element mineral metal
+mnrlet,Essential Trace Minerals,total essential chemical inorganic element mineral metal
+mnrlpet,Possibly essential Trace Minerals,total chemical inorganic element mineral metal
+mnrlnet,Non-essential Trace Minerals,total chemical inorganic element mineral metal
+mnrltx,Toxic Minerals,total chemical inorganic element mineral metal
 carot,Carotenes,total carotene carotin photosythetic orange pigment carotenoid
 xantp,Xanthophylls,total xanthophyll phylloxanthin yellow pigment carotenoid
-cartbeq,β-Carotene equivalents,total beta b carotene carotenoid provitamin previtamin a
-vita,Vitamin A,total vitamin vitamin-a
-vit,Vitamins,total vitamin vitamin vitamin
+cartbeq,β-Carotene equivalents,total provitamin previtamin a beta b carotene carotenoid
+vita,Vitamin A,total essential micronutrient vitamin vitamin-a
+vit,Vitamins,total essential micronutrient vitamin vitamin vitamin
