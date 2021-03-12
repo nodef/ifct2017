@@ -35,8 +35,8 @@ export function load(): Map<string, Content>;
 /**
  * Finds matching contents of an sno/title/pagenos query.
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
- * @param txt content query
- * @returns matched contents ⇒ [{sno, title, pagenos}]
+ * @param txt sno/title/pagenos query
+ * @returns matches [{sno, title, pagenos}]
  * @example
  * ```javascript
  * contents('table 2');
