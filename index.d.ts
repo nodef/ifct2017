@@ -55,7 +55,8 @@ export function load(): Map<string, Intake>;
  * ```javascript
  * intakes('his');
  * intakes('Histidine');
- * // { whorda: -0.01,
+ * // { code: 'his',
+ * //   whorda: -0.01,
  * //   usear: NaN,
  * //   usrdam: -0.014,
  * //   usrdaf: NaN,
@@ -67,7 +68,8 @@ export function load(): Map<string, Intake>;
  *
  * intakes('intake of total fibre?');
  * intakes('what is rda of total fiber?');
- * // { whorda: NaN,
+ * // { code: 'fibtg',
+ * //   whorda: NaN,
  * //   usear: NaN,
  * //   usrdam: 38,
  * //   usrdaf: 25,
