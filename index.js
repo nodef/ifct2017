@@ -14,7 +14,7 @@ function createIndex() {
     this.field('sno');
     this.field('title');
     this.field('pagenos');
-    for(var r of corpus.values())
+    for (var r of corpus.values())
       this.add(r);
   });
 }
@@ -26,12 +26,14 @@ function load() {
   return corpus;
 }
 
+
 function csv() {
   return path.join(__dirname, 'index.csv');
 }
 
+
 function sql(tab='contents', opt={}) {
-  return esql.setupTable(tab, {sno: 'TEXT', title: 'TEXT', pagenos: 'TEXT'}, require('./corpus').values(),
+  return esql.setupTable(tab, {sno: 'TEXT', title: 'TEXT', pagenos: 'TEXT'}, load().values(),
     Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', title: 'B', pagenos: 'C'}}, opt));
 }
 

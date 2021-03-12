@@ -13,7 +13,7 @@ export interface Content {
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @returns corpus {sno ⇒ {sno, title, pagenos}}
  */
-export function load() : Map<string, Content>;
+export function load(): Map<string, Content>;
 
 
 /**
@@ -21,7 +21,7 @@ export function load() : Map<string, Content>;
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @returns CREATE TABLE, INSERT, CREATE VIEW, CREATE INDEX statements
  */
- export function sql(tab: string='contents', opt: object={}) : string;
+ export function sql(tab: string='contents', opt: object={}): string;
 
 
 /**
@@ -29,7 +29,7 @@ export function load() : Map<string, Content>;
  * [📦](https://www.npmjs.com/package/@ifct2017/contents)
  * @returns .../index.csv
  */
- export function csv() : string;
+ export function csv(): string;
 
 
 /**
