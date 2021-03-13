@@ -1,19 +1,18 @@
 [Names] of each food in local languages, including scientific name.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const descriptions = require('@ifct2017/descriptions');
-// descriptions.corpus: Map {code => {code, name, scie, desc}}
-// descriptions.load(): Promise (corpus loaded)
-// descriptions.sql([table], [options]): Promise (sql commands)
-// descriptions.csv(): path to csv file
-// descriptions(<query>)
-// -> [{code, name, scie, desc}] for matched foods
+// descriptions(query)
+// → matches [{code, name, scie, desc}]
 
 
 await descriptions.load();
-/* load corpus first */
+/// Load corpus first
 
 descriptions('pineapple');
 descriptions('ananas comosus');
@@ -30,9 +29,19 @@ descriptions('gai ka doodh details.');
 //     desc: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.' } ]
 ```
 
+```javascript
+// Additional methods:
+descriptions.load() // → corpus (promise)
+descriptions.sql([table], [options]) // → sql statements (promise)
+descriptions.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
