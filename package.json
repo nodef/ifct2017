@@ -1,12 +1,12 @@
 {
   "name": "@ifct2017/descriptions",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Names of each food in local languages, including scientific name.",
   "main": "index.js",
   "scripts": {
-    "build": "node ./build",
-    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
-    "test": "node ./build && node ./tests"
+    "build": "node ./",
+    "deploy": "ebuild publish+github --publishMin=false --publishBranch=false",
+    "test": "node ./tests"
   },
   "repository": {
     "type": "git",
