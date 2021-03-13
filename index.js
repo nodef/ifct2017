@@ -65,7 +65,7 @@ function createIndex() {
   });
 }
 
-function load() {
+async function load() {
   if (ready) await ready;
   if (index) return corpus;
   ready = loadCorpus();
