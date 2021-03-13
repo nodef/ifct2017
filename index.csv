@@ -8,7 +8,7 @@ regn,No. of Regions,number
 tags,Tags,
 water,Moisture,total essential proximate liquid steam vapour
 protcnt,Protein,total essential proximate macronutrient
-ash,Ash,total essential proximate macronutrient chemical inorganic element mineral metal residue
+ash,Ash,total essential proximate macronutrient residue mineral metal inorganic
 fatce,Total Fat,total essential proximate macronutrient triglyceride lipid blubber
 fibtg,Dietary Fiber,total fibre roughage bulk indigestible
 fibins,Insoluble Dietary Fiber,fibre roughage bulk indigestible
@@ -36,8 +36,8 @@ toctrb,β-Tocotrienol,b beta vitamin e fat soluble methylated phenol antioxidant
 toctrg,γ-Tocotrienol,g gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 toctrd,δ-Tocotrienol,d delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
 vite,α-Tocopherol equivalent (E),total a alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
-vitk1,Phylloquinones (K1),total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 essential
-vitk2,Menaquinones (K2),total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 essential
+vitk1,Phylloquinones (K1),total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 vitamin k1 k 1 essential
+vitk2,Menaquinones (K2),total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 vitamin k2 k 2 essential
 lutn,Lutein,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
 zea,Zeaxanthin,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
 crypxb,β-Cryptoxanthin,b beta xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical yellow pigment vitamer provitamin vitamin vitamin-a cryptoxanthol caricaxanthin kryptoxanthin
