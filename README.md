@@ -1,19 +1,15 @@
 [Representations] of columns (as factors and units).
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const representations = require('@ifct2017/representations');
-// representations.corpus: Map {column_code => {type, factor, unit}}
-// representations.load(): true (corpus loaded)
-// representations.sql([table], [options]): sql commands
-// representations.csv(): path to csv file
-// representations(<query>)
-// -> {type, factor, unit} if found, null otherwise
+// representations(query)
+// → {type, factor, unit} if found, null otherwise
 
-
-representations.load();
-/* load corpus first */
 
 representations('his');
 representations('Histidine');
@@ -24,16 +20,26 @@ representations('what is unit of cholecalciferol?');
 // { type: 'mass', factor: 1000000000, unit: 'ng' }
 
 
-// ->
+// Note:
 // type:   Type of physical quantity
 // factor: Multiplication factor for representation
 // unit:   Unit for representation
 ```
 
+```javascript
+// Additional methods:
+representations.load() // → corpus
+representations.sql([table], [options]) // → sql statements
+representations.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
-> Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
+> Food composition values were measured by [National Institute of Nutrition, Hyderabad].
 
 [ifct2017]: https://www.npmjs.com/package/ifct2017
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
