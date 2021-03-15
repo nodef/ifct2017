@@ -41,11 +41,11 @@ export function load(): Map<string, Representation>;
  * ```javascript
  * representations('his');
  * representations('Histidine');
- * // { type: 'mass', factor: 1, unit: 'g' }
+ * // { type: 'mass', factor: 1000, unit: 'mg' }
  *
  * representations('representation of vitamin d?');
  * representations('what is unit of cholecalciferol?');
- * // { type: 'mass', factor: 1000000, unit: 'ug' }
+ * // { type: 'mass', factor: 1000000000, unit: 'ng' }
  * ```
  */
 function representations(txt: string): Representation | null;
