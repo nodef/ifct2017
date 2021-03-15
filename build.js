@@ -2,7 +2,7 @@ const fs = require('fs');
 const os = require('os');
 const lunr = require('lunr');
 const parse = require('csv-parse');
-const columns = require('@ifct2017/columns');
+const columns = require('../columns');
 
 const OVERRIDE = new Map([
   ['crypxb', 'Carotenoids'],

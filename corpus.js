@@ -80,7 +80,7 @@ const CORPUS = new Map([
   ["lycpn", I17],
   ["cartg", I17],
   ["carta", I17],
-  ["cartb", I16],
+  ["cartb", I17],
   ["cartoid", I17],
   ["al", I24],
   ["as", I26],
