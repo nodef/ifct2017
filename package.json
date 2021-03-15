@@ -1,12 +1,12 @@
 {
   "name": "@ifct2017/hierarchy",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Tree-like hierarchy of nutrients, and its components.",
   "main": "index.js",
   "scripts": {
     "build": "node ./build",
-    "deploy": "node ./build && ebuild publish+github --publishMin=false --publishBranch=false",
-    "test": "node ./build && node ./tests"
+    "deploy": "ebuild publish+github --publishMin=false --publishBranch=false",
+    "test": "node ./tests"
   },
   "repository": {
     "type": "git",
