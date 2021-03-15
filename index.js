@@ -1,39 +1,38 @@
-const columns = require('@ifct2017/columns');
-const Sql = require('sql-extra');
 const path = require('path');
+const esql = require('sql-extra');
+const columns = require('@ifct2017/columns');
 
-var corpus = new Map();
-var ready = false;
+var corpus = null;
 
 
-function loadCorpus() {
-  for(var [k, v] of require('./corpus'))
-    corpus.set(k, v);
-};
+
+
+function load() {
+  if (corpus) return corpus;
+  corpus = require('./corpus');
+  columns.load();
+  return corpus;
+}
+
 
 function csv() {
   return path.join(__dirname, 'index.csv');
-};
+}
+
 
 function sql(tab='representations', opt={}) {
-  return Sql.setupTable(tab, {code: 'TEXT', type: 'TEXT', factor: 'REAL', unit: 'TEXT'},
-    require('./corpus').values(), Object.assign({pk: 'code', index: true, tsvector: {code: 'A', type: 'B', unit: 'C'}}, opt));
-};
+  return esql.setupTable(tab, {code: 'TEXT', type: 'TEXT', factor: 'REAL', unit: 'TEXT'},
+    load().values(), Object.assign({pk: 'code', index: true, tsvector: {code: 'A', type: 'B', unit: 'C'}}, opt));
+}
 
-function load() {
-  if(ready) return true;
-  columns.load(); loadCorpus();
-  return ready = true;
-};
 
 function representations(txt) {
-  if(!ready) return null;
-  var mats = columns(txt);
-  if(mats.length===0) return null;
-  return corpus.get(mats[0].code)||null;
-};
+  if (!corpus) load();
+  var ms = columns(txt);
+  if (ms.length===0) return null;
+  return corpus.get(ms[0].code)||null;
+}
+representations.load = load;
 representations.csv = csv;
 representations.sql = sql;
-representations.load = load;
-representations.corpus = corpus;
 module.exports = representations;
