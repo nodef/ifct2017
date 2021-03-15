@@ -1,19 +1,15 @@
 Tree-like [hierarchy] of nutrients, and its components.
+
 > This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const hierarchy = require('@ifct2017/hierarchy');
-// hierarchy.corpus: Map {column_code => {parents, ancestry, children}}
-// hierarchy.load(): true (corpus loaded)
-// hierarchy.sql([table], [options]): sql commands
-// hierarchy.csv(): path to csv file
-// hierarchy(<query>)
-// -> {parents, ancestry, children} if matched, null otherwise
+// hierarchy(query)
+// → {parents, ancestry, children} if found, null otherwise
 
-
-hierarchy.load();
-/* load corpus first */
 
 hierarchy('soluble oxalic acid');
 hierarchy('Soluble Oxalic Acid');
@@ -27,9 +23,18 @@ hierarchy('who are children of total saturated fat?');
 //    'f4d0 f6d0 f8d0 f10d0 f11d0 f12d0 f14d0 f15d0 f16d0 f18d0 f20d0 f22d0 f24d0' }
 ```
 
+```javascript
+hierarchy.load() // → corpus
+hierarchy.sql([table], [options]) // → sql statements
+hierarchy.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
