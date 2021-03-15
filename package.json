@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/methods",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Analytical methods of nutrient and bioactive components.",
   "main": "index.js",
   "scripts": {
