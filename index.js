@@ -30,7 +30,9 @@ function sql(tab='hierarchy', opt={}) {
 
 function hierarchy(txt) {
   if (!corpus) load();
-  return columns(txt).map(r => corpus.get(r.code));
+  var cs = columns(txt);
+  if (!cs.length) return null;
+  return corpus.get(cs[0].code) || null;
 }
 hierarchy.load = load;
 hierarchy.csv = csv;
