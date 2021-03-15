@@ -1,7 +1,7 @@
 export interface Representation {
   /** Type of physical quantity. */
   type: string,
-  /** Multiplication Factor. */
+  /** Multiplication factor. */
   factor: number,
   /** Unit symbol. */
   unit: string;

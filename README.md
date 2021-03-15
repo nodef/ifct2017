@@ -22,8 +22,8 @@ representations('what is unit of cholecalciferol?');
 
 // Note:
 // type:   Type of physical quantity
-// factor: Multiplication factor for representation
-// unit:   Unit for representation
+// factor: Multiplication factor
+// unit:   Unit symbol
 ```
 
 ```javascript
