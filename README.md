@@ -1,20 +1,15 @@
 [Analytical methods] of nutrient and bioactive components.
-> This is part of package [ifct2017].<br>
-> Source: [Indian Food Composition Tables 2017].
 
+> This is part of package [ifct2017].<br>
+> Online database: [ifct2017.github.io].
+
+<br>
 
 ```javascript
 const methods = require('@ifct2017/methods');
-// methods.corpus: Map {column_code => {analyte, method, reference}}
-// methods.load(): true (corpus loaded)
-// methods.sql([table], [options]): sql commands
-// methods.csv(): path to csv file
-// methods(<query>)
-// -> {analyte, method, reference} if matched, null otherwise
+// methods(query)
+// → {analyte, method, reference} if found, null otherwise
 
-
-methods.load();
-/* load corpus first */
 
 methods('soluble oxalic acid');
 methods('Insoluble Oxalic Acid');
@@ -29,9 +24,19 @@ methods('how is total saponin measured?');
 //   reference: 'Dini et al. (2009)' }
 ```
 
+```javascript
+// Additional methods:
+methods.load() // → corpus
+methods.sql([table], [options]) // → sql statements
+methods.csv() // → path of csv file
+```
 
-[![ifct2017](http://ifct2017.com/ifct_2017.jpg)](https://www.npmjs.com/package/ifct2017)
-> You can ask about composition of 528 key foods in India here: [ifct2017.github.io].<br>
+<br>
+<br>
+
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+
+> Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
 > Take a peek at the raw data here: [Document], [Webpage].
 
