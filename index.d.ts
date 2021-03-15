@@ -44,7 +44,7 @@ export function load(): Map<string, Representation>;
  * // { type: 'mass', factor: 1000, unit: 'mg' }
  *
  * representations('representation of vitamin d?');
- * representations('what is unit of cholecalciferol?');
+ * representations('what is unit of ergocalciferol?');
  * // { type: 'mass', factor: 1000000000, unit: 'ng' }
  * ```
  */
