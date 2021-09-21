@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/jonesfactors",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Jones factors for conversion of nitrogen to protein.",
   "main": "index.js",
   "scripts": {
@@ -44,7 +44,7 @@
     "sql-extra": "0.1"
   },
   "devDependencies": {
-    "csv": "5.3",
-    "extra-build": "^1.3.31"
+    "csv-parse": "^4.16.3",
+    "extra-build": "^1.4.3"
   }
 }
