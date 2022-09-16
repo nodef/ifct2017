@@ -20,7 +20,7 @@ function writeFile(pth, d) {
 
 function readAssets() {
   var a = new Map();
-  for(var f of fs.readdirSync('assets'))
+  for (var f of fs.readdirSync('assets'))
     a.set(f.replace('.txt', ''), readFile(path.join('assets', f)));
   return a;
 }
