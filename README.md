@@ -1,4 +1,6 @@
-On the history of malnutrition, current status, and data details.
+On the history of malnutrition, current status, and data details.<br>
+📦 [Node.js](https://www.npmjs.com/package/@ifct2017/about),
+📜 [Files](https://unpkg.com/@ifct2017/about/).
 
 > This is part of package [ifct2017].<br>
 > Online database: [ifct2017.github.io].
@@ -81,7 +83,9 @@ about.load() // → corpus
 <br>
 <br>
 
-[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)<br>
+[![ORG](https://img.shields.io/badge/org-ifct2017-green?logo=Org)](https://ifct2017.github.io)
+[![DOI](https://zenodo.org/badge/130771360.svg)](https://zenodo.org/badge/latestdoi/130771360)
 
 > Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
