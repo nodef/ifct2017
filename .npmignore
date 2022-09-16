@@ -1,8 +1,27 @@
+# Source only
+.gitmodules
+.github/
+.docs/
+src/
+data/
+wiki/
+tests/
+unused/
+test.js
+tests.js
+CITATION.cff
+TODO
+
+# Build
+.build/
+coverage/
+.travis.yml
+.coveralls.yml
+tsconfig.json
+jest.config.js
+rollup.config.js
+build.js
+
 # Data
 assets/
 index.txt
-
-# Build
-.travis.yml
-build.js
-tests.js

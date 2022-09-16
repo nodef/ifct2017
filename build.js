@@ -1,33 +1,21 @@
-const path = require('path');
-const fs = require('fs');
-const os = require('os');
+const fs    = require('extra-fs');
+const build = require('extra-build');
 
-const A = process.argv;
-
-
+const owner = 'ifct2017';
+const repo  = build.readMetadata('.').name.replace(/@.+\//g, '');
 
 
-function readFile(pth) {
-  var d = fs.readFileSync(pth, 'utf8');
-  return d.replace(/\r?\n/g, '\n');
-}
-
-function writeFile(pth, d) {
-  d = d.replace(/\r?\n/g, os.EOL);
-  fs.writeFileSync(pth, d);
-}
 
 
 function readAssets() {
   var a = new Map();
   for (var f of fs.readdirSync('assets'))
-    a.set(f.replace('.txt', ''), readFile(path.join('assets', f)));
+    a.set(f.replace('.txt', ''), fs.readFileTextSync(`assets/${f}`));
   return a;
 }
 
-
 function readIndex() {
-  var a = new Map(), txt = readFile('index.txt');
+  var a = new Map(), txt = fs.readFileTextSync('index.txt');
   var re = /\[\[([\w:]+)\]\]\n([\w\W]*?)\n\n\n/g, m;
   while ((m = re.exec(txt)) != null) {
     var k = m[1], v = m[2].trim();
@@ -43,8 +31,47 @@ function writeCorpus(map) {
     a += `  ["${k}", ${JSON.stringify(v)}],\n`;
   a += `]);\n`;
   a += `module.exports = CORPUS;\n`;
-  writeFile('corpus.js', a);
+  fs.writeFileTextSync('corpus.js', a);
 }
 
-var map = /index/i.test(A[2]||'')? readIndex() : readAssets();
-writeCorpus(map);
+
+
+
+// Publish a root package to NPM, GitHub.
+function publishRootPackage(ver) {
+  var _package = build.readDocument('package.json');
+  var m = build.readMetadata('.');
+  m.version = ver;
+  build.writeMetadata('.', m);
+  build.publish('.');
+  try { build.publishGithub('.', owner); }
+  catch {}
+  build.writeDocument(_package);
+}
+
+
+// Pushish root, sub packages to NPM, GitHub.
+function publishPackages() {
+  var m   = build.readMetadata('.');
+  var ver = build.nextUnpublishedVersion(m.name, m.version);
+  if (fs.existsSync('index.txt')) writeCorpus(readIndex());
+  else writeCorpus(readAssets());
+  publishRootPackage(ver);
+}
+
+
+// Publish docs.
+function publishDocs() {
+  var m = build.readMetadata('.');
+  build.updateGithubRepoDetails({owner, repo, topics: m.keywords});
+}
+
+
+// Finally.
+function main(a) {
+  if (a[2]==='publish-docs') publishDocs();
+  else if (a[2]==='publish-packages') publishPackages();
+  else if (/index/i.test(a[2])) writeCorpus(readIndex());
+  else writeCorpus(readAssets());
+}
+main(process.argv);
