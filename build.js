@@ -40,7 +40,7 @@ function publishRootPackage(ver) {
 }
 
 
-// Pushish root, sub packages to NPM, GitHub.
+// Publish root, sub packages to NPM, GitHub.
 function publishPackages() {
   var m   = build.readMetadata('.');
   var ver = build.nextUnpublishedVersion(m.name, m.version);

@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/contents",
-  "version": "2.0.19",
+  "version": "2.0.20",
   "description": "Contents in the original book.",
   "main": "index.js",
   "scripts": {
