@@ -3,7 +3,7 @@ const lunr = require('lunr');
 const esql = require('sql-extra');
 
 var corpus = null;
-var index = null;
+var index  = null;
 
 
 
@@ -48,7 +48,7 @@ function contents(txt) {
     if (Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
   return a;
 }
-contents.load = load;
-contents.csv = csv;
-contents.sql = sql;
+contents.load  = load;
+contents.csv   = csv;
+contents.sql   = sql;
 module.exports = contents;
