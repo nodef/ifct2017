@@ -3,7 +3,7 @@ const lunr = require('lunr');
 const esql = require('sql-extra');
 
 var corpus = null;
-var index = null;
+var index  = null;
 
 
 
@@ -22,7 +22,7 @@ function createIndex() {
 function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
-  index = createIndex();
+  index  = createIndex();
   return corpus;
 }
 
@@ -47,6 +47,6 @@ function samplingUnits(txt) {
   return a;
 }
 samplingUnits.load = load;
-samplingUnits.csv = csv;
-samplingUnits.sql = sql;
+samplingUnits.csv  = csv;
+samplingUnits.sql  = sql;
 module.exports = samplingUnits;
