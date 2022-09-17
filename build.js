@@ -1,9 +1,11 @@
-const fs   = require('fs');
-const os   = require('os');
-const lunr = require('lunr');
-const csv  = require('csv-parse');
+const fs    = require('extra-fs');
+const build = require('extra-build');
+const lunr  = require('lunr');
+const csv   = require('csv-parse');
 const columns = require('@ifct2017/columns');
 
+const owner = 'ifct2017';
+const repo  = build.readMetadata('.').name.replace(/@.+\//g, '');
 const OVERRIDE = new Map([
   ['crypxb',  'Carotenoids'],
   ['cartg',   'Carotenoids'],
@@ -25,12 +27,6 @@ const OVERRIDE = new Map([
 ]);
 
 
-
-
-function writeFile(pth, d) {
-  d = d.replace(/\r?\n/g, os.EOL);
-  fs.writeFileSync(pth, d);
-}
 
 
 function bestMatch(idx, txt) {
@@ -55,7 +51,7 @@ function createIndex(arr) {
 }
 
 
-function createMap(idx) {
+function createMap(idx, mapping) {
   var a = new Map();
   for (var c of columns.load().values()) {
     if (OVERRIDE.has(c.code)) {
@@ -77,25 +73,68 @@ function createMap(idx) {
 }
 
 
-columns.load();
-var array  = [], mapping = new Map();
-var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+function writeCorpus() {
+  return new Promise(resolve => {
+    columns.load();
+    var array  = [], mapping = new Map();
+    var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+    stream.on('data', r => {
+      mapping.set(r.analyte, array.length);
+      array.push(r);
+    });
+    stream.on('end', () => {
+      var a = '';
+      var index = createIndex(array);
+      var map   = createMap(index, mapping);
+      for (var i=0, I=array.length; i<I; i++)
+        a += `const I${i} = ${JSON.stringify(array[i]).replace(/\"(\w+)\":/g, '$1:')};\n`;
+      a += `const CORPUS = new Map([\n`;
+      for (var [k, v] of map)
+        a += `  ["${k}", ${v>=0? 'I'+v:'null'}],\n`;
+      a += `]);\n`;
+      a += `module.exports = CORPUS;\n`;
+      fs.writeFileTextSync('corpus.js', a);
+      resolve();
+    });
+  });
+}
 
-stream.on('data', r => {
-  mapping.set(r.analyte, array.length);
-  array.push(r);
-});
 
-stream.on('end', () => {
-  var a = '';
-  var index = createIndex(array);
-  var map   = createMap(index);
-  for (var i=0, I=array.length; i<I; i++)
-    a += `const I${i} = ${JSON.stringify(array[i]).replace(/\"(\w+)\":/g, '$1:')};\n`;
-  a += `const CORPUS = new Map([\n`;
-  for (var [k, v] of map)
-    a += `  ["${k}", ${v>=0? 'I'+v:'null'}],\n`;
-  a += `]);\n`;
-  a += `module.exports = CORPUS;\n`;
-  writeFile('corpus.js', a);
-});
+
+
+// Publish a root package to NPM, GitHub.
+function publishRootPackage(ver) {
+  var _package = build.readDocument('package.json');
+  var m = build.readMetadata('.');
+  m.version = ver;
+  build.writeMetadata('.', m);
+  build.publish('.');
+  try { build.publishGithub('.', owner); }
+  catch {}
+  build.writeDocument(_package);
+}
+
+
+// Publish root, sub packages to NPM, GitHub.
+async function publishPackages() {
+  var m   = build.readMetadata('.');
+  var ver = build.nextUnpublishedVersion(m.name, m.version);
+  await writeCorpus();
+  publishRootPackage(ver);
+}
+
+
+// Publish docs.
+function publishDocs() {
+  var m = build.readMetadata('.');
+  build.updateGithubRepoDetails({owner, repo, topics: m.keywords});
+}
+
+
+// Finally.
+async function main(a) {
+  if (a[2]==='publish-docs') publishDocs();
+  else if (a[2]==='publish-packages') await publishPackages();
+  else await writeCorpus();
+}
+main(process.argv);
