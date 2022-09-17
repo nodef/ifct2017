@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/representations",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Representations of columns (as factors and units).",
   "main": "index.js",
   "scripts": {
@@ -40,6 +40,7 @@
   "homepage": "https://github.com/ifct2017/representations#readme",
   "devDependencies": {
     "@ifct2017/compositions": "2",
+    "deep-equal": "^2.0.5",
     "extra-build": "^1.3.31"
   },
   "dependencies": {
