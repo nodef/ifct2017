@@ -1,8 +1,8 @@
-const fs    = require('fs');
-const path  = require('path');
-const lunr  = require('lunr');
-const parse = require('csv-parse');
-const esql  = require('sql-extra');
+const fs   = require('fs');
+const path = require('path');
+const lunr = require('lunr');
+const csvx = require('csv-parse');
+const esql = require('sql-extra');
 
 const COLUMNS = {name: 'TEXT', code: 'TEXT'};
 const OPTIONS = {pk: 'name', index: true, tsvector: {name: 'A', code: 'B'}};
@@ -24,7 +24,7 @@ function sqlCorpus(tab, opt) {
 
 async function sqlCsv(tab, opt) {
   var opt    = Object.assign({}, OPTIONS, opt);
-  var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
+  var stream = fs.createReadStream(csv()).pipe(csvx.parse({columns: true, comment: '#'}));
   var a = esql.createTable(tab, COLUMNS, opt);
   a = await esql.insertInto.stream(tab, stream, opt, a);
   a = esql.setupTable.index(tab, COLUMNS, opt, a);
@@ -39,7 +39,7 @@ async function sql(tab='codes', opt={}) {
 
 function loadCorpus() {
   return new Promise((fres) => {
-    var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
+    var stream = fs.createReadStream(csv()).pipe(csvx.parse({columns: true, comment: '#'}));
     stream.on('data', r => corpus.set(r.name, r));
     stream.on('end', fres);
   });
