@@ -9,19 +9,22 @@ const repo  = build.readMetadata('.').name.replace(/@.+\//g, '');
 
 
 function writeCorpus() {
-  var map    = new Map();
-  var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
-  stream.on('data', r => {
-    r.factor = parseFloat(r.factor);
-    map.set(r.food, r);
-  });
-  stream.on('end', () => {
-    var a = `const CORPUS = new Map([\n`;
-    for (var [k, v] of map)
-      a += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],\n`;
-    a += `]);\n`;
-    a += `module.exports = CORPUS;\n`;
-    fs.writeFileTextSync('corpus.js', a);
+  return new Promise(resolve => {
+    var map    = new Map();
+    var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
+    stream.on('data', r => {
+      r.factor = parseFloat(r.factor);
+      map.set(r.food, r);
+    });
+    stream.on('end', () => {
+      var a = `const CORPUS = new Map([\n`;
+      for (var [k, v] of map)
+        a += `  ["${k}", ${JSON.stringify(v).replace(/\"(\w+)\":/g, '$1:')}],\n`;
+      a += `]);\n`;
+      a += `module.exports = CORPUS;\n`;
+      fs.writeFileTextSync('corpus.js', a);
+      resolve();
+    });
   });
 }
 
@@ -42,10 +45,10 @@ function publishRootPackage(ver) {
 
 
 // Publish root, sub packages to NPM, GitHub.
-function publishPackages() {
+async function publishPackages() {
   var m   = build.readMetadata('.');
   var ver = build.nextUnpublishedVersion(m.name, m.version);
-  writeCorpus();
+  await writeCorpus();
   publishRootPackage(ver);
 }
 
@@ -58,9 +61,9 @@ function publishDocs() {
 
 
 // Finally.
-function main(a) {
+async function main(a) {
   if (a[2]==='publish-docs') publishDocs();
-  else if (a[2]==='publish-packages') publishPackages();
-  else writeCorpus();
+  else if (a[2]==='publish-packages') await publishPackages();
+  else await writeCorpus();
 }
 main(process.argv);
