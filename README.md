@@ -38,6 +38,7 @@ columns.csv() // → path of csv file
 
 [![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)<br>
 [![ORG](https://img.shields.io/badge/org-ifct2017-green?logo=Org)](https://ifct2017.github.io)
+[![DOI](https://zenodo.org/badge/130800254.svg)](https://zenodo.org/badge/latestdoi/130800254)
 
 > Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].
