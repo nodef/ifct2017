@@ -1,7 +1,7 @@
-const fs = require('fs');
+const fs   = require('fs');
 const path = require('path');
 const lunr = require('lunr');
-const parse = require('csv-parse');
+const csvx = require('csv-parse');
 const esql = require('sql-extra');
 
 const COLUMNS = {code: 'TEXT', name: 'TEXT', scie: 'TEXT', desc: 'TEXT'};
@@ -10,8 +10,8 @@ const OPTIONS = {pk: 'code', index: true, tsvector: {
 }};
 
 var corpus = new Map();
-var index = null;
-var ready = null;
+var index  = null;
+var ready  = null;
 
 
 
@@ -26,8 +26,8 @@ function sqlCorpus(tab, opt) {
 }
 
 async function sqlCsv(tab, opt) {
-  var opt = Object.assign({}, OPTIONS, opt);
-  var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
+  var opt    = Object.assign({}, OPTIONS, opt);
+  var stream = fs.createReadStream(csv()).pipe(csvx.parse({columns: true, comment: '#'}));
   var a = esql.createTable(tab, COLUMNS, opt);
   a = await esql.insertInto.stream(tab, stream, opt, a);
   a = esql.setupTable.index(tab, COLUMNS, opt, a);
@@ -42,7 +42,7 @@ async function sql(tab='descriptions', opt={}) {
 
 function loadCorpus() {
   return new Promise((fres) => {
-    var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
+    var stream = fs.createReadStream(csv()).pipe(csvx.parse({columns: true, comment: '#'}));
     stream.on('data', r => corpus.set(r.code, r));
     stream.on('end', fres);
   });
@@ -77,7 +77,7 @@ async function load() {
 
 function descriptions(txt) {
   if (!index) { load(); return []; }
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
   for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
@@ -86,6 +86,6 @@ function descriptions(txt) {
   return a;
 }
 descriptions.load = load;
-descriptions.csv = csv;
-descriptions.sql = sql;
+descriptions.csv  = csv;
+descriptions.sql  = sql;
 module.exports = descriptions;
