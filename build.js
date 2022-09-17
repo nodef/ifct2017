@@ -46,7 +46,7 @@ function updateAsset() {
   var a = new Map();
   for (var [code, r] of asset) {
     var {parents} = r;
-    parents = Array.from(parents).join(' ');
+    var parents  = Array.from(parents).join(' ');
     var ancestry = Array.from(getAncestry(code)).join(' ');
     var children = Array.from(getChildren(code)).join(' ');
     a.set(code, {parents, ancestry, children});

@@ -35,6 +35,6 @@ function hierarchy(txt) {
   return corpus.get(cs[0].code) || null;
 }
 hierarchy.load = load;
-hierarchy.csv = csv;
-hierarchy.sql = sql;
+hierarchy.csv  = csv;
+hierarchy.sql  = sql;
 module.exports = hierarchy;
