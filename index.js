@@ -3,15 +3,15 @@ const lunr = require('lunr');
 const esql = require('sql-extra');
 
 var corpus = null;
-var index = null;
+var index  = null;
 
 
 
 
 function fixRow(r) {
   if (r.sno==='1') r.monosaccharide = 1;
-  r.hydrolysis = r.hydrolysis||NaN;
-  r.monosaccharide = r.monosaccharide||NaN;
+  r.hydrolysis     = r.hydrolysis     || NaN;
+  r.monosaccharide = r.monosaccharide || NaN;
   return r;
 }
 
@@ -44,7 +44,7 @@ function sql(tab='carbohydrates', opt={}) {
 
 function carbohydrates(txt) {
   if (!corpus) load();
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
   for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
@@ -53,6 +53,6 @@ function carbohydrates(txt) {
   return a;
 }
 carbohydrates.load = load;
-carbohydrates.csv = csv;
-carbohydrates.sql = sql;
+carbohydrates.csv  = csv;
+carbohydrates.sql  = sql;
 module.exports = carbohydrates;

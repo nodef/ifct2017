@@ -1,4 +1,6 @@
-[Conversion of carbohydrate weights] to monosaccharide equivalents.
+[Conversion of carbohydrate weights] to monosaccharide equivalents.<br>
+📦 [Node.js](https://www.npmjs.com/package/@ifct2017/carbohydrates),
+📜 [Files](https://unpkg.com/@ifct2017/carbohydrates/).
 
 > This is part of package [ifct2017].<br>
 > Online database: [ifct2017.github.io].
@@ -36,7 +38,8 @@ carbohydrates.csv() // → path of csv file
 <br>
 <br>
 
-[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)
+[![](https://i.imgur.com/D5UYmbD.jpg)](http://ifct2017.com/)<br>
+[![ORG](https://img.shields.io/badge/org-ifct2017-green?logo=Org)](https://ifct2017.github.io)
 
 > Data was obtained from the book [Indian Food Composition Tables 2017].<br>
 > Food composition values were measured by [National Institute of Nutrition, Hyderabad].<br>
