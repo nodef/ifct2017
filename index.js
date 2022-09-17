@@ -33,6 +33,6 @@ function methods(txt) {
   return cs.length>0? corpus.get(cs[0].code) : null;
 }
 methods.load = load;
-methods.csv = csv;
-methods.sql = sql;
+methods.csv  = csv;
+methods.sql  = sql;
 module.exports = methods;

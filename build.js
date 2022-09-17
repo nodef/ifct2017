@@ -1,27 +1,27 @@
-const fs = require('fs');
-const os = require('os');
+const fs   = require('fs');
+const os   = require('os');
 const lunr = require('lunr');
-const parse = require('csv-parse');
+const csv  = require('csv-parse');
 const columns = require('@ifct2017/columns');
 
 const OVERRIDE = new Map([
-  ['crypxb', 'Carotenoids'],
-  ['cartg', 'Carotenoids'],
-  ['carta', 'Carotenoids'],
-  ['cartb', 'Carotenoids'],
-  ['cholc', 'Stigmasterol, β-Sitosterol, Campesterol, Ergosterol, 5-alpha-Cholestenol'],
-  ['phytac', 'Phyates'],
-  ['vitb', null],
-  ['vitd', 'Vitamin D2 & D3'],
-  ['vitk', 'Vitamin K1 & K2'],
-  ['olsac', 'Oligosaccharides (Raffinose, Stachyose, Verbascose and Ajugose)'],
-  ['phystr', 'Stigmasterol, β-Sitosterol, Campesterol, Ergosterol, 5-alpha-Cholestenol'],
-  ['mnrleq', null],
-  ['mnrlet', null],
+  ['crypxb',  'Carotenoids'],
+  ['cartg',   'Carotenoids'],
+  ['carta',   'Carotenoids'],
+  ['cartb',   'Carotenoids'],
+  ['cholc',   'Stigmasterol, β-Sitosterol, Campesterol, Ergosterol, 5-alpha-Cholestenol'],
+  ['phytac',  'Phyates'],
+  ['vitb',    null],
+  ['vitd',    'Vitamin D2 & D3'],
+  ['vitk',    'Vitamin K1 & K2'],
+  ['olsac',   'Oligosaccharides (Raffinose, Stachyose, Verbascose and Ajugose)'],
+  ['phystr',  'Stigmasterol, β-Sitosterol, Campesterol, Ergosterol, 5-alpha-Cholestenol'],
+  ['mnrleq',  null],
+  ['mnrlet',  null],
   ['mnrlpet', null],
   ['mnrlnet', null],
-  ['mnrltx', null],
-  ['vit', null],
+  ['mnrltx',  null],
+  ['vit',     null],
 ]);
 
 
@@ -34,12 +34,12 @@ function writeFile(pth, d) {
 
 
 function bestMatch(idx, txt) {
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = idx.search(txt), max = 0;
-  for(var m of ms)
+  for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
-  for(var m of ms)
-    if(Object.keys(m.matchData.metadata).length===max) a.push(m);
+  for (var m of ms)
+    if (Object.keys(m.matchData.metadata).length===max) a.push(m);
   return a;
 }
 
@@ -60,12 +60,12 @@ function createMap(idx) {
   for (var c of columns.load().values()) {
     if (OVERRIDE.has(c.code)) {
       var analyte = OVERRIDE.get(c.code);
-      var index = analyte!=null? mapping.get(analyte):-1;
+      var index   = analyte!=null? mapping.get(analyte):-1;
     }
     else {
-      var tags = `${c.code} ${c.code} ${c.code} ${c.name} ${c.name} ${c.tags}`;
-      tags = tags.replace(/\W+/g, ' ').toLowerCase().trim();
-      var ms = idx.search(tags);
+      var tags  = `${c.code} ${c.code} ${c.code} ${c.name} ${c.name} ${c.tags}`;
+      var tags  = tags.replace(/\W+/g, ' ').toLowerCase().trim();
+      var ms    = idx.search(tags);
       // if (c.code==='as') console.log(c, tags, ms);
       var index = ms.length>0? ms[0].ref : -1;
     }
@@ -78,8 +78,8 @@ function createMap(idx) {
 
 
 columns.load();
-var array = [], mapping = new Map();
-var stream = fs.createReadStream('index.csv').pipe(parse({columns: true, comment: '#'}));
+var array  = [], mapping = new Map();
+var stream = fs.createReadStream('index.csv').pipe(csv.parse({columns: true, comment: '#'}));
 
 stream.on('data', r => {
   mapping.set(r.analyte, array.length);
@@ -89,7 +89,7 @@ stream.on('data', r => {
 stream.on('end', () => {
   var a = '';
   var index = createIndex(array);
-  var map = createMap(index);
+  var map   = createMap(index);
   for (var i=0, I=array.length; i<I; i++)
     a += `const I${i} = ${JSON.stringify(array[i]).replace(/\"(\w+)\":/g, '$1:')};\n`;
   a += `const CORPUS = new Map([\n`;
