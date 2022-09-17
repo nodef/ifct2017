@@ -1,16 +1,13 @@
 {
   "name": "@ifct2017/representations",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Representations of columns (as factors and units).",
   "main": "index.js",
   "scripts": {
+    "test": "node ./build && node ./test",
     "build": "node ./build",
-    "deploy": "ebuild publish+github --publishMin=false --publishBranch=false",
-    "test": "node ./tests"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ifct2017/representations.git"
+    "publish-docs": "node ./build publish-docs",
+    "publish-packages": "node ./build publish-packages"
   },
   "keywords": [
     "ifct",
@@ -34,17 +31,22 @@
   ],
   "author": "wolfram77@gmail.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifct2017/representations.git"
+  },
   "bugs": {
     "url": "https://github.com/ifct2017/representations/issues"
   },
   "homepage": "https://github.com/ifct2017/representations#readme",
-  "devDependencies": {
-    "@ifct2017/compositions": "2",
-    "deep-equal": "^2.0.5",
-    "extra-build": "^1.3.31"
-  },
   "dependencies": {
-    "@ifct2017/columns": "2",
-    "sql-extra": "0.1"
+    "@ifct2017/columns": "^2.0.13",
+    "sql-extra": "^0.1.13"
+  },
+  "devDependencies": {
+    "@ifct2017/compositions": "^2.0.8",
+    "deep-equal": "^2.0.5",
+    "extra-build": "^2.2.29",
+    "extra-fs": "^3.2.10"
   }
 }

@@ -1,8 +1,10 @@
-const fs = require('fs');
-const os = require('os');
+const fs    = require('extra-fs');
+const build = require('extra-build');
 const deepEqual    = require('deep-equal');
 const compositions = require('@ifct2017/compositions');
 
+const owner  = 'ifct2017';
+const repo   = build.readMetadata('.').name.replace(/@.+\//g, '');
 const IGNORE = new Set(['code', 'name', 'scie', 'lang', 'grup', 'regn', 'tags']);
 const UNIT   = new Map([
   [1, 'g'],
@@ -11,8 +13,6 @@ const UNIT   = new Map([
   [1e+9, 'ng'],
 ]);
 
-var representations = new Map();
-var values = [];
 
 
 
@@ -27,12 +27,6 @@ function imapSet(map, arr, key, val) {
   var i = arrayIndexOf(arr, val);
   if (i<0) arr[i = arr.length] = val;
   map.set(key, i);
-}
-
-
-function writeFile(pth, d) {
-  d = d.replace(/\r?\n/g, os.EOL);
-  fs.writeFileSync(pth, d);
 }
 
 
@@ -69,7 +63,7 @@ function writeIndex(map, arr) {
     var {type, factor, unit} = arr[i];
     a += `${code},${type},${factor},${unit||''}\n`;
   }
-  writeFile('index.csv', a);
+  fs.writeFileTextSync('index.csv', a);
 }
 
 function writeCorpus(map, arr) {
@@ -81,10 +75,11 @@ function writeCorpus(map, arr) {
     a += `  ["${code}", I${i}],\n`;
   a += `]);\n`;
   a += `module.exports = CORPUS;\n`;
-  writeFile('corpus.js', a);
+  fs.writeFileTextSync('corpus.js', a);
 }
 
-async function main() {
+async function writeIndexAndCorpus() {
+  var representations = new Map(), values = [];
   var map  = await compositions.load();
   var cols = Object.keys(map.get('A001'));
   for (var c of cols) {
@@ -98,4 +93,43 @@ async function main() {
   writeIndex(representations, values);
   writeCorpus(representations, values);
 }
-main();
+
+
+
+
+// Publish a root package to NPM, GitHub.
+function publishRootPackage(ver) {
+  var _package = build.readDocument('package.json');
+  var m = build.readMetadata('.');
+  m.version = ver;
+  build.writeMetadata('.', m);
+  build.publish('.');
+  try { build.publishGithub('.', owner); }
+  catch {}
+  build.writeDocument(_package);
+}
+
+
+// Publish root, sub packages to NPM, GitHub.
+async function publishPackages() {
+  var m   = build.readMetadata('.');
+  var ver = build.nextUnpublishedVersion(m.name, m.version);
+  await writeIndexAndCorpus();
+  publishRootPackage(ver);
+}
+
+
+// Publish docs.
+function publishDocs() {
+  var m = build.readMetadata('.');
+  build.updateGithubRepoDetails({owner, repo, topics: m.keywords});
+}
+
+
+// Finally.
+async function main(a) {
+  if (a[2]==='publish-docs') publishDocs();
+  else if (a[2]==='publish-packages') await publishPackages();
+  else await writeIndexAndCorpus();
+}
+main(process.argv);
