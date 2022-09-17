@@ -1,6 +1,6 @@
 {
   "name": "@ifct2017/hierarchy",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "Tree-like hierarchy of nutrients, and its components.",
   "main": "index.js",
   "scripts": {
