@@ -32,6 +32,6 @@ function intakes(txt) {
   return columns(txt).map(r => corpus.get(r.code));
 }
 intakes.load = load;
-intakes.csv = csv;
-intakes.sql = sql;
+intakes.csv  = csv;
+intakes.sql  = sql;
 module.exports = intakes;
