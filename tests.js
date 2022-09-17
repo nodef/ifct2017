@@ -1,5 +1,5 @@
 const assert = require('assert');
-const codes = require('./');
+const codes  = require('./');
 
 
 

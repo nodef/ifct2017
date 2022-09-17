@@ -1,14 +1,14 @@
-const fs = require('fs');
-const path = require('path');
-const lunr = require('lunr');
+const fs    = require('fs');
+const path  = require('path');
+const lunr  = require('lunr');
 const parse = require('csv-parse');
-const esql = require('sql-extra');
+const esql  = require('sql-extra');
 
 const COLUMNS = {name: 'TEXT', code: 'TEXT'};
 const OPTIONS = {pk: 'name', index: true, tsvector: {name: 'A', code: 'B'}};
 var corpus = new Map();
-var index = null;
-var ready = null;
+var index  = null;
+var ready  = null;
 
 
 
@@ -23,7 +23,7 @@ function sqlCorpus(tab, opt) {
 }
 
 async function sqlCsv(tab, opt) {
-  var opt = Object.assign({}, OPTIONS, opt);
+  var opt    = Object.assign({}, OPTIONS, opt);
   var stream = fs.createReadStream(csv()).pipe(parse({columns: true, comment: '#'}));
   var a = esql.createTable(tab, COLUMNS, opt);
   a = await esql.insertInto.stream(tab, stream, opt, a);
@@ -68,7 +68,7 @@ async function load() {
 
 function codes(txt) {
   if (!index) { load(); return []; }
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
   for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
@@ -77,6 +77,6 @@ function codes(txt) {
   return a;
 }
 codes.load = load;
-codes.csv = csv;
-codes.sql = sql;
+codes.csv  = csv;
+codes.sql  = sql;
 module.exports = codes;
