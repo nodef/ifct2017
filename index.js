@@ -33,6 +33,6 @@ function representations(txt) {
   return corpus.get(ms[0].code)||null;
 }
 representations.load = load;
-representations.csv = csv;
-representations.sql = sql;
+representations.csv  = csv;
+representations.sql  = sql;
 module.exports = representations;
