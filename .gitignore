@@ -2,7 +2,6 @@
 .build/
 .docs/
 coverage/
-*.d.ts
 *.map
 example.js
 corpus.js
