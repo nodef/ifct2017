@@ -3,7 +3,7 @@ const lunr = require('lunr');
 const esql = require('sql-extra');
 
 var corpus = null;
-var index = null;
+var index  = null;
 
 
 
@@ -21,7 +21,7 @@ function createIndex() {
 function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
-  index = createIndex();
+  index  = createIndex();
   return corpus;
 }
 
@@ -37,15 +37,15 @@ function sql(tab='regions', opt={}) {
 
 function regions(txt) {
   if (!corpus) load();
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
-  for(var m of ms)
+  for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
-  for(var m of ms)
-    if(Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
+  for (var m of ms)
+    if (Object.keys(m.matchData.metadata).length===max) a.push(corpus.get(m.ref));
   return a;
 };
 regions.load = load;
-regions.csv = csv;
-regions.sql = sql;
+regions.csv  = csv;
+regions.sql  = sql;
 module.exports = regions;

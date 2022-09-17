@@ -2,7 +2,7 @@ const csvParse = require('csv-parse');
 const fs = require('fs');
 const os = require('os');
 
-var map = new Map();
+var map    = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csvParse({columns: true, comment: '#'}));
 
 
