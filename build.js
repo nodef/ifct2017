@@ -2,7 +2,7 @@ const csvParse = require('csv-parse');
 const fs = require('fs');
 const os = require('os');
 
-var map = new Map();
+var map    = new Map();
 var stream = fs.createReadStream('index.csv').pipe(csvParse({columns: true, comment: '#'}));
 
 
@@ -15,7 +15,7 @@ function writeFile(pth, d) {
 
 
 stream.on('data', r => {
-  r.kj = parseFloat(r.kj);
+  r.kj   = parseFloat(r.kj);
   r.kcal = parseFloat(r.kcal);
   map.set(r.component, r);
 });
