@@ -3,7 +3,7 @@ const lunr = require('lunr');
 const esql = require('sql-extra');
 
 var corpus = null;
-var index = null;
+var index  = null;
 
 
 
@@ -23,7 +23,7 @@ function createIndex() {
 function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
-  index = createIndex();
+  index  = createIndex();
   return ready = true;
 }
 
@@ -41,7 +41,7 @@ function sql(tab='groups', opt={}) {
 
 function groups(txt) {
   if (!corpus) load();
-  var a = [], txt = txt.replace(/\W/g, ' ');
+  var a  = [], txt = txt.replace(/\W/g, ' ');
   var ms = index.search(txt), max = 0;
   for (var m of ms)
     max = Math.max(max, Object.keys(m.matchData.metadata).length);
@@ -50,6 +50,6 @@ function groups(txt) {
   return a;
 }
 groups.load = load;
-groups.csv = csv;
-groups.sql = sql;
+groups.csv  = csv;
+groups.sql  = sql;
 module.exports = groups;
