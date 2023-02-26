@@ -24,7 +24,8 @@ function load() {
   if (corpus) return corpus;
   corpus = require('./corpus');
   index  = createIndex();
-  return ready = true;
+  ready  = true;
+  return corpus;
 }
 
 
