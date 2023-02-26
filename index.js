@@ -38,7 +38,7 @@ function csv() {
 
 function sql(tab='carbohydrates', opt={}) {
   return esql.setupTable(tab, {sno: 'TEXT', carbohydrate: 'TEXT', hydrolysis: 'REAL', monosaccharide: 'REAL'},
-    loadCorpus().values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', carbohydrate: 'B'}}, opt));
+    load().values(), Object.assign({pk: 'sno', index: true, tsvector: {sno: 'A', carbohydrate: 'B'}}, opt));
 }
 
 
