@@ -1,0 +1,36 @@
+sno,state,districts,selected
+1,Andhra Pradesh,23,4
+2,Arunachal Pradesh,16,2
+3,Assam,27,3
+4,Bihar,38,9
+5,Chhattisgarh,18,3
+6,Goa,2,1
+7,Gujarat,25,4
+8,Haryana,21,4
+9,Himachal Pradesh,12,3
+10,Jammu and Kashmir,15,3
+11,Jharkhand,24,4
+12,Karnataka,30,4
+13,Kerala,14,3
+14,Madhya Pradesh,50,8
+15,Maharashtra,35,5
+16,Manipur,9,1
+17,Meghalaya,7,1
+18,Mizoram,8,1
+19,Nagaland,11,1
+20,Orissa,30,4
+21,Punjab,20,3
+22,Rajasthan,32,7
+23,Sikkim,4,1
+24,Tamil Nadu,32,5
+25,Tripura,4,1
+26,Uttarakhand,13,3
+27,Uttar Pradesh,71,8
+28,West Bengal,18,3
+A,Andaman & Nicobar,3,1
+B,Chandigarh,1,1
+C,Dadra and Nagar Haveli,1,1
+D,Daman and Diu,2,1
+E,Lakshadweep,1,1
+F,National Capital Territory of Delhi,9,2
+G,Puducherry,4,1

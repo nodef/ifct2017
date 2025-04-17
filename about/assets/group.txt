@@ -1,0 +1,21 @@
+There are 20 food groups:
+- A: Cereals and Millets. 24 foods.
+- B: Grain Legumes. 25 foods.
+- C: Green Leafy Vegetables. 34 foods.
+- D: Other Vegetables. 78 foods.
+- E: Fruits. 68 foods.
+- F: Roots and Tubers. 19 foods.
+- G: Condiments and Spices. 33 foods.
+- H: Nuts and Oil Seeds. 21 foods.
+- I: Sugars. 2 foods.
+- J: Mushrooms. 4 foods.
+- K: Miscellaneous Foods. 2 foods.
+- L: Milk and Milk Products. 4 foods.
+- M: Egg and Egg Products. 15 foods.
+- N: Poultry. 19 foods.
+- O: Animal Meat. 63 foods.
+- P: Marine Fish. 92 foods.
+- Q; Marine Shellfish. 8 foods.
+- R: Marine Mollusks. 7 foods.
+- S: Fresh Water Fish and Shellfish. 10 foods.
+- T: Edible Oils and Fats. 9 foods.

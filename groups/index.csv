@@ -1,0 +1,21 @@
+code,group,entries,tags
+A,Cereals and Millets,24,vegetarian eggetarian fishetarian veg
+B,Grain Legumes,25,vegetarian eggetarian fishetarian veg
+C,Green Leafy Vegetables,34,vegetarian eggetarian fishetarian veg
+D,Other Vegetables,78,vegetarian eggetarian fishetarian veg
+E,Fruits,68,vegetarian eggetarian fishetarian veg
+F,Roots and Tubers,19,vegetarian eggetarian fishetarian veg
+G,Condiments and Spices,33,vegetarian eggetarian fishetarian veg
+H,Nuts and Oil Seeds,21,vegetarian eggetarian fishetarian veg
+I,Sugars,2,vegetarian eggetarian fishetarian veg
+J,Mushrooms,4,vegetarian eggetarian fishetarian veg
+K,Miscellaneous Foods,2,vegetarian eggetarian fishetarian veg
+L,Milk and Milk Products,4,vegetarian eggetarian fishetarian veg
+M,Egg and Egg Products,15,eggetarian fishetarian nonveg
+N,Poultry,19,nonveg
+O,Animal Meat,63,nonveg
+P,Marine Fish,92,fishetarian nonveg
+Q,Marine Shellfish,8,fishetarian nonveg
+R,Marine Mollusks,7,fishetarian nonveg
+S,Fresh Water Fish and Shellfish,10,fishetarian nonveg
+T,Edible Oils and Fats,9,vegetarian eggetarian fishetarian veg

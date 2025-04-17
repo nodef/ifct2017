@@ -1,0 +1,215 @@
+code,name,tags
+code,Food Code,id tag legend
+name,Food Name,title label
+scie,Scientific Name,binomial genus botanical
+lang,Local Name,colloquial trivial country farmer popular
+grup,Food Group,category class classification grouping type sort kind
+regn,No. of Regions,number
+tags,Tags,
+water,Moisture,total essential proximate liquid steam vapour
+protcnt,Protein,total essential proximate macronutrient
+ash,Ash,total essential proximate macronutrient residue mineral metal inorganic
+fatce,Total Fat,total essential proximate macronutrient triglyceride lipid blubber
+fibtg,Dietary Fiber,total fibre roughage bulk indigestible
+fibins,Insoluble Dietary Fiber,fibre roughage bulk indigestible
+fibsol,Soluble Dietary Fiber,fibre roughage bulk indigestible
+choavldf,Carbohydrate,total proximate macronutrient cho saccharide ose glucide hydrate carbon
+enerc,Energy,total essential metabolism atp calorie kilocalorie cal kcal joule kilojoule j kj
+thia,Thiamine (B1),essential water soluble vitamin b1 b 1 thiamin aneurine
+ribf,Riboflavin (B2),essential water soluble vitamin b2 b 2 g vactochrome lactoflavin
+nia,Niacin (B3),essential water soluble vitamin b3 b 3 pp white translucent crystalline crystal bionic nicotinic acid nicotinamide
+pantac,Pantothenic acid (B5),essential water soluble vitamin b5 b 5 yellow oil colorless crystalline crystal pantothenate
+vitb6c,Total B6,essential water soluble vitamin b6 b 6 vitamer pn p5p pl plp pm pmp pa pyridoxine pyridoxal pyridoxamine pyridoxic acid pyritinol
+biot,Biotin (B7),essential water soluble vitamin b7 b 7 h coenzyme r white crystalline crystal needle biopeiderm
+folsum,Folates (B9),essential water soluble vitamin b9 b 9 bc m folic folacin pteroyl glutamic acid glutamate
+vitc,Ascorbic acids (C),total essential water soluble vitamin c vitamin c ascorbate
+retol,Retinol,essential fat soluble vitamin a1 vitamin-a 1
+ergcal,Ergocalciferol (D2),essential fat soluble vitamin d2 d 2 calciferol viosterol
+chocal,Cholecalciferol (D3),essential fat soluble vitamin d3 d 3 activated dehydrocholesterol colecalciferol
+doh25,25-OH-D3,essential fat soluble vitamin d3 d 3 25 oh 0 calcifediol calcidiol hydroxycholecalciferol hydroxyvitamin prehormone
+tocpha,α-Tocopherol,essential fat soluble vitamin e yellow brown viscous liquid antioxidant saturated alpha tcp methylated phenol phytyl
+tocphb,β-Tocopherol,beta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+tocphg,γ-Tocopherol,gamma tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+tocphd,δ-Tocopherol,delta tcp vitamin e fat soluble methylated phenol antioxidant saturated phytyl essential
+toctra,α-Tocotrienol,alpha vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrb,β-Tocotrienol,beta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrg,γ-Tocotrienol,gamma vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+toctrd,δ-Tocotrienol,delta vitamin e fat soluble methylated phenol antioxidant unsaturated isoprenoid essential
+vite,α-Tocopherol equivalent (E),total alpha ate te vitamin e vitamin e fat soluble methylated phenol antioxidant essential
+vitk1,Phylloquinones (K1),total pk phytomenadione phytonadione quinone mephyton fat soluble vitamin k1 k 1 vitamin k1 k 1 essential
+vitk2,Menaquinones (K2),total mk menatetrenone quinone mk fat soluble vitamin k2 k 2 vitamin k2 k 2 essential
+lutn,Lutein,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment crystalline crystal solid
+zea,Zeaxanthin,xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange red yellow pigment
+crypxb,β-Cryptoxanthin,b beta xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical yellow pigment vitamer provitamin vitamin vitamin-a cryptoxanthol caricaxanthin kryptoxanthin
+lycpn,Lycopene,carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical deep red orange pigment solid
+cartg,γ-Carotene,gamma carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
+carta,α-Carotene,alpha carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange pigment vitamer provitamin vitamin vitamin-a
+cartb,β-Carotene,beta carotene carotenoid tetraterpenoid terpenoid isoprenoid phytochemical dark red orange pigment crystalline crystal vitamer provitamin vitamin vitamin-a
+cartoid,Carotenoids,total carotene xanthophyll carotenoid tetraterpenoid terpenoid isoprenoid phytochemical orange yellow pigment
+al,Aluminium (Al),trace post transition chemical inorganic element mineral metal aluminum
+as,Arsenic (As),trace metalloid chemical inorganic element mineral metal arsenic
+cd,Cadmium (Cd),trace post transition toxic chemical inorganic element mineral metal cadmium
+ca,Calcium (Ca),quantity alkaline earth chemical inorganic element mineral metal calcium
+cr,Chromium (Cr),trace transition chemical inorganic element mineral metal chromium
+co,Cobalt (Co),trace transition chemical inorganic element mineral metal cobalt
+cu,Copper (Cu),trace transition chemical inorganic element mineral metal copper
+fe,Iron (Fe),trace transition chemical inorganic element mineral metal iron
+pb,Lead (Pb),trace heavy post transition toxic chemical inorganic element mineral metal lead
+li,Lithium (Li),trace alkali chemical inorganic element mineral metal lithium
+mg,Magnesium (Mg),quantity alkaline earth chemical inorganic element mineral metal magnesium
+mn,Manganese (Mn),trace transition ineral chemical inorganic element mineral metal manganese
+hg,Mercury (Hg),trace heavy liquid post transition toxic chemical inorganic element mineral metal mercury
+mo,Molybdenum (Mo),trace transition chemical inorganic element mineral metal molybednum
+ni,Nickel (Ni),trace transition chemical inorganic element mineral metal nickel
+p,Phosphorus (P),quantity nonmetal chemical inorganic element mineral phosphorous
+k,Potassium (K),quantity alkali chemical inorganic element mineral metal potassium
+se,Selenium (Se),trace chemical inorganic element mineral metal selenium
+na,Sodium (Na),quantity alkali chemical inorganic element mineral metal sodium
+zn,Zinc (Zn),trace post transition chemical inorganic element mineral metal zinc
+cho,Available CHO,total digest absorb glucogenic carbohydrate available carbohydrate
+starch,Starch,total amylum polysaccharide polymeric carbohydrate available
+frus,Fructose,simple fruit sugar levulose fructofuranose arabino hexulose ketonic monosaccharide free available carbohydrate
+glus,Glucose,simple sugar blood dextrose corn grape monosaccharide white powder free available carbohydrate
+sucs,Sucrose,common table sugar saccharose disaccharide white solid free available carbohydrate
+mals,Maltose,maltobiose malt sugar disaccharide white powder crystalline crystal free available carbohydrate
+fsugar,Free Sugars,total added natural sugar monosaccharide disaccharide available carbohydrate
+lactose,Lactose,milk sugar disaccharide white solid free available carbohydrate content
+f4d0,Butyric acid (C4:0),c40 c 40 4 0 bta butanoic propanecarboxylic carboxylic saturated fatty fat triglyceride lipid colorless liquid unpleasant vomit body odor
+f6d0,Caproic acid (C6:0),c60 c 60 6 0 hexanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid goat like
+f8d0,Caprylic acid (C8:0),c80 c 80 8 0 octanoic carboxylic saturated fatty fat medium chain triglyceride lipid colorless oily liquid faint fruity irritating
+f10d0,Capric acid (C10:0),c100 c 100 10 0 decanoic carboxylic saturated fatty fat medium chain triglyceride lipid white crystals strong rancid and unpleasant
+f11d0,Undecanoic acid (C11:0),c110 c 110 11 0 undecylic carboxylic saturated fatty fat triglyceride lipid colourless crystals distinctive unpleasant odor
+f12d0,Lauric acid (C12:0),c120 c 120 12 0 dodecanoic dodecylic dodecoic laurostearic vulvic undecanecarboxylic duodecylic carboxylic saturated fatty fat medium chain triglyceride white powder faint odor bay oil soap
+f14d0,Myristic acid (C14:0),c140 c 140 14 0 tetradecanoic carboxylic saturated fatty fat triglyceride lipid
+f15d0,Pentadecanoic acid (C15:0),c150 c 150 15 0 pentadecylic carboxylic saturated fatty fat triglyceride lipid
+f16d0,Palmitic acid (C16:0),c160 c 160 16 0 hexadecanoic carboxylic saturated fatty fat triglyceride lipid white crystals
+f18d0,Stearic acid (C18:0),c180 c 180 18 0 octadecanoic carboxylic saturated fatty fat triglyceride lipid white solid pungent oily
+f20d0,Arachidic acid (C20:0),c200 c 200 20 0 eicosanoic icosanoic arachic carboxylic saturated fatty fat triglyceride lipid white crystalline crystal solid
+f22d0,Behenic acid (C22:0),c220 c 220 22 0 docosanoic docosanoate hydrofol carboxylic saturated fatty fat triglyceride lipid white yellow crystalline crystal powder
+f24d0,Lignoceric acid (C24:0),c240 c 240 24 0 tetracosanoic carboxylic saturated fatty fat triglyceride lipid
+f14d1cn5,Myristoleic acid (C14:1),c141 c 141 14 1 tetradecenoic myristolenic oleomyristic omega 5 monounsaturated mono unsaturated fatty fat triglyceride lipid
+f16d1cn7,Palmitoleic acid (C16:1),c161 c 161 16 1 hexadec enoic palmitoleic hexadecenoic omega 7 monounsaturated mono unsaturated fatty fat triglyceride lipid
+f18d1cn9,Oleic acid (C18:1n9),c181n9 c181 c 181 18 1n9 1 n9 n 9 octadec enoic octadecenoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
+f18d1tn9,Elaidic acid (C18:1n9t),c181n9t c 18 1n9t 1n9 1 n9t n9 n 9 t octadec enoic octadecenoic carboxylic trans monounsaturated mono unsaturated fatty fat triglyceride lipid colorless waxy oily solid
+f20d1cn9,Eicosenoic acid (C20:1n9),c201n9 c201 c20 c 20 201 1n9 1 n9 n 9 gondoic eicos enoic icosenoic icos enoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
+f22d1cn9,Erucic acid (C22:1n9),c221n9 c221 c 221 22 1 n9 n 9 docos enoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid white waxy solid
+f24d1cn9,Nervonic acid (C24:1n9),c241n9 c241 c 241 24 1 n9 n 9 tetracos enoic tetracosenoic omega 9 monounsaturated mono unsaturated fatty fat triglyceride lipid
+f18d2cn6,Linoleic acid (C18:2n6),c182n6 c182 c 182 18 2 n6 n 6 octadeca dienoic octadecadienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid colorless oil
+f20d2n6,Eicosadienoic acid (C20:2),c202 c 202 20 2 eicosa icosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d2n6,Docosadienoic acid (C22:2),c222 c 222 22 2 docosa dienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f18d3n3,α-Linolenic acid (C18:3n3),c183n3 c183 c 183 18 3 n3 n 3 ala lna alpha octadecatrienoic octadeca trienoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d3n6,Eicosatrienoic acid (C20:3n6),c203n6 c203 c 203 20 3 n6 n 6 eicosa icosa trienoic omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d4n6,Arachidonic acid (C20:4n6),c204n6 c204 c 204 20 4 n6 n 6 aa ara eicosatetraenoic eicosa icosa tetraenoic arachidonate omega 6 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f20d5n3,Eicosapentaenoic acid (C20:5n3),c205n3 c205 c 205 20 5 n3 n 3 epa icosapentaenoic timnodonic eicosa icosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d5n3,Docosapentaenoic acid (C22:5n3),c225n3 c225 c 225 22 5 n3 n 3 dpa docosa pentaenoic omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+f22d6n3,Docosahexaenoic acid (C22:6n3),c226n3 c226 c 226 22 6 n3 n 3 dha docosa hexaenoic cervonic doconexent omega 3 polyunsaturated poly unsaturated fatty fat triglyceride lipid
+fasat,Saturated Fatty acids,total fat triglyceride lipid profile tsfa sfa
+fams,Monounsaturated Fatty acids,total fat lipid triglyceride profile mono unsaturated tmufa mufa
+fapu,Polyunsaturated Fatty acids,total fat lipid triglyceride profile poly unsaturated tpufa pufa
+cholc,Cholesterol,total cholesterin cholesteryl alcohol zoosterol animal sterol lipid white crystalline crystal powder
+his,Histidine,amino acid h _his
+ile,Isoleucine,amino acid i
+leu,Leucine,amino acid l
+lys,Lysine,amino acid k
+met,Methionine,amino acid m
+cys,Cysteine,amino acid c
+phe,Phenylalanine,amino acid f
+thr,Threonine,amino acid t
+trp,Tryptophan,amino acid w
+val,Valine,amino acid v
+ala,Alanine,amino acid a
+arg,Arginine,amino acid r
+asp,Aspartic acid,amino acid d
+glu,Glutamic acid,amino acid e
+gly,Glycine,amino acid g
+pro,Proline,amino acid p
+ser,Serine,amino acid s
+tyr,Tyrosine,amino acid y
+oxalt,Oxalates,total organic acid oxalic ox ethanedioate
+oxals,Soluble Oxalate,total organic acid oxalic ox sodium potassium ethanedioate
+oxali,Insoluble Oxalate,total organic acid oxalic ox calcium ethanedioate
+caconac,Cis-Aconitic acid,organic acid achilleic equisetic citridinic pyrocitric
+citac,Citric acid,organic acid hydroxypropane tricarboxylic
+fumac,Fumaric acid,organic acid trans butenedioic but enedioic ethylenedicarboxylic allomaleic boletic donitic lichenic unsaturated white solid
+malac,Malic acid,organic acid hydroxybutanedioic hydroxysuccinic unsaturated
+quinac,Quinic acid,organic acid tetrahydroxycyclohexanecarboxylic tetrahydroxy cyclohexanecarboxylic cyclitol cyclic polyol
+sucac,Succinic acid,organic acid butandioic dicarboxylic
+tarac,Tartaric acid,organic acid dihydroxybutanedioic dihydroxysuccinic threaric racemic uvic paratartaric white crystalline crystal powder
+dhbenzac34,"3,4-Dihydroxy Benzoic acid",34 dihydroxybenzoic polyphenol polyphenol poly phenol phenolic phytochemical phyto
+hbenzal3,3-Hydroxy Benzaldehyde,Hydroxybenzaldehyde aldehyde polyphenol polyphenol poly phenol phenolic phytochemical phyto
+pcathac,Protocatechuic acid,pca protocatechuate dihydroxybenzoic dihydroxy benzoic polyphenol polyphenol poly phenol phenolic phytochemical phyto light brown solid
+vanlac,Vanillic acid,dihydroxybenzoic dihydroxy benzoic vanillin hydroxy methoxybenzoic anisic vanillate polyphenol polyphenol poly phenol phenolic aromatic phytochemical phyto white light yellow powder crystalline crystal
+gallac,Gallic acid,trihydroxybenzoic trihydroxy benzoic polyphenol polyphenol poly phenol phenolic aromatic phytochemical phyto white yellow pale fawn crystalline crystal
+cinmac,Cinnamic acid,phenylprop enoic phenylacrylic cinnamylic phenylacrylic benzenepropenoic benzenepropenoic hydroxycinnamic aromatic unsaturated carboxylic polyphenol polyphenol poly phenol phenolic phytochemical phyto white monoclinic crystalline crystal
+coumaco,o-Coumaric acid,ortho hydroxyphenyl prop enoic propenoic hydroxycinnamic aromatic polyphenol polyphenol poly phenol phenolic phytochemical phyto
+coumacp,p-Coumaric acid,para hydroxyphenyl prop enoic propenoic acrylic hydroxycinnamic aromatic polyphenol polyphenol poly phenol phenolic phytochemical phyto
+caffac,Caffeic acid,dihydroxyphenyl propenoic dihydroxy cinnamic trans caffeate cinnamate dihydroxybenzeneacrylic hydroxycinnamic aromatic polyphenol polyphenol poly phenol phenolic phytochemical phyto
+chlrac,Chlorogenic acid,cqa dihydroxycinnamoyl quinate quinic caffeoylquinate caffeoylquinic chlorogenate heriguard hydroxycinnamic aromatic trans ester polyphenol polyphenol poly phenol phenolic phytochemical phyto
+ferac,Ferulic acid,propenoic hydroxy methoxyphenyl acrylic methoxy methoxycinnamic ferulate coniferic trans ferulic hydroxycinnamic aromatic polyphenol polyphenol poly phenol phenolic phytochemical phyto crystalline crystal powder
+apigen,Apigenin,flavone flavonoid polyphenol polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid trihydroxyflavone apigenine chamomile apigenol spigenin versulin aglycone glycoside
+apigen6cgls,Apigenin-6-C-gluoside,6c 6 flavone flavonoid polyphenol polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isovitexin homovitexin saponaretin
+apigen7onshps,Apigenin-7-O-neohesperidoside,7o 7 flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rhoifolin
+luteol,Luteolin,flavone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal luteolol digitoflavone flacitran luteoline
+kaemf,Kaempferol,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal solid antioxidant kaempherol robigenin pelargidenolon rhamnolutein rhamnolutin populnetin trifolitin kempferol swartziol
+querce,Quercetin,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical yellow pigment crystalline crystal powder bitter flavor sophoretin meletin quercetine xanthaurine quercetol quercitin quertine flavin meletin
+querce3bdgls,Quercetin-3-β-D-glucoside,3βd 3bd 3β 3b βd bd 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment isoquercetin isoquercitrin isoquercitroside isoquercitin trifoliin isotrifolin isohyperoside isotrifoliin glucopyranoside
+querce3ortns,Quercetin-3-O-rutinoside,3o 3 flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment rutin rutoside sophorin phytomelin sophorin birutan eldrin globularicitrin violaquercitrin glycoside
+querce3bgls,Quercetin-3-β-galactoside,3β 3b 3 beta b flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hyperoside hyperozide hyperasid hyperosid hyperin
+isormt,Isorhamnetin,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment methylquercetin isorhamnetol isorhamentin isorhamnetine rhamnetin methoxyquercetin methylated
+myrct,Myricetin,flavonol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment cannabiscetin myricetol myricitin
+rsvrtol,Resvertrol,aglycone stilbenoid phenylpropanoid polyphenol poly phenol phenolic phytochemical trihydroxystilbene stilbenetriol trans phytoalexin
+hespt,Hesperetin,eriodictyol flavanone flavanoid polyphenol poly phenol phenolic phytochemical
+narng,Naringenin,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical  colourless pigment bitter naringetol salipurol salipurpol trihydroxyflavanone
+hespd,Hesperdin,flavanone flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment hesperetin rutinoside flavan glycoside
+daidzn,Daidzein,formononetin isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pale yellow pigment prism dihydroxyisoflavone daidzeol isoaurostatin
+gnstein,Genistein,biochanin a isoflavone phytoestrogens isoflavonoid flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment angiogenesis inhibitor
+epicatec,(-)-Epicatechin,epi catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant catechin
+epicategc,(-)-Epigallo catechin,epigallo catechin epigallocatechin epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment
+epicatgc3gal,(-)-Epigallo catechin 3-gallate,epigallocatechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment egcg catechin
+catec,(+)-Catechin,catechin catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical colorless pigment solid antioxidant cianidanol cyanidanol catechinic catechuic cianidol dexcyanidanol trans flavanpentol
+galcatecgal,(-)-Gallocatechin gallate,gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment gcg
+galcatec,(-)-Gallocatechin,gallocatechin gallo catechin gallo catechin flavan flavanol flavonoid polyphenol poly phenol polyhydroxyphenol phenolic hydroxyl phytochemical pigment antioxidant gc gallocatechol
+syrgac,Syringic acid,trihydroxybenzoic polyphenol polyphenol poly phenol phenolic phytochemical
+sinpac,Sinapinic acid,sinapic dimethoxycinnamic hydroxycinnamic aromatic polyphenol polyphenol poly phenol phenolic phytochemical
+ellgac,Ellagic acid,dilactone hexahydroxydiphenic polyphenol polyphenol poly phenol phenolic aromatic phytochemical antioxidant antiproliferative
+polyph,Polyphenols,total poly phenol phenolic phytochemical
+rafs,Raffinose,rafinosa gossypose melitose melitriose galactosylsucrose fructofuranosyl galactopyranosyl glucopyranoside trisaccharide oligosaccharide carbohydrate
+stas,Stachyose,fructofuranosyl galactopyranosyl glucopyranoside tetrasaccharide oligosaccharide carbohydrate
+vers,Verbascose,pentasaccharide oligosaccharide carbohydrate
+ajgs,Ajugose,hexasaccharide oligosaccharide carbohydrate
+camt,Campesterol,phytosterol plant sterol phytosteroid steroid alcohol campestanol
+stgstr,Stigmasterol,phytosterol plant sterol phytosteroid steroid alcohol unsaturated white solid wulzen anti stiffness factor
+stostrb,β-Sitosterol,b beta phytosterol plant sterol phytosteroid steroid alcohol white waxy powder soild
+phytac,Phytate,ip6 ip 6 phytic inositol hexakisphosphate polyphosphate cyclohexane hexayl hexakis dihydrogen phosphate salt saturated cyclic acid
+sapon,Saponins,total triterpene triterpenoid glycoside amphipathic lipophilic hydrophilic soap foaming
+vitb,Vitamin B,total vitamin b
+vitd,Vitamin D,total vitamin d
+vitk,Vitamin K,total vitamin k
+tocph,Tocopherols,total tocopherol tcp methylated phenol vitamin e antioxidant
+toctr,Tocotrienols,total tocotrienol vitamin e antioxidant
+amiace,Essential Amino acids,total essential
+amiacce,Conditionally essential Amino acids,total
+amiacne,Non-essential Amino acids,total
+amiac,Amino acids,total amino acid
+orgac,Organic acids,total organic acid
+fauns,Unsaturated Fatty acids,total fat lipid profile good healthy tufa ufa
+faess,Essential Fatty acids,total fat lipid profile good healthy tefa efa
+facn3,Cis ω-3 Fatty acids,total fat lipid profile good healthy omega ω3 w3 w 3
+facn6,Cis ω-6 Fatty acids,total fat lipid profile good healthy omega ω6 w6 w 6
+facn9,Cis ω-9 Fatty acids,total fat lipid profile good healthy omega ω9 w9 w 9
+facn5,Cis ω-5 Fatty acids,total fat lipid profile good healthy omega ω5 w5 w 5
+facn7,Cis ω-7 Fatty acids,total fat lipid profile good healthy omega ω7 w7 w 7
+facis,Cis Fatty acids,total fat lipid profile good healthy tcfa cfa
+fatrn,Trans Fatty acids,total fat lipid profile bad unhealthy harmful detrimental damaging trans ttfa tfa
+olsac,Oligosaccharides,total polymer complex saccharide
+phystr,Phytosterols,total plant sterol stanol phytosteroid natural plant steroid
+mnrleq,Essential Quantity Minerals,total chemical inorganic element mineral metal
+mnrlet,Essential Trace Minerals,total essential chemical inorganic element mineral metal
+mnrlpet,Possibly essential Trace Minerals,total chemical inorganic element mineral metal
+mnrlnet,Non-essential Trace Minerals,total chemical inorganic element mineral metal
+mnrltx,Toxic Minerals,total chemical inorganic element mineral metal
+carot,Carotenes,total carotene carotin photosythetic orange pigment carotenoid
+xantp,Xanthophylls,total xanthophyll phylloxanthin yellow pigment carotenoid
+cartbeq,β-Carotene equivalents,total provitamin previtamin a beta b carotene carotenoid
+vita,Vitamin A,total essential micronutrient vitamin vitamin-a
+vit,Vitamins,total essential micronutrient vitamin vitamin vitamin

@@ -1,0 +1,37 @@
+analyte,method,reference
+Moisture,Gravimetric using vacuum / Hot air oven,AOAC 934.01
+Protein,Titrimetry by combustion / Kjeldahl / Mixed catalyst,AOAC 2001.11; Jones (1941)
+Ash,Gravimetric using Muffle furnace,AOAC 942.05
+Total fat,Gravimetry; Ether extraction using Soxhlet apparatus,AOAC 963.15
+"Total, soluble and insoluble dietary fiber",Enzymatic-gravimetric,AOAC 991.43
+Available carbohydrate,Calculation by difference; Trienzyme extraction and spectrophotometry,Greenfield & Southgate (2003); AOAC 991.43; AOAC 985.29
+Energy,Atwater conversion factors,Merrill & Watt (1973); FAO / INFOODS Guidelines (2012)
+Thiamin,Fluorometry,AOAC 942.23; Ramasastri (1975)
+Riboflavin,Turbidometric-Microbiological assay,AOAC 940.33; AOAC 960.46
+Niacin,Turbidometric-Microbiological assay,AOAC 985.34; 960.46
+Pantothenic acid,RP-HPLC with UV detector,David & Harvey (2000)
+Vitamin B6,HPLC-fluorometric detection,AOAC 985.32; Ollilainen (2008)
+Biotin,U-HPLC and LC-ESI-IT-MS method,Holler et al. (2006)
+Vitamin B9,Trienzyme Extraction and U-HPLC - UV or fluorescence detection,Finglas et al. (1999); Vahteristo et al. (1996); AOAC 2011.06; AOAC 2013.13
+Vitamin C,RP-HPLC,AOAC 985.33; Keating & Haddad (1982)
+Vitamin E,HPLC,AOAC 992.03; AOAC 2012.10
+Vitamin A,HPLC,AOAC 974.29; Bieri et al. (1979)
+Carotenoids,HPLC,Delia & Mieko (2004)
+Vitamin D2 & D3,RP- HPLC-APCI-MS.,AOAC 982.29
+Vitamin K1 & K2,RP- HPLC-APCI-MS,AOAC 992.27
+Free sugars,HPLC-RID,AOAC 2013.12
+Starch,Calculated from the increase in the amount of glucose by using conversion factor,Casterline et al. (1998)
+"Oligosaccharides (Raffinose, Stachyose, Verbascose and Ajugose)",HPLC,Frias et al. (1994); Johansen et al. (1996); Sanchez-Mata et al. (1998)
+"Iron, Zinc, Copper, Manganese, Potassium, Magnesium, Sodium, Calcium",Atomic Absorption Spectrophotometry (AAS),
+"Aluminium",Atomic Absorption Spectrophotometry (AAS); Inductively Coupled Plasma Mass Spectrometry (ICP-MS),AOAC 2013.06
+"Heavy and trace metals Lead, Cadmium, Nickel, Cobalt, Chromium, Lithium, Molybdenum",Graphite furnace Atomic Absorption Spectrophotometry; Inductively Coupled Plasma Mass Spectrometry (ICP-MS),AOAC 968.08; AOAC 999.10; AOAC 999.11; AOAC 2013.06
+"Heavy and trace metals Arsenic, Antimony, Mercury, and Selenium",Atomic Absorption Spectrophotometry (Hydride generation); Inductively Coupled Plasma Mass Spectrometry (ICP-MS),AOAC 2013.06
+Phosphorus,Colorimetry,AOAC 935.45; AOAC 995.11; Fiske & Subbarow (1925)
+"Citric acid, Malic acid, Fumaric acid, Succinic acid, Lactic acid, Cis-Aconitic acid, Tartaric acid and Quninic acid",HPLC,AOAC 969.30; AOAC 950.35; AOAC 948.14
+"Oxalic acid (Total), Soluble oxalic acid, Insoluble oxalic acid",Fast- HPLC,Moreau & Savage (2009)
+Fatty acid profile,Gas Chromatography with Flame Ionization Detector,AOAC 996.06; AOAC 996.01; AOAC 2012.13
+Amino acid profile,Amino acid analyzer (Ion exchange chromatography),AOAC 994.12; AOAC 985.28; Landry & Delhaye (1992)
+"Stigmasterol, β-Sitosterol, Campesterol, Ergosterol, 5-alpha-Cholestenol",Gas Chromatography (GC),AOAC 922.06; Sorenson & Sullivan (2007)
+Polyphenols,HPLC,Sakakibara et al. (2003)
+Phyates,Ion Exchange and Spectrophotometry,AOAC 986.11-1988
+Total Saponin,Colorimetry,Dini et al. (2009)

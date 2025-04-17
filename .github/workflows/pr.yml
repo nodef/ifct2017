@@ -1,0 +1,22 @@
+# Copyright (C) 2025 Subhajit Sahu
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# See LICENSE for full terms
+name: PR
+on: [pull_request]
+env:
+  FORCE_COLOR: 1
+
+
+jobs:
+  test:
+    strategy:
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macOS-latest]
+    name: Test on ${{matrix.platform}}
+    runs-on: ${{matrix.platform}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - run: deno test --allow-read

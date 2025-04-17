@@ -1,0 +1,8 @@
+sno,carbohydrate,hydrolysis,monosaccharide
+1,Monosaccharides e.g. glucose,100,No conversion necessary
+2,"Disaccharides e.g. sucrose, lactose, maltose",105,x 1.05 or ÷ 0.95
+3,Oligosaccharides,,
+3a,Raffinose (trisaccharide),107,x 1.07 or ÷ 0.93
+3b,Stachyose (tetrasaccharide),108,x 1.08 or ÷ 0.93
+3c,Verbascose (pentasaccharide),109,x 1.09 or ÷ 0.92
+4,Polysaccharides e.g. starch,110,x 1.10 or ÷ 0.90
