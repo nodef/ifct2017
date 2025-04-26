@@ -634,3 +634,47 @@ Deno.test("Sampling units 2", async () => {
   assertEquals(b, c);
 });
 //#endregion
+
+
+
+
+//#region TEST YIELD FACTORS
+Deno.test("Yield factors 1", async () => {
+  await ifct2017.loadYieldFactors();
+  const a = ifct2017.yieldFactors('mango');
+  const b = ifct2017.yieldFactors('Mangifera indica');
+  const c = [{
+    code: 'D057',
+    name: 'Mango, green, raw',
+    scie: 'Mangifera indica',
+    lang: 'A. Keasa aam; B. Aam (kancha); G. Ambo; H. Katcha Aam; Kan. Mavinakayi; Kash. Kach Aamb; Kh. Soh pieng im; Mal. Manga; M. Heinou Ashangba; Mar. Amba; O. Ambu (kacha); P. Kaccha aam; Tam. Mangai; Tel. Mamidikaya; U. Kaccha aam.',
+    grup: 'Other Vegetables',
+    regn: 6,
+    tags: 'vegetarian eggetarian fishetarian veg',
+    yield: 0.6833333333,
+    preparation: 'Washing, Peeling, Seed removal',
+  }];
+  assertEquals(a[0], c[0]);
+  assertEquals(b[0], c[0]);
+});
+
+
+Deno.test("Yield factors 2", async () => {
+  await ifct2017.loadYieldFactors();
+  const a = ifct2017.yieldFactors('yield factor of cow milk?');
+  const b = ifct2017.yieldFactors('gai ka doodh');
+  const c = [{
+    code: 'L002',
+    name: 'Milk, whole, Cow',
+    scie: '',
+    lang: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.',
+    grup: 'Milk and Milk Products',
+    regn: 6,
+    tags: 'vegetarian eggetarian fishetarian veg',
+    yield: 1,
+    preparation: 'None',
+  }];
+  assertEquals(a[0], c[0]);
+  assertEquals(b[0], c[0]);
+});
+//#endregion

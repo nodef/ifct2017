@@ -65,6 +65,7 @@ ifct2017.intakes('Histidine');
 | [compositions]          | Detailed nutrient composition of 528 key foods in India.
 | [columns]               | Codes and names of nutrients, and its components.
 | [pictures]              | Single representative photo of each foods (JPEG, 307x173).
+| [yieldFactors]          | Yield factors for conversion of raw to edible portion.
 | [intakes]               | Recommended daily intakes of nutrients.
 | [hierarchy]             | Tree-like hierarchy of nutrients, and its components.
 | [representations]       | Representations of columns (as factors and units).
@@ -90,28 +91,29 @@ ifct2017.intakes('Histidine');
 
 [Indian Food Composition Tables 2017]: http://ifct2017.com/
 [National Institute of Nutrition, Hyderabad]: https://www.nin.res.in/
-[abbreviations]: https://jsr.io/@nodef/extra-sql/doc/~/abbreviations
-[about]: https://jsr.io/@nodef/extra-sql/doc/~/about
-[carbohydrates]: https://jsr.io/@nodef/extra-sql/doc/~/carbohydrates
-[codes]: https://jsr.io/@nodef/extra-sql/doc/~/codes
-[columns]: https://jsr.io/@nodef/extra-sql/doc/~/columns
-[compositingCentres]: https://jsr.io/@nodef/extra-sql/doc/~/compositingcentres
-[compositions]: https://jsr.io/@nodef/extra-sql/doc/~/compositions
-[contents]: https://jsr.io/@nodef/extra-sql/doc/~/contents
-[descriptions]: https://jsr.io/@nodef/extra-sql/doc/~/descriptions
-[energies]: https://jsr.io/@nodef/extra-sql/doc/~/energies
-[frequencyDistribution]: https://jsr.io/@nodef/extra-sql/doc/~/frequencydistribution
-[groups]: https://jsr.io/@nodef/extra-sql/doc/~/groups
-[hierarchy]: https://jsr.io/@nodef/extra-sql/doc/~/hierarchy
-[intakes]: https://jsr.io/@nodef/extra-sql/doc/~/intakes
-[jonesFactors]: https://jsr.io/@nodef/extra-sql/doc/~/jonesfactors
-[languages]: https://jsr.io/@nodef/extra-sql/doc/~/languages
-[methods]: https://jsr.io/@nodef/extra-sql/doc/~/methods
-[nutrients]: https://jsr.io/@nodef/extra-sql/doc/~/nutrients
-[pictures]: https://jsr.io/@nodef/extra-sql/doc/~/pictures
-[regions]: https://jsr.io/@nodef/extra-sql/doc/~/regions
-[representations]: https://jsr.io/@nodef/extra-sql/doc/~/representations
-[samplingUnits]: https://jsr.io/@nodef/extra-sql/doc/~/samplingunits
+[abbreviations]: https://jsr.io/@nodef/ifct2017/doc/~/abbreviations
+[about]: https://jsr.io/@nodef/ifct2017/doc/~/about
+[carbohydrates]: https://jsr.io/@nodef/ifct2017/doc/~/carbohydrates
+[codes]: https://jsr.io/@nodef/ifct2017/doc/~/codes
+[columns]: https://jsr.io/@nodef/ifct2017/doc/~/columns
+[compositingCentres]: https://jsr.io/@nodef/ifct2017/doc/~/compositingcentres
+[compositions]: https://jsr.io/@nodef/ifct2017/doc/~/compositions
+[contents]: https://jsr.io/@nodef/ifct2017/doc/~/contents
+[descriptions]: https://jsr.io/@nodef/ifct2017/doc/~/descriptions
+[energies]: https://jsr.io/@nodef/ifct2017/doc/~/energies
+[frequencyDistribution]: https://jsr.io/@nodef/ifct2017/doc/~/frequencydistribution
+[groups]: https://jsr.io/@nodef/ifct2017/doc/~/groups
+[hierarchy]: https://jsr.io/@nodef/ifct2017/doc/~/hierarchy
+[intakes]: https://jsr.io/@nodef/ifct2017/doc/~/intakes
+[jonesFactors]: https://jsr.io/@nodef/ifct2017/doc/~/jonesfactors
+[languages]: https://jsr.io/@nodef/ifct2017/doc/~/languages
+[methods]: https://jsr.io/@nodef/ifct2017/doc/~/methods
+[nutrients]: https://jsr.io/@nodef/ifct2017/doc/~/nutrients
+[pictures]: https://jsr.io/@nodef/ifct2017/doc/~/pictures
+[regions]: https://jsr.io/@nodef/ifct2017/doc/~/regions
+[representations]: https://jsr.io/@nodef/ifct2017/doc/~/representations
+[samplingUnits]: https://jsr.io/@nodef/ifct2017/doc/~/samplingunits
+[yieldFactors]: https://jsr.io/@nodef/ifct2017/doc/~/yieldfactors
 
 <br>
 <br>
@@ -1003,6 +1005,55 @@ ifct2017.samplingUnits('orissa\'s sampling units');
 
 [samplingunits-doc]: https://docs.google.com/spreadsheets/d/1Wm6eqy0TRwUItBHrU-OU4jVBRuYm162y2viZlP8JyuM/edit?usp=sharing
 [samplingunits-web]: https://docs.google.com/spreadsheets/d/e/2PACX-1vTL7Qe0f_MEe_6JtxiiROTb-mVewlGjrYlj2u3jPaRkz7mOgUjwOpsrTIPYUSAaKXD781_dCewAIiE9/pubhtml
+
+<br>
+<br>
+
+
+## Yield Factors
+
+*Yield factors* for conversion of raw food to edible portion.
+
+<br>
+
+```javascript
+import * as ifct2017 from "jsr:@nodef/ifct2017";
+// ifct2017.loadYieldFactors() → corpus
+// ifct2017.yieldFactorsSql([table], [options]) → SQL staments
+// ifct2017.yieldFactorsCsv() → path of CSV file
+// ifct2017.yieldFactors(query)
+// → matches [{code, name, scie, yield, preparation}]
+
+
+await ifct2017.loadYieldFactors();
+// Load corpus first
+
+
+
+ifct2017.yieldFactors('mango');
+ifct2017.yieldFactors('Mangifera indica');
+// → [ { code: 'D057',
+// →     name: 'Mango, green, raw',
+// →     scie: 'Mangifera indica',
+// →     lang: 'A. Keasa aam; B. Aam (kancha); G. Ambo; H. Katcha Aam; Kan. Mavinakayi; Kash. Kach Aamb; Kh. Soh pieng im; Mal. Manga; M. Heinou Ashangba; Mar. Amba; O. Ambu (kacha); P. Kaccha aam; Tam. Mangai; Tel. Mamidikaya; U. Kaccha aam.',
+// →     grup: 'Other Vegetables',
+// →     regn: 6,
+// →     tags: 'vegetarian eggetarian fishetarian veg',
+// →     yield: 0.6833333333,
+// →     preparation: 'Washing, Peeling, Seed removal' } ]
+
+ifct2017.yieldFactors('yield factor of cow milk?');
+ifct2017.yieldFactors('gai ka doodh');
+// → [ { code: 'L002',
+// →     name: 'Milk, Cow',
+// →     scie: '',
+// →     lang: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.',
+// →     grup: 'Milk and Milk Products',
+// →     regn: 6,
+// →     tags: 'vegetarian eggetarian fishetarian veg',
+// →     yield: 1,
+// →     preparation: 'None' } ]
+```
 
 <br>
 <br>

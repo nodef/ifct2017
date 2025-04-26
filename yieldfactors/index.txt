@@ -1,0 +1,294 @@
+Data obtained from the following sources, through multiple Deep Research
+queries and selection of the most relevant and reliable data:
+- National Institute of Nutrition (NIN), India
+- Food and Agriculture Organization (FAO)
+- International Network of Food Data Systems (INFOODS)
+- United States Department of Agriculture (USDA)
+- European Food Information Resource Network (EuroFIR)
+- Bundesforschungsanstalt für Ernährung (Federal Research Institute for Nutrition, Germany)
+- University of Oslo, Norway
+- Food Standards Agency (UK)
+- INTAKE – Center for Dietary Assessment
+- Oregon State University
+- University of California, Davis
+- Pearl Millet Production Plan - GrowTech Services
+- Amaranth - Wisconsin Corn Agronomy
+- Isolation, characterization of wheat gluten and its regeneration properties - PMC
+- Bajra Crop Cultivation - Agri wise Way
+- Barley Methods - American Society of Brewing Chemists
+- Amaranth (Amaranthus spp.) - Mchicha Introduction Seed production is a highly specialized. Seed production of certain crops may
+- Rani Roasted Vermicelli (Roasted Wheat Noodles) 12.25oz (350g) PET Jar ~ All Natural | Vegan | NON-GMO | Kosher | Indian Origin : Grocery & Gourmet Food - Amazon.com
+- Yield, Harvest, and Storage of Barley - Wikifarmer
+- Durum Wheat | ND Wheat Commission
+- How to Cook Bulgur Wheat (Recipe + Tips) - The Mediterranean Dish
+- Formulation of Vermicelli Mixed Corn and Rice Flour with Additional Carrageenan and Its Economic Value - PubMed Central
+- Grain Cooking Chart | Natural Grocers
+- Determining the Seeding Rate for Winter Wheat - CropWatch
+- What's the difference between atta and flour? : r/AskCulinary - Reddit
+- Wheat flour - Wikipedia
+- A new standard for the industrial production of high quality Atta flour - ResearchGate
+- Kodo millet (Varagu) - Agriculture :: Home
+- WHEAT FLOUR FUNDAMENTALS | Bakingbusiness.com
+- How to Cook Rice on the Stove Recipe - Love and Lemons
+- Raw Rice Vs. Cooked Rice - Livestrong.com
+- High yielding, semi compact, drought tolerant, early maturing new samai variety ATL 1 - CABI Digital Library
+- Standardization of sieve size for grading of little millet cv.CO (Samai) 4 - ResearchGate
+- Scientific Reason Behind Parboiling Rice Process - SKF Elixer
+- How to Cook Brown Rice - RecipeTin Eats
+- Rice post-harvest processing, parboiling and home preparation - Food and Agriculture Organization of the United Nations
+- About Brown Rice and How to Cook Perfect Rice - JennifersKitchen
+- Puffing Characteristics of Different Variety of Parboiled Rice by using Domestic Microwave Oven - CABI Digital Library
+- Puffing Characteristics of Parboiled Milled Rice in a Domestic Convective–Microwave Oven and Process Optimization - ResearchGate
+- Flaked rice | PDF - SlideShare
+- Nutrient changes and functional properties of rice flakes prepared in a small scale industry
+- Parboiled Ragi Rice Production - Quick Company
+- How to Cook Quinoa | Jessica in the Kitchen
+- (PDF) ANALYSES OF THE RICE AND RAGI PRODUCTION, YIELD AND AREA DATA OF MAHARASHTRA USING PIVOT TABLE - ResearchGate
+- How to Cook Fluffy Quinoa (the Best Easy Recipe) - The Kitchn
+- The how's and why's of yield estimation - Grain SA Home
+- Optimizing Edible Sorghum Bowls: Effects of Roasting and Edible Flower Powder Enhancement on Technological, Nutritional, Antioxidant, and Functional Properties - PMC
+- 11 Keys to Achieve 11 Tonnes/Ha Maize - Seed Co Group
+- Dry Matter Yield of Maize (Zea mays L.) as an Indicator of Mineral Fertilizer Efficiency - PMC
+- Yield Adjustment Factor
+- POST HARVEST PROFILE OF JOWAR - Agmarknet
+- To the person who said you should always rinse off your rice: thank you. Thank you so, so much. : r/Cooking - Reddit
+- Methods for Calculating Corn Yield - Extension Green County
+- What does washing rice actually *do*, and when to apply/not apply? : r/AskCulinary - Reddit
+- Rinsing and cooking treatments applied to rice samples - ResearchGate
+- Removal of Toxic and Essential Nutrient Elements from Commercial Rice Brands Using Different Washing and Cooking Practices: Human Health Risk Assessment
+- Grain Fill Stages in Corn - Purdue Agronomy
+- Optimal Plant Density Is Key for Maximizing Maize Yield in Calcareous Soil of the South Pannonian Basin - PMC - PubMed Central
+- Rice in human nutrition - Rice post-harvest processing, parboiling and home preparation
+- How to increase maize grain yield | Yara UK
+- How many wash cycles should I aim for when washing brown rice? - Seasoned Advice
+- Corn, Sweet for Fresh Market - OSU Horticulture Department
+- Do you need to wash rice before cooking? Here's the science - Down To Earth
+- Assessing the efficacy of washing methods in reducing multi-pesticide residues in Brown, milled long, and milled basmati Rice
+- Sweet Corn Seed Studies
+- How do you get the correct water to rice ratio after washing rice? : r/Cooking - Reddit
+- Sweet Corn Yield Simulation Using Normalized Difference Vegetation Index and Leaf Area Index - jeeng.net
+- Optimization of washing and cooking processes of rice for Ochratoxin A decrement by RSM
+- How does a person cook rice so that it does not be so sticky. I have tried rinsing and rinsing, but it still is sticky... - Food52
+- Cultural Methods for Early Production of Sweet Corn | College of Agricultural Sciences
+- Brown Rice - Cooking - eGullet Forums
+- Corn, Sweet - Postharvest Research and Extension Center - UC Davis
+- Perfect Sushi Rice - Silla Bjerrum
+- Estimation of Maize (Zea mays L.) Yield Per Harvest Area: Appropriate Methods - MDPI
+- Corn Growth & Development - K-State Agronomy
+- Optimization of washing and cooking processes of rice for Ochratoxin A decrement by RSM
+- How to Cook Perfect Rice - Viet World Kitchen
+- Estimation of Maize Yield Per Harvest Area - Scholarly Community Encyclopedia
+- 14 – Laboratory Measurement of Rice Milling Yield - University of Arkansas Cooperative Extension Service
+- Processing Sweet Corn Loss Adjustment Standards Handbook - Risk Management Agency
+- SS-AGR-85/AG202: Field Corn Production Guide - UF/IFAS EDIS
+- Sweet Corn Growth and Yield Responses to Planting Dates of the North Central United States in - ASHS Journals
+- UNITED STATES STANDARDS FOR BROWN RICE FOR PROCESSING - Agricultural Marketing Service
+- Rice Quality Determines Payment - LSU AgCenter
+- Seven Wonders of the Corn Yield World - Crop Physiology
+- Rice is a Cereal Grain . . .
+- Weather During Key Growth Stages Explains Grain Quality and Yield of Maize - MDPI
+- Contributing factors of maize production using multiple linear regressions in mizan-aman district, bench-shako zone, Southwest of Ethiopia
+- Managing Density Stress to Close the Maize Yield Gap - PMC - PubMed Central
+- Factors contributing to maize and bean yield gaps in Central America vary with site and agroecological conditions | The Journal of Agricultural Science - Cambridge University Press
+- Harvesting Factors that Contribute to Maximizing Soybean Yield
+- PROCESSING OF BESAN - Niftem
+- Bengal gram | PPT - SlideShare
+- (PDF) Moisture Dependent Physical Properties of Black gram - ResearchGate
+- Soybean Management Practice Effects on Yield - Golden Harvest Seeds
+- Studies on Physicochemical Properties of Rice Bean (Vigna umbellata) Starch: An Underutilized Legume - Current Research in Nutrition and Food Science
+- De novo genome assembly of rice bean (Vigna umbellata) – A nominated nutritionally rich future crop reveals novel insights into flowering potential, habit, and palatability centric – traits for efficient domestication - Frontiers
+- Milling of Pulses - Agriculture - Vikaspedia
+- What kind of urad dal makes the best idlis? - The Why Why Cook
+- Nutraceutical profile of red gram genotypes with reference to phenols, phytic acid and antioxidant distribution - Madras Agricultural Journal
+- Effect of heat processing on milling of black gram and its end product quality - ResearchGate
+- Bengal Gram Farming | Crop Information - Apni Kheti
+- Redgram Dal Conversion | PDF | Legume | Mill (Grinding) - Scribd
+- DAL/PULSE MILL - KVIC
+- Red gram husk: A potent substrate for production of Protease by Bacillus cereus in Solid-State Fermentation
+- Bengal gram | PPT - SlideShare
+- Pulses Cleaning Archives - Nextech Blog - Rice Mill Consultant
+- 2025 Reference Year Adjustment Factors for Fall/Spring Contract Seed Dry Peas
+- Rajma Processing - Niftem
+- Field Pea Production | NDSU Agriculture
+- Moth Processing - Niftem
+- Swelling factor and amylose leaching of moth bean starch at different temperatures - ResearchGate
+- Rajma Recipe | Rajma Masala (Restaurant Style)
+- Lentil - Storage and Grading - Alberta Pulse Growers
+- Lentil Seeding - Alberta Pulse Growers
+- Horse gram - Agriculture - Vikaspedia
+- hORSE GRAM: - Just Agriculture
+- Know your lentils and make perfect dal every time | Sarina Kamini | Kitchen Hacks
+- Effect of rice wastewater poc and planting distance on growth and yield of green Mung Beans (Vigna Radiata L.) - ResearchGate
+- Lentil 101 for dal lovers - In Good Taste by Mallika Basu - Substack
+- Mung bean - Wikipedia
+- Aiva Green Moong Whole (Mung Beans) | Moong Green Gram Bulk – 10 LB Bag for Soups, Salads, Curries, Sprouting, and Cooking
+- Discover the Benefits of Moong Dal: A Comprehensive Nutritional Guide - ITC Store
+- COWPEA - RESADE
+- Field Beans - Agricultural Solutions
+- Field assessment of yield and its contributing traits in cowpea treated with lower, intermediate, and higher doses of gamma rays and sodium azide - PMC - PubMed Central
+- Province of Manitoba | agriculture - Field Beans
+- Effect of ultrasound treatment on dehulling efficiency of blackgram - PMC - PubMed Central
+- Product formulation from black gram and its evaluation for nutritional and sensory quality
+- Performance of black gram (Vigna mungo L. Hepper) with organic amendments - Indian Journal of Hill Farming
+- Physico-Chemical Composition of Tender and Mature Tamarind Leaves
+- Backyard Basella Farming: A Key to Eradicate the Malnutrition of Rural India - Just Agriculture
+- Amaranthus tricolor - prota
+- Characterization of Morphological, Physical and Functional Attributes of Agathi Leaves and Flowers - AWS
+- Spinach | Bedford County
+- Amaranth - New Entry Sustainable Farming Project - Tufts University
+- extraction, phytochemical screening and tlc of basella alba - iajps
+- Rumex species root fragments washing and slicing. Photo (a) shows Rumex... | Download Scientific Diagram - ResearchGate
+- Thermal Processing and Fermentation Improves the Physicochemical and Functional Properties of Dehydrated Agathi Leaves (Sesbania - CABI Digital Library
+- How To Chop A Mountain of Fresh Italian Parsley in Seconds - Allrecipes
+- Pumpkin leaves : r/noscrapleftbehind - Reddit
+- Edible parts of plants you wouldn't expect? : r/vegetablegardening - Reddit
+- Ponnankanni Keerai (Dwarf Copper Leaves) -aprx 250g
+- Bok Choy, an Asian Leafy Green Vegetable Emerging in Florida
+- Lettuce | College of Agricultural Sciences - OSU Horticulture Department
+- Mustard 07/02 - OSU Extension Service
+- Why leaf flush affects citrus quality and yield, and how to manage it better.
+- Effect of zinc on growth, yield and quality of Knol-khol [Brassica oleracea var. gongylodes (L.)]
+- Upland Cress - CC GROW
+- Fenugreek Cultivation - Advancing North East
+- Taro / Colocasia - Leaves & Stems - Clovegarden
+- Four Taro Cultivars Compared for Leaf (Luau) Production - CTAHR
+- Drumstick: Health Benefits, Nutrition, Uses, Recipes And Side Effects - Netmeds
+- What to do with cauliflower stems and leaves! - Serving Tonight
+- How to Prune Cabbage - PictureThis
+- Moringa oleifera L. - Forests, Trees and Agroforestry
+- What Can I Do with Cauliflower Leaves and Stalks - Modern Milkman Blog
+- Cabbage | Home Vegetable Gardening | Illinois Extension | UIUC
+- Canning Collards | Home & Garden Information Center - HGIC@clemson.edu
+- How to Freeze Collard Greens - It's a Veg World After All®
+- Chinese Cabbage (Pe-tsai) - LSU AgCenter
+- IMPROVEMENT OF YIELD AND QUALITY OF CHINESE CABBAGE (BRASSICA RAPA PEKINENSIS L.) BY AUGMENTING SOIL FERTILITY, NUTRIENT STATUS,
+- Brussels Sprouts | Portland Nursery
+- Brussels Sprouts : Tips from Seed to Harvest - Cedar Circle Farm
+- Wilted Beet Greens | The Greek Vegan
+- Moroccan Beet Greens - Selka - Lisa and Frances Cook -
+- Ultrasound assisted extraction of phytochemicals from Piper betel L - PMC - PubMed Central
+- Sauteed bathua - Simple Gluten Free Kitchen
+- New Bathua Cultivar: Pusa Green-a Weed to Wealth - Krishi Jagran
+- Betel leaves powder preparation for extraction of oil. - ResearchGate
+- How to Grow Scarlet Runner Bean Seeds
+- Full article: Mechanical, Thermal, and Water Absorption Behavior of Ash Gourd (Benincasa Hispida) Peel Particles Filled Epoxy Composites - Taylor & Francis Online
+- How to Prepare Fresh Bamboo Shoots - RecipeTin Japan
+- How to Prune Squash Plants for Bigger, Better Yields - Epic Gardening
+- Cross-section of a bamboo shoot, showing the edible tender tip (TBS)... - ResearchGate
+- How to Prune Tomatoes for a Big Harvest - Bonnie Plants
+- Punjab Agricultural University - PAU - Ludhiana, Punjab - INDIA - pau.edu
+- Ash gourd peel wax: Extraction, characterization, and application as an edible coat for fruits | Request PDF - ResearchGate
+- Luffa—an Asian Vegetable Emerging in Florida
+- Snake Gourd Farming: Seed Varieties and Management - FarmAtma
+- Chapter 16: Postharvest Physiology and Maturity - American Peanut Research and Education Society
+- How to Peel and Cut a Butternut Squash - Simply Recipes
+- Starch extraction potential from plantain peel wastes - ResearchGate
+- Potentials of plantain peel and Tithonia diversifolia leaves as soil amendments in enhancing performance and nutritional contents of tomato (Solanumlycopersicum) - PubMed Central
+- How Often Should You Really Be Trimming Your Hair | TRESemmé - TRESemme
+- How Many Shelled Pea Pods are in a Pound? - Produce Converter
+- Musa balbisiana Plantain, Plantain Banana PFAF Plant Database - PFAF.org
+- Papaya Processing Methods and its Nutritional Value - JSciMed Central
+- (PDF) Utilization of seed and peel of mango - ResearchGate
+- How to Grow Green Onions: From Seeds & Regrowing - The Spruce
+- Effect of pruning on growth, leaf yield and pod yields of okra (Abelmoschus esculentus (L.) Moench) | Request PDF - ResearchGate
+- Kohlrabi - Clovegarden
+- Fodder Production - Tamil Nadu Agricultural University
+- Jackfruit - Wikipedia
+- Effect of various heat processing methods on resistant starch level in jackfruit (Artocarpus heterophyllus Lam.) seed starch - International Food Research Journal
+- Sharing a tip about bush beans I learned long ago - Houzz
+- How to Grow Fine, Tender Filet Beans
+- Architecture Pruning Technique (Pollarding) of Moringa (Moringa oleifera) - World Journal of Advanced Research and Reviews
+- CUCUMBERS
+- Corn, Baby | College of Agricultural Sciences - OSU Horticulture Department
+- Growing Beans in a Home Garden | University of Maryland Extension
+- COLOCASIA (Colocasia Esculenta Schott) Colocasia or taro is aherbaceous plant with thick tuber (underground stem) containing a - KIRAN
+- Yield Testing – Basic Kitchen and Food Service Management
+- Celery and Celeriac - Center for Crop Diversification
+- How to cut cauliflower florets - quickly with less mess! - RecipeTin Eats
+- How to Cook Broad Beans (Fava Beans) - Jo's Kitchen Larder
+- Sweet Pepper Breeding and Seed Saving Guide - Organic Seed Alliance
+- Has anyone ever got 100+ eggplants from a plant? : r/vegetablegardening - Reddit
+- Bottle Gourd Cultivation: Maximizing Yield in Summer and Rainy Seasons
+- Bitter gourd - KAU Agri-Infotech Portal
+- Apples - Not Far From the Tree
+- DETAILED PROJECT REPORT APRICOT POWDER MANUFACTURING UNIT. INDIAN INSTITUTE OF FOOD PROCESSING TECHNOLOGY Ministry of Food Proce - NIFTEM, Thanjavur
+- Annona muricata - PROSEA - Plant Resources of South East Asia
+- A to Z Food and Cooking Equivalents and Yields - The Spruce Eats
+- Pouteria sapota, Agroforestree Database - Growables
+- Crediting Handbook for the Child and Adult Care Food Program
+- Rambutan - Wikipedia
+- Value-addition of pummelo (Citrus grandis) Peel: A Review - The Pharma Innovation Journal
+- HS895/HS250: Growing Plums in Florida
+- Ways To Enjoy Pomegranate Seeds - Have A Plant - Fruitsandveggies.org
+- PHALSA - Directorate of Plant Protection, Quarantine & Storage
+- How much Chunks are in a Pineapple? - Produce Converter
+- How to Grow Big Peaches
+- Recommendations for harvest and storage of pears - Ontario.ca
+- Harvesting Techniques for Maximum Papaya Yield - Agriculture Institute
+- Palm fruit in traditional African food culture - Original Article
+- citrus processing technical glossary
+- Michigan Fresh: Using, Storing, and Preserving Melons - MSU College of Agriculture and Natural Resources
+- Tamarind, Fruits of Warm Climates - Growables
+- Mangosteen-Production-Guide.pdf - High Value Crops Development Program
+- Lychee / Litchi - Planting Hope
+- How to Use Mango Harvest Maturity Indices to Improve Fruit Quality and Yield
+- Citrus pulp, dried - Feedipedia
+- How Much Juice Is in Citrus Fruits - Webstaurant Store
+- Wax Jambu in California? - GardenWeb
+- Microencapsulation of karonda (Carissa carandas L.) anthocyanin extracts: effects of drying conditions on antioxidant contents a - Emerald Insight
+- How to grow guava? A complete guide - Fasal Blog
+- Harvesting Quality Fruit - Western Agricultural Research Center | Montana State University
+- Pruning Gooseberries: When and How to Prune? - Fryd
+- CA Figs Month!! - California Farmland Trust
+- Discover Delicious Dates – Community Vitality & Health - UW Extension
+- Custard Apple (Annona squamosa L.) Leaves: Nutritional Composition, Phytochemical Profile, and Health-Promoting Biological Activities
+- Currants | Cooperative Extension Service - University of Alaska Fairbanks
+- How Many Pitted or Juiced Cherries Are in a Pound? - Produce Converter
+- Harvesting Blackberry Plants - Stark Bro's
+- BARI Bael-1 - Digital Herbarium of Crop Plants
+- Characterization of pectin extracted from banana peels of different varieties - PMC
+- The ultimate guide to growing your own avocado pit every time. - Botanopia
+- Composition of wood apple (per 100 g edible pulp) - ResearchGate
+- Formulation and Evaluation of Preserved Products Utilizing under Exploited Fruit, Wood Apple (Limonia acidissima)
+- Assessment of engineering parameters and mass modeling for reducing postharvest losses of sweet lime (Citrus limetta) fruit | Italian Journal of Food Science
+- Mango (Mangifera indica) fruit and by-products - Feedipedia
+- Limonia acidissima - Wikipedia
+- Organic acid compositions of wood apple defatted fruit pulp (% DW) 1 - ResearchGate
+- Charts - Yields of Fruits and Vegetables - Christian Chefs International
+- Fruit Yields - Chefs Resources
+- Mangifera indica (mango)
+- IMPACT OF DEHYDRATION METHODS ON THE YIELD AND QUALITY OF LIME PEELS PECTIN - Zagazig Journal of Agricultural Research
+- Avocado Oil: Characteristics, Properties, and Applications - PMC - PubMed Central
+- Mango Yield & Cutting
+- Fruit Characteristics, Peel Nutritional Compositions, and Their Relationships with Mango Peel Pectin Quality - PMC - PubMed Central
+- What is unrefined, extra virgin cold-pressed avocado oil? – AOCS
+- Short Communication: Extraction and characterization of pectin from ripe and unripe mango (Mangifera indica) peel - Smujo
+- How Much of an Avocado Is Edible? - Slices of Blue Sky
+- Storage studies on wood apple katta meeta - The Pharma Innovation Journal
+- Percentage weight of skin, seed and flesh for the mango cultivars studied. - ResearchGate
+- Avocado Hass peel from industrial by-product: effect of extraction process variables on yield, phenolic compounds and antioxidant capacity - Frontiers
+- (PDF) Extraction-and-Characterization-of-Oil-from-Avocado-Peels - ResearchGate
+- Analysis of Free Sugars, Organic Acids, and Fatty Acids of Wood Apple (Limonia acidissima L.) Fruit Pulp - MDPI
+- Citrus by-products for animal feed - Food and Agriculture Organization of the United Nations
+- Common Product Yields - US Foods
+- Tamarind-a mini review - MedCrave online
+- Avocado Seeds: Extraction Optimization and Possible Use as Antioxidant in Food - PMC
+- Mineral Content of the Pulp and Peel of Various Citrus Fruit Cultivars - PMC
+- Evaluation of chemical parameters of tamarind (Tamarindus indica Linn) - International Journal of Food Science and Nutrition
+- Comparative Study of Ripe Tamarind Pulp and Spray Dried Tamarind Pulp Powder for Compositional Analysis - IJARSE
+- Tamarind (Tamarindus indica, L.) is a tropical fruit, the pulp of which is used in Puerto Rico as a base in the preparations of - Revista UPR
+- Citrus pulp, fresh - Feedipedia
+- Effect of Process Parameters on Extraction of Pulp from Tamarind Fruit - Krishi Sanskriti
+- Yield Percents – Bakery and Business Math - Open Washington Pressbooks
+- Yield Percents – Culinary Math - Open Washington Pressbooks
+- Studies on Standardization of Enzyme Concentration and Process for Extraction of Tamarind Pulp, Variety Ajanta - Walsh Medical Media
+- Total extraction yield, TPC, and TFC of the orange peel extracts obtained by SWE. - ResearchGate
+- USDA/NASS Citrus Maturity Test Results and Fruit Size
+- FRUITS WHOLE PRODUCE YIELDS - US Foods
+
+YIELD FACTORS OF VARIOUS FOODS
+- Code
+- Common Name
+- Scientific Name
+- Average Yield Factor
+- Preparation Method
