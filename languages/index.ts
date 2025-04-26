@@ -1,7 +1,6 @@
 // Copyright (C) 2025 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as path from "jsr:@std/path@1.0.8";
 import * as csv  from "jsr:@std/csv@1.0.5";
 import {type RowData, type SetupTableOptions, setupTable} from "jsr:@nodef/extra-sql@0.1.2";
 
