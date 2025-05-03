@@ -11,4 +11,5 @@ FOOD DESCRIPTION
 - Food Code
 - Food Name
 - Scientific Name
+- Food Group
 - Description
