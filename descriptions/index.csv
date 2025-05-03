@@ -7,7 +7,7 @@ A005,Jowar,Sorghum vulgare,Cereals and Millets,A. Jowar; B. Jowar; E. Sorghum; G
 A006,"Maize, dry",Zea mays,Cereals and Millets,A. Makoi; B. Bhutta; E. Corn; G. Makai; H. Makka; Kan. Mekke jola; Kash. Makai; Kh. Symbai riewhadem stem; Mal. Maize; M. Chujaak; Mar. Maka; N. Sukha makai; O. Maka; P. Chhali; S. Yaavanaala; Tam. Makka Cholam; Tel. Mokkajonna; U. makai.
 A007,"Maize, tender, local",Zea mays,Cereals and Millets,A. Makoi; B. Bhutta; E. Corn; G. Lili makai; H. Makka; Kan. Mekke jola; Kash. Makai; Kh. Riewhadem Stem; Mal. Maize; M. Chujaak; Mar. Maka; N. Makai; O. Maka; P. Chhali; Tam. Makka Cholam; Tel. Mokkajonna; U. Makai.
 A008,"Maize, tender, sweet",Zea mays,Cereals and Millets,A. Makoi; B. Bhutta; E. Corn; G. Lili makai; H. Makka; Kan. Mekke jola; Kash. Makai; Kh. Riewhadem lieh; Mal. Maize; M. Chujaak; Mar. Maka; N. Makai; O. Maka; P. Chhali; Tam. Makka Cholam; Tel. Mokkajonna; U. makai.
-A009,Quinoa,Chenopodium quinoa,Cereals and Millets,
+A009,Quinoa,Chenopodium quinoa,Cereals and Millets,H. Kinwa; Tam. Seemai Thinai
 A010,Ragi,Eleusine coracana,Cereals and Millets,A. Ragi; B. Ragi; E. Finger millet; G. Bavato; H. Ragi; Kan. Bhakri; Kh. Ukrai; Mal. Panjapulle; Mar. Bhakri; N. Kodo; O. Mandia; P.  Mandal; S. Madhulika; Tam. Kelvaragu; Tel. Ragi; U. Mandwa.
 A011,"Rice, flakes",Oryza sativa,Cereals and Millets,"A. Chira, Chiura; B. Chide, Chira; E. Flattened rice, Beaten rice; G. Paunva; H. Poha; Kan. Avalakki; Kash. Chevri; Kh. Shira; Mal. Aval; M. Chengpaak; Mar. Pohe; O. Chudaa, Chuda; P. Chirwre; Tam. Aval; Tel. Atukulu, Attukulu."
 A012,"Rice, puffed",Oryza sativa,Cereals and Millets,A. Muri; B. Muri; G. Mamra; H. Muramure; Kan. Kalle Puri; Kash. Tomul; Kh. Muri; Mal. Pori; M. Kabok Mur; Mar. Chirmure; N. Murai; O. Mudhi; P. Phulian; Tam. Pori; Tel. Maramaralu; U. Murmure.
@@ -308,162 +308,162 @@ J002,"Chicken mushroom, fresh",Lactiporus sp.,Mushrooms,A. Mushroom; B. Banger c
 J003,"Shiitake mushroom, fresh",Lentinula sp.,Mushrooms,A. Mushroom; B. Banger chata; G. Biladi no top; Kan. Aanabay/Aanabe; Kash. Hadder; Mal. Kun koon; M. Uyen; Mar. Bhoochhtra; O. Chatu; P. Khoomba; Tam. Kaalaan; Tel. Putta Godugu.
 J004,"Oyster mushroom, dried",Pleurotus sp.,Mushrooms,B. Banger chata; G. Biladino top; Kan. Aanabay/Aanabe; Kash. Hadder; Mal. Kun koon; M. Chenghum; Mar. Bhoochhtra; O. Chatu; P. Khoomba; Tam. Kaalaan; Tel. Putta Godugu.
 K001,Toddy,,Miscellaneous Foods,"A. Tari; B. Tari; E. Palm wine; Kan. Henda; G. Tadi; H. Tarai; Kh. Kiad lieh; Mar., O. Tadi; P. Todhi; Mal., Tam., Tel. Kallu."
-K002,Coconut water,,Miscellaneous Foods,A. Dab narikolor pani; B. Daberjal; G. Nariyad nu pani; H. Nariyal ka pani; Kan. Thenga neeru; Kash. Narji pooen; Kh. Um snepkor; Mal. Thenga vellam; M. Yubi Mahi; Mar. Naral pani; O. Paida pani; P. Gola da pani; Tam. Ilaneer; Tel. Kobbari neeru.
+K002,Coconut water,Cocos nucifera,Miscellaneous Foods,A. Dab narikolor pani; B. Daberjal; G. Nariyad nu pani; H. Nariyal ka pani; Kan. Thenga neeru; Kash. Narji pooen; Kh. Um snepkor; Mal. Thenga vellam; M. Yubi Mahi; Mar. Naral pani; O. Paida pani; P. Gola da pani; Tam. Ilaneer; Tel. Kobbari neeru.
 L001,"Milk, Buffalo",,Milk and Milk Products,A. Mohor gakhir; B. Dudha (Mosher); G. Bhes nu dhudh; H. Bhains ka dhood; Kan. Uemma halu; Kash. Doodh; Kh. Dud muid; Mal. Kerbau paal; M. Eroi Sanghom; Mar. Doodh (Maish); O. Mainsi dudha; P. Maz da doodh; Tam. Erumaipal; Tel. Gedha/Barre palu.
 L002,"Milk, Cow",,Milk and Milk Products,A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.
 L003,Paneer,,Milk and Milk Products,A. Paneer; B. Chena; E. Cottage Cheese; G. Paneer; H. Chhena; Kan. Tali; Kash. Chaman; Kh. Paneer; Mal. Palkatti; M. Channa; O. Chhena; P. Paneer; Tam. Paladai; Tel. Paalavirugudu.
 L004,Khoa,,Milk and Milk Products,"A. Khoa; B., H., Kan., Mal., P., Tel. Khoa; G. Mavo; Kash. Khoya; Kh. Malai khowa; O. Khua; P. Khoya; Tam. Thirattupal."
-M001,"Egg, poultry, whole, raw",,Egg and Egg Products,
-M002,"Egg, poultry, white, raw",,Egg and Egg Products,
-M003,"Egg, poultry, yolk, raw",,Egg and Egg Products,
-M004,"Egg, poultry, whole, boiled",,Egg and Egg Products,
-M005,"Egg, poultry, white, boiled",,Egg and Egg Products,
-M006,"Egg, poultry, yolk, boiled",,Egg and Egg Products,
-M007,"Egg, poultry, omlet",,Egg and Egg Products,
-M008,"Egg, country hen, whole, raw",,Egg and Egg Products,
-M009,"Egg, country hen, whole, boiled",,Egg and Egg Products,
-M010,"Egg, country hen, omlet",,Egg and Egg Products,
-M011,"Egg, duck, whole, boiled",,Egg and Egg Products,
-M012,"Egg, duck, whole, raw",,Egg and Egg Products,
-M013,"Egg, duck, whole, omlet",,Egg and Egg Products,
-M014,"Egg, quial, whole, raw",,Egg and Egg Products,
-M015,"Egg, quial, whole, boiled",,Egg and Egg Products,
-N001,"Chicken, poultry, leg, skinless",,Poultry,
-N002,"Chicken, poultry, thigh, skinless",,Poultry,
-N003,"Chicken, poultry, breast, skinless",,Poultry,
-N004,"Chicken, poultry, wing, skinless",,Poultry,
-N005,"Poultry, chicken, liver",,Poultry,
-N006,"Poultry, chicken, gizzard",,Poultry,
-N007,"Country hen, leg, with skin",,Poultry,
-N008,"Country hen, thigh, with skin",,Poultry,
-N009,"Country hen, breast, with skin",,Poultry,
-N010,"Country hen, wing, with skin",,Poultry,
-N011,"Duck, meat, with skin",,Poultry,
-N012,"Emu, meat, skinless",,Poultry,
-N013,"Guinea fowl, meat, with skin",,Poultry,
-N014,"Pigeon, meat, with skin",,Poultry,
-N015,"Quail, meat, skinless",,Poultry,
-N016,"Turkey, leg, with skin",,Poultry,
-N017,"Turkey, thigh, with skin",,Poultry,
-N018,"Turkey, breast, with skin",,Poultry,
-N019,"Turkey, wing, with skin",,Poultry,
-O001,"Goat, shoulder, meat",,Animal Meat,
-O002,"Goat, chops",,Animal Meat,
-O003,"Goat, legs",,Animal Meat,
-O004,"Goat, brain",,Animal Meat,
-O005,"Goat, tongue",,Animal Meat,
-O006,"Goat, lungs",,Animal Meat,
-O007,"Goat, heart",,Animal Meat,
-O008,"Goat, liver",,Animal Meat,
-O009,"Goat, tripe",,Animal Meat,
-O010,"Goat, spleen",,Animal Meat,
-O011,"Goat, kidneys",,Animal Meat,
-O012,"Goat, tube (small intestine)",,Animal Meat,
-O013,"Goat, testis",,Animal Meat,
-O014,"Sheep, shoulder",,Animal Meat,
-O015,"Sheep, chops",,Animal Meat,
-O016,"Sheep, leg",,Animal Meat,
-O017,"Sheep, brain",,Animal Meat,
-O018,"Sheep, tongue",,Animal Meat,
-O019,"Sheep, lungs",,Animal Meat,
-O020,"Sheep, heart",,Animal Meat,
-O021,"Sheep, liver",,Animal Meat,
-O022,"Sheep, tripe",,Animal Meat,
-O023,"Sheep, spleen",,Animal Meat,
-O024,"Sheep, kidneys",,Animal Meat,
-O025,"Beef, shoulder",,Animal Meat,
-O026,"Beef, chops",,Animal Meat,
-O027,"Beef, round (leg)",,Animal Meat,
-O028,"Beef, brain",,Animal Meat,
-O029,"Beef, tongue",,Animal Meat,
-O030,"Beef, lungs",,Animal Meat,
-O031,"Beef, heart",,Animal Meat,
-O032,"Beef, liver",,Animal Meat,
-O033,"Beef, tripe",,Animal Meat,
-O034,"Beef, spleen",,Animal Meat,
-O035,"Beef, kidneys",,Animal Meat,
-O036,"Calf, shoulder",,Animal Meat,
-O037,"Calf, chops",,Animal Meat,
-O038,"Calf, round (leg)",,Animal Meat,
-O039,"Calf, brain",,Animal Meat,
-O040,"Calf, tongue",,Animal Meat,
-O041,"Calf, heart",,Animal Meat,
-O042,"Calf, liver",,Animal Meat,
-O043,"Calf, spleen",,Animal Meat,
-O044,"Calf, kidneys",,Animal Meat,
-O045,"Mithun, shoulder",,Animal Meat,
-O046,"Mithun, chops",,Animal Meat,
-O047,"Mithun, round (leg)",,Animal Meat,
-O048,"Pork, shoulder",,Animal Meat,
-O049,"Pork, chops",,Animal Meat,
-O050,"Pork, ham",,Animal Meat,
-O051,"Pork, lungs",,Animal Meat,
-O052,"Pork, heart",,Animal Meat,
-O053,"Pork, liver",,Animal Meat,
-O054,"Pork, stomach",,Animal Meat,
-O055,"Pork, spleen",,Animal Meat,
-O056,"Pork, kidneys",,Animal Meat,
-O057,"Pork, tube (small intestine)",,Animal Meat,
-O058,"Hare, shoulder",,Animal Meat,
-O059,"Hare, chops",,Animal Meat,
-O060,"Hare, leg",,Animal Meat,
-O061,"Rabbit, shoulder",,Animal Meat,
-O062,"Rabbit, chops",,Animal Meat,
-O063,"Rabbit, leg",,Animal Meat,
+M001,"Egg, poultry, whole, raw",,Egg and Egg Products,A. Koni; B. Dim; G. Indu; H. Anda; Kan. Motte; Kash. Thool; Kh. Pylleng; Kon. Tandri/Tanti; Mal. Mutta; M. Yairum; Mar. Ande; N. Anda/Phool; O. Anda; P. Anda; Tam. Muttai; Tel. Guddu; U. Anda.
+M002,"Egg, poultry, white, raw",,Egg and Egg Products,A. Koni Boga; B. Dimer Shada Ongsho; G. Indu no Safed Bhaag; H. Ande ki Safedi; Kan. Motteya Bili; Kash. Thool Safed Hissa; Kh. Pylleng Lieh; Kon. Tantyacho Dhovo Bhag; Mal. Muttayude Vella; M. Yairum Angouba; Mar. Andyacha Pandhra Balak; N. Andako Seto Bhag; O. Andara Dhala Ansa; P. Ande di Safedi; Tam. Muttai Vellai Karu; Tel. Guddu Tella Sona; U. Ande ki Safedi.
+M003,"Egg, poultry, yolk, raw",,Egg and Egg Products,A. Koni Halodhiya; B. Dimer Kushum; G. Indu ni Pili Jardi; H. Ande ki Zardi; Kan. Motteya Haladi; Kash. Thool Pila Hissa; Kh. Pylleng Stem; Kon. Tantyacho Holduvo Bhag; Mal. Muttayude Manja; M. Yairum Amanba; Mar. Andyacha Pivla Balak; N. Andako Pahenlo Bhag; O. Andara Haladia Ansa; P. Ande di Zardi; Tam. Muttai Manjal Karu; Tel. Guddu Pacha Sona; U. Ande ki Zardi.
+M004,"Egg, poultry, whole, boiled",,Egg and Egg Products,A. Xijoa Koni; B. Sheddho Dim; G. Bafelu Indu; H. Ubla Anda; Kan. Beyisida Motte; Kash. Hukyun Thool; Kh. Pylleng Thnam; Kon. Ukdil'lem Tanti; Mal. Puzhungiya Mutta; M. Yairum Tathpa; Mar. Ukadalele Ande; N. Usineko Anda; O. Sijha Anda; P. Ublia Anda; Tam. Avitha Muttai; Tel. Udikinchina Guddu; U. Ubla Anda.
+M005,"Egg, poultry, white, boiled",,Egg and Egg Products,A. Xijoa Koni Boga; B. Sheddho Dimer Shada; G. Bafelu Indu no Safed Bhaag; H. Ubla Safedi; Kan. Beyisida Motteya Bili; Kash. Hukyun Thool Safed; Kh. Pylleng Lieh Thnam; Kon. Ukdil'lem Dhovo Bhag; Mal. Puzhungiya Vella; M. Yairum Angouba Tathpa; Mar. Ukadlela Pandhra Balak; N. Usineko Seto Bhag; O. Sijha Andara Dhala Ansa; P. Ubli Safedi; Tam. Avitha Muttai Vellai; Tel. Udikinchina Tella Sona; U. Ubli Safedi.
+M006,"Egg, poultry, yolk, boiled",,Egg and Egg Products,A. Xijoa Koni Halodhiya; B. Sheddho Dimer Kushum; G. Bafelu Indu ni Pili Jardi; H. Ubla Zardi; Kan. Beyisida Motteya Haladi; Kash. Hukyun Thool Pila; Kh. Pylleng Stem Thnam; Kon. Ukdil'lem Holduvo Bhag; Mal. Puzhungiya Manja; M. Yairum Amanba Tathpa; Mar. Ukadlela Pivla Balak; N. Usineko Pahenlo Bhag; O. Sijha Andara Haladia Ansa; P. Ubli Zardi; Tam. Avitha Muttai Manjal; Tel. Udikinchina Pacha Sona; U. Ubli Zardi.
+M007,"Egg, poultry, omlet",,Egg and Egg Products,H. Aamlet; O. Anda Bhaja; P. Aamlet; Tam. Muttai Dosai; U. Aamlet.
+M008,"Egg, country hen, whole, raw",,Egg and Egg Products,A. Ghironiya Murgir Koni; B. Deshi Murgir Dim; G. Desi Marghi nu Indu; H. Desi Murgi ka Anda; Kan. Naati Koli Motte; Kash. Desi Kokur Thool; Kh. Syiar Shnong Pylleng; Kon. Gavtti Kombiechem Tanti; Mal. Naadan Kozhi Mutta; M. Yumshan Yen Yairum; Mar. Gavran Kombdiche Ande; N. Sthaniya Kukhura ko Anda; O. Desi Kukuda Anda; P. Desi Murgi da Anda; Tam. Naattu Kozhi Muttai; Tel. Naatu Kodi Guddu; U. Desi Murghi ka Anda.
+M009,"Egg, country hen, whole, boiled",,Egg and Egg Products,A. Xijoa Ghironiya Murgir Koni; B. Sheddho Deshi Murgir Dim; G. Bafelu Desi Marghi nu Indu; H. Ubla Desi Murgi ka Anda; Kan. Beyisida Naati Koli Motte; Kash. Hukyun Desi Kokur Thool; Kh. Pylleng Syiar Shnong Thnam; Kon. Ukdil'lem Gavtti Kombiechem Tanti; Mal. Puzhungiya Naadan Kozhi Mutta; M. Yumshan Yen Yairum Tathpa; Mar. Ukadlele Gavran Kombdiche Ande; N. Usineko Sthaniya Kukhura ko Anda; O. Sijha Desi Kukuda Anda; P. Ublia Desi Murgi da Anda; Tam. Avitha Naattu Kozhi Muttai; Tel. Udikinchina Naatu Kodi Guddu; U. Ubla Desi Murghi ka Anda.
+M010,"Egg, country hen, omlet",,Egg and Egg Products,H. Desi Aamlet; O. Desi Anda Bhaja; P. Desi Aamlet; Tam. Naattu Kozhi Muttai Dosai; U. Desi Aamlet.
+M011,"Egg, duck, whole, boiled",,Egg and Egg Products,A. Xijoa Hahor Koni; B. Sheddho Haasher Dim; G. Bafelu Batak nu Indu; H. Ubla Batakh ka Anda; Kan. Beyisida Batu Motte; Kash. Hukyun ?. Thool; Kh. ?. Pylleng Thnam; Kon. Ukdil'lem ?. Tanti; Mal. Puzhungiya Thaaraavu Mutta; M. Nganu Yairum Tathpa; Mar. Ukadlele Badak Ande; N. Usineko Haas ko Anda; O. Sijha Bataka Anda; P. Ublia Batakh da Anda; Tam. Avitha Vaathu Muttai; Tel. Udikinchina Baathu Guddu; U. Ubla Batakh ka Anda.
+M012,"Egg, duck, whole, raw",,Egg and Egg Products,A. Hahor Koni; B. Haasher Dim; G. Batak nu Indu; H. Batakh ka Anda; Kan. Batu Motte; Kash. ?. Thool; Kh. ?. Pylleng; Kon. ?. Tanti; Mal. Thaaraavu Mutta; M. Nganu Yairum; Mar. Badak Ande; N. Haas ko Anda; O. Bataka Anda; P. Batakh da Anda; Tam. Vaathu Muttai; Tel. Baathu Guddu; U. Batakh ka Anda.
+M013,"Egg, duck, whole, omlet",,Egg and Egg Products,H. Batakh Aamlet; O. Bataka Anda Bhaja; P. Batakh Aamlet; Tam. Vaathu Muttai Dosai; U. Batakh Aamlet.
+M014,"Egg, quial, whole, raw",,Egg and Egg Products,A. ?. Koni; B. Bater Dim; G. ?. Indu; H. Bater ka Anda; Kan. ?. Motte; Kash. ?. Thool; Kh. ?. Pylleng; Kon. ?. Tanti; Mal. Kaada Mutta; M. ?. Yairum; Mar. Lavari Ande; N. Batai ko Anda; O. Batera Anda; P. Bater da Anda; Tam. Kaadai Muttai; Tel. Burusu Pitta Guddu; U. Bater ka Anda.
+M015,"Egg, quial, whole, boiled",,Egg and Egg Products,A. Xijoa ?. Koni; B. Sheddho Bater Dim; G. Bafelu ?. Indu; H. Ubla Bater ka Anda; Kan. Beyisida ?. Motte; Kash. Hukyun ?. Thool; Kh. ?. Pylleng Thnam; Kon. Ukdil'lem ?. Tanti; Mal. Puzhungiya Kaada Mutta; M. ?. Yairum Tathpa; Mar. Ukadlele Lavari Ande; N. Usineko Batai ko Anda; O. Sijha Batera Anda; P. Ublia Bater da Anda; Tam. Avitha Kaadai Muttai; Tel. Udikinchina Burusu Pitta Guddu; U. Ubla Bater ka Anda.
+N001,"Chicken, poultry, leg, skinless",,Poultry,A. Murgir Theng/Bhori; B. Murgir Thyang/Ran; G. Marghi ni Tang; H. Murga Tang/Murgi ki Raan; Kan. Koli Kaalu; Kh. Syiar Kjat; Kon. Kombi Paayn/Paanv; Mal. Kozhi Kaal; M. Yen Khong; Mar. Kombdi Tangdi/Mandi; N. Kukhura ko Khutta; O. Kukuda Goda; P. Murge di Latt/Raan; Tam. Kozhi Kaal; Tel. Kodi Kaallu; U. Murgh ki Tang/Raan.
+N002,"Chicken, poultry, thigh, skinless",,Poultry,A. Murgir Ran; B. Murgir Ran; G. Marghi ni Saathal; H. Murge ki Raan/Jangh; Kan. Koli Thode; Kh. Syiar Lbong; Kon. Kombiecho Mandi; Mal. Kozhi Thuda; M. Yenpham; Mar. Kombdichi Mandi; N. Kukhura ko Tighra; O. Kukuda Ran; P. Murge di Patt/Raan; Tam. Kozhi Thodai; Tel. Kodi Thodala Mamsam; U. Murgh ki Raan.
+N003,"Chicken, poultry, breast, skinless",,Poultry,A. Murgir Buku; B. Murgir Book; G. Marghi ni Chhaati; H. Murge ka Seena; Kan. Koli Ede Mamsa; Kh. Syiar Shadem; Kon. Kombiechem Hadoo; Mal. Kozhi Maaridam/Nenju; M. Yen Thangbak; Mar. Kombdichi Chhaati; N. Kukhura ko Chhati; O. Kukuda Chhati; P. Murge da Seena; Tam. Kozhi Maarbu Kari; Tel. Kodi Chaati Mamsam; U. Murgh ka Seena.
+N004,"Chicken, poultry, wing, skinless",,Poultry,A. Murgir Pakhi; B. Murgir Dana/Pakha; G. Marghi ni Pankh; H. Murge ka Par/Pankh; Kan. Koli Rekke; Kh. Syiar Thapniang; Kon. Kombiechem Pakhattem; Mal. Kozhi Chiraku; M. Yen Manam; Mar. Kombdiche Pankh; N. Kukhura ko Pankheta; O. Kukuda Dena; P. Murge da Par; Tam. Kozhi Irakkai; Tel. Kodi Rekka; U. Murgh ka Par.
+N005,"Poultry, chicken, liver",,Poultry,A. Murgir Kolija; B. Murgir Mete/Kolija; G. Marghi nu Kaleju; H. Murge ki Kaleji; Kan. Koli Yakrit/Pittakosha; Kh. Syiar Dohjem; Kon. Kombiechem Kalliz; Mal. Kozhi Karal; M. Yen Thin; Mar. Kombdiche Kaleji; N. Kukhura ko Kalejo; O. Kukuda Kalija; P. Murge di Kaleji; Tam. Kozhi Eeral; Tel. Kodi Kaleyam; U. Murgh ki Kaleji.
+N006,"Poultry, chicken, gizzard",,Poultry,A. Murgir Pathri; B. Murgir Gila; G. Marghi ni Pathri; H. Murge ki Pathri/Sangdana; Kan. Koli Gijjarda; Kh. ?. ; Kon. Kombiechem Pot; Mal. Kozhi Avanakkaaya; M. Yen Kok; Mar. Kombdiche Pot/Vajri; N. Kukhura ko Jyanamara; O. Kukuda Pathri; P. Murge di Pathri; Tam. Kozhi Gundaikkai; Tel. Kodi Gizzardu; U. Murgh ki Pathri.
+N007,"Country hen, leg, with skin",,Poultry,A. Ghironiya Murgir Theng/Bhori; B. Deshi Murgir Thyang/Ran; G. Desi Marghi ni Tang; H. Desi Murge ki Tang/Raan; Kan. Naati Koli Kaalu; Kh. Syiar Shnong Kjat; Kon. Gavtti Kombiecho Paayn; Mal. Naadan Kozhi Kaal; M. Yumshan Yen Khong; Mar. Gavran Kombdichi Tangdi; N. Sthaniya Kukhura ko Khutta; O. Desi Kukuda Goda; P. Desi Murge di Latt/Raan; Tam. Naattu Kozhi Kaal; Tel. Naatu Kodi Kaallu; U. Desi Murgh ki Tang/Raan.
+N008,"Country hen, thigh, with skin",,Poultry,A. Ghironiya Murgir Ran; B. Deshi Murgir Ran; G. Desi Marghi ni Saathal; H. Desi Murge ki Raan/Jangh; Kan. Naati Koli Thode; Kh. Syiar Shnong Lbong; Kon. Gavtti Kombiecho Mandi; Mal. Naadan Kozhi Thuda; M. Yumshan Yenpham; Mar. Gavran Kombdichi Mandi; N. Sthaniya Kukhura ko Tighra; O. Desi Kukuda Ran; P. Desi Murge di Patt/Raan; Tam. Naattu Kozhi Thodai; Tel. Naatu Kodi Thodala Mamsam; U. Desi Murgh ki Raan.
+N009,"Country hen, breast, with skin",,Poultry,A. Ghironiya Murgir Buku; B. Deshi Murgir Book; G. Desi Marghi ni Chhaati; H. Desi Murge ka Seena; Kan. Naati Koli Ede Mamsa; Kh. Syiar Shnong Shadem; Kon. Gavtti Kombiechem Hadoo; Mal. Naadan Kozhi Maaridam/Nenju; M. Yumshan Yen Thangbak; Mar. Gavran Kombdichi Chhaati; N. Sthaniya Kukhura ko Chhati; O. Desi Kukuda Chhati; P. Desi Murge da Seena; Tam. Naattu Kozhi Maarbu Kari; Tel. Naatu Kodi Chaati Mamsam; U. Desi Murgh ka Seena.
+N010,"Country hen, wing, with skin",,Poultry,A. Ghironiya Murgir Pakhi; B. Deshi Murgir Dana/Pakha; G. Desi Marghi ni Pankh; H. Desi Murge ka Par/Pankh; Kan. Naati Koli Rekke; Kh. Syiar Shnong Thapniang; Kon. Gavtti Kombiechem Pakhattem; Mal. Naadan Kozhi Chiraku; M. Yumshan Yen Manam; Mar. Gavran Kombdiche Pankh; N. Sthaniya Kukhura ko Pankheta; O. Desi Kukuda Dena; P. Desi Murge da Par; Tam. Naattu Kozhi Irakkai; Tel. Naatu Kodi Rekka; U. Desi Murgh ka Par.
+N011,"Duck, meat, with skin",,Poultry,A. Hahor Mangho; B. Haasher Mangsho; G. Batak nu Mas; H. Batakh ka Gosht; Kan. Batu Mamsa; Kh. Doh Sniang; Kon. Badkachem Maas; Mal. Thaaraavu Irachi; M. Nganu Sha; Mar. Badakache Mas; N. Haas ko Masu; O. Bataka Mansa; P. Batakh da Gosht; Tam. Vaathu Irachi; Tel. Baathu Mamsam; U. Batakh ka Gosht.
+N012,"Emu, meat, skinless",,Poultry,H. Emu Gosht; Tam. Emu Kari; Tel. Emu Mamsam. (Names in other languages are less common or borrowed).
+N013,"Guinea fowl, meat, with skin",,Poultry,H. Guinea Murga Gosht; Tam. Guinea Kozhi Kari; Tel. Guinea Kodi Mamsam. (Names often descriptive combinations).
+N014,"Pigeon, meat, with skin",,Poultry,A. Paror Mangho; B. Payra Mangsho; G. Kabutar nu Mas; H. Kabutar ka Gosht; Kan. Paarivaala Mamsa; Kh. Paro Doh; Kon. Parveachem Maas; Mal. Praavu Irachi; M. Khunu Sha; Mar. Kabutarache Mas; N. Parewa ko Masu; O. Para Mansa; P. Kabutar da Gosht; Tam. Puraa Irachi; Tel. Paavuramu Mamsam; U. Kabutar ka Gosht.
+N015,"Quail, meat, skinless",,Poultry,A. ?. Mangho; B. Bater Mangsho; G. ?. Mas; H. Bater ka Gosht; Kan. ?. Mamsa; Kh. ?. Doh; Kon. ?. Maas; Mal. Kaada Irachi; M. ?. Sha; Mar. Lavari Mas; N. Batai ko Masu; O. Batera Mansa; P. Bater da Gosht; Tam. Kaadai Irachi; Tel. Burusu Pitta Mamsam; U. Bater ka Gosht.
+N016,"Turkey, leg, with skin",,Poultry,H. Turkey ki Tang/Raan; Tam. Turkey Kaal; Tel. Turkey Kaallu. (Often borrowed name + leg term).
+N017,"Turkey, thigh, with skin",,Poultry,H. Turkey ki Raan/Jangh; Tam. Turkey Thodai; Tel. Turkey Thodalu.
+N018,"Turkey, breast, with skin",,Poultry,H. Turkey ka Seena; Tam. Turkey Maarbu Kari; Tel. Turkey Chaati Mamsam.
+N019,"Turkey, wing, with skin",,Poultry,H. Turkey ka Par/Pankh; Tam. Turkey Irakkai; Tel. Turkey Rekka.
+O001,"Goat, shoulder, meat",,Animal Meat,A. Sagolir Kandh; B. Pathar Kandh; G. Bakri no Khabho; H. Bakre ka Kandha/Dast; Kan. Aadina/Meke Bhujada Mamsa; Kh. Blang Tyrpeng; Kon. Bokdyaacho Khand; Mal. Aattin Chumal Irachi; M. Hameng Leikha?; Mar. Bakriche Khande; N. Bakhrako Kaandh; O. Chheli Kandha Mansa; P. Bakre da Modha; Tam. Aattu Tholpattai Kari; Tel. Meka Bhujamu Mamsam; U. Bakre ka Kandha/Shana.
+O002,"Goat, chops",,Animal Meat,B. Pathar Chaap; H. Bakre ki Champ; P. Bakre di Champ; U. Bakre ki Champ. (Often borrowed term 'Chop/Champ').
+O003,"Goat, legs",,Animal Meat,A. Sagolir Theng; B. Pathar Thyang; G. Bakri na Tang; H. Bakre ki Tangein; Kan. Aadina/Meke Kaalugalu; Kh. Blang Kjat; Kon. Bokdyaachem Paayn; Mal. Aattin Kaalukal; M. Hameng Khong; Mar. Bakriche Paay; N. Bakhrako Khutta; O. Chheli Goda; P. Bakre di Lattein; Tam. Aattu Kaalgal; Tel. Meka Kaallu; U. Bakre ki Tangein.
+O004,"Goat, brain",,Animal Meat,A. Sagolir Mogoj; B. Pathar Magaj; G. Bakri nu Bheju; H. Bakre ka Bheja/Maghaz; Kan. Aadina/Meke Medulu; Kh. Blang Jynkhlieh; Kon. Bokdyaacho Mendu; Mal. Aattin Thalacchoru; M. Hameng Kok?; Mar. Bakricha Mendu; N. Bakhrako Gidi; O. Chheli Mogoj; P. Bakre da Bheja; Tam. Aattu Moolai; Tel. Meka Medadu; U. Bakre ka Maghaz.
+O005,"Goat, tongue",,Animal Meat,A. Sagolir Jibha; B. Pathar Jibh; G. Bakri ni Jeebh; H. Bakre ki Zabaan/Jeebh; Kan. Aadina/Meke Naalige; Kh. Blang Thyndiat?; Kon. Bokdyaachi Jeeb; Mal. Aattin Naavu; M. Hameng Lei; Mar. Bakrichi Jeebh; N. Bakhrako Jibro; O. Chheli Jibha; P. Bakre di Jeebh; Tam. Aattu Naakku; Tel. Meka Naluka; U. Bakre ki Zabaan.
+O006,"Goat, lungs",,Animal Meat,A. Sagolir Phopsa; B. Pathar Phusphus; G. Bakri na Fefsa; H. Bakre ke Phephde; Kan. Aadina/Meke Shwasakosha; Kh. Blang Tor?; Kon. Bokdyaachem Kalsanchem?; Mal. Aattin Shwasakosham; M. Hameng Thamoimon?; Mar. Bakriche Phupphus; N. Bakhrako Phokso; O. Chheli Phusphus; P. Bakre de Phephde; Tam. Aattu Nuraiyeeral; Tel. Meka Oopirithitthulu; U. Bakre ke Phephde.
+O007,"Goat, heart",,Animal Meat,A. Sagolir Hirdaya; B. Pathar Hritpinda; G. Bakri nu Haiyu/Dil; H. Bakre ka Dil; Kan. Aadina/Meke Hrudaya; Kh. Blang Klongsnam?; Kon. Bokdyaachem Kalliz; Mal. Aattin Hrudayam; M. Hameng Thamoi; Mar. Bakriche Kallij/Rudhaya; N. Bakhrako Mutu; O. Chheli Hritpinda; P. Bakre da Dil; Tam. Aattu Idhayam; Tel. Meka Gunde; U. Bakre ka Dil.
+O008,"Goat, liver",,Animal Meat,A. Sagolir Kolija; B. Pathar Mete/Kolija; G. Bakri nu Kaleju; H. Bakre ki Kaleji; Kan. Aadina/Meke Yakrit; Kh. Blang Dohjem; Kon. Bokdyaachem Kalliz; Mal. Aattin Karal; M. Hameng Thin; Mar. Bakriche Kaleji; N. Bakhrako Kalejo; O. Chheli Kalija; P. Bakre di Kaleji; Tam. Aattu Eeral; Tel. Meka Kaleyam; U. Bakre ki Kaleji.
+O009,"Goat, tripe",,Animal Meat,B. Pathar Bhuri/Butt; H. Bakre ki Ojri/Boti; Mal. Aattin Kudal; Mar. Bakrichi Vajri; O. Chheli Ojhri; P. Bakre di Ojri; Tam. Aattu Kudal; Tel. Meka Pottikadupu; U. Bakre ki Ojri.
+O010,"Goat, spleen",,Animal Meat,A. Sagolir Pliha; B. Pathar Pliha; G. Bakri ni Barol; H. Bakre ki Tilli; Kan. Aadina/Meke Pliha; Kh. ?. ; Kon. Bokdyaachem Pano?; Mal. Aattin Pliha; M. Hameng Pliha?; Mar. Bakrichi Panthari; N. Bakhrako Phiyo; O. Chheli Pliha; P. Bakre di Tilli; Tam. Aattu Manneral/Suvarotti; Tel. Meka Plihamu; U. Bakre ki Tilli.
+O011,"Goat, kidneys",,Animal Meat,A. Sagolir Kankalam; B. Pathar Brikko; G. Bakri na Gurda; H. Bakre ke Gurde; Kan. Aadina/Meke Mutrapinda; Kh. Blang Nier?; Kon. Bokdyaachem Mutpin; Mal. Aattin Vrikka; M. ?. ; Mar. Bakriche Gurde/Mutrapind; N. Bakhrako Mirgaula; O. Chheli Brikko; P. Bakre de Gurde; Tam. Aattu Siruneeragam; Tel. Meka Mutrapindalu; U. Bakre ke Gurde.
+O012,"Goat, tube (small intestine)",,Animal Meat,B. Pathar Nari; H. Bakre ki Aant; Mal. Aattin Kudal; Mar. Bakrichi Aantadi; O. Chheli Anta; P. Bakre di Aant; Tam. Aattu Kudal; Tel. Meka Karulu; U. Bakre ki Aant.
+O013,"Goat, testis",,Animal Meat,B. Pathar Andakosh; H. Bakre ke Kapure; Mal. Aattin Andam; Mar. Bakriche Andkosh; O. Chheli Andakosha; P. Bakre de Kapure; Tam. Aattu Virai; Tel. Meka Vushanam; U. Bakre ke Kapure.
+O014,"Sheep, shoulder",,Animal Meat,A. Bherar Kandh; B. Bherar Kandh; G. Gheta no Khabho; H. Bhed ka Kandha/Dast; Kan. Kuri Bhujada Mamsa; Kh. Langbrot Tyrpeng; Kon. Sheracho Khand; Mal. Chemmariyattin Chumal Irachi; Mar. Mendhiche Khande; N. Bheda ko Kaandh; O. Mendha Kandha Mansa; P. Bhed da Modha; Tam. Semmari Aattu Tholpattai Kari; Tel. Gorre Bhujamu Mamsam; U. Bhed ka Kandha/Shana.
+O015,"Sheep, chops",,Animal Meat,B. Bherar Chaap; H. Bhed ki Champ; P. Bhed di Champ; U. Bhed ki Champ.
+O016,"Sheep, leg",,Animal Meat,A. Bherar Theng; B. Bherar Thyang; G. Gheta na Tang; H. Bhed ki Tangein; Kan. Kuri Kaalugalu; Kh. Langbrot Kjat; Kon. Sherachem Paayn; Mal. Chemmariyattin Kaalukal; Mar. Mendhiche Paay; N. Bheda ko Khutta; O. Mendha Goda; P. Bhed di Lattein; Tam. Semmari Aattu Kaalgal; Tel. Gorre Kaallu; U. Bhed ki Tangein.
+O017,"Sheep, brain",,Animal Meat,A. Bherar Mogoj; B. Bherar Magaj; G. Gheta nu Bheju; H. Bhed ka Bheja/Maghaz; Kan. Kuri Medulu; Kh. Langbrot Jynkhlieh; Kon. Sheracho Mendu; Mal. Chemmariyattin Thalacchoru; Mar. Mendhicha Mendu; N. Bheda ko Gidi; O. Mendha Mogoj; P. Bhed da Bheja; Tam. Semmari Aattu Moolai; Tel. Gorre Medadu; U. Bhed ka Maghaz.
+O018,"Sheep, tongue",,Animal Meat,A. Bherar Jibha; B. Bherar Jibh; G. Gheta ni Jeebh; H. Bhed ki Zabaan/Jeebh; Kan. Kuri Naalige; Kh. Langbrot Thyndiat?; Kon. Sherachi Jeeb; Mal. Chemmariyattin Naavu; Mar. Mendhichi Jeebh; N. Bheda ko Jibro; O. Mendha Jibha; P. Bhed di Jeebh; Tam. Semmari Aattu Naakku; Tel. Gorre Naluka; U. Bhed ki Zabaan.
+O019,"Sheep, lungs",,Animal Meat,A. Bherar Phopsa; B. Bherar Phusphus; G. Gheta na Fefsa; H. Bhed ke Phephde; Kan. Kuri Shwasakosha; Kh. Langbrot Tor?; Kon. Sherachem Kalsanchem?; Mal. Chemmariyattin Shwasakosham; Mar. Mendhiche Phupphus; N. Bheda ko Phokso; O. Mendha Phusphus; P. Bhed de Phephde; Tam. Semmari Aattu Nuraiyeeral; Tel. Gorre Oopirithitthulu; U. Bhed ke Phephde.
+O020,"Sheep, heart",,Animal Meat,A. Bherar Hirdaya; B. Bherar Hritpinda; G. Gheta nu Haiyu/Dil; H. Bhed ka Dil; Kan. Kuri Hrudaya; Kh. Langbrot Klongsnam?; Kon. Sherachem Kalliz; Mal. Chemmariyattin Hrudayam; Mar. Mendhiche Kallij/Rudhaya; N. Bheda ko Mutu; O. Mendha Hritpinda; P. Bhed da Dil; Tam. Semmari Aattu Idhayam; Tel. Gorre Gunde; U. Bhed ka Dil.
+O021,"Sheep, liver",,Animal Meat,A. Bherar Kolija; B. Bherar Mete/Kolija; G. Gheta nu Kaleju; H. Bhed ki Kaleji; Kan. Kuri Yakrit; Kh. Langbrot Dohjem; Kon. Sherachem Kalliz; Mal. Chemmariyattin Karal; Mar. Mendhiche Kaleji; N. Bheda ko Kalejo; O. Mendha Kalija; P. Bhed di Kaleji; Tam. Semmari Aattu Eeral; Tel. Gorre Kaleyam; U. Bhed ki Kaleji.
+O022,"Sheep, tripe",,Animal Meat,B. Bherar Bhuri/Butt; H. Bhed ki Ojri/Boti; Mal. Chemmariyattin Kudal; Mar. Mendhichi Vajri; O. Mendha Ojhri; P. Bhed di Ojri; Tam. Semmari Aattu Kudal; Tel. Gorre Pottikadupu; U. Bhed ki Ojri.
+O023,"Sheep, spleen",,Animal Meat,A. Bherar Pliha; B. Bherar Pliha; G. Gheta ni Barol; H. Bhed ki Tilli; Kan. Kuri Pliha; Kh. ?. ; Kon. Sherachem Pano?; Mal. Chemmariyattin Pliha; Mar. Mendhichi Panthari; N. Bheda ko Phiyo; O. Mendha Pliha; P. Bhed di Tilli; Tam. Semmari Aattu Manneral/Suvarotti; Tel. Gorre Plihamu; U. Bhed ki Tilli.
+O024,"Sheep, kidneys",,Animal Meat,A. Bherar Kankalam; B. Bherar Brikko; G. Gheta na Gurda; H. Bhed ke Gurde; Kan. Kuri Mutrapinda; Kh. Langbrot Nier?; Kon. Sherachem Mutpin; Mal. Chemmariyattin Vrikka; Mar. Mendhiche Gurde/Mutrapind; N. Bheda ko Mirgaula; O. Mendha Brikko; P. Bhed de Gurde; Tam. Semmari Aattu Siruneeragam; Tel. Gorre Mutrapindalu; U. Bhed ke Gurde.
+O025,"Beef, shoulder",,Animal Meat,B. Goru Kandh; H. Gaay ka Kandha/Dast; Kan. Dana Bhujada Mamsa; Kh. Masidab Tyrpeng; Kon. Gaayicho Khand; Mal. Pothirachi Chumal; Mar. Gaiche Khande; N. Gai ko Kaandh; O. Goru Kandha Mansa; P. Gaaye da Modha; Tam. Maattu Tholpattai Kari; Tel. Aavu Bhujamu Mamsam; U. Gaay ka Kandha/Shana.
+O026,"Beef, chops",,Animal Meat,B. Gorur Chaap; H. Gaay ki Champ; P. Gaaye di Champ; U. Gaay ki Champ.
+O027,"Beef, round (leg)",,Animal Meat,B. Gorur Ran; H. Gaay ki Raan; Kan. Dana Thode Mamsa; Kh. Masidab Lbong; Kon. Gaayichi Mandi; Mal. Pothirachi Thuda; Mar. Gaichi Mandi; N. Gai ko Tighra; O. Goru Ran Mansa; P. Gaaye di Raan; Tam. Maattu Thodai Kari; Tel. Aavu Thodala Mamsam; U. Gaay ki Raan.
+O028,"Beef, brain",,Animal Meat,B. Gorur Magaj; H. Gaay ka Bheja/Maghaz; Kan. Dana Medulu; Kh. Masidab Jynkhlieh; Kon. Gaayicho Mendu; Mal. Pothirachi Thalacchoru; Mar. Gaicha Mendu; N. Gai ko Gidi; O. Goru Mogoj; P. Gaaye da Bheja; Tam. Maattu Moolai; Tel. Aavu Medadu; U. Gaay ka Maghaz.
+O029,"Beef, tongue",,Animal Meat,B. Gorur Jibh; H. Gaay ki Zabaan/Jeebh; Kan. Dana Naalige; Kh. Masidab Thyndiat?; Kon. Gaayichi Jeeb; Mal. Pothirachi Naavu; Mar. Gaichi Jeebh; N. Gai ko Jibro; O. Goru Jibha; P. Gaaye di Jeebh; Tam. Maattu Naakku; Tel. Aavu Naluka; U. Gaay ki Zabaan.
+O030,"Beef, lungs",,Animal Meat,B. Gorur Phusphus; H. Gaay ke Phephde; Kan. Dana Shwasakosha; Kh. Masidab Tor?; Kon. Gaayichem Kalsanchem?; Mal. Pothirachi Shwasakosham; Mar. Gaiche Phupphus; N. Gai ko Phokso; O. Goru Phusphus; P. Gaaye de Phephde; Tam. Maattu Nuraiyeeral; Tel. Aavu Oopirithitthulu; U. Gaay ke Phephde.
+O031,"Beef, heart",,Animal Meat,B. Gorur Hritpinda; H. Gaay ka Dil; Kan. Dana Hrudaya; Kh. Masidab Klongsnam?; Kon. Gaayichem Kalliz; Mal. Pothirachi Hrudayam; Mar. Gaiche Kallij/Rudhaya; N. Gai ko Mutu; O. Goru Hritpinda; P. Gaaye da Dil; Tam. Maattu Idhayam; Tel. Aavu Gunde; U. Gaay ka Dil.
+O032,"Beef, liver",,Animal Meat,B. Gorur Mete/Kolija; H. Gaay ki Kaleji; Kan. Dana Yakrit; Kh. Masidab Dohjem; Kon. Gaayichem Kalliz; Mal. Pothirachi Karal; Mar. Gaiche Kaleji; N. Gai ko Kalejo; O. Goru Kalija; P. Gaaye di Kaleji; Tam. Maattu Eeral; Tel. Aavu Kaleyam; U. Gaay ki Kaleji.
+O033,"Beef, tripe",,Animal Meat,B. Gorur Bhuri/Butt; H. Gaay ki Ojri/Boti; Mal. Pothirachi Kudal; Mar. Gaichi Vajri; O. Goru Ojhri; P. Gaaye di Ojri; Tam. Maattu Kudal; Tel. Aavu Pottikadupu; U. Gaay ki Ojri.
+O034,"Beef, spleen",,Animal Meat,B. Gorur Pliha; H. Gaay ki Tilli; Kan. Dana Pliha; Kh. ?. ; Kon. Gaayichem Pano?; Mal. Pothirachi Pliha; Mar. Gaichi Panthari; N. Gai ko Phiyo; O. Goru Pliha; P. Gaaye di Tilli; Tam. Maattu Manneral/Suvarotti; Tel. Aavu Plihamu; U. Gaay ki Tilli.
+O035,"Beef, kidneys",,Animal Meat,B. Gorur Brikko; H. Gaay ke Gurde; Kan. Dana Mutrapinda; Kh. Masidab Nier?; Kon. Gaayichem Mutpin; Mal. Pothirachi Vrikka; Mar. Gaiche Gurde/Mutrapind; N. Gai ko Mirgaula; O. Goru Brikko; P. Gaaye de Gurde; Tam. Maattu Siruneeragam; Tel. Aavu Mutrapindalu; U. Gaay ke Gurde.
+O036,"Calf, shoulder",,Animal Meat,B. Bachhurer Kandh; H. Bachhde ka Kandha/Dast; Kan. Karu Bhujada Mamsa; Kh. ?. Tyrpeng; Kon. Padkulem Khand; Mal. Kuttyirachi Chumal; Mar. Vasrache Khande; N. Bachcha ko Kaandh; O. Bachhuri Kandha Mansa; P. Vachhe da Modha; Tam. Kannukutti Tholpattai Kari; Tel. Dooda Bhujamu Mamsam; U. Bachhde ka Kandha/Shana.
+O037,"Calf, chops",,Animal Meat,B. Bachhurer Chaap; H. Bachhde ki Champ; P. Vachhe di Champ; U. Bachhde ki Champ.
+O038,"Calf, round (leg)",,Animal Meat,B. Bachhurer Ran; H. Bachhde ki Raan; Kan. Karu Thode Mamsa; Kh. ?. Lbong; Kon. Padkulem Mandi; Mal. Kuttyirachi Thuda; Mar. Vasrachi Mandi; N. Bachcha ko Tighra; O. Bachhuri Ran Mansa; P. Vachhe di Raan; Tam. Kannukutti Thodai Kari; Tel. Dooda Thodala Mamsam; U. Bachhde ki Raan.
+O039,"Calf, brain",,Animal Meat,B. Bachhurer Magaj; H. Bachhde ka Bheja/Maghaz; Kan. Karu Medulu; Kh. ?. Jynkhlieh; Kon. Padkulem Mendu; Mal. Kuttyirachi Thalacchoru; Mar. Vasracha Mendu; N. Bachcha ko Gidi; O. Bachhuri Mogoj; P. Vachhe da Bheja; Tam. Kannukutti Moolai; Tel. Dooda Medadu; U. Bachhde ka Maghaz.
+O040,"Calf, tongue",,Animal Meat,B. Bachhurer Jibh; H. Bachhde ki Zabaan/Jeebh; Kan. Karu Naalige; Kh. ?. Thyndiat?; Kon. Padkulem Jeeb; Mal. Kuttyirachi Naavu; Mar. Vasrachi Jeebh; N. Bachcha ko Jibro; O. Bachhuri Jibha; P. Vachhe di Jeebh; Tam. Kannukutti Naakku; Tel. Dooda Naluka; U. Bachhde ki Zabaan.
+O041,"Calf, heart",,Animal Meat,B. Bachhurer Hritpinda; H. Bachhde ka Dil; Kan. Karu Hrudaya; Kh. ?. Klongsnam?; Kon. Padkulem Kalliz; Mal. Kuttyirachi Hrudayam; Mar. Vasrache Kallij/Rudhaya; N. Bachcha ko Mutu; O. Bachhuri Hritpinda; P. Vachhe da Dil; Tam. Kannukutti Idhayam; Tel. Dooda Gunde; U. Bachhde ka Dil.
+O042,"Calf, liver",,Animal Meat,B. Bachhurer Mete/Kolija; H. Bachhde ki Kaleji; Kan. Karu Yakrit; Kh. ?. Dohjem; Kon. Padkulem Kalliz; Mal. Kuttyirachi Karal; Mar. Vasrache Kaleji; N. Bachcha ko Kalejo; O. Bachhuri Kalija; P. Vachhe di Kaleji; Tam. Kannukutti Eeral; Tel. Dooda Kaleyam; U. Bachhde ki Kaleji.
+O043,"Calf, spleen",,Animal Meat,B. Bachhurer Pliha; H. Bachhde ki Tilli; Kan. Karu Pliha; Kh. ?. ; Kon. Padkulem Pano?; Mal. Kuttyirachi Pliha; Mar. Vasrachi Panthari; N. Bachcha ko Phiyo; O. Bachhuri Pliha; P. Vachhe di Tilli; Tam. Kannukutti Manneral/Suvarotti; Tel. Dooda Plihamu; U. Bachhde ki Tilli.
+O044,"Calf, kidneys",,Animal Meat,B. Bachhurer Brikko; H. Bachhde ke Gurde; Kan. Karu Mutrapinda; Kh. ?. Nier?; Kon. Padkulem Mutpin; Mal. Kuttyirachi Vrikka; Mar. Vasrache Gurde/Mutrapind; N. Bachcha ko Mirgaula; O. Bachhuri Brikko; P. Vachhe de Gurde; Tam. Kannukutti Siruneeragam; Tel. Dooda Mutrapindalu; U. Bachhde ke Gurde.
+O045,"Mithun, shoulder",,Animal Meat,A. Mithunor Kandh; B. Mithuner Kandh; H. Mithun ka Kandha; N. Mithun ko Kaandh. (Less common elsewhere).
+O046,"Mithun, chops",,Animal Meat,B. Mithuner Chaap; H. Mithun ki Champ; N. Mithun ko Champ.
+O047,"Mithun, round (leg)",,Animal Meat,A. Mithunor Theng/Ran; B. Mithuner Ran; H. Mithun ki Raan; N. Mithun ko Tighra.
+O048,"Pork, shoulder",,Animal Meat,A. Gahorir Kandh; B. Shukorer Kandh; G. Suar no Khabho; H. Suar ka Kandha; Kan. Handi Bhujada Mamsa; Kh. ?. Tyrpeng; Kon. Dukracho Khand; Mal. Panni Irachi Chumal; M. Ok Leikha?; Mar. Dukkarache Khande; N. Sungur ko Kaandh; O. Ghusuri Kandha Mansa; P. Suar da Modha; Tam. Panri Tholpattai Kari; Tel. Pandi Bhujamu Mamsam; U. Suar ka Kandha.
+O049,"Pork, chops",,Animal Meat,B. Shukorer Chaap; H. Suar ki Champ; N. Sungur ko Champ; P. Suar di Champ; U. Suar ki Champ.
+O050,"Pork, ham",,Animal Meat,H. Suar ki Raan; U. Suar ki Raan.
+O051,"Pork, lungs",,Animal Meat,A. Gahorir Phopsa; B. Shukorer Phusphus; G. Suar na Fefsa; H. Suar ke Phephde; Kan. Handi Shwasakosha; Kh. ?. Tor?; Kon. Dukrachem Kalsanchem?; Mal. Panni Irachi Shwasakosham; M. Ok Thamoimon?; Mar. Dukkarache Phupphus; N. Sungur ko Phokso; O. Ghusuri Phusphus; P. Suar de Phephde; Tam. Panri Nuraiyeeral; Tel. Pandi Oopirithitthulu; U. Suar ke Phephde.
+O052,"Pork, heart",,Animal Meat,A. Gahorir Hirdaya; B. Shukorer Hritpinda; G. Suar nu Haiyu/Dil; H. Suar ka Dil; Kan. Handi Hrudaya; Kh. ?. Klongsnam?; Kon. Dukrachem Kalliz; Mal. Panni Irachi Hrudayam; M. Ok Thamoi; Mar. Dukkarache Kallij/Rudhaya; N. Sungur ko Mutu; O. Ghusuri Hritpinda; P. Suar da Dil; Tam. Panri Idhayam; Tel. Pandi Gunde; U. Suar ka Dil.
+O053,"Pork, liver",,Animal Meat,A. Gahorir Kolija; B. Shukorer Mete/Kolija; G. Suar nu Kaleju; H. Suar ki Kaleji; Kan. Handi Yakrit; Kh. ?. Dohjem; Kon. Dukrachem Kalliz; Mal. Panni Irachi Karal; M. Ok Thin; Mar. Dukkarache Kaleji; N. Sungur ko Kalejo; O. Ghusuri Kalija; P. Suar di Kaleji; Tam. Panri Eeral; Tel. Pandi Kaleyam; U. Suar ki Kaleji.
+O054,"Pork, stomach",,Animal Meat,A. Gahorir Pet; B. Shukorer Pet; G. Suar nu Pet; H. Suar ka Pet; Kan. Handi Hotte; Kh. ?. Kpoh; Kon. Dukrachem Pot; Mal. Panni Irachi Vayaru; M. Ok Puk; Mar. Dukkarache Pot; N. Sungur ko Pet; O. Ghusuri Peta; P. Suar da Pidh; Tam. Panri Vayiru; Tel. Pandi Potta; U. Suar ka Pet.
+O055,"Pork, spleen",,Animal Meat,A. Gahorir Pliha; B. Shukorer Pliha; G. Suar ni Barol; H. Suar ki Tilli; Kan. Handi Pliha; Kh. ?. ; Kon. Dukrachem Pano?; Mal. Panni Irachi Pliha; M. Ok Pliha?; Mar. Dukkarachi Panthari; N. Sungur ko Phiyo; O. Ghusuri Pliha; P. Suar di Tilli; Tam. Panri Manneral; Tel. Pandi Plihamu; U. Suar ki Tilli.
+O056,"Pork, kidneys",,Animal Meat,A. Gahorir Kankalam; B. Shukorer Brikko; G. Suar na Gurda; H. Suar ke Gurde; Kan. Handi Mutrapinda; Kh. ?. Nier?; Kon. Dukrachem Mutpin; Mal. Panni Irachi Vrikka; M. ?. ; Mar. Dukkarache Gurde/Mutrapind; N. Sungur ko Mirgaula; O. Ghusuri Brikko; P. Suar de Gurde; Tam. Panri Siruneeragam; Tel. Pandi Mutrapindalu; U. Suar ke Gurde.
+O057,"Pork, tube (small intestine)",,Animal Meat,B. Shukorer Nari; H. Suar ki Aant; Mal. Panni Irachi Kudal; Mar. Dukkarachi Aantadi; O. Ghusuri Anta; P. Suar di Aant; Tam. Panri Kudal; Tel. Pandi Karulu; U. Suar ki Aant.
+O058,"Hare, shoulder",,Animal Meat,H. Khargosh ka Kandha; P. Khargosh da Modha; Tam. Muyal Tholpattai; U. Khargosh ka Kandha. (Hare/Rabbit often use same term 'Khargosh')
+O059,"Hare, chops",,Animal Meat,H. Khargosh ki Champ; P. Khargosh di Champ; U. Khargosh ki Champ.
+O060,"Hare, leg",,Animal Meat,H. Khargosh ki Tang; P. Khargosh di Latt; Tam. Muyal Kaal; U. Khargosh ki Tang.
+O061,"Rabbit, shoulder",,Animal Meat,A. Xoha Posur Kandh; B. Shoshoker Kandh; G. Sasla no Khabho; H. Khargosh ka Kandha; Kan. Molada Bhujada Mamsa; Mal. Muyal Chumal; Mar. Sasa che Khande; N. Kharayo ko Kaandh; O. Thekua Kandha Mansa; P. Khargosh da Modha; Tam. Muyal Tholpattai Kari; Tel. Kundelu Bhujamu Mamsam; U. Khargosh ka Kandha.
+O062,"Rabbit, chops",,Animal Meat,B. Shoshoker Chaap; H. Khargosh ki Champ; P. Khargosh di Champ; U. Khargosh ki Champ.
+O063,"Rabbit, leg",,Animal Meat,A. Xoha Posur Theng; B. Shoshoker Thyang; G. Sasla na Tang; H. Khargosh ki Tang; Kan. Molada Kaalu; Mal. Muyal Kaal; Mar. Sasa che Paay; N. Kharayo ko Khutta; O. Thekua Goda; P. Khargosh di Latt; Tam. Muyal Kaal; Tel. Kundelu Kaallu; U. Khargosh ki Tang.
 P001,Allathi,Elops machnata,Marine Fish,"E. Tenpounder, Ladyfish, Indo pacific Tarpon; Mal. Valli poomeen, Vallipoomeen; Mar. Shonas, Dandeli, Chirya; O. Naum; Tam. Poomeen, Ullahti, Manna, Mooran Kendai; Tel. Jinnagow, Jallagu; [Place of collection: Chennai]"
 P002,Aluva,Parastromateus niger,Marine Fish,"E. Black pomfret, Brown Pomfret, Pomfret; G. Halwa, Adadio; Kan. Thondrotte; Kon. Halwa; Mal. Karuvolli, Karauthakoli, Avoli, Vellavoli; Mar. Halwa; Tam. Vellaivaval, Vavval, Karuvaval; Tel. Nallachanduva, Chanduva, Thellachanduva; [Place of collection: Vizag, Goa and Mumbai]"
 P003,Anchovy,Stolephorus indicus,Marine Fish,"E. Indian anchovy, Hardenberg`s anchovy; Mal. Conetholi; Mar. Dindus; Tam. Tamil Nethilli; Tel. Nattoo; [Place of collection: Chennai and Kochi]"
-P004,Ari fish,Aprion virescens,Marine Fish,E. Green jobfish; [Place of collection: Kochi]
+P004,Ari fish,Aprion virescens,Marine Fish,"Mal. Kurali; Tam. Kila meen, Komu kila; E. Green jobfish; [Place of collection: Kochi]"
 P005,Betki,Lates calcarifer,Marine Fish,"E. Barramundi, Asian sea bass, Cockup, Cock up, Giant Sea Perch, Giant Seaperch; B. Bhekti; G. Bekti, Gariyu; Kan. Keliji, Koliji; Mal. Narimeen, Nuddee meen, Nair meen, Nari meen; Mar. Khajura, Jiteda, Khajuri, Fitadar; O. Durruah, Bekkut; Tam. Painnee meen, Koduva, Keduwa; Tel. Pandu kopah, Dadhara, Pandu menu; [Place of collection: Kolkata]"
-P006,Black snapper,Macolor niger,Marine Fish,[Place of collection: Kolkata]
+P006,Black snapper,Macolor niger,Marine Fish,Mal. Kari Kuruval; Tam. Karutha Kuruval; E. Black snapper; [Place of collection: Kolkata]
 P007,Bombay duck,Harpadon nehereus,Marine Fish,"E. Bummalo; B. Nehare, Lutia, Bamaloh; G. Bumla, Gulchi; Mar. Bunmalo, Bombil; O. Bombil; Tam. Vangaravasi; Tel. Cucah sawahri, Coco mottah; Common. Lizardfish; [Place of collection: Mumbai and Kolkata]"
-P008,Bommuralu,Muraenesox cinerius,Marine Fish,"E. Daggertooth pike conger, Dagger tooth pike conger; Common. Eel; [Place of collection: Chennai, Goa and Vizag]"
-P009,Cat fish,Tachysurus thalassinus,Marine Fish,[Place of collection: Chennai]
+P008,Bommuralu,Muraenesox cinerius,Marine Fish,"Tam. Kotuna, Pambu meen; Tel. Kotla pama, Tolli pama; E. Daggertooth pike conger, Dagger tooth pike conger; Common. Eel; [Place of collection: Chennai, Goa and Vizag]"
+P009,Cat fish,Tachysurus thalassinus,Marine Fish,"Mal. Valia Etta; Tam. Ven Etta; Tel. Thella Jella; E. Giant Catfish, Giant Sea Catfish; Common. Marine catfish; [Place of collection: Chennai]"
 P010,Chakla,Rachycentron canadum,Marine Fish,"E. Cobia, Black kingfish, Black King Fish, Butterfish, Black salmon, Ling, Lemonfish, Crabeater, Prodigal son, Black bonito; G. Modasa; Mal. Neimeen; Mar. Muddus, Sakala, Sakla, Madusa; Tam. Cuddul verarl, Kadal viral; Tel. Peddah mottah; Common. Perciform marine fish; [Place of collection: Mumbai, Vizag, Goa, Mandapam and Chennai]"
-P011,Chappal,Aluterus monoceros,Marine Fish,E. Unicorn leatherjacket; Common. Filefish; [Place of collection: Goa]
+P011,Chappal,Aluterus monoceros,Marine Fish,"Tam. Klathi, Thol Meen; Tel. Kommu Thoka; Mal. Clathi; Mar. Phutaki; E. Unicorn leatherjacket; Common. Filefish; [Place of collection: Goa]"
 P012,Chelu,Elagatis bipinnulata,Marine Fish,"E. Rainbow runner, Rainbow yellowtail, Spanish jack, Hawaiian salmon; Mal. Poomeen, Chameen; Tam. Kulkul; Common. Pelagic marine fish; [Place of collection: Vizag and Chennai]"
-P013,Chembali,Lutjanus quinquelineatus,Marine Fish,"E. Five lined snapper, Blue striped snapper, Fivelines Seaperch, Gold striped Sea-perch., Five line Snapper, Fivelined Snapper; Common. Snapper; [Place of collection: Kochi]"
-P014,Eri meen,Pristipomoides filamentosus,Marine Fish,"E. Crimson jobfish, Crimson snapper, Opakapaka, Hawaiian pink snapper; Common. Snapper; [Place of collection: Kochi]"
+P013,Chembali,Lutjanus quinquelineatus,Marine Fish,"Mal. Chemballi, Chembally; Tam. Vellakkara; Tel. Rangoo; E. Five lined snapper, Blue striped snapper, Fivelines Seaperch, Gold striped Sea-perch, Five line Snapper, Fivelined Snapper; Common. Snapper; [Place of collection: Kochi]"
+P014,Eri meen,Pristipomoides filamentosus,Marine Fish,"Mal. Eri meen, Velameen; Tam. Eri meen, Nedunkala; E. Crimson jobfish, Crimson snapper, Opakapaka, Hawaiian pink snapper; Common. Snapper; [Place of collection: Kochi]"
 P015,"Gobro, Hambur",Epinephelus diacanthus,Marine Fish,"E. Coral Cod, Six barred Reef Cod, Thornycheek Grouper, Spinycheek Grouper, Grouper, Six barred Reef cod, Seabass, Coral Trout; Kan. Guri; Kon. Gobri; Mal. Kalawa, Varayan Kalawa; Mar. Gobra, Hekaru; Tam. Kalava; Common. Serranid fish; [Place of collection: Mumbai and Goa]"
-P016,Guitar fish,Rhinobatus prahli,Marine Fish,[Place of collection: Chennai]
+P016,Guitar fish,Rhinobatus prahli,Marine Fish,"Mal. Veenna Meen; Tam. Padangan; Tel. Sorra Padhangan; Mar. Lanjav; G. Papan; E. Guitarfish, Prahli Guitarfish; Common. Ray; [Place of collection: Chennai]"
 P017,Hilsa,Tenualosa ilisha,Marine Fish,"E. Ilish, Hilsa, River Shad, Indian Shad, Hilsa Shad; A. Elish, Ilish; B. Ilishmach, Ilish, Hilsa, Ilisha, Hilsha; G. Chaski, Palla, Chaksi, Chakshi; H. Hilsa; Kan. Palasa, Paliya, Polasa, Palia, Mullasu; Mal. Paluva, Valava, Paliyah; Mar. Palva, Chaksi, Pala, Palla; O. Ilisha, Ilish, Jodi; Tam. Karuva ullam, Sevva, Dolum, Ullam, Oolum; Tel. Palasah, Polasa, Palasa, Palia; Common. Herring; [Place of collection: Kochi]"
-P018,Jallal,Arius sp.,Marine Fish,E. Arius; Common. Catfish; [Place of collection: Vizag]
+P018,Jallal,Arius sp.,Marine Fish,Tel. Jella; Tam. Kaeluthi; Mal. Etta; O. Kontia; B. Tengra; E. Arius; Common. Catfish; [Place of collection: Vizag]
 P019,Jathi vela meen,Lethrinus lentjan,Marine Fish,"E. Pig face Bream, Silver Spotted Sea Bream, Bridled Pigface bream; Mal. Pullivelameen, Kadu; Tam. Valamin; Tel. Karua; Common. Emperor fish; [Place of collection: Mumbai and Mandapam]"
-P020,Kadal bral,Synodus indicus,Marine Fish,E. Indian lizardfish; Common. Lizardfish; [Place of collection: Kochi]
-P021,Kadali,Nemipterus mesoprion,Marine Fish,E. Redfilament Threadfin bream; [Place of collection: Chennai]
+P020,Kadal bral,Synodus indicus,Marine Fish,"Mal. Kadal Varal, Kechi; Tam. Palli Meen, Ooli meen; Tel. Bathisaapa; Kan. Arna Manji; Mar. Chor Bombil; E. Indian lizardfish; Common. Lizardfish; [Place of collection: Kochi]"
+P021,Kadali,Nemipterus mesoprion,Marine Fish,"Tam. Kadali, Kendai; Mal. Murumeen, Kerachoondan; Tel. Kadali, Goli; E. Redfilament Threadfin bream; [Place of collection: Chennai]"
 P022,Kalamaara,Leptomelanosoma indicum,Marine Fish,"E. Indian threadfin, Monk Fish, Thread Fin, Row Ball, Bastard Mullets, Bamin, Threadfin, Indian Salmon, Giant Threadfin, Indian Threadfin; G. Dara, Darha, Dadha; Kan. Vahmeenu, Ramas; Mal. Thamuthi, Yeta, Wahmeen, Baameen, Norakudiyan, Bahmin; Mar. Dara, Darha, Chelna; Tam. Thiravalai, Vellaikala, Seenakalai, Tahlunkala, Panigala, Valanakala, Kala, Battihiravalai, Kondiangalai, Kattikalai; Tel. Podikimaga, Budathamaga, Boddumaga, Thellamaga, Sahala, Maga-booshee; Common. Coastal fish; [Place of collection: Goa and Vizag]"
-P023,Kalava,Epinephelus coioides,Marine Fish,"E. Orange spotted grouper, Estuary cod; [Place of collection: Mandapam]"
+P023,Kalava,Epinephelus coioides,Marine Fish,"Mal. Kalava, Panni Kalava; Tam. Kalavan, Pulli Kalava; Tel. Bontha; Mar. Hekaru, Gobra; Kan. Gopra; E. Orange spotted grouper, Estuary cod; [Place of collection: Mandapam]"
 P024,Kanamayya,Lutjanus rivulatus,Marine Fish,"E. Blubberlip snapper, Maori Snapper, Multi coloured Snapper; Mal. Kathupiriyan; Tam. Cuttu pirium; Common. Snapper; [Place of collection: Chennai and Vizag]"
-P025,Kannadi paarai,Alectis indicus,Marine Fish,"E. Diamond trevally, Indian threadfish, Indian threadfin, Mirror fish, Plumed trevally; Common. Coastal marine fish; [Place of collection: Mumbai, Chennai and Mandapam]"
+P025,Kannadi paarai,Alectis indicus,Marine Fish,"Tam. Kannadi Paarai, Kattamparei; Mal. Kannadi Paarai, Vattapara; Tel. Badil; Mar. Kat Bangda; E. Diamond trevally, Indian threadfish, Indian threadfin, Mirror fish, Plumed trevally; Common. Coastal marine fish; [Place of collection: Mumbai, Chennai and Mandapam]"
 P026,Karimeen,Etroplus suratensis,Marine Fish,"E. Green chromide, Pearlspot cichlid, Banded pearlspot, Striped chromide, Pearl Spot, Banded Etroplus; Kan. Elimeenu; Kash. Pitul; Kon. Kalunder; Mal. Karimeen, Erumeen, Irimeen; O. Cundahle; Tam. Seththa Kendai, Karassar, Sethakendai, Sethakandai, Palincha, Panishettai, Udupatti; Tel. Cashi mara, Cashimara, Duvvenachepa; Common. Cichlid fish; [Place of collection: Kochi]"
-P027,Karnagawala,Anchoa hepsetus,Marine Fish,E. Broad striped anchovy; [Place of collection: Vizag]
+P027,Karnagawala,Anchoa hepsetus,Marine Fish,"Tel. Karna Gawala; Tam. Nethili, Poruva; Mal. Netholi, Kozhuva; Kan. Bolingei; E. Broad striped anchovy; [Place of collection: Vizag]"
 P028,Kayrai,Thunnus albacares,Marine Fish,"E. Yellowfin tuna, Yellow Fin Tuna; G. Gedar, Gedara; Kon. Bokado; Mal. Poovan choora; Mar. Kuppa, Gedar, Bugudi, Pimp; Tam. Soccer; Common. Tuna; [Place of collection: Chennai]"
 P029,Kiriyan,Atule mate,Marine Fish,"E. Yellowtail scad, Northern yellowtail scad, One finlet scad, Deep trevally, Omaka, Horse Mackerel; Kan. Gondlu; Mal. Para; Tam. Pulli Parai, Para, Warri parah, Vennai Parai, Semaparai, Parai, Thenga Parai, Komaraparai, Kilisai; Tel. Manjal Parai, Pulli Parai, Para; Common. Small inshore marine fish; [Place of collection: Kochi]"
-P030,Kite fish,Mobula kuhlii,Marine Fish,E. Shortfin devil ray; Common. Ray; [Place of collection: Kochi]
+P030,Kite fish,Mobula kuhlii,Marine Fish,Mal. Kozhi Thirandi; Tam. Kozhi Thirukkai; Tel. Tekku Madava; E. Shortfin devil ray; Common. Ray; [Place of collection: Kochi]
 P031,Korka,Terapon jarbua,Marine Fish,"E. Crescent grunter, Target Fish, Crescent Bass, Crescent Perch, Tiger Bass, Jarbua Terapon, Tiger perch, Squeaking Perch; B. Boorgooni, Jeerpye; G. Garangeta, Naida; Kan. Gore; Mal. Kotha, Marakkeri, Keeri, Kallakeedam; Mar. Naveri Hajam, Naveri; O. Gahnu, Galikooru; Tam. Mattakkeechan, Palin keetchan, Kovakeechan, Palinkeechan, Pootankeeli, Keeli, Keechan, Chavathinnikeeli; Tel. Baikeeli, Kilipothu, Ganam, Samudrakili; Common. Grunter; [Place of collection: Kochi]"
-P032,Kulam paarai,Carangoides fulvoguttatus,Marine Fish,"E. Yellowspotted trevally, Yellowspotted kingfish, Goldspotted trevally, Tarrum; Common. Large inshore marine fish; [Place of collection: Chennai]"
-P033,Maagaa,Polynemus plebeius,Marine Fish,E. Striped threadfin; Common. Marine fish; [Place of collection: Vizag]
+P032,Kulam paarai,Carangoides fulvoguttatus,Marine Fish,"Tam. Kulam Paarai, Pulli Paarai; Mal. Manja Paarai; Tel. Pulli Para; E. Yellowspotted trevally, Yellowspotted kingfish, Goldspotted trevally, Tarrum; Common. Large inshore marine fish; [Place of collection: Chennai]"
+P033,Maagaa,Polynemus plebeius,Marine Fish,"Tel. Maga, Budatha Maga; Tam. Pozhakkala; O. Sahala; B. Tape Machh; Mar. Rawas; E. Striped threadfin; Common. Marine fish; [Place of collection: Vizag]"
 P034,Mackerel,Rastrelliger kanagurta,Marine Fish,"E. Indian mackerel, Rake Gillat Mackerel; G. Bangada; Kan. Bangda, Bangadei, Bangada; Kon. Bangada; Mal. Ayila, Ayala, Ayla; Mar. Kaulagedar, Bangada, Kaula Gedar; O. Karan kita; Tam. Kanangeluthi, Kumala, Kumla, Augalai; Tel. Kannangadatha, Kanagurta, Kamangadachalu; Common. Mackerel; [Place of collection: Chennai, Mumbai and Goa]"
-P035,Manda clathi,Naso reticulatus,Marine Fish,E. Reticulated unicornfish; [Place of collection: Mandapam]
+P035,Manda clathi,Naso reticulatus,Marine Fish,Tam. Manda Klathi; Mal. Manda Klathi; E. Reticulated unicornfish; [Place of collection: Mandapam]
 P036,Matha,Acanthurus mata,Marine Fish,"E. Elongate surgeonfish, Blue lined surgeonfish; Mal. Pala; Common. Marine tropical fish; [Place of collection: Chennai and vizag]"
 P037,Milk fish,Chanos chanos,Marine Fish,"E. Milkfish, Milk fish, White Mullet; Kan. Humeen, Hoomeenu, Hoo meenu; Mal. Poomeen; Tam. Pal kendai, Palmeen, Tulu candul, Thullu, Palai meen; Tel. Pallabontha, Polah bontah; [Place of collection: Mandapam]"
 P038,Moon fish,Mene maculata,Marine Fish,"E. Moonfish; G. Vaniani; Kan. Hakkimeen; Mal. Ambattan parah; Tam. Ambutan parah, Amattikatti; Common. Perch fish; [Place of collection: Mumbai]"
 P039,Mullet,Mugil cephalus,Marine Fish,"E. Flathead grey mullet, Flathead Greymullet; B. Ain; G. Bhomat, Boi, Gandhia; Kan. Mala; Mal. Tirutha, Thirutha, Tiruta; Mar. Boi, Mangan, Boita, Pilas, Bol, Pilsa, Sherto; Tam. Madavai, Kasmeen, Manla; Tel. Kathiparega, Kathi parenga; Common. Food fish; [Place of collection: Mumbai, Kochi and Chennai]"
 P040,Mural,Tylosurus crocodilus crocodilus,Marine Fish,"E. Houndfish, Crocodile needlefish, Giant Longtom; Mal. Oola, Keran; Mar. Tol; Tam. Pahmum kolah; Tel. Wahlah kuddera; Common. Game fish; [Place of collection: Mandapam]"
 P041,Myil meen,Istiophorus platypterus,Marine Fish,"E. Indo Pacific sailfish, Peacock Fish, Sail Fish, Indian Sail Fish, Sailfish; G. Tadmachhi, Kunga; Mal. Ola meen, Olameen; Mar. Tadmasa; Common. Sailfish; [Place of collection: Chennai and Mandapam]"
-P042,Nalla bontha,Epinephelus sp,Marine Fish,"E. Giant Rock Cod, Malabar Rockcod, Brown-spotted Grouper, Estuary Rock cod, Malabar Grouper, Morgan`s Cod, Blackspot Cod, Malabar Reef Cod, Speckled Grouper., Blacksaddle Grouper, Malabar Cod, Speckled Grouper, Grouper, Greasy Grouper, Blackspotted Rockcod, Malabar Reefcod, Estuary Cod, Malabar Rock Cod; G. Wekhali, Wekhanu., Wekhru; Kan. Gopra, Muni Meenu; Kon. Gobri; Mal. Kalawa; Mar. Gobra, Hekru, Hekaru; O. Bhala; Tam. Punni calawah, Kalava, Punni calawah; Tel. Bontha, Kodi Punju, Bontoo; Common. Large serranid fish; [Place of collection: Vizag]"
+P042,Nalla bontha,Epinephelus sp,Marine Fish,"G. Wekhali, Wekhanu, Wekhru; Kan. Gopra, Muni Meenu; Kon. Gobri; Mal. Kalawa; Mar. Gobra, Hekru, Hekaru; O. Bhala; Tam. Punni calawah, Kalava; Tel. Bontha, Kodi Punju, Bontoo; E. Giant Rock Cod, Malabar Rockcod, Brown-spotted Grouper, Estuary Rock cod, Malabar Grouper, Morgan`s Cod, Blackspot Cod, Malabar Reef Cod, Speckled Grouper., Blacksaddle Grouper, Malabar Cod, Speckled Grouper, Grouper, Greasy Grouper, Blackspotted Rockcod, Malabar Reefcod, Estuary Cod, Malabar Rock Cod; Common. Large serranid fish; [Place of collection: Vizag]"
 P043,Narba,Caranx sexfasciatus,Marine Fish,"E. Bigeye trevally, Bigeye jack, Great trevally, Six banded trevally, Dusky jack, Dusk Jack, Tille Jack; G. Bangada, Kala Bangada; Kan. Gondlu; Mal. Maduthala, Varayan para, Kuluvel; Mar. Kala Bangada; Common. Large marine fish; [Place of collection: Vizag and Mumbai]"
-P044,Paarai,Caranx heberi,Marine Fish,"E. Blacktip trevally, Blacktip kingfish, Yellowtail kingfish; Common. Large marine fish; [Place of collection: Chennnai]"
-P045,Padayappa,Canthidermis maculata,Marine Fish,"E. Rough triggerfish, Spotted oceanic triggerfish; Common. Triggerfish; [Place of collection: Kochi]"
-P046,Pali kora,Panna microdon,Marine Fish,E. Panna croaker; [Place of collection: Kochi]
+P044,Paarai,Caranx heberi,Marine Fish,"Tam. Paarai, Karunkanni Paarai; Mal. Para; Tel. Para; E. Blacktip trevally, Blacktip kingfish, Yellowtail kingfish; Common. Large marine fish; [Place of collection: Chennnai]"
+P045,Padayappa,Canthidermis maculata,Marine Fish,"Mal. Padayappa; Tam. Karuppu Klathi; E. Rough triggerfish, Spotted oceanic triggerfish; Common. Triggerfish; [Place of collection: Kochi]"
+P046,Pali kora,Panna microdon,Marine Fish,Mal. Palli Kora; Tam. Palli Korai; E. Panna croaker; [Place of collection: Kochi]
 P047,Pambada,Lepturacanthus savala,Marine Fish,"E. Savalai hairtail, Small head hairtail, Small Headed Hairtail, Small Headed Ribbon Fish, Small headed Ribbonfish, Silver Ribbon Fish, Hair Tail, Ribbon Fish; G. Patti; Kan. Pambole; Kon. Bale; Mal. Vellasavala, Thalayan, Vellathalayan, Karupputhalayan, Karuppusavala, Vellithalayan; Mar. Baia, Wagti, Bala; Tam. Chavalai, Karthigaivalai, Savalai, Mattachavalai, Olavalai; Tel. Nadippussavallu, Peddasavallu, Yellasavallu, Savala, Kothisavallu; Common. Snapper; [Place of collection: Chennai and Kochi]"
-P048,Pandukopa,Pseudosciaena manchurica,Marine Fish,"E. Larimichthys polyactis, Redlip croaker, Small yellow croaker, Little yellow croaker, Yellow corvina; Common. Croaker; [Place of collection: Vizag]"
+P048,Pandukopa,Pseudosciaena manchurica,Marine Fish,"Tel. Pandu Kopa; O. Borogo; B. Bhola; Mar. Doma; E. Larimichthys polyactis, Redlip croaker, Small yellow croaker, Little yellow croaker, Yellow corvina; Common. Croaker; [Place of collection: Vizag]"
 P049,Parava,Lactarius lactarius,Marine Fish,"E. False trevally, Big jawed jumper, Big jawed jumber; G. Dhangari, Dangri, Chapla, Katli; Kan. Saundala, Adai minu; Mal. Adavu, Parava; Mar. Saundala, Pervi; Tam. Sudumbu, Suthumbu, Guthippu; Tel. Sudumbu, Sudumbala, Kuthuppu; [Place of collection: Kochi]"
 P050,Parcus,Psettodes erumei,Marine Fish,"E. Indian halibut, Indian Turbot; G. Hario, Dataro; Kon. Box Lep; Mar. Zhipali, Bhakas; Tam. Erumei nakku; Tel. Noree nalaka; Common. Large primitive flatfish; [Place of collection: Mumbai]"
 P051,Parrot fish,Scarus ghobban,Marine Fish,"E. Blue barred parrotfish, Blue trim parrotfish, Cream parrotfish, Globe headed parrotfish, Green blotched parrotfish, Yellow scale parrotfish, Bluechin parrotfish; Mal. Chandi; Common. Marine fish; [Place of collection: Mandapam]"
 P052,Perinkilichai,Pinjalo pinjalo,Marine Fish,"E. Pinjalo Snapper; Tam. Mette mirrei, Polei oolavai; Common. Snapper; [Place of collection: Chennai]"
 P053,Phopat,Coryphaena hippurus,Marine Fish,"E. Mahi mahi, Common dolphinfish, Common Dolphin Fish; B. Pomfret; G. Halwa, Adadio, Himra Machhi; Kan. Thondrotte; Mal. Affunose, Avoli, Karuvoli, Vellavoli; Mar. Abanoos, Halwa, Himra Masa; O. Baal; Tam. Karuvaval, Vavval, Vanna, Vellaivaval, Badahlan, Koppurai kula; Tel. Chanduva, Nallachanduva, Thellachanduva; Common. Surface dwelling ray finned fish; [Place of collection: Chennai, Kochi, Vizag and Mumbai]"
-P054,Piranha,Pygopristis sp.,Marine Fish,[Place of collection: Kochi]
+P054,Piranha,Pygopristis sp.,Marine Fish,E. Piranha; [Place of collection: Kochi]
 P055,"Pomfret, black",Parastromateus niger,Marine Fish,"E. Black pomfret, Brown Pomfret; G. Halwa, Adadio; Kan. Thondrotte; Kon. Halwa; Mal. Vellavoli, Karuvolli, Avoli, Karauthakoli; Mar. Halwa; Tam. Vellaivaval, Vavval, Karuvaval; Tel. Nallachanduva, Chanduva, Thellachanduva; Common. Pomfret; [Place of collection: Kochi, Chennai, Mumbai, Mandapam, Vizag and Goa]"
 P056,"Pomfret, snub nose",Trachinotus blochii,Marine Fish,"E. Snubnose Pampano; Mal. Peeyada; Mar. Ladagoo, Katattitaka; Tam. Kootili; Common. Coastal fish; [Place of collection: Mumbai]"
 P057,"Pomfret, white",Pampus argenteus,Marine Fish,"E. Silver pomfret, White pomfret; B. Chandi, Pomfret; G. Vichuda; Kan. Thondrotte, Thondrette, Manji; Kon. Surangat; Mal. Vellavoli, Karuvolli, Avoli, Velutha-avoli; Mar. Saranga, Chandava, Paplet; O. Chandee, Ghia; Tam. Vella vavval, Karuvaval, Vavval, Vellaivaval; Tel. Thellachanduva, Nallachanduva, Chanduva; Common. Butterfish; [Place of collection: Mumbai and Goa]"
@@ -472,21 +472,21 @@ P059,Pulli paarai,Gnathanodon speciosus,Marine Fish,"E. Golden trevally, Golden 
 P060,Queen fish,Scomberoides commersonianus,Marine Fish,"E. Doubledotted Queenfish, Talang Queenfish; G. Sag; Kan. Palaimeenu, Diana; Mal. Palameen; Mar. Dagol; Tam. Toal parah, Katta; Tel. Pasupara; Common. Coastal fish; [Place of collection: Chennai, Kochi and Goa]"
 P061,Raai fish,Lobotes surinamensis,Marine Fish,"E. Atlantic tripletail, Brown Tripletail, Tripple Tail, Brown Tripletail; G. Katkola; Mal. Parrandee; Mar. Katkola; O. Chota Bekkut; Tam. Musalli; Common. Warm water marine fish; [Place of collection: Chennai and Vizag]"
 P062,Raai vanthu,Epinephelus chlorostigma,Marine Fish,"E. Brown spotted reef cod, Souman, Brownspotted grouper, Brown spotted grouper, Brownspotted rockcod., Brown spotted reef cod; G. Vekharu, Vekhala; Kan. Guri; Kon. Gobri; Mal. Pulli Kalawa, Kalava; Mar. Hekru, Hekaru; Tam. Kalava; Common. Grouper fish; [Place of collection: Vizag]"
-P063,Rani,Pink perch,Marine Fish,"Common. Freshwater gamefish; [Place of collection: Goa, Kochi, Chennai, Mumbai, Vizag and Mandapam]"
+P063,Rani,Pink perch,Marine Fish,"Tam. Rani Meen, Sankara; Mal. Kilimeen, Chen Kili; Tel. Rani; Mar. Rani; Kan. Rani menu; G. Rani; E. Pink perch, Threadfin bream; Common. Freshwater gamefish; [Place of collection: Goa, Kochi, Chennai, Mumbai, Vizag and Mandapam]"
 P064,"Ray fish, bow head, spotted",Rhina ancylostoma,Marine Fish,"E. Bowmouth guitarfish, Shark ray, Mud skate, Bowmouthed Guitarfish; Mar. Sakshi, Lanj; Tam. Mun ultava; Tel. Pottila sora, Nella dindi; Common. Ray; [Place of collection: Kochi]"
 P065,Red snapper,Lutjanus argentimaculatus,Marine Fish,"E. Mangrove red snapper, Mangrove jack, Creek red bream, Stuart evader, Dog bream, Purple sea perch, Purple seaperch, Red bass, Red bream, Red perch, Red reef bream, River roman, Rock barramundi, Yellow snapper, Silver spotted Grey Snapper, Gray Snapper, Malabar Red Snapper; G. Ratado; Kan. Chembali; Mal. Murumeen, Pahari, Chemballi; Mar. Tambusa; Tam. Paruthikanni, Patani-keeli, Karuvalai, Nethiprion, Paruthivala Meen, Chenganni, Vekkattai, Thokkal, Cheppili, Karva, Adallu, Vekkattai, Antaleyan; Tel. Rangu, Thundava., Rangoo, Thundava, Kaliviyya; Common. Snapper; [Place of collection: Vizag]"
-P066,"Red snapper, small",Priacanthus hamrur,Marine Fish,"E. Lunar-tailed bigeye, Goggle eye, Moontail bullseye, Red Bullseye, Lunar-tailed Bullseye, Red Big Eye, Crescent Tail Bigeye, Lunar Tailed Bigeye, Dusky-finned Bullseye, Spot-finned Bull`s Eye., Moontail Bullseye, Bigeye Snapper, Black-spot Big-eye, Lunar-tailed Glasseye, Duskyfin Bulleye, Goggle-eye; B. Alta-punti; G. Dorali, Ratado; Kan. Disco Meenu; Mal. Bullsai; Mar. Tambi; O. Alta-punti; Tam. Kakkasi, Paswa; Tel. Bochelu; Common. Marine fish; [Place of collection: Goa]"
-P067,Sadaya,Platax orbicularis,Marine Fish,"E. Orbicular batfish, Circular batfish, Orbiculate batfish, Round batfish, Orbic batfish; Common. Aquarium fish; [Place of collection: Chennai]"
+P066,"Red snapper, small",Priacanthus hamrur,Marine Fish,"B. Alta-punti; G. Dorali, Ratado; Kan. Disco Meenu; Mal. Bullsai, Chemballi; Mar. Tambi; O. Alta-punti; Tam. Kakkasi, Paswa; Tel. Bochelu; E. Lunar-tailed bigeye, Goggle eye, Moontail bullseye, Red Bullseye, Lunar-tailed Bullseye, Red Big Eye, Crescent Tail Bigeye, Lunar Tailed Bigeye, Dusky-finned Bullseye, Spot-finned Bull`s Eye., Moontail Bullseye, Bigeye Snapper, Black-spot Big-eye, Lunar-tailed Glasseye, Duskyfin Bulleye, Goggle-eye; Common. Marine fish; [Place of collection: Goa]"
+P067,Sadaya,Platax orbicularis,Marine Fish,"Tam. Sadaya, Thotti Meen; Mal. Nandan; E. Orbicular batfish, Circular batfish, Orbiculate batfish, Round batfish, Orbic batfish; Common. Aquarium fish; [Place of collection: Chennai]"
 P068,Salmon,Salmo salar,Marine Fish,E. Atlantic salmon; Common. Ray-finned fish; [Place of collection: Goa]
-P069,Sangada,Nemipterus japonicus,Marine Fish,E. Japanese threadfin bream; Common. Marine fish; [Place of collection: Chennai]
+P069,Sangada,Nemipterus japonicus,Marine Fish,"Mar. Bamni; Tam. Kendai, Puthuputtan Kendai; Tel. Goli; Mal. Kerachoondan; G. Bamni; E. Japanese threadfin bream; Common. Marine fish; [Place of collection: Chennai]"
 P070,Sankata parai,Caranx ignobilis,Marine Fish,"E. Giant trevally, Lowly trevally, Barrier trevally, Giant kingfish, Ulua, Yellowfin Jack; Mal. Kuluvel; Tel. Jarradandree-parah; Common. Large marine fish; [Place of collection: Chennai]"
 P071,Sardine,Sardinella longiceps,Marine Fish,"E. Indian oil sardine, Malabar Sardine; G. Tarali; Kan. Baige, Buthai, Boothai, Tarli-multhi; Mal. Nalla Mathi, Nallamathi; Mar. Haird, Kanat, Tarali, Tarli, Haid; Tam. Nonalai, Charlay, Paycharlay, Paichalai; Tel. Noona-kavallu; Common. Ray-finned fish; [Place of collection: Kolkata]"
 P072,Shark,Carcharhinus sorrah,Marine Fish,"E. Spot-tail shark, Sorrah shark; Kan. Shirat; Mar. Balda, Pisori; Tam. Katta-sorrah; Common. Requiem shark; [Place of collection: Goa and Mandapam]"
-P073,"Shark, hammer head",Sphyrna mokarran,Marine Fish,E. Great hammerhead; Common. Hammerhead shark; [Place of collection: Kolkata]
+P073,"Shark, hammer head",Sphyrna mokarran,Marine Fish,"Tam. Sura, Komban Sura; Mal. Sravu, Chenkannan Sravu; Tel. Sorrah, Koma Sorrah; B. Haturi Hangar; O. Kochia Kammad; Mar. Kanar, Mushee; Kan. Sappa sorrah; E. Great hammerhead; Common. Hammerhead shark; [Place of collection: Kolkata]"
 P074,"Shark, spotted",Stegostoma fasciatum,Marine Fish,"E. Zebra shark; G. Shinawala, Magara, Shinvala, Musia; Mal. Poochasurav, Zebra Sravu; Mal. Shinvala, Mushi, Shinavla; Tam. Komarasi-sorrah, Coruhgun-sorrah, Korangum Sorrah; Tel. Potrava, Komarasi, Orookoolti-sorrah, Pollee-makum, Komrasi, Pollee Makum, Corootoolti-sorrah; Common. Carpet shark; [Place of collection: Kochi]"
 P075,Shelavu,Sphyraena jello,Marine Fish,"E. Pickhandle barracuda, Banded Barracuda, Sea Pike; G. Bhungar; Kan. Kandai; Mal. Cheelahoo; Mar. Ghalse, Badvi, Jaban-tal, Badri; Tel. Jellow; [Place of collection: Chennai, Goa, Vizag and Kochi]"
 P076,Silan,Silonia silondia,Marine Fish,"E. Silond catfish, Silondia Vacha, Silong Catfish; A. Dhain, Silan, Utti, Koch; B. Silond; Common. Schilbid catfish; [Place of collection: Kolkata]"
-P077,Silk fish,Beryx sp.,Marine Fish,"E. Alfonsino, Alfonsin, Longfinned beryx, Red bream, Imperador; Common. Deep oceanic fish; [Place of collection: Kochi]"
+P077,Silk fish,Beryx sp.,Marine Fish,"Mal. Pattumeen; E. Alfonsino, Alfonsin, Longfinned beryx, Red bream, Imperador; Common. Deep oceanic fish; [Place of collection: Kochi]"
 P078,Silver carp,Hypophthalmichthys molitrix,Marine Fish,"E. Silver carp; Kan. Belli-gende; Common. Freshwater cyprinid fish, Asian carp; [Place of collection: Kolkata]"
 P079,Sole fish,Cynoglossus arel,Marine Fish,E. Largescale tongue-sole; Mar. Lep; Common. Tonguefish; [Place of collection: Vizag]
 P080,Stingray,Dasyatis pastinaca,Marine Fish,"E. Common stingray, Blue Stingray; Mal. Thirukay; Common. Stingray; [Place of collection: Kolkata]"
@@ -497,47 +497,47 @@ P084,Tuna,Euthynnus affinis,Marine Fish,"E. Mackerel tuna, Kawakawa, Little Tuna
 P085,"Tuna, striped",Katsuwonus pelamis,Marine Fish,"E. Skipjack tuna, Aku, Arctic bonito, Mushmouth, Oceanic bonito, Striped tuna, Victor fish, Oceanic Skipjack; G. Gedar; Kon. Bokado; Mal. Choora; Mar. Kuppa, Bugudi, Gedar; Common. Medium-sized perciform fish; [Place of collection: Kochi]"
 P086,Valava,Chirocentrus nudus,Marine Fish,"E. Whitefin wolf-herring, Tenpounder; Tam. Kiru-wahlah; Tel. Wahlah; Common. Herring; [Place of collection: Vizag]"
 P087,Vanjaram,Scomberomorus commerson,Marine Fish,"E. Narrow-barred Spanish mackerel, Barred Seer Fish, King Seer; G. Surmai, Chhapri; Kan. Thavar; Mal. Ayakora, Chumbum; Mar. Anjai, Anjari, Surmai, Towar; Tam. Ah-ku-lah, Mah-wu-leachi, Mavulasi, Seela, Mah-wu-laachi, Vanjiram, Velra, Konam; Tel. Vanjiramu, Konema, Varimeen, Yellari, Vellikannan, Ayaokaro; Common. Mackerel; [Place of collection: Chennai and Goa]"
-P088,Vela meen,Aprion virescens,Marine Fish,E. Green jobfish; Common. Snapper; [Place of collection: Mandapam]
+P088,Vela meen,Aprion virescens,Marine Fish,"Mal. Vela meen, Kurali; Tam. Vela meen, Kila meen, Komu kila; E. Green jobfish; Common. Snapper; [Place of collection: Mandapam]"
 P089,Vora,Siganus javus,Marine Fish,E. Streaked spinefoot; Mar. Kunar; Tam. Ottah; Tel. Warahwah; Common. Rabbitfish; [Place of collection: Chennai and Mandapam]
 P090,Whale shark,Galeocerdo cuvier,Marine Fish,"E. Tiger shark; G. Bhoovar, Bhoavar, Pattari; Kan. Pullia, Pilithatte; Mal. Valiasurav, Vorimiyaru, Kalla-sravu, Kalvari, Pulli Sravu, Kellan, Kethalan, Valiyasurav; Mar. Waghbeer; Tam. Wulluven Sorrah; Tel. Kettalam Sorrah, Kethalam-sorrah, Kethulam, Kurangu-sorrah, Vulluvan-sorrah; Common. Requiem shark; [Place of collection: Mandapam]"
 P091,Xiphinis,Xiphias gladius,Marine Fish,"E. Swordfish, Broadbills, Sword Fish; G. Kunga, Tadmachhi; Mal. Kuthirameen; Mar. Tadmasa; Common. Billfish, Gamefish, Predatory fish; [Place of collection: Mandapam]"
-P092,"Eggs, cat fish",Ompok bimaculatus,Marine Fish,E. Butter catfish; Common. Sheatfish; [Place of collection: Kolkata]
-Q001,Crab,Menippe mercenaria,Marine Shellfish,E. Florida stone crab; [Place of collection: Kolkata]
-Q002,"Crab, sea",Portunus sanguinolentus,Marine Shellfish,"E. Three-spot swimming crab, Blood-spotted swimming crab, Red-spotted swimming crab; Common. Large crab; [Place of collection: Chennai]"
-Q003,"Lobster, brown",Thenus orientalis,Marine Shellfish,"E. Flathead lobster, Bay lobster, Moreton Bay bug; Common. Slipper lobster; [Place of collection: Chennai]"
-Q004,"Lobster, king size",Thenus orientalis,Marine Shellfish,"E. Flathead lobster, Bay lobster, Moreton Bay bug; Common. Slipper lobster; [Place of collection: Chennai, Vizag, Mumbai, Kochi, Mandapam and Goa]"
-Q005,Mud crab,Scylla tranquebarica,Marine Shellfish,"E. Mangrove crab, Mud crab; [Place of collection: Goa]"
+P092,"Eggs, cat fish",Ompok bimaculatus,Marine Fish,A. Pabho koni; B. Pabda dim; H. Pabda ande; O. Pabdah anda; E. Butter catfish; Common. Sheatfish; [Place of collection: Kolkata]
+Q001,Crab,Menippe mercenaria,Marine Shellfish,"A. Khekora; B. Kankra; G. Karachalo; H. Kekda; Kan. Edi, Nalli; Kon. Kulli; Mal. Njandu; Mar. Khekada, Chimbori; O. Kankada; P. Kekra; Tam. Nandu; Tel. Peetha, Endrakaya; U. Kekra; E. Florida stone crab; [Place of collection: Kolkata]"
+Q002,"Crab, sea",Portunus sanguinolentus,Marine Shellfish,"A. Khekora; B. Kankra; G. Karachalo; H. Kekda; Kan. Edi, Nalli; Kon. Kulli; Mal. Njandu; Mar. Khekada, Chimbori; O. Kankada; P. Kekra; Tam. Nandu; Tel. Peetha, Endrakaya; U. Kekra; E. Three-spot swimming crab, Blood-spotted swimming crab, Red-spotted swimming crab; Common. Large crab; [Place of collection: Chennai]"
+Q003,"Lobster, brown",Thenus orientalis,Marine Shellfish,"B. Koral chingri; H. Chappal jhinga; Kan. Kalla sigadi; Mal. Adipan chemmeen; Mar. Phati; Tam. Matta singi eral, Kal eral; Tel. Edu royya; E. Flathead lobster, Bay lobster, Moreton Bay bug; Common. Slipper lobster; [Place of collection: Chennai]"
+Q004,"Lobster, king size",Thenus orientalis,Marine Shellfish,"B. Koral chingri; H. Chappal jhinga; Kan. Kalla sigadi; Mal. Adipan chemmeen; Mar. Phati; Tam. Matta singi eral, Kal eral; Tel. Edu royya; E. Flathead lobster, Bay lobster, Moreton Bay bug; Common. Slipper lobster; [Place of collection: Chennai, Vizag, Mumbai, Kochi, Mandapam and Goa]"
+Q005,Mud crab,Scylla tranquebarica,Marine Shellfish,"B. Chokha kankra; H. Chikad kekda; Kan. Kesaru edi; Mal. Cheli njandu; Mar. Chikhli chimbori; O. Kado kankada; Tam. Seru nandu, Mandu nandu; Tel. Buradha peetha; E. Mangrove crab, Mud crab; [Place of collection: Goa]"
 Q006,Oyster,Crassostrea sp.,Marine Shellfish,"E. Indian backwater oyster; Mal. Muringa, Muru; Tam. Kalungu, Ali, Patti; [Place of collection: Goa]"
-Q007,"Tiger prawns, brown",Solenocera crassicornis,Marine Shellfish,Common. Marine crustacean; [Place of collection: Chennai]
-Q008,"Tiger Prawns, orange",Penaeus monodon,Marine Shellfish,"E. Giant tiger prawn, Asian tiger shrimp; Common. Marine crustacean; [Place of collection: Kochi]"
+Q007,"Tiger prawns, brown",Solenocera crassicornis,Marine Shellfish,A. Misa maas; B. Chingri; G. Jinga; H. Jhinga; Kan. Sigadi; Kon. Sungat; Mal. Chemmeen; Mar. Kolambi; O. Chingudi; P. Jhinga; Tam. Iraal; Tel. Royya; U. Jhinga; Common. Marine crustacean; [Place of collection: Chennai]
+Q008,"Tiger Prawns, orange",Penaeus monodon,Marine Shellfish,"A. Misa maas; B. Bagda chingri; G. Tiger jinga; H. Bagda jhinga; Kan. Hebbagani sigadi; Kon. Wagho sungat; Mal. Kara chemmeen, Naran chemmeen; Mar. Bagda kolambi; O. Bagda chingudi; P. Tiger jhinga; Tam. Vari iraal; Tel. Puli royya; U. Tiger jhinga; E. Giant tiger prawn, Asian tiger shrimp; Common. Marine crustacean; [Place of collection: Kochi]"
 R001,"Clam, green shell",Perna viridis,Marine Mollusks,"E. Asian green mussel, Green-lipped mussel; Mal. Kallumalkai, Kadukka; Common. Mussel, Bivalve; [Place of collection: Goa]"
-R002,"Clam, white shell, ribbed",Meretrix meretrix,Marine Mollusks,E. Asiatic Hard Clam; [Place of collection: Goa]
-R003,Octopus,Octopus vulgaris,Marine Mollusks,E. Common octopus; [Place of collection: Mumbai]
-R004,"Squid, black",Loligo sp.,Marine Mollusks,[Place of collection: Kolkata]
-R005,"Squid, hard shell",Sepia pharaonis,Marine Mollusks,E. Pharaoh cuttlefish; Common. Large cuttlefish; [Place of collection: Goa]
-R006,"Squid, red",Loligo duvauceli,Marine Mollusks,[Place of collection: Chennai and Goa]
-R007,"Squid, white, small",Uroteuthis duvauceli,Marine Mollusks,"E. Indian Ocean Squid, Indian Squid; [Place of collection: Mumbai]"
-S001,Cat fish,Tandanus tandanus,Fresh Water Fish and Shellfish,"E. Eel-tailed catfish, Dewfish, Freshwater catfish, Jewfish, Tandan; Common. Catfish; [Place of collection: Kolkata]"
+R002,"Clam, white shell, ribbed",Meretrix meretrix,Marine Mollusks,"B. Jhinuk; G. Kalav; H. Sippi; Kan. Maruvai, Tisare; Kon. Tisareo, Shinanyeo; Mal. Kakka; Mar. Tisari, Shivlya; O. Samuka; Tam. Matti, Vari matti; Tel. Alu chippa, Gulla; E. Asiatic Hard Clam; [Place of collection: Goa]"
+R003,Octopus,Octopus vulgaris,Marine Mollusks,"B. Octopus; G. Octopus; H. Ashtabahu; Kan. Ashtabhuja, Ane bondaas; Kon. Octopus; Mal. Neerali; Mar. Ashtapad; O. Octopus; P. Octopus; Tam. Kanavai, Aktopas; Tel. Ashtabuji; U. Ashtpa; E. Common octopus; [Place of collection: Mumbai]"
+R004,"Squid, black",Loligo sp.,Marine Mollusks,B. Kali squid; H. Kala squid; Kan. Kappu bondaas; Mal. Karutha koonthal; Mar. Kali maakli; Tam. Karuppu kanavai; Tel. Nalla squid; [Place of collection: Kolkata]
+R005,"Squid, hard shell",Sepia pharaonis,Marine Mollusks,"B. Cuttlefish, Katol mas; H. Samudra pheni; Kan. Kallu bondaas; Mal. Kanava; Mar. Maakli, Goti maakli; Tam. Kanavai, Ottu kanavai; Tel. Cuttlefish, Samudra peni; E. Pharaoh cuttlefish; Common. Large cuttlefish; [Place of collection: Goa]"
+R006,"Squid, red",Loligo duvauceli,Marine Mollusks,B. Lal squid; H. Lal squid; Kan. Kempu bondaas; Mal. Chuvanna koonthal; Mar. Lal maakli; Tam. Sivappu kanavai; Tel. Erra squid; [Place of collection: Chennai and Goa]
+R007,"Squid, white, small",Uroteuthis duvauceli,Marine Mollusks,"B. Shada squid; H. Safed squid; Kan. Bili bondaas; Mal. Vella koonthal; Mar. Safed maakli, Choti maakli; Tam. Vellai kanavai, Porsi kanavai; Tel. Tella squid; E. Indian Ocean Squid, Indian Squid; [Place of collection: Mumbai]"
+S001,Cat fish,Tandanus tandanus,Fresh Water Fish and Shellfish,"A. Kanduli mas, Singora mas; B. Tengra, Singi; G. Khago; H. Singee, Singhara; Kan. Thogari meenu; Mal. Muzhi, Etta; Mar. Shingata, Shingala; N. Singhai; O. Tengra, Singi; P. Sanghra; Tam. Keluthi, Theli; Tel. Marpu, Jella; U. Singee; E. Eel-tailed catfish, Dewfish, Freshwater catfish, Jewfish, Tandan; Common. Catfish; [Place of collection: Kolkata]"
 S002,Catla,Catla catla,Fresh Water Fish and Shellfish,"E. Major carp; A. Baudhekra, Bhakua, Baudhekera; B. Katla, Pla Kra Ho; G. Tambra, Thambra, Bawas; H. Catla, Bhakur, Boassa, Katla, Chepti; Kan. Catla; Mal. Karakatla, Catla; Mar. Tambra, Pla Kra Ho, Catla, Katala; O. Bhakur, Bahkur, Barkur; P. Theil, Theila, Thaila; Tam. Meen, Yamaneri Kendai, Theppu Meenu, Japan Kendai, Japankendai, Thoppa, Thoppa-meen, Theppu-meenu, Thoppu Meen, Koora Kendai, Koora-kendai, Kanavi, Thoppameenu; Tel. Botcha, Botchee, Bocha, Bacha, Krishnabotcha; Common. Asian freshwater fish; [Place of collection: Kolkata]"
-S003,Fresh water Eel,Anguilla anguilla,Fresh Water Fish and Shellfish,"E. European eel; Common. Eel, Catadromous fish; [Place of collection: Kolkata]"
-S004,Gold fish,Carassius auratus,Fresh Water Fish and Shellfish,"E. Goldfish; Common. Freshwater fish, Aquarium fish; [Place of collection: Kolkata and Bangaluru]"
-S005,Pangas,Pangasianodon hypophthalmus,Fresh Water Fish and Shellfish,E. Iridescent shark; Common. Shark catfish; [Place of collection: Kolkata]
+S003,Fresh water Eel,Anguilla anguilla,Fresh Water Fish and Shellfish,"A. Kushia; B. Baan maach, Baam; H. Baam machli; Kan. Havu meenu; Mal. Mananjil, Mlanjil; Mar. Vaam, Ahir; O. Baamo; P. Baam; Tam. Vilangu meen; Tel. Malugu chepa, Bhamu; U. Baam machli; E. European eel; Common. Eel, Catadromous fish; [Place of collection: Kolkata]"
+S004,Gold fish,Carassius auratus,Fresh Water Fish and Shellfish,"A. Xunali maas; B. Shona maach; G. Soneri machhli; H. Sunahri machli; Kan. Bangaru meenu, Chinna meenu; Mal. Swarna matsyam; Mar. Soneri masa; O. Suna machha; P. Sunahri machhi; Tam. Thanga meen; Tel. Bangaru chepa; U. Sunahri machli; E. Goldfish; Common. Freshwater fish, Aquarium fish; [Place of collection: Kolkata and Bangaluru]"
+S005,Pangas,Pangasianodon hypophthalmus,Fresh Water Fish and Shellfish,B. Pangas; H. Pangas machli; E. Iridescent shark; Common. Shark catfish; [Place of collection: Kolkata]
 S006,Rohu,Labeo rohita,Fresh Water Fish and Shellfish,"E. Rohu, Rui, Roho labeo; A. Rou, Rohiti, Rohitii, Row, Rau, Rui; B. Rahu, Rui, Ruee; H. Bhobhari, Rohu; Kan. Rohu; Mal. Rohitham, Rohu; M. Row; Mar. Rohu, Tambada Massa, Tambada Masa, Tambada-massa; O. Rohu, Ruhu, Rohi; P. Dumra, Tapra, Rohu, Dhambra; Tam. Kannadi Kendai, Kennadi Kendai; Tel. Bocha-gandumeenu; Common. Carp fish; [Place of collection: Kolkata]"
-S007,Crab,Pachygrapsus sp.,Fresh Water Fish and Shellfish,Common. Small shore crab; [Place of collection: Kolkata]
-S008,"Prawns, big",Macrobrachium rosenbergii,Fresh Water Fish and Shellfish,"E. Giant freshwater prawn, Giant river prawn; Common. Palaemonid freshwater prawn, Shrimp; [Place of collection: Bengaluru]"
-S009,"Prawns, small",Macrobrachium sp.,Fresh Water Fish and Shellfish,Common. Shrimp; [Place of collection: Mumbai]
-S010,Tiger prawns,Macrobrachium sp.,Fresh Water Fish and Shellfish,Common. Shrimp; [Place of collection: Kolkata]
-T001,Coconut oil,,Edible Oils and Fats,
-T002,Corn oil,,Edible Oils and Fats,
-T003,Cotton seed oil,,Edible Oils and Fats,
-T004,Gingelly oil,,Edible Oils and Fats,
-T005,Groundnut oil,,Edible Oils and Fats,
-T006,Mustard oil,,Edible Oils and Fats,
-T007,Palm oil,,Edible Oils and Fats,
-T008,Rice bran oil,,Edible Oils and Fats,
-T009,Safflower oil,,Edible Oils and Fats,
+S007,Crab,Pachygrapsus sp.,Fresh Water Fish and Shellfish,"A. Khekora; B. Kankra; G. Karachalo; H. Kekda; Kan. Edi, Nalli; Kon. Kulli; Mal. Njandu; Mar. Khekada, Chimbori; O. Kankada; P. Kekra; Tam. Nandu; Tel. Peetha, Endrakaya; U. Kekra; Common. Small shore crab; [Place of collection: Kolkata]"
+S008,"Prawns, big",Macrobrachium rosenbergii,Fresh Water Fish and Shellfish,"A. Bor misa; B. Golda chingri; H. Bada jhinga; Kan. Dodda sigadi; Mal. Aattu konchu, Valiya chemmeen; Mar. Mothi kolambi; O. Galda chingudi; Tam. Aattu eral, Yera; Tel. Gudi royya; E. Giant freshwater prawn, Giant river prawn; Common. Palaemonid freshwater prawn, Shrimp; [Place of collection: Bengaluru]"
+S009,"Prawns, small",Macrobrachium sp.,Fresh Water Fish and Shellfish,"A. Xoru misa; B. Kucho chingri; G. Nani jinga; H. Chhota jhinga; Kan. Chikka sigadi; Kon. Lhan sungat; Mal. Kunju konchu, Cheru chemmeen; Mar. Lahan kolambi; O. Chuna chingudi; P. Chhoti jhinga; Tam. Kutti eral, Kooni; Tel. Chinna royya; U. Chhota jhinga; Common. Shrimp; [Place of collection: Mumbai]"
+S010,Tiger prawns,Macrobrachium sp.,Fresh Water Fish and Shellfish,"A. Misa maas; B. Chingri; G. Jinga; H. Jhinga; Kan. Sigadi; Kon. Sungat; Mal. Chemmeen, Konchu; Mar. Kolambi; O. Chingudi; P. Jhinga; Tam. Iraal; Tel. Royya; U. Jhinga; Common. Shrimp; [Place of collection: Kolkata]"
+T001,Coconut oil,Cocos nucifera,Edible Oils and Fats,A. Narikol tel; B. Narkel tel; G. Nariyel nu tel; H. Nariyal tel; Kan. Tenginakai enne; Kon. Narla tel; Mal. Velichenna; Mar. Khobrel tel; N. Nariwal ko tel; O. Nadia tela; P. Nariyal da tel; S. Narikela taila; Tam. Thengai ennai; Tel. Kobbari nune; U. Nariyal ka tel
+T002,Corn oil,Zea mays,Edible Oils and Fats,A. Gom dhan tel; B. Bhuttar tel; G. Makai nu tel; H. Makai ka tel; Kan. Musukina jola enne; Mal. Cholam enna; Mar. Makyache tel; N. Makai ko tel; O. Maka tela; P. Makki da tel; Tam. Makkacholam ennai; Tel. Mokka jonna nune; U. Makai ka tel
+T003,Cotton seed oil,Gossypium spp.,Edible Oils and Fats,"B. Karpaser tel; G. Kapasiya tel; H. Kapas ka tel, Binola tel; Kan. Hatthi beeja enne; Mar. Kapsache tel, Sarkiche tel; O. Kapa tela; P. Vareve da tel; Tam. Paruthi vidhai ennai; Tel. Prathi ginjala nune; U. Binola tel"
+T004,Gingelly oil,Sesamum indicum,Edible Oils and Fats,"A. Til tel; B. Til tel; G. Tal nu tel; H. Til ka tel; Kan. Ellenne; Kon. Tila tel; Mal. Nallenna, Ellenna; Mar. Tila che tel; N. Til ko tel; O. Rasi tela; P. Til da tel; S. Tila taila; Tam. Nallennai, Ellenai; Tel. Nuvvula nune; U. Til ka tel"
+T005,Groundnut oil,Arachis hypogaea,Edible Oils and Fats,"A. China badam tel; B. China badam tel; G. Sing tel, Magafali nu tel; H. Moongphali ka tel; Kan. Kadale kaayi enne, Shenga enne; Kon. Bhui mug tel; Mal. Kadala enna, Nilakkadala enna; Mar. Shengdana tel; N. Mungfali tel; O. China badama tela; P. Mungfali da tel; S. Bhuchanaka taila; Tam. Kadalai ennai; Tel. Verusenaga nune, Pallila nune; U. Moongphali ka tel"
+T006,Mustard oil,Brassica spp.,Edible Oils and Fats,"A. Horiyoh tel; B. Shorsher tel; G. Sarisav nu tel, Rai nu tel; H. Sarson ka tel; Kan. Sasive enne; Kash. Sarshaf tel; Kon. Sasvanche tel; Mal. Kadugu enna; Mar. Mohariche tel; N. Tori ko tel; O. Sorisa tela; P. Sarhon da tel; S. Sarshapa taila; Tam. Kadugu ennai; Tel. Aava nune; U. Sarson ka tel"
+T007,Palm oil,Elaeis guineensis,Edible Oils and Fats,B. Taaler tel; G. Taad nu tel; H. Taad ka tel; Kan. Taale enne; Mal. Pana enna; Mar. Taad tel; O. Tala tela; P. Taad da tel; Tam. Panai ennai; Tel. Taati nune; U. Taar ka tel
+T008,Rice bran oil,Oryza sativa,Edible Oils and Fats,"B. Chaler kuro tel, Chaler kundo tel; G. Chokha na bhusa nu tel; H. Chawal ki bhusi ka tel; Kan. Akki tavadu enne; Mal. Ari thavidu enna; Mar. Tandul kondya che tel; O. Chaula chopa tela, Chaula kunda tela; P. Chaul de chilke da tel; Tam. Arisi thavidu ennai; Tel. Tavudu nune; U. Chawal ki bhusi ka tel"
+T009,Safflower oil,Carthamus tinctorius,Edible Oils and Fats,B. Kusum tel; G. Kusumbi tel; H. Kusum ka tel; Kan. Kusube enne; Mar. Kardai tel; O. Kusuma tela; P. Kusum da tel; Tel. Kusuma nune; U. Kusum ka tel
 T010,Safflower oil (blended),,Edible Oils and Fats,
-T011,Soyabean oil,,Edible Oils and Fats,
-T012,Sunflower oil,,Edible Oils and Fats,
-T013,Ghee,,Edible Oils and Fats,
-T014,Vanaspati,,Edible Oils and Fats,
+T011,Soyabean oil,Glycine max,Edible Oils and Fats,B. Soyabean tel; G. Soyabean tel; H. Soyabean tel; Kan. Soyabean enne; Mal. Soyabean enna; Mar. Soyabean tel; O. Soyabean tela; P. Soyabean tel; Tam. Soyabean ennai; Tel. Soyabean nune; U. Soyabean tel
+T012,Sunflower oil,Helianthus annuus,Edible Oils and Fats,"B. Surjomukhi tel; G. Surajmukhi nu tel; H. Surajmukhi ka tel; Kan. Suryakanthi enne; Mal. Suryakanthi enna; Mar. Suryaphul tel; N. Suryamukhi tel; O. Surjyamukhi tela; P. Surajmukhi da tel; Tam. Suriyakanthi ennai; Tel. Poddu tirugudu nune, Suryakanthi nune; U. Surajmukhi ka tel"
+T013,Ghee,,Edible Oils and Fats,Kan. Tuppa; Kon. Touup; Mal. Neyy; Mar. Tup; O. Ghia; P. Ghyo; S. Ghrita; Tam. Nei; Tel. Neyyi
+T014,Vanaspati,,Edible Oils and Fats,"B. Bonospoti, Dalda; H. Dalda; Kan. Dalda; Mal. Dalda; Mar. Dalda; O. Banaspati, Dalda; P. Banaspati, Dalda; Tam. Dalda; Tel. Dalda; U. Banaspati, Dalda"
