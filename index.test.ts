@@ -281,7 +281,7 @@ Deno.test("Descriptions 1", async () => {
   await ifct2017.loadDescriptions();
   const a = ifct2017.descriptions('pineapple');
   const b = ifct2017.descriptions('ananas comosus');
-  const c = [{code: 'E053', name: 'Pineapple', scie: 'Ananas comosus', desc: 'A. Ahnaros; B. Anarasa; G. Anenas; H. Ananas; Kan. Ananas; Kash. Punchitipul; Kh. Soh trun; Kon. Anas; Mal. Kayirha chakka; M. Kihom Ananas; O. Sapuri; P. Ananas; Tam. Annasi pazham; Tel. Anasa pandu; U. Ananas.'}];
+  const c = [{code: 'E053', name: 'Pineapple', scie: 'Ananas comosus', grup: 'Fruits', desc: 'A. Ahnaros; B. Anarasa; G. Anenas; H. Ananas; Kan. Ananas; Kash. Punchitipul; Kh. Soh trun; Kon. Anas; Mal. Kayirha chakka; M. Kihom Ananas; O. Sapuri; P. Ananas; Tam. Annasi pazham; Tel. Anasa pandu; U. Ananas.'}];
   assertEquals(a, c);
   assertEquals(b, c);
 });
@@ -291,7 +291,7 @@ Deno.test("Descriptions 2", async () => {
   await ifct2017.loadDescriptions();
   const a = ifct2017.descriptions('tell me about cow milk.');
   const b = ifct2017.descriptions('gai ka doodh details.');
-  const c = [{code: 'L002', name: 'Milk, Cow', scie: '', desc: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.'}];
+  const c = [{code: 'L002', name: 'Milk, Cow', scie: '', grup: 'Milk and Milk Products', desc: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.'}];
   assertEquals(a, c);
   assertEquals(b, c);
 });

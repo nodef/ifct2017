@@ -17,6 +17,8 @@ export interface Description {
   name: string,
   /** Scientific Name. */
   scie: string,
+  /** Food Group. */
+  grup: string,
   /** Description (local names). */
   desc: string
 };
@@ -59,13 +61,14 @@ function setupIndex(corpus: Map<string, Description>) {
     this.field('code');
     this.field('name');
     this.field('scie');
+    this.field('grup');
     this.field('desc');
     for (const r of corpus.values()) {
-      let {code, name, scie, desc} = r;
+      let {code, name, scie, grup, desc} = r;
       name = name.replace(/^(\w+),/g, '$1 $1 $1 $1,');
       desc = desc.replace(/\[.*?\]/g, '').replace(/\w+\.\s([\w\',\/\(\)\- ]+)[;\.]?/g, '$1');
       desc = desc.replace(/[,\/\(\)\- ]+/g, ' ').trim();
-      this.add({code, name, scie, desc});
+      this.add({code, name, scie, grup, desc});
     }
   });
 }
@@ -99,16 +102,16 @@ export function descriptionsCsv(): string {
  * @returns CREATE TABLE, INSERT, CREATE VIEW, CREATE INDEX statements
  */
 export async function descriptionsSql(tab: string="descriptions", opt: SetupTableOptions={}): Promise<string> {
-  return setupTable(tab, {code: "TEXT", name: "TEXT", scie: "TEXT", desc: "TEXT"},
+  return setupTable(tab, {code: "TEXT", name: "TEXT", scie: "TEXT", grup: "TEXT", desc: "TEXT"},
     (await loadDescriptions()).values() as Iterable<RowData>,
-    Object.assign({pk: "code", index: true, tsvector: {code: "A", name: "B", scie: "B", desc: "B"}}, opt));
+    Object.assign({pk: "code", index: true, tsvector: {code: "A", name: "B", scie: "B", grup: "C", desc: "B"}}, opt));
 }
 
 
 /**
  * Find matching descriptions of an code/name/scie/desc query.
  * @param txt code/name/scie/desc query
- * @returns matches `[{code, name, scie, desc}]`
+ * @returns matches `[{code, name, scie, grup, desc}]`
  * @example
  * ```javascript
  * ifct2017.descriptions('pineapple');
@@ -116,6 +119,7 @@ export async function descriptionsSql(tab: string="descriptions", opt: SetupTabl
  * // → [ { code: 'E053',
  * // →     name: 'Pineapple',
  * // →     scie: 'Ananas comosus',
+ * // →     grup: 'Fruits',
  * // →     desc: 'A. Ahnaros; B. Anarasa; G. Anenas; H. Ananas; Kan. Ananas; Kash. Punchitipul; Kh. Soh trun; Kon. Anas; Mal. Kayirha chakka; M. Kihom Ananas; O. Sapuri; P. Ananas; Tam. Annasi pazham; Tel. Anasa pandu; U. Ananas.' } ]
  *
  * ifct2017.descriptions('tell me about cow milk.');
@@ -123,6 +127,7 @@ export async function descriptionsSql(tab: string="descriptions", opt: SetupTabl
  * // → [ { code: 'L002',
  * // →     name: 'Milk, Cow',
  * // →     scie: '',
+ * // →     grup: 'Milk and Milk Products',
  * // →     desc: 'A. Garoor gakhir; B. Doodh (garu); G. Gai nu dhudh; H. Gai ka doodh; Kan. Hasuvina halu; Kash. Doodh; Kh. Dud masi; M. San Sanghom; Mar. Doodh (gay); O. Gai dudha; P. Gaan da doodh; S. Gow kshiram; Tam. Pasumpaal; Tel. Aavu paalu.' } ]
  * ```
  */
