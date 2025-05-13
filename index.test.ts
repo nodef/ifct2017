@@ -252,6 +252,21 @@ Deno.test("Compositions 2", async () => {
 
 
 
+//#region COMPOSITION STATS
+Deno.test("Composition stats 1", async () => {
+  await ifct2017.loadCompositionStats();
+  const a = ifct2017.compositionStats('min')[0];
+  assertEquals(a.code, 'XMIN');
+  assertEquals(a.name, 'Minimum composition of all foods');
+  const b = ifct2017.compositionStats('max')[0];
+  assertEquals(b.code, 'XMAX');
+  assertEquals(b.name, 'Maximum composition of all foods');
+});
+//#endregion
+
+
+
+
 //#region CONTENTS
 Deno.test("Contents 1", async () => {
   await ifct2017.loadContents();

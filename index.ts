@@ -8,6 +8,7 @@ export * from "./codes/index.ts";
 export * from "./columns/index.ts";
 export * from "./compositingcentres/index.ts";
 export * from "./compositions/index.ts";
+export * from "./compositionstats/index.ts";
 export * from "./contents/index.ts";
 export * from "./descriptions/index.ts";
 export * from "./energies/index.ts";
