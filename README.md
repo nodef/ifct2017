@@ -2,7 +2,7 @@
 <!-- SPDX-License-Identifier: AGPL-3.0-or-later -->
 <!-- See LICENSE for full terms -->
 
-This package provides detailed nutritional values for 528 key foods in India, based on direct measurements across six regions. Data was obtained from the book [Indian Food Composition Tables 2017], published by the [National Institute of Nutrition, Hyderabad].
+This package provides detailed nutritional values for 542 key foods in India, based on direct measurements across six regions. Data was obtained from the book [Indian Food Composition Tables 2017], published by the [National Institute of Nutrition, Hyderabad].
 
 ▌
 📦 [JSR](https://jsr.io/@nodef/ifct2017),
@@ -62,7 +62,7 @@ ifct2017.intakes('Histidine');
 
 | Method                  | Action
 |-------------------------|-------
-| [compositions]          | Detailed nutrient composition of 528 key foods in India.
+| [compositions]          | Detailed nutrient composition of 542 key foods in India.
 | [columns]               | Codes and names of nutrients, and its components.
 | [pictures]              | Single representative photo of each foods (JPEG, 307x173).
 | [yieldFactors]          | Yield factors for conversion of raw to edible portion.
@@ -385,7 +385,7 @@ ifct2017.compositingCentres('North East compositing centre');
 
 ## Compositions
 
-Detailed *nutrient composition* of 528 key foods in India.
+Detailed *nutrient composition* of 542 key foods in India.
 
 <br>
 
