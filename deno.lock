@@ -3,6 +3,7 @@
   "specifiers": {
     "jsr:@nodef/extra-sql@0.1.2": "0.1.2",
     "jsr:@std/csv@1.0.6": "1.0.6",
+    "jsr:@std/path@1.0.9": "1.0.9",
     "jsr:@std/streams@^1.0.9": "1.0.9",
     "npm:lunr@2.3.9": "2.3.9"
   },
@@ -15,6 +16,9 @@
       "dependencies": [
         "jsr:@std/streams"
       ]
+    },
+    "@std/path@1.0.9": {
+      "integrity": "260a49f11edd3db93dd38350bf9cd1b4d1366afa98e81b86167b4e3dd750129e"
     },
     "@std/streams@1.0.9": {
       "integrity": "a9d26b1988cdd7aa7b1f4b51e1c36c1557f3f252880fa6cc5b9f37078b1a5035"

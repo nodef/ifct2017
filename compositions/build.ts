@@ -179,13 +179,16 @@ async function generateIndexCsv() {
       acc.set(r.before, arr);
       arr.push(r.code);
     }, new Map<string, string[]>());
-    for (const file of Deno.readDirSync('assets'))
+    for (const file of Deno.readDirSync('assets')) {
+      if (!file.name.endsWith('.csv')) continue;
       await readAsset(path.join('assets', file.name));
+    }
     nullToZero(dat);
     sumAll(dat);
     dat = orderAll(dat) as Dat;
     const ks = Object.keys(dat);
-    let a  = ks.map(k => `"${columns(k.replace(/_e$/, ''))[0].name}; ${k}"`).join() + '\n';
+    // let a  = ks.map(k => `"${columns(k.replace(/_e$/, ''))[0].name}; ${k}"`).join() + '\n';
+    let a  = ks.join() + '\n';
     for (let i=0; i<di; i++) {
       for (const k of ks) {
         const v = dat[k][i];

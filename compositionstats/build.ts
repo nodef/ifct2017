@@ -94,6 +94,6 @@ async function main() {
   const data = keys.join(",") + "\n" + [min, max, avg].map(row => {
     return keys.map(k => typeof row[k] === "number"? `${round(row[k] as number)}` : `"${row[k]}"`);
   }).join("\n") + "\n";
-  await Deno.writeTextFile(path.join(import.meta.dirname || "", "stats.csv"), data);
+  await Deno.writeTextFile(path.join(import.meta.dirname || "", "index.csv"), data);
 }
 main();
