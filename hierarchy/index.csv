@@ -25,10 +25,10 @@ orgac,,,oxalt caconac citac fumac malac quinac sucac tarac
 phytac,,,
 sapon,,,
 mnrleq,ash,ash,ca mg p k na
-mnrlet,ash,ash,as cr co cu fe mn mo ni se zn
+mnrlet,ash,ash,cr co cu fe mn mo ni se zn
 mnrlpet,ash,ash,li
-mnrlnet,ash,ash,al cd pb
-mnrltx,ash,ash,hg
+mnrlnet,ash,ash,al
+mnrltx,ash,ash,as cd pb hg
 vita,vit,vit,retol cartbeq
 vitb,vit,vit,thia ribf nia pantac vitb6c biot folsum
 vitc,vit,vit,
@@ -71,14 +71,14 @@ cartg,carot,carot cartoid,
 carta,carot,carot cartoid,
 cartb,carot,carot cartoid,
 al,mnrlnet,mnrlnet ash,
-as,mnrlet,mnrlet ash,
-cd,mnrlnet,mnrlnet ash,
+as,mnrltx,mnrltx ash,
+cd,mnrltx,mnrltx ash,
 ca,mnrleq,mnrleq ash,
 cr,mnrlet,mnrlet ash,
 co,mnrlet,mnrlet ash,
 cu,mnrlet,mnrlet ash,
 fe,mnrlet,mnrlet ash,
-pb,mnrlnet,mnrlnet ash,
+pb,mnrltx,mnrltx ash,
 li,mnrlpet,mnrlpet ash,
 mg,mnrleq,mnrleq ash,
 mn,mnrlet,mnrlet ash,
