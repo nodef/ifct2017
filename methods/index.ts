@@ -1,7 +1,7 @@
 // Copyright (C) 2025 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as csv  from "jsr:@std/csv@1.0.5";
+import * as csv  from "jsr:@std/csv@1.0.6";
 import lunr from "npm:lunr@2.3.9";  // @deno-types="npm:@types/lunr@2.3.7"
 import {type RowData, type SetupTableOptions, setupTable} from "jsr:@nodef/extra-sql@0.1.2";
 import {loadColumns, columns} from "../columns/index.ts";

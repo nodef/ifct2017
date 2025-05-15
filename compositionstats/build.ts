@@ -1,5 +1,5 @@
-import * as path from "jsr:@std/path@1.0.8";
-import * as csv  from "jsr:@std/csv@1.0.5";
+import * as path from "jsr:@std/path@1.0.9";
+import * as csv  from "jsr:@std/csv@1.0.6";
 
 
 const BASE  = ['code', 'name', 'scie', 'lang', 'grup', 'regn', 'tags'];

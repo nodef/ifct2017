@@ -1,8 +1,8 @@
 // Copyright (C) 2025 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as path from "jsr:@std/path@1.0.8";
-import * as csv  from "jsr:@std/csv@1.0.5";
+import * as path from "jsr:@std/path@1.0.9";
+import * as csv  from "jsr:@std/csv@1.0.6";
 import {loadColumns, columns} from "../columns/index.ts";
 import {type Description, loadDescriptions} from "../descriptions/index.ts";
 import {type Group, loadGroups} from "../groups/index.ts";
