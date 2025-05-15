@@ -693,3 +693,25 @@ Deno.test("Yield factors 2", async () => {
   assertEquals(b[0], c[0]);
 });
 //#endregion
+
+
+
+
+//#region TEST COLUMN DESCRIPTIONS
+Deno.test("Column descriptions 1", async () => {
+  await ifct2017.loadColumnDescriptions();
+  const a = ifct2017.columnDescriptions('vitamin c');
+  const b = ifct2017.columnDescriptions('c-vitamin');
+  assertEquals(a[0].code, 'vitc');
+  assertEquals(b[0].code, 'vitc');
+});
+
+
+Deno.test("Column descriptions 2", async () => {
+  await ifct2017.loadColumnDescriptions();
+  const a = ifct2017.columnDescriptions('what is butyric acid?');
+  const b = ifct2017.columnDescriptions('c4:0 stands for?');
+  assertEquals(a[0].code, 'f4d0');
+  assertEquals(b[0].code, 'f4d0');
+});
+//#endregion

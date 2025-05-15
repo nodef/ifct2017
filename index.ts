@@ -24,3 +24,4 @@ export * from "./regions/index.ts";
 export * from "./representations/index.ts";
 export * from "./samplingunits/index.ts";
 export * from "./yieldfactors/index.ts";
+export * from "./columndescriptions/index.ts";

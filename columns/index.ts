@@ -127,3 +127,4 @@ export function columns(txt: string): Column[] {
     if (Object.keys(mat.matchData.metadata).length === max) a.push(corpus?.get(mat.ref) || {} as Column);
   return a;
 }
+//#endregion

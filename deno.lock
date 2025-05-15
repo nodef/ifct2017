@@ -1,13 +1,16 @@
 {
-  "version": "4",
+  "version": "5",
   "specifiers": {
     "jsr:@nodef/extra-sql@0.1.2": "0.1.2",
     "jsr:@std/assert@*": "1.0.12",
     "jsr:@std/bytes@^1.0.5": "1.0.5",
     "jsr:@std/csv@1.0.5": "1.0.5",
+    "jsr:@std/csv@1.0.6": "1.0.6",
     "jsr:@std/internal@^1.0.6": "1.0.6",
     "jsr:@std/path@1.0.8": "1.0.8",
+    "jsr:@std/path@1.0.9": "1.0.9",
     "jsr:@std/streams@^1.0.8": "1.0.9",
+    "jsr:@std/streams@^1.0.9": "1.0.9",
     "npm:lunr@2.3.9": "2.3.9"
   },
   "jsr": {
@@ -26,7 +29,13 @@
     "@std/csv@1.0.5": {
       "integrity": "02006ffd77e84b2bf01968d4e792f0b5cba057c73dc6a89accb96d803493675f",
       "dependencies": [
-        "jsr:@std/streams"
+        "jsr:@std/streams@^1.0.8"
+      ]
+    },
+    "@std/csv@1.0.6": {
+      "integrity": "52ef0e62799a0028d278fa04762f17f9bd263fad9a8e7f98c14fbd371d62d9fd",
+      "dependencies": [
+        "jsr:@std/streams@^1.0.9"
       ]
     },
     "@std/internal@1.0.6": {
@@ -34,6 +43,9 @@
     },
     "@std/path@1.0.8": {
       "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
+    },
+    "@std/path@1.0.9": {
+      "integrity": "260a49f11edd3db93dd38350bf9cd1b4d1366afa98e81b86167b4e3dd750129e"
     },
     "@std/streams@1.0.9": {
       "integrity": "a9d26b1988cdd7aa7b1f4b51e1c36c1557f3f252880fa6cc5b9f37078b1a5035",
