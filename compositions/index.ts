@@ -583,7 +583,7 @@ function insertIntoBegin(tab: string, cols: Composition, a='') {
 
 function insertIntoMid(val: Record<string, string | number>, a='') {
   for (const k in val)
-    a += `'${val[k]}', `;
+    a += `$$${val[k]}$$, `;
   a = a.endsWith(', ')? a.substring(0, a.length-2) : a;
   a += `),\n(`;
   return a;
