@@ -3,7 +3,7 @@
 // See LICENSE for full terms
 import * as path from "jsr:@std/path@1.0.9";
 import * as csv  from "jsr:@std/csv@1.0.6";
-import {loadColumns, columns} from "../columns/index.ts";
+import {loadColumns} from "../columns/index.ts";
 import {type Description, loadDescriptions} from "../descriptions/index.ts";
 import {type Group, loadGroups} from "../groups/index.ts";
 
@@ -51,7 +51,7 @@ interface Dat {
 
 
 
-async function generateIndexCsv() {
+async function writeIndex() {
   let dat: Dat = {
     code: [],
     name: [],
@@ -167,21 +167,21 @@ async function generateIndexCsv() {
   }
 
 
-  async function main() {
+  async function writeIndexMain() {
     await loadColumns();
     grupCorpus = await loadGroups();
     descCorpus = await loadDescriptions();
-    factors = await readCsv('configs/factors.csv', (acc, r) => acc.set(r.code, r.factor),     new Map<string, string>());
-    renames = await readCsv('configs/renames.csv', (acc, r) => acc.set(r.code, r.actual),     new Map<string, string>());
-    sums    = await readCsv('configs/sums.csv',    (acc, r) => acc.set(r.code, r.expression), new Map<string, string>());
-    orders  = await readCsv('configs/orders.csv',  (acc, r) => {
+    factors = await readCsv(path.join(import.meta.dirname || '', 'configs/factors.csv'), (acc, r) => acc.set(r.code, r.factor),     new Map<string, string>());
+    renames = await readCsv(path.join(import.meta.dirname || '', 'configs/renames.csv'), (acc, r) => acc.set(r.code, r.actual),     new Map<string, string>());
+    sums    = await readCsv(path.join(import.meta.dirname || '', 'configs/sums.csv'),    (acc, r) => acc.set(r.code, r.expression), new Map<string, string>());
+    orders  = await readCsv(path.join(import.meta.dirname || '', 'configs/orders.csv'),  (acc, r) => {
       const arr = acc.get(r.before) || [];
       acc.set(r.before, arr);
       arr.push(r.code);
     }, new Map<string, string[]>());
-    for (const file of Deno.readDirSync('assets')) {
+    for (const file of Deno.readDirSync(path.join(import.meta.dirname || '', 'assets'))) {
       if (!file.name.endsWith('.csv')) continue;
-      await readAsset(path.join('assets', file.name));
+      await readAsset(path.join(import.meta.dirname || '', 'assets', file.name));
     }
     nullToZero(dat);
     sumAll(dat);
@@ -196,16 +196,12 @@ async function generateIndexCsv() {
       }
       a = a.substring(0, a.length-1) + '\n';
     }
-    Deno.writeTextFileSync('index.csv', a);
+    await Deno.writeTextFile(path.join(import.meta.dirname || '', 'index.csv'), a);
   }
-  await main();
+  await writeIndexMain();
 }
 
 
-
-
-// Finally.
-async function main() {
-  await generateIndexCsv();
+export async function build() {
+  await writeIndex();
 }
-main();

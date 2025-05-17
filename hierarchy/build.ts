@@ -1,13 +1,14 @@
 // Copyright (C) 2025 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as csv from "jsr:@std/csv@1.0.6";
+import * as path from "jsr:@std/path@1.0.9";
+import * as csv  from "jsr:@std/csv@1.0.6";
 
 
 async function readAsset() {
-  const data = await Deno.readTextFile('asset.csv');
+  const data    = await Deno.readTextFile(path.join(import.meta.dirname || "", 'asset.csv'));
   const records = csv.parse(data, {skipFirstRow: true, comment: "#"});
-  const asset = new Map<string, Record<string, unknown>>();
+  const asset   = new Map<string, Record<string, unknown>>();
   for (const r of records) {
     const {code, parents} = r;
     const parset = parents? new Set<string>(parents.split(' ')) : new Set<string>();
@@ -50,19 +51,23 @@ function writeIndex(asset: Map<string, Record<string, unknown>>) {
   let a = `code,parents,ancestry,children\n`;
   for (const [code, r] of asset)
     a += `${code},${r.parents},${r.ancestry},${r.children}\n`;
-  Deno.writeTextFileSync('index.csv', a);
+  Deno.writeTextFileSync(path.join(import.meta.dirname || "", 'index.csv'), a);
 }
 
 
-async function writeIndexAndCorpus() {
+function writeCorpus(outfile: string, asset: Map<string, Record<string, unknown>>) {
+  let a = `var CORPUS = new Map([\n`;
+  for (const [code, r] of asset)
+    a += `  ["${code}", ${JSON.stringify(r).replace(/\"(\w+)\":/g, '$1:')}],\n`;
+  a += `]);\n`;
+  a += `module.exports = CORPUS;\n`;
+  Deno.writeTextFileSync(outfile, a);
+}
+
+
+export async function build(corpus='corpus.js') {
   let asset = await readAsset();
   asset = updateAsset(asset);
   writeIndex(asset);
+  if (corpus) writeCorpus(corpus, asset);
 }
-
-
-// Finally.
-async function main() {
-  await writeIndexAndCorpus();
-}
-main();

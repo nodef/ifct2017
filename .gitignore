@@ -1,7 +1,9 @@
 # Generated files
 .build/
 *.map
-example.js
+corpus.js
+*.umd.js
+*.min.js
 
 # Logs
 logs

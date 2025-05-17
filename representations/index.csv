@@ -28,7 +28,7 @@ mnrleq,mass,1000,mg
 mnrlet,mass,1000,mg
 mnrlpet,mass,1000000,ug
 mnrlnet,mass,1000000,ug
-mnrltx,mass,1000000000,ng
+mnrltx,mass,1000000,ug
 vita,mass,1000000,ug
 vitb,mass,1000,mg
 vitc,mass,1000,mg

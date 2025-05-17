@@ -61,7 +61,7 @@ function formatCompositionRow(row: Record<string, string | number>, code: string
 /** Get the minimum, maximum and average composition of all foods. */
 async function minMaxAvgComposition() {
   // Load the compositions of all foods.
-  const data = await Deno.readTextFile(path.join(import.meta.dirname || "", "index.csv"));
+  const data = await Deno.readTextFile(path.join(import.meta.dirname || "", "../compositions/index.csv"));
   const records: Record<string, string | number>[] = csv.parse(data, {skipFirstRow: true, comment: "#"});
   for (const row of records) {
     for (const k in row) {
@@ -88,7 +88,7 @@ async function minMaxAvgComposition() {
 
 
 /** Generate the stats CSV file. */
-async function main() {
+async function writeIndex() {
   const [min, max, avg] = await minMaxAvgComposition();
   const keys = Object.keys(min);
   const data = keys.join(",") + "\n" + [min, max, avg].map(row => {
@@ -96,4 +96,8 @@ async function main() {
   }).join("\n") + "\n";
   await Deno.writeTextFile(path.join(import.meta.dirname || "", "index.csv"), data);
 }
-main();
+
+
+export async function build() {
+  await writeIndex();
+}
