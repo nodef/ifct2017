@@ -112,6 +112,8 @@ async function writeIndex() {
     dat.grup[i] = (grupCorpus.get(cod[0]) as Group).group;
     dat.regn[i] = parseInt(row.regn.trim(), 10);
     dat.tags[i] = (grupCorpus.get(cod[0]) as Group).tags.trim();
+    dat.name[i] = (descCorpus.get(cod) || {name: dat.name[i]}).name;
+    dat.scie[i] = (descCorpus.get(cod) || {scie: dat.scie[i]}).scie;
     for (const k in row) {
       if (BASE.includes(k)) continue;
       const val = row[k].trim().split('±');
