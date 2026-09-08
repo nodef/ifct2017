@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
 import {type Composition, loadCompositions} from "../compositions/index.ts";
-import * as path from "jsr:@std/path@1.0.9";
+import * as path from "@std/path";
 
 
 interface Representation {

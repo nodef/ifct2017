@@ -32,8 +32,8 @@ jobs:
       - run: deno test --allow-read
 
 
-  publish:
-    name: Publish package
+  publish-jsr:
+    name: Publish to JSR
     needs: [test]
     runs-on: ubuntu-latest
     permissions:
@@ -41,4 +41,12 @@ jobs:
       id-token: write
     steps:
       - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - uses: nodef/npm-config.action@v1.2.0
+        with:
+          credentials: auto
+      - run: npm i -g browserify uglify-js
       - run: npx jsr publish
+      - run: deno -A build.ts --publish-core --publish-corpus

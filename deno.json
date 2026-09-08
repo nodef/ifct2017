@@ -1,9 +1,16 @@
 {
   "name": "@nodef/ifct2017",
-  "version": "1.4.6",
-  "license": "AGPL-3.0",
+  "version": "1.4.8",
+  "license": "AGPL-3.0-or-later",
   "exports": "./index.ts",
   "publish": {
     "exclude": [".github/", "**/assets/", "**/configs/"]
+  },
+  "imports": {
+    "@nodef/extra-sql": "jsr:@nodef/extra-sql@^0.1.2",
+    "@std/cli": "jsr:@std/cli@^1.0.32",
+    "@std/csv": "jsr:@std/csv@^1.0.6",
+    "@std/path": "jsr:@std/path@^1.1.6",
+    "lunr": "npm:lunr@2.3.9"
   }
 }

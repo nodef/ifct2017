@@ -1,8 +1,8 @@
 // Copyright (C) 2025-26 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as path from "jsr:@std/path@1.0.9";
-import * as csv  from "jsr:@std/csv@1.0.6";
+import * as path from "@std/path";
+import * as csv  from "@std/csv";
 import {loadColumns} from "../columns/index.ts";
 import {type Description, loadDescriptions} from "../descriptions/index.ts";
 import {type Group, loadGroups} from "../groups/index.ts";
@@ -181,8 +181,11 @@ async function writeIndex() {
       acc.set(r.before, arr);
       arr.push(r.code);
     }, new Map<string, string[]>());
-    for (const file of Deno.readDirSync(path.join(import.meta.dirname || '', 'assets'))) {
+    const assetsDir   = path.join(import.meta.dirname || '', 'assets');
+    const assetsFiles = Array.from(Deno.readDirSync(assetsDir)).sort((a, b) => a.name.localeCompare(b.name));
+    for (const file of assetsFiles) {
       if (!file.name.endsWith('.csv')) continue;
+      console.log(`Reading asset file: ${file.name}`);
       await readAsset(path.join(import.meta.dirname || '', 'assets', file.name));
     }
     nullToZero(dat);

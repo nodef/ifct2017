@@ -1,8 +1,8 @@
 // Copyright (C) 2025-26 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as csv  from "jsr:@std/csv@1.0.6";
-import lunr from "npm:lunr@2.3.9";  // @deno-types="npm:@types/lunr@2.3.7"
+import * as csv  from "@std/csv";
+// import lunr from "lunr";  // @deno-types="npm:@types/lunr@2.3.7"
 import type {Composition} from "../compositions/index.ts";
 
 

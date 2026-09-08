@@ -1,8 +1,8 @@
 // Copyright (C) 2025-26 Subhajit Sahu
 // SPDX-License-Identifier: AGPL-3.0-or-later
 // See LICENSE for full terms
-import * as path from "jsr:@std/path@1.0.9";
-import * as csv  from "jsr:@std/csv@1.0.6";
+import * as path from "@std/path";
+import * as csv  from "@std/csv";
 
 
 async function readAsset() {
