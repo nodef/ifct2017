@@ -1,6 +1,6 @@
 {
   "name": "@nodef/ifct2017",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "license": "AGPL-3.0",
   "exports": "./index.ts",
   "publish": {
