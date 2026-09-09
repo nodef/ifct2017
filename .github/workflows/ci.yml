@@ -33,7 +33,7 @@ jobs:
 
 
   publish-jsr:
-    name: Publish to JSR
+    name: Publish packages
     needs: [test]
     runs-on: ubuntu-latest
     permissions:

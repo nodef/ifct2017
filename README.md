@@ -6,6 +6,8 @@ This package provides detailed nutritional values for 542 key foods in India, ba
 
 ▌
 📦 [JSR](https://jsr.io/@nodef/ifct2017),
+📦 [NPM](https://www.npmjs.com/package/ifct2017),
+📦 [Corpus](https://www.npmjs.com/package/@ifct2017/corpus),
 📰 [Docs](https://jsr.io/@nodef/ifct2017/doc),
 🌐 [Website](https://ifct2017.github.io).
 
